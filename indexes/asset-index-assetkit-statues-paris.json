@@ -1,0 +1,560 @@
+{
+  "format": "assetmgr-index/1",
+  "name": "assetkit-statues-paris",
+  "description": "Tripo statues of Paris monuments, from Street Runner (Cycle Dash)",
+  "defaults": {
+    "project": "assetkit",
+    "projectName": "Asset Kit",
+    "repo": "https://github.com/dfeldman/assetkit",
+    "folder": "statues/paris",
+    "type": "3d",
+    "subtype": "sculpture",
+    "isAi": true,
+    "aiTool": "Tripo"
+  },
+  "assets": [
+    {
+      "id": "genie-liberte",
+      "name": "Génie de la Liberté, Colonne de Juillet",
+      "creationDate": "2026-09-22",
+      "artist": "Auguste Dumont",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "genie liberte",
+        "bastille"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6e51e29499-genie-liberte-bastille-tripo.glb",
+          "hash": "6e51e294998699685bf56b562faf94472105d3179a5d7b1f2d28b65282be5c4c",
+          "size": 2809100,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-9c6a70a3de-genie-liberte-bastille-game.glb",
+          "hash": "9c6a70a3de1a697f5428427cb6e038a206473112bee9792819d505ccfc5c1a83",
+          "size": 901568,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - bastille collone statue.glb",
+          "packed": "public/models/paris/genie-liberte.glb"
+        }
+      }
+    },
+    {
+      "id": "colonne-bastille-top",
+      "name": "Colonne de Juillet, top",
+      "creationDate": "2026-09-22",
+      "notes": "Not used by Street Runner (not in tools/glb/pack.ts).",
+      "assetKeywords": [
+        "colonne juillet",
+        "bastille"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-727b0c78c7-colonne-juillet-bastille-tripo.glb",
+          "hash": "727b0c78c7f55e837b50e9cb4752a451197f2556b01e7412b93d3c35c24138f1",
+          "size": 4056076,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - colonne bastille top .glb"
+        }
+      }
+    },
+    {
+      "id": "cirque-horseman-left",
+      "name": "Cirque d'Hiver horseman (left)",
+      "creationDate": "2026-09-22",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "cirque hiver",
+        "horseman",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-26f4d38ed1-cirque-hiver-horseman-equestrian-tripo.glb",
+          "hash": "26f4d38ed111fa032896afd08600180d5f357018ca482c0c22bd6a62aed3c538",
+          "size": 3100376,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f734f23729-cirque-hiver-horseman-equestrian-game.glb",
+          "hash": "f734f2372989d143e09554ce8edea43ce8d36783f0ed82fa4855d07a4f5360e4",
+          "size": 896348,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - cirque dhivers left horseman.glb",
+          "packed": "public/models/paris/cirque-horseman-left.glb"
+        }
+      }
+    },
+    {
+      "id": "cirque-horseman-right",
+      "name": "Cirque d'Hiver horseman (right)",
+      "creationDate": "2026-09-22",
+      "notes": "Mirror image of cirque-horseman-left, made by the packer (mirror: true); no Tripo original of its own.",
+      "generator": {
+        "script": "streetrunner/tools/glb/pack.ts",
+        "params": {
+          "mirror": true,
+          "from": "cirque-horseman-left"
+        }
+      },
+      "assetKeywords": [
+        "cirque hiver",
+        "horseman",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dca6e80954-cirque-hiver-horseman-equestrian-game.glb",
+          "hash": "dca6e80954220ac82fa132bb98094300c9c19ae670d072b315550b0df1dddb8a",
+          "size": 896348,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px, mirrored"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "packed": "public/models/paris/cirque-horseman-right.glb"
+        }
+      }
+    },
+    {
+      "id": "charlemagne",
+      "name": "Charlemagne et ses Leudes, Notre-Dame",
+      "creationDate": "2026-09-22",
+      "artist": "Louis Rochet and Charles Rochet",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "charlemagne",
+        "notre dame",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ca854c34ea-charlemagne-notre-dame-equestrian-tripo.glb",
+          "hash": "ca854c34eaf7d37089f82e9099a1a41ca7c68604f6b26c7019c99509e0372ca7",
+          "size": 4854432,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-7f49b9815a-charlemagne-notre-dame-equestrian-game.glb",
+          "hash": "7f49b9815a966862f2cb34a903a31b71741ad5466311b5fb7aa32d8632e04939",
+          "size": 699668,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - charlemagne at notre-dame.glb",
+          "packed": "public/models/paris/charlemagne.glb"
+        }
+      }
+    },
+    {
+      "id": "de-gaulle",
+      "name": "Charles de Gaulle, Champs-Élysées",
+      "creationDate": "2026-09-22",
+      "artist": "Jean Cardot",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "de gaulle",
+        "champs elysees"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a41c0ad0e4-de-gaulle-champs-elysees-tripo.glb",
+          "hash": "a41c0ad0e44aaf1e497e7474f32bbe427dbda5cc44b51212efd665c64d22d80c",
+          "size": 4742672,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-ad7fecc8b9-de-gaulle-champs-elysees-game.glb",
+          "hash": "ad7fecc8b90dd55eff656cc16588ee2392285eb4c8a72a8e2dd0988ea6d2a041",
+          "size": 688984,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - charles de gaulle striding champs elysee.glb",
+          "packed": "public/models/paris/de-gaulle.glb"
+        }
+      }
+    },
+    {
+      "id": "clemenceau",
+      "name": "Georges Clemenceau, Champs-Élysées",
+      "creationDate": "2026-09-22",
+      "artist": "François Cogné",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "clemenceau",
+        "champs elysees"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b939388d88-clemenceau-champs-elysees-tripo.glb",
+          "hash": "b939388d88e3634d5e8be2d108e5bcedd43b3d3265a843100e202d5ad61941a1",
+          "size": 4276708,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-624c6592e2-clemenceau-champs-elysees-game.glb",
+          "hash": "624c6592e21e5da7a6f0e08c554a22071affdc8ca2e76cfa038c72505d66f06f",
+          "size": 579344,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - clemenceau champs elysee.glb",
+          "packed": "public/models/paris/clemenceau.glb"
+        }
+      }
+    },
+    {
+      "id": "etienne-marcel",
+      "name": "Étienne Marcel, Hôtel de Ville",
+      "creationDate": "2026-09-22",
+      "artist": "Antonin Idrac and Laurent Marqueste",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "etienne marcel",
+        "hotel de ville",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6faac481bc-etienne-marcel-hotel-de-ville-equestrian-tripo.glb",
+          "hash": "6faac481bc3b024cb1943e75cc482e3b8b4feb5c365ec774baf3293bf7511864",
+          "size": 4835676,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-c65a87251f-etienne-marcel-hotel-de-ville-equestrian-game.glb",
+          "hash": "c65a87251f7dd5e1446baf3cce9ecb767ef744417f57a63610eeed751318a945",
+          "size": 751760,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - etienne marcel.glb",
+          "packed": "public/models/paris/etienne-marcel.glb"
+        }
+      }
+    },
+    {
+      "id": "jeanne-darc-pyramides",
+      "name": "Jeanne d'Arc, Place des Pyramides",
+      "creationDate": "2026-09-22",
+      "artist": "Emmanuel Frémiet",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "jeanne arc",
+        "pyramides",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6227b5f948-jeanne-arc-pyramides-equestrian-tripo.glb",
+          "hash": "6227b5f948665ef979505a54c2b02de4c98a3829545d1bfad9773726ff735308",
+          "size": 2583964,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-2cbbdd04f6-jeanne-arc-pyramides-equestrian-game.glb",
+          "hash": "2cbbdd04f6dcf3f5555dc714f2f33e02d83dac497fbbf1db824ddee0d937700a",
+          "size": 626020,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - jean darc place d pyramides.glb",
+          "packed": "public/models/paris/jeanne-darc-pyramides.glb"
+        }
+      }
+    },
+    {
+      "id": "marianne",
+      "name": "Marianne, Place de la République",
+      "creationDate": "2026-09-22",
+      "artist": "Léopold Morice",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "marianne",
+        "republique"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-099c61651c-marianne-republique-tripo.glb",
+          "hash": "099c61651c6046b546fbc1be1c72b794331b196c8e82fcf93544c41814dd4105",
+          "size": 4295200,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-1818932922-marianne-republique-game.glb",
+          "hash": "1818932922baae3eb5d51a673d19e21131220ac34a04ad5155dc198e028a83ff",
+          "size": 698296,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - marianne place de la republique - marianne part.glb",
+          "packed": "public/models/paris/marianne.glb"
+        }
+      }
+    },
+    {
+      "id": "marianne-lion",
+      "name": "Lion, Monument à la République",
+      "creationDate": "2026-09-22",
+      "artist": "Léopold Morice",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "lion",
+        "republique"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1e4102cf3b-lion-republique-tripo.glb",
+          "hash": "1e4102cf3bfde66ac4153a6754641b10ea850a6a11ac673a78da3967ff7f3a0b",
+          "size": 3668860,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-b1eb9f9d12-lion-republique-game.glb",
+          "hash": "b1eb9f9d127ed1636962f45040936eb9eed3daf4d08f4c46a85accf2823e2f33",
+          "size": 618516,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner - marianne monument la republique - lion part.glb",
+          "packed": "public/models/paris/marianne-lion.glb"
+        }
+      }
+    },
+    {
+      "id": "henri-iv",
+      "name": "Henri IV, Pont Neuf",
+      "creationDate": "2026-09-22",
+      "artist": "François-Frédéric Lemot",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "henri iv",
+        "pont neuf",
+        "equestrian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d6f88083f0-henri-iv-pont-neuf-equestrian-tripo.glb",
+          "hash": "d6f88083f0f91d260556a81d6985a857517e8a725e71aed3b1777596e9029617",
+          "size": 4143648,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-1e0e933f83-henri-iv-pont-neuf-equestrian-game.glb",
+          "hash": "1e0e933f83dde88cbed4a413fb2410c76f77544c4e8402bad15f70977fa00c89",
+          "size": 633300,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner -henry iv equestrian at pont neuf.glb",
+          "packed": "public/models/paris/henri-iv.glb"
+        }
+      }
+    },
+    {
+      "id": "danton",
+      "name": "Georges Danton, Carrefour de l’Odéon",
+      "creationDate": "2026-09-22",
+      "artist": "Auguste Paris",
+      "notes": "Tripo output, normalised to about 1 unit tall: scale to the real monument when placing.",
+      "assetKeywords": [
+        "danton",
+        "odeon"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4c9f5a48b5-danton-odeon-tripo.glb",
+          "hash": "4c9f5a48b5431a70eb2a543ce81017526d19bb7f4b9ff3403e7ee1742bb8a60e",
+          "size": 3998788,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-461facf273-danton-odeon-game.glb",
+          "hash": "461facf27303686d927f3bc965c8c863b6d6125c51bb59ed0e9c1c30454b5753",
+          "size": 639016,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "game"
+          ],
+          "isProd": true,
+          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "source": "streetrunner- danton.glb",
+          "packed": "public/models/paris/danton.glb"
+        }
+      }
+    }
+  ]
+}

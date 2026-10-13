@@ -1,0 +1,6 @@
+{
+  "store": { "type": "r2", "bucket": "assets" },
+  "repo": "https://github.com/dfeldman/assetkit",
+  "assetsDir": "assets",
+  "ignoreDirs": ["tools"]
+}

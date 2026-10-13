@@ -1,0 +1,55 @@
+{
+  "format": "assetmgr-index/1",
+  "name": "assetkit-statues-sf",
+  "description": "Tripo statues of San Francisco monuments, from Street Runner (Cycle Dash)",
+  "defaults": {
+    "project": "assetkit",
+    "projectName": "Asset Kit",
+    "repo": "https://github.com/dfeldman/assetkit",
+    "folder": "statues/sf",
+    "type": "3d",
+    "subtype": "sculpture",
+    "isAi": true,
+    "aiTool": "Tripo"
+  },
+  "assets": [
+    {
+      "id": "admission-day-monument",
+      "name": "Admission Day Monument (flag-bearer)",
+      "creationDate": "2026-09-27",
+      "description": "Bronze 'Native Son' flag-bearer atop the Admission Day Monument (1897), Market, Montgomery and Post Streets, celebrating California's admission to the Union in 1850.",
+      "artist": "Douglas Tilden",
+      "notes": "Untextured Tripo model: shade as bronze. Source photos are Wikimedia Commons, CC-BY-SA (check each file page). Model normalised to about 1 unit tall; the real figure is about 2 m.",
+      "height": 2,
+      "aiSourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Flag_waver_-_Admission_Day_Monument_-_San_Francisco_-_DSC03533.JPG",
+        "https://commons.wikimedia.org/wiki/File:Flag_waver_-_Admission_Day_Monument_-_San_Francisco_-_DSC03527.JPG"
+      ],
+      "shader": "bronze",
+      "assetKeywords": [
+        "admission day",
+        "native sons",
+        "market street"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c3bf6c1181-admission-day-native-sons-market-street-tripo.glb",
+          "hash": "c3bf6c1181d1bef90dc3dd2bd923c09ecaf95b2b49b56c9af75ef1266cdf5d52",
+          "size": 464244,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "tripo"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        }
+      ],
+      "extra": {
+        "streetrunner": {
+          "reference": "statues_to_model/admission-day-monument/about.md"
+        }
+      }
+    }
+  ]
+}

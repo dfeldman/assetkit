@@ -1,0 +1,3396 @@
+{
+  "format": "assetmgr-index/1",
+  "name": "assetkit-nature-textures",
+  "description": "Textures used by the assetkit trees, plants and rocks (Trail Trainer)",
+  "defaults": {
+    "project": "assetkit",
+    "projectName": "Asset Kit",
+    "repo": "https://github.com/dfeldman/assetkit",
+    "folder": "nature"
+  },
+  "assets": [
+    {
+      "id": "bark-brown-arm-512-23907bfa",
+      "name": "bark brown arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark brown arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e7daf492e1-bark-brown-arm-512.jpg",
+          "hash": "e7daf492e126f82c06abf80ae3fec57f0eb653af56102ad3d0f574af7b83dcd0",
+          "size": 76415,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_brown_arm_512_23907bfa.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-brown-diff-512-e737e38e",
+      "name": "bark brown diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark brown diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1c42ed4b24-bark-brown-diff-512.jpg",
+          "hash": "1c42ed4b24a4f51b4979eb937bdc0a36deae84d99bdb849f546f503a6a2e33a0",
+          "size": 103946,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_brown_diff_512_e737e38e.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-brown-nor-gl-512-b076f408",
+      "name": "bark brown nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark brown nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-3c74bf1415-bark-brown-nor-gl-512.jpg",
+          "hash": "3c74bf1415b3d6fa77bd9caf1bbb9ab0cfbb8c397f9d1857b38a76dcdebed3c7",
+          "size": 117595,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_brown_nor_gl_512_b076f408.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-brown-snow-diff-512-4c52b2f9",
+      "name": "bark brown snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark brown snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-2efa7fc4f6-bark-brown-snow-diff-512.jpg",
+          "hash": "2efa7fc4f6e97e71efdf9472198d651f063c2391207f3f414d69637a313cf8b6",
+          "size": 91971,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_brown_snow_diff_512_4c52b2f9.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-cedar-arm-512-84989108",
+      "name": "bark cedar arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark cedar arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-15657804b1-bark-cedar-arm-512.jpg",
+          "hash": "15657804b1fc88149999cbd7aebb04fb84de886714a49e520ecaada4bdfa8dd2",
+          "size": 130580,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_cedar_arm_512_84989108.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-cedar-diff-512-74bd3874",
+      "name": "bark cedar diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark cedar diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-58abfc054c-bark-cedar-diff-512.jpg",
+          "hash": "58abfc054cd9d849cf45600e74fd42b0278ce371bea849bf4e9e76524d0ebb6c",
+          "size": 106185,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_cedar_diff_512_74bd3874.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-cedar-nor-gl-512-5ad36715",
+      "name": "bark cedar nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark cedar nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-8e897ab763-bark-cedar-nor-gl-512.jpg",
+          "hash": "8e897ab7630fa8281cc83c248ebc2b1fec8a776a6d2dc806e0f61160f61bddfa",
+          "size": 173313,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_cedar_nor_gl_512_5ad36715.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-cedar-snow-diff-512-122cff6c",
+      "name": "bark cedar snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark cedar snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d1fa3e26cb-bark-cedar-snow-diff-512.jpg",
+          "hash": "d1fa3e26cbce8e474dcb5c3f41ca6de3d8537bd1a3704dbc02c31e127bba029d",
+          "size": 98708,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_cedar_snow_diff_512_122cff6c.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-fir-arm-512-0833ff8b",
+      "name": "bark fir arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark fir arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dbf5b18e24-bark-fir-arm-512.jpg",
+          "hash": "dbf5b18e240610dea76a4555a9804bf4deba5224503b9323ff5a74eb5816e005",
+          "size": 46195,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_fir_arm_512_0833ff8b.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-fir-diff-512-8cd099a0",
+      "name": "bark fir diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark fir diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4d793dd76b-bark-fir-diff-512.jpg",
+          "hash": "4d793dd76b7b7d84c952e335de829db5e5583bbc7602d8a2ec3b70010bb3103a",
+          "size": 57309,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_fir_diff_512_8cd099a0.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-fir-nor-gl-512-8c05ca22",
+      "name": "bark fir nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark fir nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-355f9a0715-bark-fir-nor-gl-512.jpg",
+          "hash": "355f9a071563cf965566287e50137549bed28f1d562e088ba4146e7099a48a11",
+          "size": 70454,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_fir_nor_gl_512_8c05ca22.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-fir-snow-diff-512-38b02f6d",
+      "name": "bark fir snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark fir snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e215cabb0f-bark-fir-snow-diff-512.jpg",
+          "hash": "e215cabb0f1ddfa65efc285975d4b79bb6e0d06b18138564245b52c9be0628fb",
+          "size": 52075,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_fir_snow_diff_512_38b02f6d.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-knotted-arm-512-54b5d6b9",
+      "name": "bark knotted arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark knotted arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-43af6e274b-bark-knotted-arm-512.jpg",
+          "hash": "43af6e274b97a6551e125ea21c93bb40d712fb9ab3c10f22389013b186336957",
+          "size": 59178,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_knotted_arm_512_54b5d6b9.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-knotted-diff-512-bb89e231",
+      "name": "bark knotted diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark knotted diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-86a94f23d3-bark-knotted-diff-512.jpg",
+          "hash": "86a94f23d3141a49206db7fbd62895b48c82d06868eeba24929802b5e2948b3b",
+          "size": 67627,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_knotted_diff_512_bb89e231.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-knotted-nor-gl-512-3d4082ad",
+      "name": "bark knotted nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark knotted nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-3d20b44618-bark-knotted-nor-gl-512.jpg",
+          "hash": "3d20b44618c458e75f14f9620268b754e217fd7473385dc7c0b20b8c9ab859f4",
+          "size": 125999,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_knotted_nor_gl_512_3d4082ad.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-knotted-snow-diff-512-37afc5d1",
+      "name": "bark knotted snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark knotted snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-65d13ed789-bark-knotted-snow-diff-512.jpg",
+          "hash": "65d13ed7893a6bb13c2fc05f0f649786588a2f30076729b6ee07d0ed265ad88f",
+          "size": 61483,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_knotted_snow_diff_512_37afc5d1.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-maple-arm-512-775cdc25",
+      "name": "bark maple arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark maple arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f98bddffef-bark-maple-arm-512.jpg",
+          "hash": "f98bddffefc93419afbb50b213352f6ab964de7c9f2b29844e96a32bccccd2aa",
+          "size": 51009,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_maple_arm_512_775cdc25.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-maple-diff-512-99955281",
+      "name": "bark maple diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark maple diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a3b6f8ac7d-bark-maple-diff-512.jpg",
+          "hash": "a3b6f8ac7d518439b314ef40c2e9bab83580abdd835c909905a848f2a20475b4",
+          "size": 56725,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_maple_diff_512_99955281.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-maple-nor-gl-512-ec627f03",
+      "name": "bark maple nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark maple nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c305ae6f14-bark-maple-nor-gl-512.jpg",
+          "hash": "c305ae6f14f62b9f40db0ba750f13018dac8e6740ae4e31670b8ea40fca8e12e",
+          "size": 96939,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_maple_nor_gl_512_ec627f03.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-maple-snow-diff-512-e31d3728",
+      "name": "bark maple snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark maple snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-77508c66c3-bark-maple-snow-diff-512.jpg",
+          "hash": "77508c66c34af4c1a43844fcd9cf52b73f049efdaecc9b15cb4b17cbe65eef60",
+          "size": 52474,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_maple_snow_diff_512_e31d3728.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-oak-arm-512-adfb25d7",
+      "name": "bark oak arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark oak arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-9457ad1eba-bark-oak-arm-512.jpg",
+          "hash": "9457ad1ebaf347fa550afd0b7707e9a879810523ed847589520c11196b2ad8d7",
+          "size": 153035,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_oak_arm_512_adfb25d7.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-oak-diff-512-495acdf5",
+      "name": "bark oak diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark oak diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-140c0a9c75-bark-oak-diff-512.jpg",
+          "hash": "140c0a9c7512a4c98831b195e65dc1ad2454cd46452d3f22e845767c5b4aca35",
+          "size": 190018,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_oak_diff_512_495acdf5.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-oak-nor-gl-512-3a307dc1",
+      "name": "bark oak nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark oak nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6f2d7a60f8-bark-oak-nor-gl-512.jpg",
+          "hash": "6f2d7a60f807bfaa60a6ddc5550c7741af62dc575b8aff174b714bd46e43414c",
+          "size": 249815,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_oak_nor_gl_512_3a307dc1.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-oak-snow-diff-512-305f41de",
+      "name": "bark oak snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark oak snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-16b7dc9e7e-bark-oak-snow-diff-512.jpg",
+          "hash": "16b7dc9e7e0c465efdac5ba0eb5f5d1cbf1ff95e32867b9d2cebacfb577b320b",
+          "size": 172397,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_oak_snow_diff_512_305f41de.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-pine-arm-512-4f7a8888",
+      "name": "bark pine arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark pine arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1319a7e617-bark-pine-arm-512.jpg",
+          "hash": "1319a7e61774873c068142c1ead83fbd7ef27ea59c32a4dda415a41080c6d8e4",
+          "size": 62496,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_pine_arm_512_4f7a8888.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-pine-diff-512-0b534c0e",
+      "name": "bark pine diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark pine diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-65a2e10e60-bark-pine-diff-512.jpg",
+          "hash": "65a2e10e60bf182f3d7e6b9cbbb28ee96be71e1629fea25051bcc1bcb17da6d8",
+          "size": 71544,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_pine_diff_512_0b534c0e.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-pine-nor-gl-512-9492293d",
+      "name": "bark pine nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark pine nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-cbf59be4fc-bark-pine-nor-gl-512.jpg",
+          "hash": "cbf59be4fcce35331523253a2d07173ba3b83f6a48db1aa74c1fd928fcc54953",
+          "size": 103364,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_pine_nor_gl_512_9492293d.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-pine-snow-diff-512-a0d89725",
+      "name": "bark pine snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark pine snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4cbefe8351-bark-pine-snow-diff-512.jpg",
+          "hash": "4cbefe8351cce97f455e65bf456052e927892ae5fcac4821ac14272841763c56",
+          "size": 64698,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_pine_snow_diff_512_a0d89725.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-platanus-arm-512-228e3972",
+      "name": "bark platanus arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark platanus arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-fb32275a5d-bark-platanus-arm-512.jpg",
+          "hash": "fb32275a5d372f629dd7fe6b2a9644b896ca3fa95e655baf0cd2c0ae5359ef5e",
+          "size": 38314,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_platanus_arm_512_228e3972.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-platanus-diff-512-79f3e683",
+      "name": "bark platanus diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark platanus diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-bc6cc2d187-bark-platanus-diff-512.jpg",
+          "hash": "bc6cc2d187f0a254d363fbb955e1e93f26a1923da3bef726e915e3c09bce10af",
+          "size": 83778,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_platanus_diff_512_79f3e683.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-platanus-nor-gl-512-f01d53aa",
+      "name": "bark platanus nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark platanus nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4fa7a05a96-bark-platanus-nor-gl-512.jpg",
+          "hash": "4fa7a05a96702e9ec0008d184bdb7485a522e78ceeff2eb013ab0195d033ed53",
+          "size": 115329,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_platanus_nor_gl_512_f01d53aa.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-platanus-snow-diff-512-d1b94faf",
+      "name": "bark platanus snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark platanus snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-838ae7bb38-bark-platanus-snow-diff-512.jpg",
+          "hash": "838ae7bb382420dde79bf96bbbd51d414fac177fc76dcba629369f545f25b05d",
+          "size": 74854,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_platanus_snow_diff_512_d1b94faf.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-willow-arm-512-7464dbc6",
+      "name": "bark willow arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark willow arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-040a898883-bark-willow-arm-512.jpg",
+          "hash": "040a898883bab6e11234487a57bd965dde4ffebe386d29bc9e01806d75a1ed55",
+          "size": 75880,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_willow_arm_512_7464dbc6.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-willow-diff-512-dec13ad1",
+      "name": "bark willow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark willow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e59bf08318-bark-willow-diff-512.jpg",
+          "hash": "e59bf08318e07ce2c5bedc3b1acf039cac10cd9e370bca36ab5e64dc26b60a4e",
+          "size": 97663,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_willow_diff_512_dec13ad1.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-willow-nor-gl-512-90b1cfd2",
+      "name": "bark willow nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark willow nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-782afea691-bark-willow-nor-gl-512.jpg",
+          "hash": "782afea691149745c278de48f653201213bc5bbab196d38a6bf9948b6e875787",
+          "size": 127921,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_willow_nor_gl_512_90b1cfd2.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-willow-snow-diff-512-0530ee0a",
+      "name": "bark willow snow diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark willow snow diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ee80cb547c-bark-willow-snow-diff-512.jpg",
+          "hash": "ee80cb547ce062ac0b0a1ac1b36afeba85ef96c1b7d086aa5e907d15598f468f",
+          "size": 86695,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/bark_willow_snow_diff_512_0530ee0a.jpg"
+        }
+      }
+    },
+    {
+      "id": "leaf-broad-atlas-3e5fe9e0",
+      "name": "leaf broad atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf broad atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-19b12e9f7d-leaf-broad-atlas.png",
+          "hash": "19b12e9f7d3b3a5f98a8a5e237b41dec6e0883b0d932ed4381dd592370415ee9",
+          "size": 1002474,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_broad_atlas_3e5fe9e0.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-broad-autumn-atlas-fe45b59d",
+      "name": "leaf broad autumn atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf broad autumn atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-16865a69db-leaf-broad-autumn-atlas.png",
+          "hash": "16865a69db88956a6e09398a069dd65a2e57800d6a43dde58e97ff940b354ab3",
+          "size": 1126241,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_broad_autumn_atlas_fe45b59d.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-broad-gold-atlas-23c4457f",
+      "name": "leaf broad gold atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf broad gold atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ce41ad789f-leaf-broad-gold-atlas.png",
+          "hash": "ce41ad789f51fbf77518a2ea86a3a622e59fe5a4d3dbb42441e4b3d36830adb4",
+          "size": 1150051,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_broad_gold_atlas_23c4457f.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-dark-atlas-94700042",
+      "name": "leaf dark atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf dark atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0e1c32520f-leaf-dark-atlas.png",
+          "hash": "0e1c32520f2a4956307b9c7877570955d4c5071c1ea9302d31f782bed01ed4db",
+          "size": 907283,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_dark_atlas_94700042.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-dark-autumn-atlas-a126d286",
+      "name": "leaf dark autumn atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf dark autumn atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dc62e9be70-leaf-dark-autumn-atlas.png",
+          "hash": "dc62e9be7014d759428603bd02adb26125bcda8afdd295ebfac5ac7b58361adc",
+          "size": 1043574,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_dark_autumn_atlas_a126d286.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-dark-copper-atlas-951edf78",
+      "name": "leaf dark copper atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf dark copper atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c52d33d302-leaf-dark-copper-atlas.png",
+          "hash": "c52d33d302d108e0080d16b12d629760fe2f5022cc5c1e3504627c3a9438f5df",
+          "size": 1036745,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_dark_copper_atlas_951edf78.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-dark-gold-atlas-cdb98aa1",
+      "name": "leaf dark gold atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf dark gold atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-012a7d498a-leaf-dark-gold-atlas.png",
+          "hash": "012a7d498ab3a27860e2e0d4a8047e248200b406bf77d49de8f9807edb62caee",
+          "size": 1066270,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_dark_gold_atlas_cdb98aa1.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-fine-atlas-b40d515f",
+      "name": "leaf fine atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf fine atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-2962d3fb32-leaf-fine-atlas.png",
+          "hash": "2962d3fb32ccc9b56dfaeb83e410a47cd92e12239ed066815e51c453e4f53d0f",
+          "size": 2032649,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_fine_atlas_b40d515f.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-fine-gold-atlas-ffe027d7",
+      "name": "leaf fine gold atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf fine gold atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-af9c154738-leaf-fine-gold-atlas.png",
+          "hash": "af9c154738a7d411c375a2227f16fec207802f4168105c96d73eef2cad535cbf",
+          "size": 2126582,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_fine_gold_atlas_ffe027d7.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-light-atlas-7cbccfae",
+      "name": "leaf light atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf light atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-612756dd44-leaf-light-atlas.png",
+          "hash": "612756dd44db8be2cf293c30ed38316e7c83253a26c0e590f335e3af1f04ff45",
+          "size": 926538,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_light_atlas_7cbccfae.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-light-autumn-atlas-0908a909",
+      "name": "leaf light autumn atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf light autumn atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1328378296-leaf-light-autumn-atlas.png",
+          "hash": "13283782965c4c223511449c8db20fe72e09b0cae2a85817e388cd4d5c3fad02",
+          "size": 987559,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_light_autumn_atlas_0908a909.png"
+        }
+      }
+    },
+    {
+      "id": "leaf-light-gold-atlas-14ee79df",
+      "name": "leaf light gold atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "leaf light gold atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e8124e5056-leaf-light-gold-atlas.png",
+          "hash": "e8124e50560e0a248166109916477426aaa7794134a71f30e4cdccacc69998b2",
+          "size": 1011989,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/leaf_light_gold_atlas_14ee79df.png"
+        }
+      }
+    },
+    {
+      "id": "needle-fir-atlas-df9e93e3",
+      "name": "needle fir atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle fir atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-2553694341-needle-fir-atlas.png",
+          "hash": "25536943416306f60369232cfc5e6e4e9826f1e6373d9f755c24bacd2642fff4",
+          "size": 2261796,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_fir_atlas_df9e93e3.png"
+        }
+      }
+    },
+    {
+      "id": "needle-fir-snow-atlas-cf6d6f81",
+      "name": "needle fir snow atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle fir snow atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-52b569e51f-needle-fir-snow-atlas.png",
+          "hash": "52b569e51f2d92c23dcab420c26a0c59df61600fd8153c216ad4b6e8de0ebaa5",
+          "size": 2370456,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_fir_snow_atlas_cf6d6f81.png"
+        }
+      }
+    },
+    {
+      "id": "needle-larch-atlas-0ea9db84",
+      "name": "needle larch atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle larch atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-eecce9b7cb-needle-larch-atlas.png",
+          "hash": "eecce9b7cbf0ce5188ac390de46c173f2b7355396d456f98f6d50fd1517d345f",
+          "size": 1976180,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_larch_atlas_0ea9db84.png"
+        }
+      }
+    },
+    {
+      "id": "needle-larch-gold-atlas-3501e417",
+      "name": "needle larch gold atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle larch gold atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4f0bd5a30c-needle-larch-gold-atlas.png",
+          "hash": "4f0bd5a30ceb39c91ac0931428a9822d12c0025ee6187645bb07e4a92536bd9c",
+          "size": 2069890,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_larch_gold_atlas_3501e417.png"
+        }
+      }
+    },
+    {
+      "id": "needle-larch-snow-atlas-0fbc819f",
+      "name": "needle larch snow atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle larch snow atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-737998cde1-needle-larch-snow-atlas.png",
+          "hash": "737998cde129a57685f74b27c89123e57c9c9db27d96f65b6dc8ddff2516af71",
+          "size": 2071008,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_larch_snow_atlas_0fbc819f.png"
+        }
+      }
+    },
+    {
+      "id": "needle-pine-atlas-a3eeb473",
+      "name": "needle pine atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle pine atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-bb12810c63-needle-pine-atlas.png",
+          "hash": "bb12810c637c94133b70083ff4b8b76cd73f02539bc1f1369864d48bb4de7ae1",
+          "size": 2154166,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_pine_atlas_a3eeb473.png"
+        }
+      }
+    },
+    {
+      "id": "needle-pine-snow-atlas-b0185713",
+      "name": "needle pine snow atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle pine snow atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-52ffd16360-needle-pine-snow-atlas.png",
+          "hash": "52ffd1636034fa639f69afbaff2d9f88953ed859483b35684eb0fe2a127f9530",
+          "size": 2159542,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_pine_snow_atlas_b0185713.png"
+        }
+      }
+    },
+    {
+      "id": "needle-spruce-atlas-e8998379",
+      "name": "needle spruce atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle spruce atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e8df6f49c4-needle-spruce-atlas.png",
+          "hash": "e8df6f49c49a2366702056b00a7cfb9f44b33a9b49af986c52daf11b759dc065",
+          "size": 2054844,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_spruce_atlas_e8998379.png"
+        }
+      }
+    },
+    {
+      "id": "needle-spruce-snow-atlas-acc299cb",
+      "name": "needle spruce snow atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "needle spruce snow atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dfb4868353-needle-spruce-snow-atlas.png",
+          "hash": "dfb486835331b2086c3c00dad5cc56b646c8d9af5de5cc58169b325e54820330",
+          "size": 2217614,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "trees/textures/needle_spruce_snow_atlas_acc299cb.png"
+        }
+      }
+    },
+    {
+      "id": "bark-palm-arm-512-be7e7b8a",
+      "name": "bark palm arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark palm arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-23b6fdbbbc-bark-palm-arm-512.jpg",
+          "hash": "23b6fdbbbc97d3bf828ec31f32cc0af97001b8bbd426ac9659dc57509a637d48",
+          "size": 40858,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/bark_palm_arm_512_be7e7b8a.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-palm-diff-512-93f299f5",
+      "name": "bark palm diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark palm diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c2bc8ac31c-bark-palm-diff-512.jpg",
+          "hash": "c2bc8ac31c57ab166eecb0e2f740ed28fad0c8c328eda6e94536421bb8815dcd",
+          "size": 51949,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/bark_palm_diff_512_93f299f5.jpg"
+        }
+      }
+    },
+    {
+      "id": "bark-palm-nor-gl-512-336fcef8",
+      "name": "bark palm nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "bark palm nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c28bc0175e-bark-palm-nor-gl-512.jpg",
+          "hash": "c28bc0175ed536b8647df28d618de694f61377195aed7e1f3f04ae31057361e0",
+          "size": 105133,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/bark_palm_nor_gl_512_336fcef8.jpg"
+        }
+      }
+    },
+    {
+      "id": "broadleaf-atlas-68c68146",
+      "name": "broadleaf atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "broadleaf atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-cf27feeb31-broadleaf-atlas.png",
+          "hash": "cf27feeb31a3bc72113502bb3a35f48018022e8034f2761dc04aa203f05b81e2",
+          "size": 562178,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/broadleaf_atlas_68c68146.png"
+        }
+      }
+    },
+    {
+      "id": "daisy-atlas-c14d3bf7",
+      "name": "daisy atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "daisy atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-12e698bc5a-daisy-atlas.png",
+          "hash": "12e698bc5a5103ed23988264ec40ace9086fbe945d5323cc937f1e8df11a89e9",
+          "size": 930588,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/daisy_atlas_c14d3bf7.png"
+        }
+      }
+    },
+    {
+      "id": "dandelion-atlas-6796ac5d",
+      "name": "dandelion atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "dandelion atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-65759b960b-dandelion-atlas.png",
+          "hash": "65759b960ba50a504a23b245f54b16f83341171d77d6ba74c07b612634ddd61b",
+          "size": 828566,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/dandelion_atlas_6796ac5d.png"
+        }
+      }
+    },
+    {
+      "id": "fern-atlas-2f2a40f7",
+      "name": "fern atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "fern atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-00417933c8-fern-atlas.png",
+          "hash": "00417933c8b46e261fbe17e72a6f6e169d8e3666286a98341d6c6337fb24ba13",
+          "size": 217686,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/fern_atlas_2f2a40f7.png"
+        }
+      }
+    },
+    {
+      "id": "flat-arm-b7537267",
+      "name": "flat arm",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "flat arm"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-9c5a2af9fb-flat-arm.jpg",
+          "hash": "9c5a2af9fb73dd25d60e411c68a9df1dc875db1f4b34f362ddaaf31d04116260",
+          "size": 693,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/flat_arm_b7537267.jpg"
+        }
+      }
+    },
+    {
+      "id": "grass-meadow-atlas-a3277077",
+      "name": "grass meadow atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "grass meadow atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-12f06d5fa1-grass-meadow-atlas.png",
+          "hash": "12f06d5fa1f1f6929f0ed144e05bd97c6c26302e505ec6fe759b77c8abe9aa77",
+          "size": 811248,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/grass_meadow_atlas_a3277077.png"
+        }
+      }
+    },
+    {
+      "id": "grass-tall-atlas-ddc5c645",
+      "name": "grass tall atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "grass tall atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0a94c0f4dc-grass-tall-atlas.png",
+          "hash": "0a94c0f4dc93436ec0524625e572aefb5c050f06ab0b4ab15841d27f002c136f",
+          "size": 939902,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/grass_tall_atlas_ddc5c645.png"
+        }
+      }
+    },
+    {
+      "id": "grass-tuft-atlas-708a4446",
+      "name": "grass tuft atlas",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "grass tuft atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-adaac7a09e-grass-tuft-atlas.png",
+          "hash": "adaac7a09ea6a26d4361fb49e9e93dac19db063bbe7f5c44b3fc1d0684fe45cb",
+          "size": 893406,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/grass_tuft_atlas_708a4446.png"
+        }
+      }
+    },
+    {
+      "id": "painted-discs-atlas-99251527",
+      "name": "painted discs atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted discs atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b8ce482e9d-painted-discs-atlas.png",
+          "hash": "b8ce482e9ddd4277e2a4acfb7831ba305f5c7b27b5875782bbbb6877a0d68598",
+          "size": 38017,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_discs_atlas_99251527.png"
+        }
+      }
+    },
+    {
+      "id": "painted-flowers-atlas-e394a5ae",
+      "name": "painted flowers atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted flowers atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6f0edb555e-painted-flowers-atlas.png",
+          "hash": "6f0edb555ea68b3e48892aa12358aeb03d67d011de7fcfadb58b36f72845bb3c",
+          "size": 69071,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_flowers_atlas_e394a5ae.png"
+        }
+      }
+    },
+    {
+      "id": "painted-frond-atlas-bb97d7e4",
+      "name": "painted frond atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted frond atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b63a234849-painted-frond-atlas.png",
+          "hash": "b63a2348499aa0312c0ac203dfe3efce2c5d71fa74d231f37589f30e0f0f4244",
+          "size": 86127,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_frond_atlas_bb97d7e4.png"
+        }
+      }
+    },
+    {
+      "id": "painted-heather-atlas-102816f5",
+      "name": "painted heather atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted heather atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-075ddf5c02-painted-heather-atlas.png",
+          "hash": "075ddf5c02d1489e72ccdfabbe14010e6e0685afaee08655c02eac2d44e4f2d2",
+          "size": 66959,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_heather_atlas_102816f5.png"
+        }
+      }
+    },
+    {
+      "id": "painted-pads-atlas-79008277",
+      "name": "painted pads atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted pads atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0803a130e5-painted-pads-atlas.png",
+          "hash": "0803a130e5c90cefef1da4246b1c92fb42ef224bde81b04171be6cdc6712546c",
+          "size": 34454,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_pads_atlas_79008277.png"
+        }
+      }
+    },
+    {
+      "id": "painted-spikes-atlas-f54698db",
+      "name": "painted spikes atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted spikes atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4367c316bd-painted-spikes-atlas.png",
+          "hash": "4367c316bdcb2088faab7f160a0bb6415b496a3f02639a7629e41aa6fb892524",
+          "size": 23156,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_spikes_atlas_f54698db.png"
+        }
+      }
+    },
+    {
+      "id": "painted-tulips-atlas-c38c67ea",
+      "name": "painted tulips atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "painted tulips atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c5aab2bdf7-painted-tulips-atlas.png",
+          "hash": "c5aab2bdf7d95973b2eb56757ddf8628c3b5c3601908b509414ef62dec4bcab7",
+          "size": 56866,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_tulips_atlas_c38c67ea.png"
+        }
+      }
+    },
+    {
+      "id": "rosette-atlas-5ddf8cf5",
+      "name": "rosette atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rosette atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1f2867d4f2-rosette-atlas.png",
+          "hash": "1f2867d4f26573c5ec13b2a851273b945e9780756ed2f70afefea3c1a8c4a54f",
+          "size": 462463,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/rosette_atlas_5ddf8cf5.png"
+        }
+      }
+    },
+    {
+      "id": "skin-cactus-diff-0c3d4b7e",
+      "name": "skin cactus diff",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "skin cactus diff"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b6b8b6f1f9-skin-cactus-diff.jpg",
+          "hash": "b6b8b6f1f93b9c8d3629be566d44e991a23b49322e16c663928d02bcf1611916",
+          "size": 40288,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/skin_cactus_diff_0c3d4b7e.jpg"
+        }
+      }
+    },
+    {
+      "id": "skin-stem-diff-e446e7f0",
+      "name": "skin stem diff",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "skin stem diff"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1169a3515b-skin-stem-diff.jpg",
+          "hash": "1169a3515bbc15670ab78af1e34b0d33290b61937e742d334d68e6136f141936",
+          "size": 6481,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/skin_stem_diff_e446e7f0.jpg"
+        }
+      }
+    },
+    {
+      "id": "wildflower-atlas-20a7d907",
+      "name": "wildflower atlas",
+      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "wildflower atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-da651bf0aa-wildflower-atlas.png",
+          "hash": "da651bf0aa0ff9650e3e256271a6f22cef5f28fc616ab3310a4a1bd545293d84",
+          "size": 743695,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/wildflower_atlas_20a7d907.png"
+        }
+      }
+    },
+    {
+      "id": "rock-bare-arm-512-f8d285ed",
+      "name": "rock bare arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock bare arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-62809d517b-rock-bare-arm-512.jpg",
+          "hash": "62809d517bccfb961d5746cc392fbccb2cdbe535e6621b58409ccfc57cd6e33c",
+          "size": 51381,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_bare_arm_512_f8d285ed.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-bare-diff-512-ac7fa477",
+      "name": "rock bare diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock bare diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ddad1fd93c-rock-bare-diff-512.jpg",
+          "hash": "ddad1fd93c48d6b9579a0ae21574f26d24280866b3f48a0cb47d32b4c487fe47",
+          "size": 88920,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_bare_diff_512_ac7fa477.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-bare-nor-gl-512-191a8091",
+      "name": "rock bare nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock bare nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-3f86fe637b-rock-bare-nor-gl-512.jpg",
+          "hash": "3f86fe637b165b489ae30ce6069bf8f0ab40b836a117c180f950f9213abd628b",
+          "size": 73500,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_bare_nor_gl_512_191a8091.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-cracked-arm-512-7026fa26",
+      "name": "rock cracked arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock cracked arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1b2ff90dd5-rock-cracked-arm-512.jpg",
+          "hash": "1b2ff90dd59986c8e23c25cf4a6da3f9a2ed96a147708266452bf2ffa4e3b4be",
+          "size": 30346,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_cracked_arm_512_7026fa26.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-cracked-diff-512-3a153ce1",
+      "name": "rock cracked diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock cracked diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-984f59090b-rock-cracked-diff-512.jpg",
+          "hash": "984f59090bc84af7e62bdaef3533f98a0d20743fd154cd513b7402be3b6649ed",
+          "size": 87069,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_cracked_diff_512_3a153ce1.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-cracked-nor-gl-512-5586c2eb",
+      "name": "rock cracked nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock cracked nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-eaa24207f5-rock-cracked-nor-gl-512.jpg",
+          "hash": "eaa24207f50595871423d86d894cf9688e0b0eac87260303ba22319b79859d88",
+          "size": 105321,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_cracked_nor_gl_512_5586c2eb.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-dark-arm-512-04796ca9",
+      "name": "rock dark arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock dark arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4a195d637b-rock-dark-arm-512.jpg",
+          "hash": "4a195d637b17db414cb8341aad1e2a7b3f92206cb96dbd70c2dce67e46e871d6",
+          "size": 44774,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_dark_arm_512_04796ca9.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-dark-diff-512-cfa005bc",
+      "name": "rock dark diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock dark diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-667239f26f-rock-dark-diff-512.jpg",
+          "hash": "667239f26fc093e11ca2bed64bbcffc25aef80efcf4b50e217b5531f7640ef9f",
+          "size": 38431,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_dark_diff_512_cfa005bc.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-dark-nor-gl-512-eaa61f67",
+      "name": "rock dark nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock dark nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7319cf21b7-rock-dark-nor-gl-512.jpg",
+          "hash": "7319cf21b7bcafdca9406aaa3357611c54336336e3f9febf44341770ff2e9047",
+          "size": 86226,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_dark_nor_gl_512_eaa61f67.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-grey-arm-512-b6f84372",
+      "name": "rock grey arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock grey arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-feea5a932a-rock-grey-arm-512.jpg",
+          "hash": "feea5a932aec88a40df05071e0cc70b383c39b5d5abaea04f476e511df74981b",
+          "size": 55126,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_grey_arm_512_b6f84372.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-grey-diff-512-1172258b",
+      "name": "rock grey diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock grey diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1b1bb5f1c8-rock-grey-diff-512.jpg",
+          "hash": "1b1bb5f1c83cc966a48f29b90fd105a037ca685b2c2cbccf21c6881b7e119f74",
+          "size": 79652,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_grey_diff_512_1172258b.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-grey-nor-gl-512-42002ef3",
+      "name": "rock grey nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock grey nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-6f1a8d397a-rock-grey-nor-gl-512.jpg",
+          "hash": "6f1a8d397a61e2ed1493616d1565e1ff252bc35999e64997516a8b886a068299",
+          "size": 55064,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_grey_nor_gl_512_42002ef3.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-lichen-arm-512-59473ad8",
+      "name": "rock lichen arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock lichen arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-609aa781b0-rock-lichen-arm-512.jpg",
+          "hash": "609aa781b0ad2695ca55f6d3525d2f83b6c7fc6f2c7e0e0c75a22b9303c894e0",
+          "size": 57872,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_lichen_arm_512_59473ad8.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-lichen-diff-512-47cd7f22",
+      "name": "rock lichen diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock lichen diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-090de303c6-rock-lichen-diff-512.jpg",
+          "hash": "090de303c620d2719e6ee4de89439bc06e1bce1f5851d6b5adbf18b595c6b5bc",
+          "size": 112328,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_lichen_diff_512_47cd7f22.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-lichen-nor-gl-512-54a58dca",
+      "name": "rock lichen nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock lichen nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c3b14d16cc-rock-lichen-nor-gl-512.jpg",
+          "hash": "c3b14d16cc294243f322658c1bb08ce010850bdf9e87e28f5078ef45080fd444",
+          "size": 114654,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_lichen_nor_gl_512_54a58dca.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-marble-arm-512-450e9ba5",
+      "name": "rock marble arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock marble arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e9ed8f28e4-rock-marble-arm-512.jpg",
+          "hash": "e9ed8f28e4e101bef7f08d59731e10eb9ccff11a781dffd11a98d7ce39d6472d",
+          "size": 51545,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_marble_arm_512_450e9ba5.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-marble-diff-512-7d99b2d3",
+      "name": "rock marble diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock marble diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0410d50ad7-rock-marble-diff-512.jpg",
+          "hash": "0410d50ad7c87395a06fccaa02bcfcc56bdef43a093c5e9d0bd8cf37748a6ad6",
+          "size": 103896,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_marble_diff_512_7d99b2d3.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-marble-nor-gl-512-b4da280e",
+      "name": "rock marble nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock marble nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4ea8d52e0a-rock-marble-nor-gl-512.jpg",
+          "hash": "4ea8d52e0ac310d0bc2ab9369a64178d25488ea9da8921da98bad2fb2eff164f",
+          "size": 73629,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_marble_nor_gl_512_b4da280e.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-mossy-arm-512-13c6c678",
+      "name": "rock mossy arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock mossy arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-67f886feef-rock-mossy-arm-512.jpg",
+          "hash": "67f886feefe6b942cc8e02874c6ed4df2b3308df2c63cdd8b8e161b0f7946b4f",
+          "size": 68788,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_mossy_arm_512_13c6c678.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-mossy-diff-512-7c4fc1b1",
+      "name": "rock mossy diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock mossy diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-cf0e360589-rock-mossy-diff-512.jpg",
+          "hash": "cf0e360589522597e6379fbf1db49c943d1e5a73471b176eea7ac54337a8cd3f",
+          "size": 106238,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_mossy_diff_512_7c4fc1b1.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-mossy-nor-gl-512-79a76943",
+      "name": "rock mossy nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock mossy nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1f62933bf5-rock-mossy-nor-gl-512.jpg",
+          "hash": "1f62933bf5a216152b82339a7033862c37bc218598c905993caa8cfecf5b1219",
+          "size": 75865,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_mossy_nor_gl_512_79a76943.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-pebble-arm-512-cdb507ca",
+      "name": "rock pebble arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock pebble arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7da4731dd8-rock-pebble-arm-512.jpg",
+          "hash": "7da4731dd827d572e219389c8a7f386c61bdaad9b833aaf9ee1f9249dae729b2",
+          "size": 75962,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_pebble_arm_512_cdb507ca.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-pebble-diff-512-d8df55ba",
+      "name": "rock pebble diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock pebble diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a31e406d32-rock-pebble-diff-512.jpg",
+          "hash": "a31e406d3232dbc7397386bd5ea9783ac527c8bff68af1229a3871d559bbcb82",
+          "size": 93441,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_pebble_diff_512_d8df55ba.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-pebble-nor-gl-512-ccfa61e5",
+      "name": "rock pebble nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock pebble nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dd200748b9-rock-pebble-nor-gl-512.jpg",
+          "hash": "dd200748b9497461c5382ee93c5e08fea398d06176e1d4690a3a973117968c12",
+          "size": 124728,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_pebble_nor_gl_512_ccfa61e5.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-scree-arm-512-41869094",
+      "name": "rock scree arm 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock scree arm 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f1591dbf7c-rock-scree-arm-512.jpg",
+          "hash": "f1591dbf7ca3fca6c36532f44dc85b601ef4a17dbca8da48c05b5e5ab34c1ac6",
+          "size": 96893,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "AO/roughness/metalness"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_scree_arm_512_41869094.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-scree-diff-512-771ee855",
+      "name": "rock scree diff 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock scree diff 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1d6db0da2c-rock-scree-diff-512.jpg",
+          "hash": "1d6db0da2c23215f25a615fe375b3ba88c6acfde96d8e62a688b9fcc243060de",
+          "size": 71525,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_scree_diff_512_771ee855.jpg"
+        }
+      }
+    },
+    {
+      "id": "rock-scree-nor-gl-512-7c9bf7f7",
+      "name": "rock scree nor gl 512",
+      "downloadDate": "2026-10-13",
+      "license": "CC0-1.0",
+      "attribution": "Poly Haven (polyhaven.com), CC0",
+      "sourceUrl": "https://polyhaven.com",
+      "notes": "Derived from Poly Haven CC0 assets by Trail Trainer tools; per-texture sources in trailtrainer/CREDITS.md",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "trailtrainer/tools"
+      },
+      "assetKeywords": [
+        "rock scree nor gl 512"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-9fde128724-rock-scree-nor-gl-512.jpg",
+          "hash": "9fde1287247cc64143fc37a29c671f01102b4a6d3704da575d8a7f921c1733e9",
+          "size": 163708,
+          "fileFormat": "jpg",
+          "extension": "jpg",
+          "isProd": true,
+          "fileNote": "normal map (OpenGL convention)"
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "rocks/textures/rock_scree_nor_gl_512_7c9bf7f7.jpg"
+        }
+      }
+    }
+  ]
+}

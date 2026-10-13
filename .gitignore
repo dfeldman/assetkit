@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+# assetmgr: files live in the bucket, the hash cache is per checkout
+/assets/
+.assetmgr/
+.env

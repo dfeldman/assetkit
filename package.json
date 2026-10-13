@@ -1,0 +1,15 @@
+{
+  "name": "assetkit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared static assets (plants, trees, rocks, statues, textures) for many games, managed with assetmgr.",
+  "type": "module",
+  "scripts": {
+    "assets": "assetmgr",
+    "import:trailtrainer": "node tools/import-trailtrainer.ts",
+    "import:statues": "node tools/import-statues.ts"
+  },
+  "dependencies": {
+    "assetmgr": "file:../assetmgr"
+  }
+}
