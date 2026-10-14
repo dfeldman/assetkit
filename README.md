@@ -40,5 +40,7 @@ Both scripts can be re-run safely; they skip assets that are already present.
 
 ## Licensing
 
-Textures derived from Poly Haven are CC0 and marked so. The generated models, the painted textures and the
-Tripo statues don't have a license recorded yet: `assetmgr validate` lists them.
+Everything made for these projects is CC0 (`CC0-1.0`, set in each index's `defaults`): the generated trees,
+plants and rocks, the painted textures, and the Tripo statues. Textures derived from Poly Haven are CC0 too and
+carry Poly Haven's attribution. The Admission Day model was built from Wikimedia Commons photographs (CC-BY-SA),
+which are listed in its `aiSourceUrls`; the photos themselves are not in the bucket.

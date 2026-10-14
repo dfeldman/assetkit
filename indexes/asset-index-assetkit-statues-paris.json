@@ -7,6 +7,7 @@
     "projectName": "Asset Kit",
     "repo": "https://github.com/dfeldman/assetkit",
     "folder": "statues/paris",
+    "license": "CC0-1.0",
     "type": "3d",
     "subtype": "sculpture",
     "isAi": true,
