@@ -110,7 +110,8 @@ async function main(): Promise<void> {
     n++;
   }
 
-  const adm = join(SR, 'statues_to_model', 'admission-day-monument', 'admission_day_needs_bronze.glb');
+  // reference photos and work in progress for statues still to be modelled live in assetkit's statues_to_model/ (gitignored)
+  const adm = join(import.meta.dirname, '..', 'statues_to_model', 'admission-day-monument', 'admission_day_needs_bronze.glb');
   if (existsSync(adm) && !has('assetkit-statues-sf', 'admission-day-monument')) {
     const commons = (t: string) => `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(t.replace(/ /g, '_'))}`;
     await addFile(repo, {
