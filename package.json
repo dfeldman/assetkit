@@ -2,12 +2,22 @@
   "name": "assetkit",
   "private": true,
   "version": "0.1.0",
-  "description": "Shared static assets (plants, trees, rocks, statues, textures) for many games, managed with assetmgr.",
+  "description": "Shared static assets (plants, trees, rocks, statues, textures) for many projects: the generators that make them and their assetmgr indexes.",
   "type": "module",
   "scripts": {
     "assets": "assetmgr",
-    "import:trailtrainer": "node tools/import-trailtrainer.ts",
-    "import:statues": "node tools/import-statues.ts"
+    "import:statues": "node tools/import-statues.ts",
+    "trees": "blender -b -P tools/deciduousgen/gen.py --",
+    "trees:textures": "python3 tools/deciduousgen/fetch.py && python3 tools/deciduousgen/pages.py",
+    "conifers": "blender -b -P tools/conifergen/gen.py --",
+    "conifers:textures": "python3 tools/conifergen/fetch.py && python3 tools/conifergen/pages.py",
+    "rocks": "blender -b -P tools/rockgen/gen.py --",
+    "rocks:textures": "python3 tools/rockgen/fetch.py",
+    "plants": "blender -b -P tools/plantgen/gen.py --",
+    "bushes": "blender -b -P tools/bushgen/gen.py --",
+    "plants:textures": "python3 tools/plantgen/fetch.py && python3 tools/plantgen/paint.py && python3 tools/plantgen/pages.py",
+    "import:nature": "node tools/import-nature.ts",
+    "import:sources": "node tools/import-sources.ts"
   },
   "dependencies": {
     "assetmgr": "file:../assetmgr"

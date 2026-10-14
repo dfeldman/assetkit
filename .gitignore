@@ -1,6 +1,15 @@
 node_modules/
 .DS_Store
-# assetmgr: files live in the bucket, the hash cache is per checkout
+.env
+__pycache__/
+*.pyc
+.venv/
+# the generators' output (npm run trees / rocks / plants …): uploaded to the bucket, listed in indexes/
+/public/
+# Poly Haven downloads and built atlases: re-fetched by the *:textures scripts
+tools/cache/
+# reference photographs for statues still to be modelled (Wikimedia Commons and others, not ours to publish)
+/statues_to_model/
+# assetmgr: downloaded asset files and the per-checkout hash cache
 /assets/
 .assetmgr/
-.env

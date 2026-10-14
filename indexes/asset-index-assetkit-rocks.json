@@ -21,7 +21,7 @@
       "width": 6.94,
       "height": 0.59,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -104,7 +104,7 @@
       "width": 7.64,
       "height": 0.68,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -187,7 +187,7 @@
       "width": 7.62,
       "height": 1.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -289,7 +289,7 @@
       "width": 7.28,
       "height": 0.54,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -372,7 +372,7 @@
       "width": 3.34,
       "height": 0.59,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -474,7 +474,7 @@
       "width": 9.34,
       "height": 0.64,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -557,7 +557,7 @@
       "width": 8.3,
       "height": 0.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -640,7 +640,7 @@
       "width": 0.96,
       "height": 1.21,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -725,7 +725,7 @@
       "width": 4.14,
       "height": 1.44,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -821,7 +821,7 @@
       "width": 2.98,
       "height": 1.41,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -906,7 +906,7 @@
       "width": 4.84,
       "height": 0.55,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -989,7 +989,7 @@
       "width": 3.72,
       "height": 2.73,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1091,7 +1091,7 @@
       "width": 4.04,
       "height": 3.49,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1176,7 +1176,7 @@
       "width": 3.54,
       "height": 1.34,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1272,7 +1272,7 @@
       "width": 1.78,
       "height": 1.33,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1357,7 +1357,7 @@
       "width": 2.54,
       "height": 1.12,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1442,7 +1442,7 @@
       "width": 3.32,
       "height": 2.28,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1527,7 +1527,7 @@
       "width": 2.42,
       "height": 1.59,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1612,7 +1612,7 @@
       "width": 5.5,
       "height": 2.24,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1714,7 +1714,7 @@
       "width": 2.08,
       "height": 0.76,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1799,7 +1799,7 @@
       "width": 2.42,
       "height": 1.16,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1884,7 +1884,7 @@
       "width": 3.28,
       "height": 0.94,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -1992,7 +1992,7 @@
       "width": 0.78,
       "height": 0.53,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2077,7 +2077,7 @@
       "width": 3.98,
       "height": 1.59,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2179,7 +2179,7 @@
       "width": 2.38,
       "height": 3.03,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2264,7 +2264,7 @@
       "width": 3.76,
       "height": 1.5,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2366,7 +2366,7 @@
       "width": 2.96,
       "height": 1.97,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2451,7 +2451,7 @@
       "width": 1.8,
       "height": 0.71,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2536,7 +2536,7 @@
       "width": 3.7,
       "height": 3.07,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2621,7 +2621,7 @@
       "width": 1.68,
       "height": 1.45,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2706,7 +2706,7 @@
       "width": 2.76,
       "height": 3.21,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2791,7 +2791,7 @@
       "width": 3.22,
       "height": 1.37,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2876,7 +2876,7 @@
       "width": 3.46,
       "height": 2.74,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -2961,7 +2961,7 @@
       "width": 1.5,
       "height": 1.86,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3046,7 +3046,7 @@
       "width": 9.14,
       "height": 0.66,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3129,7 +3129,7 @@
       "width": 1.62,
       "height": 1.26,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3214,7 +3214,7 @@
       "width": 3.92,
       "height": 0.82,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3299,7 +3299,7 @@
       "width": 2.76,
       "height": 2.16,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3384,7 +3384,7 @@
       "width": 1.16,
       "height": 1.99,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3469,7 +3469,7 @@
       "width": 3.64,
       "height": 1.8,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3565,7 +3565,7 @@
       "width": 1.78,
       "height": 2.75,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3650,7 +3650,7 @@
       "width": 2.62,
       "height": 0.96,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3735,7 +3735,7 @@
       "width": 1.22,
       "height": 1.05,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3820,7 +3820,7 @@
       "width": 3.44,
       "height": 1.2,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -3928,7 +3928,7 @@
       "width": 3.6,
       "height": 2.94,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4024,7 +4024,7 @@
       "width": 8.42,
       "height": 0.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4107,7 +4107,7 @@
       "width": 1.28,
       "height": 2.52,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4192,7 +4192,7 @@
       "width": 4.9,
       "height": 2.95,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4277,7 +4277,7 @@
       "width": 2.34,
       "height": 1.49,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4362,7 +4362,7 @@
       "width": 3.22,
       "height": 1.24,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4464,7 +4464,7 @@
       "width": 2.52,
       "height": 1.72,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4549,7 +4549,7 @@
       "width": 1.68,
       "height": 0.69,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4634,7 +4634,7 @@
       "width": 8.56,
       "height": 0.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4717,7 +4717,7 @@
       "width": 4,
       "height": 1.09,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4813,7 +4813,7 @@
       "width": 3.62,
       "height": 1.25,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4909,7 +4909,7 @@
       "width": 3.9,
       "height": 1.35,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -4994,7 +4994,7 @@
       "width": 1.34,
       "height": 1.11,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5079,7 +5079,7 @@
       "width": 2.64,
       "height": 0.59,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5164,7 +5164,7 @@
       "width": 1.34,
       "height": 0.79,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5249,7 +5249,7 @@
       "width": 1.78,
       "height": 1.03,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5334,7 +5334,7 @@
       "width": 3.66,
       "height": 1.52,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5442,7 +5442,7 @@
       "width": 2.92,
       "height": 1.98,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5527,7 +5527,7 @@
       "width": 6.44,
       "height": 3.14,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5629,7 +5629,7 @@
       "width": 3.6,
       "height": 1.42,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5737,7 +5737,7 @@
       "width": 1.62,
       "height": 2.66,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5822,7 +5822,7 @@
       "width": 3.58,
       "height": 0.88,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -5924,7 +5924,7 @@
       "width": 4.14,
       "height": 1.32,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6009,7 +6009,7 @@
       "width": 4.18,
       "height": 0.74,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6094,7 +6094,7 @@
       "width": 0.9,
       "height": 0.37,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6179,7 +6179,7 @@
       "width": 2.9,
       "height": 0.97,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6281,7 +6281,7 @@
       "width": 7.62,
       "height": 0.78,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6364,7 +6364,7 @@
       "width": 9.08,
       "height": 0.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6447,7 +6447,7 @@
       "width": 1.66,
       "height": 1.39,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6532,7 +6532,7 @@
       "width": 1.44,
       "height": 0.43,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6617,7 +6617,7 @@
       "width": 3.64,
       "height": 2.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6702,7 +6702,7 @@
       "width": 1.86,
       "height": 0.65,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6787,7 +6787,7 @@
       "width": 3.42,
       "height": 1.29,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6872,7 +6872,7 @@
       "width": 3.66,
       "height": 1.95,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -6957,7 +6957,7 @@
       "width": 5.76,
       "height": 1.96,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7059,7 +7059,7 @@
       "width": 3.36,
       "height": 0.78,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7167,7 +7167,7 @@
       "width": 3.26,
       "height": 0.68,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7269,7 +7269,7 @@
       "width": 3.62,
       "height": 1.4,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7354,7 +7354,7 @@
       "width": 3.28,
       "height": 1.03,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7456,7 +7456,7 @@
       "width": 8.42,
       "height": 0.56,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7539,7 +7539,7 @@
       "width": 3.72,
       "height": 1.08,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7641,7 +7641,7 @@
       "width": 4.44,
       "height": 3.44,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7726,7 +7726,7 @@
       "width": 2.7,
       "height": 1.1,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7811,7 +7811,7 @@
       "width": 4.44,
       "height": 1.42,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -7913,7 +7913,7 @@
       "width": 4.62,
       "height": 1.7,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8015,7 +8015,7 @@
       "width": 1.26,
       "height": 1.06,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8100,7 +8100,7 @@
       "width": 2.72,
       "height": 2.15,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8185,7 +8185,7 @@
       "width": 7.48,
       "height": 0.65,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8268,7 +8268,7 @@
       "width": 2.4,
       "height": 1.13,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8353,7 +8353,7 @@
       "width": 8,
       "height": 0.61,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8436,7 +8436,7 @@
       "width": 4.32,
       "height": 1.71,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8521,7 +8521,7 @@
       "width": 5.28,
       "height": 0.77,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8604,7 +8604,7 @@
       "width": 2.88,
       "height": 1.11,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8706,7 +8706,7 @@
       "width": 3.34,
       "height": 1.36,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8808,7 +8808,7 @@
       "width": 3.42,
       "height": 0.54,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -8904,7 +8904,7 @@
       "width": 3.64,
       "height": 1.32,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9006,7 +9006,7 @@
       "width": 2.8,
       "height": 2.09,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9091,7 +9091,7 @@
       "width": 4.28,
       "height": 1.25,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9176,7 +9176,7 @@
       "width": 4.08,
       "height": 1.89,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9261,7 +9261,7 @@
       "width": 1.78,
       "height": 0.7,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9346,7 +9346,7 @@
       "width": 3.62,
       "height": 2.81,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9431,7 +9431,7 @@
       "width": 2.22,
       "height": 2.09,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9516,7 +9516,7 @@
       "width": 6.7,
       "height": 0.64,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9599,7 +9599,7 @@
       "width": 3.32,
       "height": 2.32,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9684,7 +9684,7 @@
       "width": 3.02,
       "height": 3.11,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9769,7 +9769,7 @@
       "width": 4.58,
       "height": 2,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9854,7 +9854,7 @@
       "width": 1.26,
       "height": 1.56,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -9939,7 +9939,7 @@
       "width": 6.88,
       "height": 3.51,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10041,7 +10041,7 @@
       "width": 3.48,
       "height": 2.18,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10143,7 +10143,7 @@
       "width": 1.08,
       "height": 1.15,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10228,7 +10228,7 @@
       "width": 3.7,
       "height": 2.99,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10313,7 +10313,7 @@
       "width": 6.42,
       "height": 0.76,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10396,7 +10396,7 @@
       "width": 1.2,
       "height": 1.03,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10481,7 +10481,7 @@
       "width": 3.78,
       "height": 2.07,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10589,7 +10589,7 @@
       "width": 6.52,
       "height": 0.66,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10672,7 +10672,7 @@
       "width": 3.06,
       "height": 1.4,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10757,7 +10757,7 @@
       "width": 3.36,
       "height": 1.48,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10865,7 +10865,7 @@
       "width": 1.48,
       "height": 0.34,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -10950,7 +10950,7 @@
       "width": 2.08,
       "height": 1.86,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11035,7 +11035,7 @@
       "width": 3.1,
       "height": 1.34,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11120,7 +11120,7 @@
       "width": 1.14,
       "height": 0.39,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11205,7 +11205,7 @@
       "width": 1.28,
       "height": 1.14,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11290,7 +11290,7 @@
       "width": 1.76,
       "height": 0.54,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11375,7 +11375,7 @@
       "width": 3.6,
       "height": 2.08,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11477,7 +11477,7 @@
       "width": 4.2,
       "height": 1.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11562,7 +11562,7 @@
       "width": 3.38,
       "height": 1.09,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11647,7 +11647,7 @@
       "width": 2.78,
       "height": 0.99,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11732,7 +11732,7 @@
       "width": 1.46,
       "height": 0.58,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11817,7 +11817,7 @@
       "width": 3.52,
       "height": 2.26,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11902,7 +11902,7 @@
       "width": 1.7,
       "height": 0.58,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -11987,7 +11987,7 @@
       "width": 3.02,
       "height": 1.06,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12089,7 +12089,7 @@
       "width": 3.58,
       "height": 2.83,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12197,7 +12197,7 @@
       "width": 8.6,
       "height": 0.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12280,7 +12280,7 @@
       "width": 2.28,
       "height": 1.11,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12365,7 +12365,7 @@
       "width": 3.58,
       "height": 1.83,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12473,7 +12473,7 @@
       "width": 4.36,
       "height": 1.61,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12569,7 +12569,7 @@
       "width": 2.14,
       "height": 1.36,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12654,7 +12654,7 @@
       "width": 6.3,
       "height": 2.82,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12762,7 +12762,7 @@
       "width": 3.26,
       "height": 1.34,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12870,7 +12870,7 @@
       "width": 3.78,
       "height": 1.55,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -12966,7 +12966,7 @@
       "width": 4.74,
       "height": 2,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13062,7 +13062,7 @@
       "width": 5.2,
       "height": 0.63,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13145,7 +13145,7 @@
       "width": 4.42,
       "height": 3.02,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13230,7 +13230,7 @@
       "width": 3.84,
       "height": 1.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13332,7 +13332,7 @@
       "width": 1.8,
       "height": 0.55,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13417,7 +13417,7 @@
       "width": 7.12,
       "height": 0.8,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13500,7 +13500,7 @@
       "width": 1.9,
       "height": 0.38,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13585,7 +13585,7 @@
       "width": 4.32,
       "height": 1.43,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13681,7 +13681,7 @@
       "width": 6.94,
       "height": 0.83,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13764,7 +13764,7 @@
       "width": 3.16,
       "height": 2.52,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13849,7 +13849,7 @@
       "width": 3.08,
       "height": 0.8,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -13951,7 +13951,7 @@
       "width": 2.18,
       "height": 0.74,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14036,7 +14036,7 @@
       "width": 3.28,
       "height": 0.86,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14138,7 +14138,7 @@
       "width": 3.36,
       "height": 1.52,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14223,7 +14223,7 @@
       "width": 2.94,
       "height": 1.75,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14308,7 +14308,7 @@
       "width": 4.16,
       "height": 3.41,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14393,7 +14393,7 @@
       "width": 6.6,
       "height": 0.63,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14476,7 +14476,7 @@
       "width": 3.96,
       "height": 1.9,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14561,7 +14561,7 @@
       "width": 1.88,
       "height": 0.76,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14646,7 +14646,7 @@
       "width": 4.04,
       "height": 1.67,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14731,7 +14731,7 @@
       "width": 2.08,
       "height": 1.2,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14816,7 +14816,7 @@
       "width": 5.94,
       "height": 0.69,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14899,7 +14899,7 @@
       "width": 1.72,
       "height": 1.32,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -14984,7 +14984,7 @@
       "width": 3.14,
       "height": 0.81,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15080,7 +15080,7 @@
       "width": 2.16,
       "height": 0.88,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15165,7 +15165,7 @@
       "width": 8.58,
       "height": 0.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15248,7 +15248,7 @@
       "width": 6.12,
       "height": 0.56,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15331,7 +15331,7 @@
       "width": 1.18,
       "height": 0.36,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15416,7 +15416,7 @@
       "width": 3.96,
       "height": 3.53,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15501,7 +15501,7 @@
       "width": 2.16,
       "height": 1.01,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15586,7 +15586,7 @@
       "width": 5.52,
       "height": 0.74,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15669,7 +15669,7 @@
       "width": 1.86,
       "height": 1.58,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15754,7 +15754,7 @@
       "width": 2.46,
       "height": 1.91,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15839,7 +15839,7 @@
       "width": 9.02,
       "height": 0.63,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -15922,7 +15922,7 @@
       "width": 7.7,
       "height": 0.67,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16005,7 +16005,7 @@
       "width": 3.34,
       "height": 1.68,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16090,7 +16090,7 @@
       "width": 8.06,
       "height": 0.56,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16173,7 +16173,7 @@
       "width": 1.52,
       "height": 1.34,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16258,7 +16258,7 @@
       "width": 5.82,
       "height": 0.62,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16341,7 +16341,7 @@
       "width": 2,
       "height": 0.66,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16426,7 +16426,7 @@
       "width": 2.46,
       "height": 1.02,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16511,7 +16511,7 @@
       "width": 6.24,
       "height": 0.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16594,7 +16594,7 @@
       "width": 6.24,
       "height": 0.64,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16677,7 +16677,7 @@
       "width": 8.62,
       "height": 0.64,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16760,7 +16760,7 @@
       "width": 6.92,
       "height": 0.54,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16843,7 +16843,7 @@
       "width": 3.44,
       "height": 2.52,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -16928,7 +16928,7 @@
       "width": 7.38,
       "height": 0.6,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17011,7 +17011,7 @@
       "width": 0.96,
       "height": 0.75,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17096,7 +17096,7 @@
       "width": 3.54,
       "height": 1.27,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17204,7 +17204,7 @@
       "width": 4.56,
       "height": 1.85,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17312,7 +17312,7 @@
       "width": 2.34,
       "height": 0.83,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17397,7 +17397,7 @@
       "width": 6.28,
       "height": 0.78,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17480,7 +17480,7 @@
       "width": 3.64,
       "height": 2.51,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17582,7 +17582,7 @@
       "width": 2.46,
       "height": 1.56,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17667,7 +17667,7 @@
       "width": 5.94,
       "height": 0.66,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17750,7 +17750,7 @@
       "width": 4.76,
       "height": 2.21,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17835,7 +17835,7 @@
       "width": 4.68,
       "height": 2.06,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -17937,7 +17937,7 @@
       "width": 2.66,
       "height": 1.28,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18022,7 +18022,7 @@
       "width": 3.22,
       "height": 2.28,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18107,7 +18107,7 @@
       "width": 2.88,
       "height": 2.33,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18192,7 +18192,7 @@
       "width": 3.36,
       "height": 1.15,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18300,7 +18300,7 @@
       "width": 3.68,
       "height": 1.63,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18408,7 +18408,7 @@
       "width": 3.72,
       "height": 1.39,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18510,7 +18510,7 @@
       "width": 2.42,
       "height": 2.14,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18595,7 +18595,7 @@
       "width": 3.58,
       "height": 0.97,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18703,7 +18703,7 @@
       "width": 2.72,
       "height": 1.8,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18788,7 +18788,7 @@
       "width": 1.64,
       "height": 2.16,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18873,7 +18873,7 @@
       "width": 1.78,
       "height": 1.29,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -18958,7 +18958,7 @@
       "width": 1.66,
       "height": 0.99,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -19043,7 +19043,7 @@
       "width": 3.78,
       "height": 2.51,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -19151,7 +19151,7 @@
       "width": 1.34,
       "height": 1.01,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",
@@ -19236,7 +19236,7 @@
       "width": 5.94,
       "height": 0.5,
       "generator": {
-        "script": "trailtrainer/tools/rockgen",
+        "script": "assetkit/tools/rockgen",
         "hash": "d3ff5a151ec112bc92de5e9ff29910b948d9d95c3a598bddb68b061e963b1d5e",
         "params": {
           "season": "any",

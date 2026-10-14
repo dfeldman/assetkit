@@ -21,7 +21,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark brown arm 512"
@@ -54,7 +54,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark brown diff 512"
@@ -86,7 +86,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark brown nor gl 512"
@@ -119,7 +119,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark brown snow diff 512"
@@ -151,7 +151,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark cedar arm 512"
@@ -184,7 +184,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark cedar diff 512"
@@ -216,7 +216,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark cedar nor gl 512"
@@ -249,7 +249,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark cedar snow diff 512"
@@ -281,7 +281,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark fir arm 512"
@@ -314,7 +314,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark fir diff 512"
@@ -346,7 +346,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark fir nor gl 512"
@@ -379,7 +379,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark fir snow diff 512"
@@ -411,7 +411,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark knotted arm 512"
@@ -444,7 +444,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark knotted diff 512"
@@ -476,7 +476,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark knotted nor gl 512"
@@ -509,7 +509,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark knotted snow diff 512"
@@ -541,7 +541,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark maple arm 512"
@@ -574,7 +574,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark maple diff 512"
@@ -606,7 +606,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark maple nor gl 512"
@@ -639,7 +639,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark maple snow diff 512"
@@ -671,7 +671,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark oak arm 512"
@@ -704,7 +704,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark oak diff 512"
@@ -736,7 +736,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark oak nor gl 512"
@@ -769,7 +769,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark oak snow diff 512"
@@ -801,7 +801,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark pine arm 512"
@@ -834,7 +834,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark pine diff 512"
@@ -866,7 +866,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark pine nor gl 512"
@@ -899,7 +899,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark pine snow diff 512"
@@ -931,7 +931,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark platanus arm 512"
@@ -964,7 +964,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark platanus diff 512"
@@ -996,7 +996,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark platanus nor gl 512"
@@ -1029,7 +1029,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark platanus snow diff 512"
@@ -1061,7 +1061,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark willow arm 512"
@@ -1094,7 +1094,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark willow diff 512"
@@ -1126,7 +1126,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark willow nor gl 512"
@@ -1159,7 +1159,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark willow snow diff 512"
@@ -1191,7 +1191,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf broad atlas"
@@ -1223,7 +1223,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf broad autumn atlas"
@@ -1255,7 +1255,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf broad gold atlas"
@@ -1287,7 +1287,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf dark atlas"
@@ -1319,7 +1319,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf dark autumn atlas"
@@ -1351,7 +1351,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf dark copper atlas"
@@ -1383,7 +1383,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf dark gold atlas"
@@ -1415,7 +1415,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf fine atlas"
@@ -1447,7 +1447,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf fine gold atlas"
@@ -1479,7 +1479,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf light atlas"
@@ -1511,7 +1511,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf light autumn atlas"
@@ -1543,7 +1543,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "leaf light gold atlas"
@@ -1575,7 +1575,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle fir atlas"
@@ -1607,7 +1607,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle fir snow atlas"
@@ -1639,7 +1639,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle larch atlas"
@@ -1671,7 +1671,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle larch gold atlas"
@@ -1703,7 +1703,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle larch snow atlas"
@@ -1735,7 +1735,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle pine atlas"
@@ -1767,7 +1767,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle pine snow atlas"
@@ -1799,7 +1799,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle spruce atlas"
@@ -1831,7 +1831,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "needle spruce snow atlas"
@@ -1863,7 +1863,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark palm arm 512"
@@ -1896,7 +1896,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark palm diff 512"
@@ -1928,7 +1928,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "bark palm nor gl 512"
@@ -1961,7 +1961,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "broadleaf atlas"
@@ -1993,7 +1993,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "daisy atlas"
@@ -2025,7 +2025,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "dandelion atlas"
@@ -2057,7 +2057,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "fern atlas"
@@ -2081,11 +2081,11 @@
     {
       "id": "flat-arm-b7537267",
       "name": "flat arm",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "flat arm"
@@ -2118,7 +2118,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "grass meadow atlas"
@@ -2150,7 +2150,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "grass tall atlas"
@@ -2182,7 +2182,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "grass tuft atlas"
@@ -2206,11 +2206,11 @@
     {
       "id": "painted-discs-atlas-99251527",
       "name": "painted discs atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted discs atlas"
@@ -2234,11 +2234,11 @@
     {
       "id": "painted-flowers-atlas-e394a5ae",
       "name": "painted flowers atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted flowers atlas"
@@ -2262,11 +2262,11 @@
     {
       "id": "painted-frond-atlas-bb97d7e4",
       "name": "painted frond atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted frond atlas"
@@ -2290,11 +2290,11 @@
     {
       "id": "painted-heather-atlas-102816f5",
       "name": "painted heather atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted heather atlas"
@@ -2318,11 +2318,11 @@
     {
       "id": "painted-pads-atlas-79008277",
       "name": "painted pads atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted pads atlas"
@@ -2346,11 +2346,11 @@
     {
       "id": "painted-spikes-atlas-f54698db",
       "name": "painted spikes atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted spikes atlas"
@@ -2374,11 +2374,11 @@
     {
       "id": "painted-tulips-atlas-c38c67ea",
       "name": "painted tulips atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "painted tulips atlas"
@@ -2402,11 +2402,11 @@
     {
       "id": "rosette-atlas-5ddf8cf5",
       "name": "rosette atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rosette atlas"
@@ -2430,11 +2430,11 @@
     {
       "id": "skin-cactus-diff-0c3d4b7e",
       "name": "skin cactus diff",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "skin cactus diff"
@@ -2458,11 +2458,11 @@
     {
       "id": "skin-stem-diff-e446e7f0",
       "name": "skin stem diff",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "skin stem diff"
@@ -2486,11 +2486,11 @@
     {
       "id": "wildflower-atlas-20a7d907",
       "name": "wildflower atlas",
-      "notes": "Painted by trailtrainer tools/plantgen/paint.py",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "wildflower atlas"
@@ -2522,7 +2522,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock bare arm 512"
@@ -2555,7 +2555,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock bare diff 512"
@@ -2587,7 +2587,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock bare nor gl 512"
@@ -2620,7 +2620,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock cracked arm 512"
@@ -2653,7 +2653,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock cracked diff 512"
@@ -2685,7 +2685,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock cracked nor gl 512"
@@ -2718,7 +2718,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock dark arm 512"
@@ -2751,7 +2751,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock dark diff 512"
@@ -2783,7 +2783,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock dark nor gl 512"
@@ -2816,7 +2816,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock grey arm 512"
@@ -2849,7 +2849,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock grey diff 512"
@@ -2881,7 +2881,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock grey nor gl 512"
@@ -2914,7 +2914,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock lichen arm 512"
@@ -2947,7 +2947,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock lichen diff 512"
@@ -2979,7 +2979,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock lichen nor gl 512"
@@ -3012,7 +3012,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock marble arm 512"
@@ -3045,7 +3045,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock marble diff 512"
@@ -3077,7 +3077,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock marble nor gl 512"
@@ -3110,7 +3110,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock mossy arm 512"
@@ -3143,7 +3143,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock mossy diff 512"
@@ -3175,7 +3175,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock mossy nor gl 512"
@@ -3208,7 +3208,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock pebble arm 512"
@@ -3241,7 +3241,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock pebble diff 512"
@@ -3273,7 +3273,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock pebble nor gl 512"
@@ -3306,7 +3306,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock scree arm 512"
@@ -3339,7 +3339,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock scree diff 512"
@@ -3371,7 +3371,7 @@
       "type": "2d",
       "subtype": "texture",
       "generator": {
-        "script": "trailtrainer/tools"
+        "script": "assetkit/tools"
       },
       "assetKeywords": [
         "rock scree nor gl 512"
