@@ -5,7 +5,7 @@
   "description": "Shared static assets (plants, trees, rocks, statues, textures) for many projects: the generators that make them and their assetmgr indexes.",
   "type": "module",
   "scripts": {
-    "assets": "assetmgr",
+    "assets": "assetmgr restore",
     "import:statues": "node tools/import-statues.ts",
     "trees": "blender -b -P tools/deciduousgen/gen.py --",
     "trees:textures": "python3 tools/deciduousgen/fetch.py && python3 tools/deciduousgen/pages.py",
@@ -17,7 +17,8 @@
     "bushes": "blender -b -P tools/bushgen/gen.py --",
     "plants:textures": "python3 tools/plantgen/fetch.py && python3 tools/plantgen/paint.py && python3 tools/plantgen/pages.py",
     "import:nature": "node tools/import-nature.ts",
-    "import:sources": "node tools/import-sources.ts"
+    "import:sources": "node tools/import-sources.ts",
+    "assets:upload": "npm run import:nature && npm run import:sources && npm run import:statues && assetmgr upload"
   },
   "dependencies": {
     "assetmgr": "file:../assetmgr"

@@ -22,11 +22,12 @@ Dandyhorse.
 
 ## Setting up a checkout
 
-Check out [assetmgr](https://github.com/dfeldman/assetmgr) beside this repo, then:
+Check out [assetmgr](https://github.com/dfeldman/assetmgr) beside this repo (npm links it as a `file:` dependency),
+then:
 
 ```bash
 npm install                 # links ../assetmgr
-npx assetmgr restore        # the texture sources back into tools/cache/ (public, no key)
+npm run assets              # assetmgr restore: the texture sources back into tools/cache/ (public, no key)
 cd carkit && npm install && npm test
 ```
 
@@ -53,7 +54,7 @@ Then record and upload what changed:
 ```bash
 npm run import:nature       # public/ → assetkit-trees / -plants / -rocks / -nature-textures
 npm run import:sources      # tools/cache/ → assetkit-texture-sources
-npm run import:statues      # Tripo statues from cityengine (beside this repo) and statues_to_model/
+npm run import:statues      # Tripo statues from cityengine ($CITYENGINE_DIR, default beside this repo) and statues_to_model/
 npx assetmgr upload         # needs the bucket's keys (ASSETMGR_ENV_FILE, see assetmgr's README)
 ```
 
