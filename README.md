@@ -22,7 +22,8 @@ Dandyhorse.
 
 ## Setting up a checkout
 
-Check out [assetmgr](https://github.com/dfeldman/assetmgr) beside this repo (npm links it as a `file:` dependency),
+Check out [assetmgr](https://github.com/dfeldman/assetmgr) beside this repo, or anywhere with `ASSETMGR_DIR` set
+(`npm install` links it into node_modules from there),
 then:
 
 ```bash
