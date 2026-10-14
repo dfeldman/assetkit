@@ -47,7 +47,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -119,7 +119,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -135,7 +135,7 @@
       "creationDate": "2026-09-22",
       "notes": "Mirror image of cirque-horseman-left, made by the packer (mirror: true); no Tripo original of its own.",
       "generator": {
-        "script": "streetrunner/tools/glb/pack.ts",
+        "script": "cityengine/tools/glb/pack.ts",
         "params": {
           "mirror": true,
           "from": "cirque-horseman-left"
@@ -157,7 +157,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px, mirrored"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px, mirrored"
         }
       ],
       "extra": {
@@ -200,7 +200,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -243,7 +243,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -286,7 +286,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -330,7 +330,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -374,7 +374,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -417,7 +417,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -460,7 +460,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -504,7 +504,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {
@@ -547,7 +547,7 @@
             "game"
           ],
           "isProd": true,
-          "fileNote": "Repacked by streetrunner/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
+          "fileNote": "Repacked by cityengine/tools/glb/pack.ts: welded, quantized (KHR_mesh_quantization), WebP textures ≤ 1024 px"
         }
       ],
       "extra": {

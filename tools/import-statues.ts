@@ -8,18 +8,17 @@
  *
  * Re-runnable: assets already present are skipped.
  *
- *   node tools/import-statues.ts [~/streetrunner]
+ *   node tools/import-statues.ts [path to cityengine, default: the checkout beside this repo]
  */
 
 import { existsSync } from 'node:fs';
 import { mkdir, stat, writeFile } from 'node:fs/promises';
-import { homedir } from 'node:os';
 import { join } from 'node:path';
 import { addFile, emptyIndex, indexFileName, loadRepo, serializeIndex, type Asset } from 'assetmgr/node';
 
-const SR = process.argv[2] ?? join(homedir(), 'streetrunner');
+const SR = process.argv[2] ?? join(import.meta.dirname, '..', '..', 'cityengine');
 const INDEX_DIR = 'indexes';
-const PACK = 'streetrunner/tools/glb/pack.ts';
+const PACK = 'cityengine/tools/glb/pack.ts';
 
 const DEFAULTS = {
   project: 'assetkit',
