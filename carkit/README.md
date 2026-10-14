@@ -19,7 +19,7 @@ seeds. No third-party meshes are used; nothing needs licensing or crediting.
 ## Use
 
 ```ts
-import { Fleet, randomSpec, steerForCurvature } from '@dandyhorse/carkit'
+import { Fleet, randomSpec, steerForCurvature } from 'carkit'
 
 const fleet = new Fleet(scene, { shadows: true })
 const taxi = fleet.add(randomSpec('sedan', 42, 'taxi'))
@@ -33,7 +33,7 @@ taxi.lights.indicator = 'left'                                   // 'off' | 'lef
 fleet.update(dt)
 ```
 
-`@dandyhorse/carkit/geometry` is the Babylon-free half — specs, `buildBody`, `buildWheel` and the pose maths —
+`carkit/geometry` is the Babylon-free half — specs, `buildBody`, `buildWheel` and the pose maths —
 for tests, workers or a different renderer.
 
 ## The frame

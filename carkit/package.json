@@ -1,5 +1,5 @@
 {
-  "name": "@dandyhorse/carkit",
+  "name": "carkit",
   "private": true,
   "version": "0.1.0",
   "description": "Procedural low-poly cars, vans, trucks and buses: a parametric spec, a pure geometry builder, and a thin-instanced Babylon fleet with steering wheels, working lights and ground-following poses.",

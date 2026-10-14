@@ -12,7 +12,7 @@ negated (Street Runner's `sun` is the light's direction, carkit wants the direct
 ## Dependency
 
 carkit lives in assetkit (github.com/dfeldman/assetkit, `carkit/`), checked out beside the app. In the app's
-`package.json` add `"@dandyhorse/carkit": "file:../assetkit/carkit"`, and add `'../assetkit/carkit/src/**/*.ts'`
+`package.json` add `"carkit": "file:../assetkit/carkit"`, and add `'../assetkit/carkit/src/**/*.ts'`
 to `optimizeDeps.entries` in `vite.config.ts`. carkit has no worker and no assets. (It lived in
 `dandyhorse/libs/carkit` until 2026-10-14.)
 
