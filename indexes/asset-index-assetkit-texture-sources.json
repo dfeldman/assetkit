@@ -7253,6 +7253,48 @@
           "generator": "plantgen"
         }
       }
+    },
+    {
+      "id": "plantgen-painted-hydrangea-atlas",
+      "name": "painted hydrangea atlas",
+      "notes": "Painted by tools/plantgen/paint.py: our own work.",
+      "generator": {
+        "script": "assetkit/tools/plantgen/paint.py"
+      },
+      "assetKeywords": [
+        "plantgen"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-85e05c6bdf-plantgen-full.png",
+          "hash": "85e05c6bdfd5ea24a97efbb116f412597d5714e71bcd495cabe51e8a426410dc",
+          "size": 199177,
+          "fileFormat": "png",
+          "extension": "png",
+          "fileKeywords": [
+            "full"
+          ],
+          "lod": 0,
+          "localPath": "tools/cache/plantgen/painted_hydrangea_atlas.png"
+        },
+        {
+          "filename": "asset-8b3ac0956b-plantgen-512.png",
+          "hash": "8b3ac0956b22e8819e9d7f5661418c33bb25cd1b8de2c3e123aba9ca766c3c52",
+          "size": 281300,
+          "fileFormat": "png",
+          "extension": "png",
+          "fileKeywords": [
+            "512"
+          ],
+          "lod": 1,
+          "localPath": "tools/cache/plantgen/painted_hydrangea_atlas_512.png"
+        }
+      ],
+      "extra": {
+        "assetkit": {
+          "generator": "plantgen"
+        }
+      }
     }
   ]
 }

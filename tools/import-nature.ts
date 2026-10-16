@@ -36,7 +36,7 @@ const LATIN: Record<string, string> = {
   barrel_cactus: 'Ferocactus', bracken: 'Pteridium aquilinum', bramble: 'Rubus fruticosus', buttercup: 'Ranunculus',
   cattail: 'Typha', clover: 'Trifolium', cow_parsley: 'Anthriscus sylvestris', daisy: 'Bellis perennis',
   dandelion: 'Taraxacum officinale', dogwood: 'Cornus', elder: 'Sambucus nigra', goldenrod: 'Solidago',
-  hawthorn: 'Crataegus monogyna', hazel: 'Corylus avellana', heather: 'Calluna vulgaris',
+  hawthorn: 'Crataegus monogyna', hazel: 'Corylus avellana', heather: 'Calluna vulgaris', hydrangea: 'Hydrangea macrophylla',
   juniper_scrub: 'Juniperus communis', lupine: 'Lupinus', mugo_pine: 'Pinus mugo', mullein: 'Verbascum thapsus',
   nettle: 'Urtica dioica', poppy: 'Papaver rhoeas', prickly_pear: 'Opuntia', reeds: 'Phragmites australis',
   rhododendron: 'Rhododendron', sagebrush: 'Artemisia tridentata', saguaro: 'Carnegiea gigantea',

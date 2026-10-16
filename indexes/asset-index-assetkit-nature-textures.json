@@ -3392,6 +3392,34 @@
           "file": "rocks/textures/rock_scree_nor_gl_512_7c9bf7f7.jpg"
         }
       }
+    },
+    {
+      "id": "painted-hydrangea-atlas-90649345",
+      "name": "painted hydrangea atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted hydrangea atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-85e05c6bdf-painted-hydrangea-atlas.png",
+          "hash": "85e05c6bdfd5ea24a97efbb116f412597d5714e71bcd495cabe51e8a426410dc",
+          "size": 199177,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_hydrangea_atlas_90649345.png"
+        }
+      }
     }
   ]
 }

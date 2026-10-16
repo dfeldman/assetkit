@@ -99,12 +99,24 @@ def bush(leaves: MeshData, heads: MeshData, spec: dict, rng: np.random.Generator
             rr = w * rng.uniform(0.2, 0.95)
             out = np.array([np.cos(a), np.sin(a), 0.0])
             z = h * 0.75 * (1 - (rr / w) ** 2) ** 0.5 + h * 0.15
-            p = out * rr + UP * z
+            if fl.get('surface'):
+                # on the dome's own surface, the whole crown covered (a hydrangea in bloom is more flower than leaf)
+                rr = w * rng.uniform(0.0, 1.0) ** 0.5 * 0.92
+                p = out * rr + UP * (h * (1 - (rr / w) ** 2) ** 0.5 * 0.92 + h * 0.06)
+                z = p[2]
+            if not fl.get('surface'):
+                p = out * rr + UP * z
             fs = float(rng.uniform(*fl.get('size', [0.06, 0.1]))) * scale
             normal = normalize(out * 0.5 + UP * 0.9)
             along = normalize(np.cross(normal, any_perpendicular(normal)))
-            heads.add(*card(p, along, normalize(np.cross(normal, along)), fs, fs, normal, _cell(int(rng.choice(fl.get('cells', [0, 1, 2, 3])))),
-                            _colour(rng, fl.get('tint', [1, 1, 1]), 0.08), 0.0, 0.5))
+            cell = _cell(int(rng.choice(fl.get('cells', [0, 1, 2, 3]))))
+            hc = _colour(rng, fl.get('tint', [1, 1, 1]), 0.08)
+            heads.add(*card(p, along, normalize(np.cross(normal, along)), fs, fs, normal, cell, hc, 0.0, 0.5))
+            if fl.get('cross'):
+                # a ball, not a disc (a hydrangea's mophead): a second card through the first, standing up
+                for turn in (0.0, np.pi / 2):
+                    side = normalize(rotate(np.cross(UP, out), UP, turn))
+                    heads.add(*card(p, UP, side, fs, fs, normalize(np.cross(side, UP) + UP * 0.3), cell, hc, 0.0, 0.5))
 
 
 # ---------------------------------------------------------------- flowers

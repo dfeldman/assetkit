@@ -1,0 +1,49 @@
+{
+  "name": "hydrangea",
+  "kind": "plant",
+  "about": "a mophead hydrangea: a dense dark-green mound carrying big round flower heads (Lombard Street's beds); heads by variant: 0 pink, 1 rose, 2 blush, 3 blue",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    34,
+    46
+  ],
+  "height": [
+    0.85,
+    1.15
+  ],
+  "width": [
+    0.85,
+    1.15
+  ],
+  "card": 0.4,
+  "cross": 0.8,
+  "ao": 0.4,
+  "heads_page": "painted_hydrangea",
+  "flowers": {
+    "count": [
+      38,
+      54
+    ],
+    "size": [
+      0.24,
+      0.32
+    ],
+    "cells": [
+      0,
+      1
+    ],
+    "cross": true,
+    "surface": true
+  },
+  "budget": [
+    60,
+    400
+  ],
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ]
+}

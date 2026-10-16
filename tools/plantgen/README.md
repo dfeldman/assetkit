@@ -10,7 +10,7 @@ Everything on a route that is neither a tree nor a rock, built on the same core 
 | flower | thin stems, a rosette at the foot, a head at the top: a tilted disc (daisies, dandelions, wildflowers), crossed upright cards (tulips) or one card facing sideways (sunflowers) | dandelion, daisy, wildflower, sunflower, tulip |
 | palm | a leaning ringed trunk, a crown of drooping frond spines carrying frond cards, dead fronds hanging under | palm |
 | cactus | a ribbed column with arms that leave it sideways and curve up; or a short fat barrel | saguaro, barrel_cactus |
-| bush | cards standing on a dome, crossed, leaning out at the edge, optional flower dots; bushes borrow the tree leaf-cluster pages (`tree:broad` etc.) | bush_green, bush_flowering, bramble, nettle, sagebrush, heather, prickly_pear, clover |
+| bush | cards standing on a dome, crossed, leaning out at the edge, optional flower dots; bushes borrow the tree leaf-cluster pages (`tree:broad` etc.) | bush_green, bush_flowering, bramble, nettle, sagebrush, heather, prickly_pear, clover, hydrangea |
 
 Trail flora on top of the first twelve: meadow_full, meadow_tussock, meadow_short (meadow grass is the
 commonest thing on a route, so it has four species and ninety entries), bracken, reeds, yucca, cattail,
@@ -23,6 +23,12 @@ python3 tools/plantgen/library.py    # the table -> library.json (~190 plants)
 npm run plants -- --library          # build public/plants/
 npm run plants -- --species sunflower --seed 3 --preview
 ```
+
+Hydrangea (mophead, *Hydrangea macrophylla*; for Lombard Street's beds, 2026-10-16): a dense dark-leaved
+mound covered in big round heads. Heads are `painted_hydrangea` (paint.py `mophead`: hundreds of four-petalled
+florets in a shaded ball; cells 0 pink, 1 rose, 2 blush, 3 blue), sat on the dome's surface (`flowers.surface`)
+and drawn as three crossed cards each (`flowers.cross`) so a head reads as a ball from any side. The library's
+twelve entries pick their colours per entry (`flowers.cells`, library.py's `cells` column).
 
 ## Textures
 

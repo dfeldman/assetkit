@@ -239,6 +239,32 @@ def flat_arm(im: Image.Image) -> None:
     arm.save(CACHE / 'flat_arm.jpg', quality=80)
 
 
+def mophead(colour, seed: int) -> Image.Image:
+    """A hydrangea's mophead seen from the side: a ball of hundreds of small four-petalled florets, its rim shaded so the
+    flat card reads round. `colour` is the floret's middle tone; the shading and a few paler florets do the rest."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    R = S * 0.46
+    d.ellipse((cx - R, cy - R, cx + R, cy + R), fill=tuple(int(c * 0.55) for c in colour) + (255,))
+    for i in range(900):
+        a = rng.uniform(0, 6.283)
+        rr = R * math.sqrt(rng.random()) * 0.97
+        x, y = cx + rr * math.cos(a), cy + rr * math.sin(a)
+        # light from above: florets on the upper side paler, the rim darker
+        k = 1.12 - 0.45 * (rr / R) ** 2 - 0.18 * ((y - cy) / R)
+        k *= rng.uniform(0.88, 1.12)
+        if rng.random() < 0.08:
+            k *= 1.25
+        col = tuple(max(0, min(255, int(c * k))) for c in colour) + (255,)
+        f = S * rng.uniform(0.022, 0.032)
+        rot = rng.uniform(0, 90)
+        for j in range(4):
+            petal(d, x, y, rot + j * 90, f, f * 0.75, col)
+    return im
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     atlas = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
@@ -275,10 +301,14 @@ def main() -> None:
     for i in range(4):
         he.alpha_composite(heather(50 + i), ((i % 2) * S, (i // 2) * S))
     he.save(CACHE / 'painted_heather_atlas.png', optimize=True)
+    hy = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
+    for i, col in enumerate(((236, 140, 172), (200, 52, 92), (240, 214, 200), (150, 150, 220))):   # pink, rose, blush, blue
+        hy.alpha_composite(mophead(col, 60 + i), ((i % 2) * S, (i // 2) * S))
+    hy.save(CACHE / 'painted_hydrangea_atlas.png', optimize=True)
     cactus_skin().save(CACHE / 'skin_cactus_diff.jpg', quality=88)
     stem_skin().save(CACHE / 'skin_stem_diff.jpg', quality=88)
     flat_arm(Image.new('RGB', (64, 64)))
-    for name in ('painted_flowers', 'painted_tulips', 'painted_frond', 'painted_spikes', 'painted_discs', 'painted_pads', 'painted_heather'):
+    for name in ('painted_flowers', 'painted_tulips', 'painted_frond', 'painted_spikes', 'painted_discs', 'painted_pads', 'painted_heather', 'painted_hydrangea'):
         Image.open(CACHE / f'{name}_atlas.png').resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
     print('painted ->', CACHE)
 
