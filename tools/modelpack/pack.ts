@@ -42,6 +42,10 @@ interface Model {
   id: string; name: string; file: string; kind: string; material: string
   front: '+z' | '-z' | '+x' | '-x'; scale: { axis: 'x' | 'y' | 'z'; metres: number }
   draft?: number; plinth?: [number, number, number]; lods: Lod[]
+  /** drop triangles whose middle stands further than `max` (model units) from the centre along `axis`: a stray rope */
+  crop?: { axis: 'x' | 'y' | 'z'; max: number }
+  /** scale the model along one axis only (a model the AI stretched): positions × factor, normals corrected */
+  squash?: { axis: 'x' | 'y' | 'z'; factor: number }
   description?: string; keywords?: string[]; reference?: string; notes?: string; artist?: string
 }
 
@@ -58,6 +62,53 @@ function bounds(doc: Document): { min: number[]; max: number[] } {
     if (!a) continue
     const lo = a.getMin([0, 0, 0]), hi = a.getMax([0, 0, 0])
     for (let k = 0; k < 3; k++) { min[k] = Math.min(min[k], lo[k]); max[k] = Math.max(max[k], hi[k]) }
+  }
+  return { min, max }
+}
+
+/** `crop`: every triangle whose middle lies beyond `max` along `axis` is dropped (indexed primitives) */
+function crop(doc: Document, c: { axis: 'x' | 'y' | 'z'; max: number }): number {
+  const k = { x: 0, y: 1, z: 2 }[c.axis]
+  let dropped = 0
+  for (const mesh of doc.getRoot().listMeshes()) for (const p of mesh.listPrimitives()) {
+    const pos = p.getAttribute('POSITION')?.getArray(), idx = p.getIndices()
+    if (!pos || !idx) continue
+    const a = idx.getArray()!, keep: number[] = []
+    for (let i = 0; i + 2 < a.length; i += 3) {
+      const mid = (pos[a[i] * 3 + k] + pos[a[i + 1] * 3 + k] + pos[a[i + 2] * 3 + k]) / 3
+      if (Math.abs(mid) > c.max) { dropped++; continue }
+      keep.push(a[i], a[i + 1], a[i + 2])
+    }
+    idx.setArray(a.length > 65535 * 3 || pos.length / 3 > 65535 ? new Uint32Array(keep) : new Uint16Array(keep))
+  }
+  return dropped
+}
+
+/** `squash`: positions scaled along one axis; normals by the inverse, renormalised (a non-uniform scale's normal rule) */
+function squash(doc: Document, q: { axis: 'x' | 'y' | 'z'; factor: number }): void {
+  const k = { x: 0, y: 1, z: 2 }[q.axis]
+  for (const mesh of doc.getRoot().listMeshes()) for (const p of mesh.listPrimitives()) {
+    const pos = p.getAttribute('POSITION'), nor = p.getAttribute('NORMAL')
+    if (pos) { const a = pos.getArray()!.slice(); for (let i = k; i < a.length; i += 3) a[i] *= q.factor; pos.setArray(a) }
+    if (nor) {
+      const a = nor.getArray()!.slice()
+      for (let i = 0; i < a.length; i += 3) {
+        a[i + k] /= q.factor
+        const l = Math.hypot(a[i], a[i + 1], a[i + 2]) || 1
+        a[i] /= l; a[i + 1] /= l; a[i + 2] /= l
+      }
+      nor.setArray(a)
+    }
+  }
+}
+
+/** the bounds of the vertices triangles actually use (a crop leaves the dropped ones in the buffer) */
+function triBounds(doc: Document): { min: number[]; max: number[] } {
+  const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity]
+  for (const mesh of doc.getRoot().listMeshes()) for (const p of mesh.listPrimitives()) {
+    const pos = p.getAttribute('POSITION')?.getArray(), idx = p.getIndices()?.getArray()
+    if (!pos || !idx) continue
+    for (const v of idx) for (let k = 0; k < 3; k++) { min[k] = Math.min(min[k], pos[v * 3 + k]); max[k] = Math.max(max[k], pos[v * 3 + k]) }
   }
   return { min, max }
 }
@@ -113,18 +164,28 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
     for (const ext of doc.getRoot().listExtensionsUsed()) {
       if (ext.extensionName === 'FB_ngon_encoding' || ext.extensionName === 'KHR_materials_volume') ext.dispose()
     }
+    if (m.crop) crop(doc, m.crop)
+    if (m.squash) squash(doc, m.squash)
     await doc.transform(
       dedup(), weld(),
       ...(lod.ratio < 1 ? [simplify({ simplifier: MeshoptSimplifier, ratio: lod.ratio, error: lod.error ?? 0.02 })] : []),
       prune(),
       textureCompress({ encoder: sharp, targetFormat: 'webp', resize: [lod.tex, lod.tex], quality: 86 }),
-      quantize(),
     )
+    // the real size, from the model as packed (cropped, squashed) and before quantizing (which stores integers)
+    const kept = n === 0 ? triBounds(doc) : null
+    await doc.transform(quantize())
     const out = join(SCRATCH, `${m.id}.lod${n}.glb`)
     const bytes = await io.writeBinary(doc)
     await writeFile(out, bytes)
     const hash = createHash('sha256').update(bytes).digest('hex')
     lodInfo.push({ lod: n, triangles: Math.round(triangles(doc)), tex: lod.tex, kB: Math.round(bytes.length / 1024) })
+    if (kept) {
+      const pb = kept
+      const s = [0, 1, 2].map((i) => Math.round((pb.max[i] - pb.min[i]) * unit * 100) / 100)
+      Object.assign(fields, { width: s[0], height: s[1], length: s[2] })
+      size.splice(0, 3, ...s)
+    }
     const live = asset.assetFiles.filter((f) => f.lod === n && !f.isDeleted)
     if (live.some((f) => f.hash === hash)) continue
     for (const f of live) f.isDeleted = true
@@ -142,7 +203,7 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
       model: {
         kind: m.kind, front: m.front, scale: m.scale, unitsToMetres: Math.round(unit * 1000) / 1000,
         ...(m.draft !== undefined ? { draft: m.draft } : {}), ...(m.plinth ? { plinth: m.plinth } : {}),
-        material: m.material, source: m.file, reference: m.reference, lods: lodInfo,
+        material: m.material, source: m.file, ...(m.crop ? { crop: m.crop } : {}), ...(m.squash ? { squash: m.squash } : {}), reference: m.reference, lods: lodInfo,
       },
     },
   })

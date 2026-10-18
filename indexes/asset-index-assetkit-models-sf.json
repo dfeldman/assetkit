@@ -98,6 +98,527 @@
           ]
         }
       }
+    },
+    {
+      "id": "ca-thayer",
+      "name": "C.A. Thayer (1895 lumber schooner)",
+      "description": "Three-masted wooden lumber schooner built 1895 by Hans Bendixsen, Fairhaven CA; museum ship at Hyde Street Pier.",
+      "notes": "Model x runs over 67 m overall (219 ft, bowsprit and boom). A stray rope stood ~0.24 units out to the side (owner, 2026-10-18: 'may interfere with nearby objects'): cropped at |z| > 0.13 (the hull's half-beam is 0.084, deck fittings reach 0.12). Draft ~3.5 m (depth of hold).",
+      "subtype": "scenery",
+      "length": 18.31,
+      "width": 67,
+      "height": 46.11,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "ca thayer",
+        "schooner",
+        "hyde street pier",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ec411d9ab7-ca-thayer-schooner-hyde-street-pier-maritime-source.glb",
+          "hash": "ec411d9ab7b5054e8b466ff65272421ee1c7c6f9a253a8ec3e19eed89457fd04",
+          "size": 5124992,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-bc05367676-ca-thayer-schooner-hyde-street-pier-maritime-lod0.glb",
+          "hash": "bc05367676b8ef534819024480f2dba146b920273ac971db15022e312a1910ce",
+          "size": 979524,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18849 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-588037c6be-ca-thayer-schooner-hyde-street-pier-maritime-lod1.glb",
+          "hash": "588037c6bec470f8aa41e0be4566b2607127b43d7bd8119a4dd73b836646470d",
+          "size": 710240,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "13743 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-x",
+          "scale": {
+            "axis": "x",
+            "metres": 67
+          },
+          "unitsToMetres": 67,
+          "draft": 3.5,
+          "material": "textured",
+          "source": "ship_ca_thayer.glb",
+          "crop": {
+            "axis": "z",
+            "max": 0.13
+          },
+          "reference": "items_to_model/ca-thayer/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18849,
+              "tex": 1024,
+              "kB": 957
+            },
+            {
+              "lod": 1,
+              "triangles": 13743,
+              "tex": 512,
+              "kB": 694
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "alma",
+      "name": "Alma (1891 scow schooner)",
+      "description": "Flat-bottomed San Francisco Bay scow schooner built 1891 at Hunters Point; museum ship of the San Francisco Maritime NHP.",
+      "notes": "18 m on deck; the model's z runs from the bowsprit tip past the boom, ~25 m. Its lowest point is the lowered leeboard, ~2.4 m below the hull, so the waterline (1.1 m draft) is ~3.5 m above it. Sails set, as Tripo made her.",
+      "subtype": "scenery",
+      "length": 25,
+      "width": 8.16,
+      "height": 23.6,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "alma",
+        "scow schooner",
+        "hyde street pier",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-44b80a3913-alma-scow-schooner-hyde-street-pier-maritime-source.glb",
+          "hash": "44b80a3913ac4e5b3010bb45f35fcc85a1c60dc8dd3d80e634decd874e5f4823",
+          "size": 4583088,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-3b9642fcbe-alma-scow-schooner-hyde-street-pier-maritime-lod0.glb",
+          "hash": "3b9642fcbeae069703191cba0630a48d4a9ee9eab5e87cd7f47d356ffd0586b8",
+          "size": 627284,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18231 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-0f45dce219-alma-scow-schooner-hyde-street-pier-maritime-lod1.glb",
+          "hash": "0f45dce21923d4a88d4028815bd13d1542c853c713457bb1e397c24252a70069",
+          "size": 289884,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7244 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-z",
+          "scale": {
+            "axis": "z",
+            "metres": 25
+          },
+          "unitsToMetres": 25,
+          "draft": 3.5,
+          "material": "textured",
+          "source": "ship_alma.glb",
+          "reference": "items_to_model/alma-scow-schooner/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18231,
+              "tex": 1024,
+              "kB": 613
+            },
+            {
+              "lod": 1,
+              "triangles": 7244,
+              "tex": 512,
+              "kB": 283
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hercules",
+      "name": "Hercules (1907 steam tug)",
+      "description": "Ocean-going steam tug built 1907 by John H. Dialogue & Son, Camden NJ; museum ship at Hyde Street Pier.",
+      "notes": "46 m (151 ft); draft 5.5 m aft, ~4.5 m mean.",
+      "subtype": "scenery",
+      "length": 11.99,
+      "width": 46,
+      "height": 21.12,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "hercules",
+        "tugboat",
+        "hyde street pier",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-76d7c09cea-hercules-tugboat-hyde-street-pier-maritime-source.glb",
+          "hash": "76d7c09ceaa4a681e3145249fde805982b8a5cbb1787624e447ebc0c8537fc6f",
+          "size": 4779724,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-7991b57eb7-hercules-tugboat-hyde-street-pier-maritime-lod0.glb",
+          "hash": "7991b57eb7e8aa1d03c6921c406ddc4f61da64f8dfd7b1dffcee6a775f2f8534",
+          "size": 674548,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18280 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-a8485bbd66-hercules-tugboat-hyde-street-pier-maritime-lod1.glb",
+          "hash": "a8485bbd6697ff83b67b6333c86046b2b69f445269f7dd6513d3c4b9cf774cc3",
+          "size": 315640,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7252 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-x",
+          "scale": {
+            "axis": "x",
+            "metres": 46
+          },
+          "unitsToMetres": 46,
+          "draft": 4.5,
+          "material": "textured",
+          "source": "ship_hercules_tugboat.glb",
+          "reference": "items_to_model/hercules-tug/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18280,
+              "tex": 1024,
+              "kB": 659
+            },
+            {
+              "lod": 1,
+              "triangles": 7252,
+              "tex": 512,
+              "kB": 308
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "jeremiah-obrien",
+      "name": "SS Jeremiah O'Brien (1943 Liberty ship)",
+      "description": "Liberty ship built 1943 at the New England Shipbuilding Corporation, South Portland, Maine; one of two operational Liberty ships, museum ship in San Francisco.",
+      "notes": "134.6 m (441 ft 6 in); laden draft 8.5 m, as a museum ship riding higher, ~6 m.",
+      "subtype": "scenery",
+      "length": 34.62,
+      "width": 134.6,
+      "height": 37.44,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "jeremiah obrien",
+        "liberty ship",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dfb6020bf5-jeremiah-obrien-liberty-ship-maritime-source.glb",
+          "hash": "dfb6020bf5bbe3d92e280575bf70bec69c5a11ac489d13c16c7027a19acd8f0a",
+          "size": 4008184,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-fb7dc1c340-jeremiah-obrien-liberty-ship-maritime-lod0.glb",
+          "hash": "fb7dc1c34018aa989fb0d8c9305c34ee51c84eb3059301c5520ed284b31f3299",
+          "size": 607848,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18995 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-a6202f5e26-jeremiah-obrien-liberty-ship-maritime-lod1.glb",
+          "hash": "a6202f5e26b387a5ada967405545b8a6c2db456a229fa1edffff4d164da3039e",
+          "size": 286260,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7567 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-x",
+          "scale": {
+            "axis": "x",
+            "metres": 134.6
+          },
+          "unitsToMetres": 134.6,
+          "draft": 6,
+          "material": "textured",
+          "source": "ship_ss_jeremiah_obrien.glb",
+          "reference": "items_to_model/ss-jeremiah-obrien/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18995,
+              "tex": 1024,
+              "kB": 594
+            },
+            {
+              "lod": 1,
+              "triangles": 7567,
+              "tex": 512,
+              "kB": 280
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pampanito",
+      "name": "USS Pampanito (1943 submarine)",
+      "description": "Balao-class fleet submarine launched 1943 at Portsmouth Navy Yard; museum ship at Pier 45, Fisherman's Wharf.",
+      "notes": "95 m (311 ft 6 in); surfaced draft ~4.6 m; the red bottom is below the waterline. Tripo made her 0.43 units tall to 1.0 long: 41 m at 95 m, against ~17-19 m keel to the top of the periscope shears; squashed in y by 0.47.",
+      "subtype": "scenery",
+      "length": 16.74,
+      "width": 95,
+      "height": 19.08,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "pampanito",
+        "submarine",
+        "pier 45",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-710132291b-pampanito-submarine-pier-45-maritime-source.glb",
+          "hash": "710132291bae3c61f78cf6f9d6d99a9eaa25e0772eb5c1e743061d9cb52f3ddb",
+          "size": 5020108,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-0a8637d5bd-pampanito-submarine-pier-45-maritime-lod0.glb",
+          "hash": "0a8637d5bdbae5b6cc4f73d8fbe459b49ce31ba03e02348967055df6cf08287a",
+          "size": 885652,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18169 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-fc959a566c-pampanito-submarine-pier-45-maritime-lod1.glb",
+          "hash": "fc959a566c8c56e874b5219798ba8e24be0f196a5880a74a9cf6a3ea85db1024",
+          "size": 577848,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "11352 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-x",
+          "scale": {
+            "axis": "x",
+            "metres": 95
+          },
+          "unitsToMetres": 95,
+          "draft": 4.5,
+          "material": "textured",
+          "source": "ship_uss_pampanito_submarine.glb",
+          "squash": {
+            "axis": "y",
+            "factor": 0.47
+          },
+          "reference": "items_to_model/uss-pampanito/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18169,
+              "tex": 1024,
+              "kB": 865
+            },
+            {
+              "lod": 1,
+              "triangles": 11352,
+              "tex": 512,
+              "kB": 564
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taj-mahal-houseboat",
+      "name": "Taj Mahal houseboat, Sausalito",
+      "description": "A houseboat in the form of a miniature Taj Mahal, Sausalito.",
+      "notes": "An easter egg (owner, 2026-10-18). Size estimated (~14 m long on its float); its arched entrance is on -x.",
+      "subtype": "scenery",
+      "length": 10.43,
+      "width": 14,
+      "height": 8.22,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "taj mahal",
+        "houseboat",
+        "sausalito"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a5b9f4c34a-taj-mahal-houseboat-sausalito-source.glb",
+          "hash": "a5b9f4c34a61fdc59187994bfdfd91d1c92d69786d56f4e3418548d77df19741",
+          "size": 3104452,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-03482e6d91-taj-mahal-houseboat-sausalito-lod0.glb",
+          "hash": "03482e6d91b55c2495bc646158ea647fa7b27d9a7a5c2fee21a2e8c852ee552b",
+          "size": 446156,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "15936 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-8704027fa4-taj-mahal-houseboat-sausalito-lod1.glb",
+          "hash": "8704027fa43565422ec2a08ff55567044f6a7224171e4a9ef7c2ada761afb2fe",
+          "size": 213216,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6373 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "-x",
+          "scale": {
+            "axis": "x",
+            "metres": 14
+          },
+          "unitsToMetres": 14,
+          "draft": 1,
+          "material": "textured",
+          "source": "ship_taj_mahal_houseboat.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 15936,
+              "tex": 1024,
+              "kB": 436
+            },
+            {
+              "lod": 1,
+              "triangles": 6373,
+              "tex": 512,
+              "kB": 208
+            }
+          ]
+        }
+      }
     }
   ]
 }
