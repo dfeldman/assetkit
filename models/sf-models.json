@@ -313,7 +313,7 @@
         "union square"
       ],
       "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it)."
+      "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it). SUPERSEDED 2026-10-18 by dewey-monument (capital included); kept for reference."
     },
     {
       "id": "mechanics-monument",
@@ -456,6 +456,70 @@
       ],
       "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
       "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
+    },
+    {
+      "id": "dewey-monument",
+      "name": "Dewey Monument top (capital and Victory)",
+      "file": "sf_dewey_monument_with_pedestal.glb",
+      "kind": "statue",
+      "material": "textured",
+      "front": "+z",
+      "scale": {
+        "axis": "y",
+        "metres": 7.2
+      },
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 1024
+        },
+        {
+          "ratio": 0.35,
+          "tex": 512,
+          "error": 0.02
+        }
+      ],
+      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+      "keywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "reference": "statues_to_model/dewey-monument-victory/about.md",
+      "notes": "Textured (white stone capital, verdigris figure). Its foot is the capital's neck, 0.208 model units across = the shaft's 5 ft (1.5 m, Wikipedia) under the capital: 7.2 m tall. Sits on a plain cylinder (cityengine draws the shaft). Supersedes dewey-victory (figure only)."
+    },
+    {
+      "id": "dewey-monument-pbr",
+      "name": "Dewey Monument top (capital and Victory), PBR",
+      "file": "sf_dewey_monument_with_pedestal_pbr.glb",
+      "kind": "statue",
+      "material": "textured",
+      "front": "+z",
+      "scale": {
+        "axis": "y",
+        "metres": 7.2
+      },
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 1024
+        },
+        {
+          "ratio": 0.35,
+          "tex": 512,
+          "error": 0.02
+        }
+      ],
+      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+      "keywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "reference": "statues_to_model/dewey-monument-victory/about.md",
+      "notes": "The same mesh as dewey-monument with Tripo's PBR textures (base colour + metallic-roughness). Packed to compare with the plain textured one (owner, 2026-10-18)."
     }
   ]
 }

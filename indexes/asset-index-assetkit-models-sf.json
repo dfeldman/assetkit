@@ -1149,6 +1149,176 @@
           ]
         }
       }
+    },
+    {
+      "id": "dewey-monument",
+      "name": "Dewey Monument top (capital and Victory)",
+      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+      "notes": "Textured (white stone capital, verdigris figure). Its foot is the capital's neck, 0.208 model units across = the shaft's 5 ft (1.5 m, Wikipedia) under the capital: 7.2 m tall. Sits on a plain cylinder (cityengine draws the shaft). Supersedes dewey-victory (figure only).",
+      "subtype": "sculpture",
+      "length": 3.16,
+      "width": 3.13,
+      "height": 7.2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e90f9082e0-dewey-monument-victory-union-square-source.glb",
+          "hash": "e90f9082e0590c70bcbdfb5a95c4c01bddb3c2e831486fd3db3602e7e9f2f8b3",
+          "size": 4403772,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8ebfc70b15-dewey-monument-victory-union-square-lod0.glb",
+          "hash": "8ebfc70b15ff545b7cc9578e153f745867116abf463d76d5e5b4d5add45358e1",
+          "size": 589792,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19631 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-c8c8e734a9-dewey-monument-victory-union-square-lod1.glb",
+          "hash": "c8c8e734a9a114043f523fafe7a329e646ecc59a0141f878a5d6b12d48e77fd5",
+          "size": 238108,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6870 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.2
+          },
+          "unitsToMetres": 7.2,
+          "material": "textured",
+          "source": "sf_dewey_monument_with_pedestal.glb",
+          "reference": "statues_to_model/dewey-monument-victory/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19631,
+              "tex": 1024,
+              "kB": 576
+            },
+            {
+              "lod": 1,
+              "triangles": 6870,
+              "tex": 512,
+              "kB": 233
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dewey-monument-pbr",
+      "name": "Dewey Monument top (capital and Victory), PBR",
+      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+      "notes": "The same mesh as dewey-monument with Tripo's PBR textures (base colour + metallic-roughness). Packed to compare with the plain textured one (owner, 2026-10-18).",
+      "subtype": "sculpture",
+      "length": 3.16,
+      "width": 3.13,
+      "height": 7.2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d3a493c329-dewey-monument-victory-union-square-source.glb",
+          "hash": "d3a493c3299a86805987a214ef49fc0c8fa2079e0c12f57b44fb8d59014408d1",
+          "size": 16841744,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-0ed0b08f5d-dewey-monument-victory-union-square-lod0.glb",
+          "hash": "0ed0b08f5d4f71c8c5e390557022faf6ca174016ad464d1ed4fab68d7c3d9a3b",
+          "size": 804276,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19631 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-f32ffbaca1-dewey-monument-victory-union-square-lod1.glb",
+          "hash": "f32ffbaca19e7572a3c3847d3de4aa5b1495c81926fdf66cc2fa75160c36f26e",
+          "size": 303908,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6870 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.2
+          },
+          "unitsToMetres": 7.2,
+          "material": "textured",
+          "source": "sf_dewey_monument_with_pedestal_pbr.glb",
+          "reference": "statues_to_model/dewey-monument-victory/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19631,
+              "tex": 1024,
+              "kB": 785
+            },
+            {
+              "lod": 1,
+              "triangles": 6870,
+              "tex": 512,
+              "kB": 297
+            }
+          ]
+        }
+      }
     }
   ]
 }
