@@ -619,6 +619,92 @@
           ]
         }
       }
+    },
+    {
+      "id": "eureka",
+      "name": "Eureka (1890 paddle-wheel ferry)",
+      "description": "Side-wheel walking-beam passenger and car ferry built 1890 (as Ukiah, rebuilt 1922 as Eureka); museum ship at Hyde Street Pier.",
+      "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18).",
+      "subtype": "scenery",
+      "length": 22.7,
+      "width": 91,
+      "height": 21.62,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "eureka",
+        "ferry",
+        "hyde street pier",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-ff35032759-eureka-ferry-hyde-street-pier-maritime-source.glb",
+          "hash": "ff350327599e4e13c477573c9c391fcd8e189993afa25c5c5c645c5e151019a1",
+          "size": 4656500,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-09c9f5be46-eureka-ferry-hyde-street-pier-maritime-lod0.glb",
+          "hash": "09c9f5be4619918db228725f8a76a11799aececd654ebbe15563a53ccf4df330",
+          "size": 657944,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18786 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-ff606df776-eureka-ferry-hyde-street-pier-maritime-lod1.glb",
+          "hash": "ff606df776b45612130b7ea38dac9fdea7ef89385790520668053cf180406fbf",
+          "size": 305264,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7490 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+x",
+          "scale": {
+            "axis": "x",
+            "metres": 91
+          },
+          "unitsToMetres": 91,
+          "draft": 3,
+          "material": "textured",
+          "source": "ship_eureka_ferry_based_on_mini.glb",
+          "reference": "items_to_model/eureka-ferry/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18786,
+              "tex": 1024,
+              "kB": 643
+            },
+            {
+              "lod": 1,
+              "triangles": 7490,
+              "tex": 512,
+              "kB": 298
+            }
+          ]
+        }
+      }
     }
   ]
 }

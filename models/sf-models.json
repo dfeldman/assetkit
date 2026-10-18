@@ -249,6 +249,39 @@
         "sausalito"
       ],
       "notes": "An easter egg (owner, 2026-10-18). Size estimated (~14 m long on its float); its arched entrance is on -x."
+    },
+    {
+      "id": "eureka",
+      "name": "Eureka (1890 paddle-wheel ferry)",
+      "file": "ship_eureka_ferry_based_on_mini.glb",
+      "kind": "ship",
+      "material": "textured",
+      "front": "+x",
+      "scale": {
+        "axis": "x",
+        "metres": 91
+      },
+      "draft": 3,
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 1024
+        },
+        {
+          "ratio": 0.4,
+          "tex": 512,
+          "error": 0.02
+        }
+      ],
+      "description": "Side-wheel walking-beam passenger and car ferry built 1890 (as Ukiah, rebuilt 1922 as Eureka); museum ship at Hyde Street Pier.",
+      "keywords": [
+        "eureka",
+        "ferry",
+        "hyde street pier",
+        "maritime"
+      ],
+      "reference": "items_to_model/eureka-ferry/about.md",
+      "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18)."
     }
   ]
 }
