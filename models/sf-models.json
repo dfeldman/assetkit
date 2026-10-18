@@ -282,6 +282,180 @@
       ],
       "reference": "items_to_model/eureka-ferry/about.md",
       "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18)."
+    },
+    {
+      "id": "dewey-victory",
+      "name": "Victory, Dewey Monument",
+      "file": "dewey_monument_victory_copperoxide.glb",
+      "kind": "statue",
+      "material": "copperoxide",
+      "front": "-x",
+      "scale": {
+        "axis": "y",
+        "metres": 3.2
+      },
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 256
+        },
+        {
+          "ratio": 0.35,
+          "tex": 256,
+          "error": 0.02
+        }
+      ],
+      "artist": "Robert Ingersoll Aitken",
+      "description": "Bronze Victory with trident and wreath on a globe atop the Dewey Monument's column, Union Square (1903).",
+      "keywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "reference": "statues_to_model/dewey-monument-victory/about.md",
+      "notes": "Untextured: shade as copperoxide (named in the file). ~2.9 m figure, 3.2 m with its globe; stands on the 26 m column (cityengine draws the column)."
+    },
+    {
+      "id": "mechanics-monument",
+      "name": "Mechanics Monument",
+      "file": "mechanics_monument.glb",
+      "kind": "statue",
+      "material": "bronze",
+      "front": "-x",
+      "scale": {
+        "axis": "y",
+        "metres": 7.5
+      },
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 256
+        },
+        {
+          "ratio": 0.35,
+          "tex": 256,
+          "error": 0.02
+        }
+      ],
+      "artist": "Douglas Tilden",
+      "description": "Bronze group of five mechanics working a punch press, Market and Battery Streets (1901), honouring Peter Donahue.",
+      "keywords": [
+        "mechanics monument",
+        "market street",
+        "donahue"
+      ],
+      "reference": "statues_to_model/mechanics-monument/about.md",
+      "notes": "Untextured: bronze. The model carries the lower granite base; ~7.5 m overall."
+    },
+    {
+      "id": "gandhi",
+      "name": "Mahatma Gandhi, Ferry Building",
+      "file": "gandhi.glb",
+      "kind": "statue",
+      "material": "bronze",
+      "front": "-x",
+      "scale": {
+        "axis": "y",
+        "metres": 2.1
+      },
+      "plinth": [
+        1.6,
+        1.6,
+        1.1
+      ],
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 256
+        },
+        {
+          "ratio": 0.35,
+          "tex": 256,
+          "error": 0.02
+        }
+      ],
+      "artist": "Zlatko Paunov",
+      "description": "Bronze striding Gandhi with his staff, at the Ferry Building (1988).",
+      "keywords": [
+        "gandhi",
+        "ferry building"
+      ],
+      "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
+      "notes": "Untextured: bronze. ~2.1 m figure on a low granite plinth (drawn by the renderer)."
+    },
+    {
+      "id": "willie-mays",
+      "name": "Willie Mays, Oracle Park",
+      "file": "sf_willie_mays.glb",
+      "kind": "statue",
+      "material": "bronze",
+      "front": "-x",
+      "scale": {
+        "axis": "y",
+        "metres": 2.9
+      },
+      "plinth": [
+        3.2,
+        3.2,
+        1.5
+      ],
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 256
+        },
+        {
+          "ratio": 0.35,
+          "tex": 256,
+          "error": 0.02
+        }
+      ],
+      "artist": "William Behrends",
+      "description": "Bronze Willie Mays at the swing, Willie Mays Plaza, Oracle Park (2000).",
+      "keywords": [
+        "willie mays",
+        "oracle park",
+        "giants"
+      ],
+      "reference": "statues_to_model/willie-mays-statue/about.md",
+      "notes": "Untextured: bronze. The model has its own thin base; on a granite pedestal ~1.5 m (drawn by the renderer)."
+    },
+    {
+      "id": "lincoln-city-hall",
+      "name": "Abraham Lincoln, City Hall",
+      "file": "sf_abraham_lincoln_copperoxide.glb",
+      "kind": "statue",
+      "material": "copperoxide",
+      "front": "-x",
+      "scale": {
+        "axis": "y",
+        "metres": 2.9
+      },
+      "plinth": [
+        3.2,
+        3.6,
+        1.8
+      ],
+      "lods": [
+        {
+          "ratio": 1,
+          "tex": 256
+        },
+        {
+          "ratio": 0.35,
+          "tex": 256,
+          "error": 0.02
+        }
+      ],
+      "artist": "Haig Patigian",
+      "description": "Seated bronze Lincoln on the Polk Street side of City Hall (1928).",
+      "keywords": [
+        "lincoln",
+        "city hall",
+        "civic center"
+      ],
+      "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
+      "notes": "Untextured: shade as copperoxide (named in the file). Seated figure with chair and its base ~2.9 m, on a granite pedestal (drawn by the renderer)."
     }
   ]
 }

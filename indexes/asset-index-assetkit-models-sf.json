@@ -705,6 +705,450 @@
           ]
         }
       }
+    },
+    {
+      "id": "dewey-victory",
+      "name": "Victory, Dewey Monument",
+      "description": "Bronze Victory with trident and wreath on a globe atop the Dewey Monument's column, Union Square (1903).",
+      "artist": "Robert Ingersoll Aitken",
+      "notes": "Untextured: shade as copperoxide (named in the file). ~2.9 m figure, 3.2 m with its globe; stands on the 26 m column (cityengine draws the column).",
+      "subtype": "sculpture",
+      "length": 1.81,
+      "width": 1.08,
+      "height": 3.2,
+      "aiTool": "Tripo",
+      "shader": "copperoxide",
+      "assetKeywords": [
+        "dewey monument",
+        "victory",
+        "union square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-03d796876d-dewey-monument-victory-union-square-source.glb",
+          "hash": "03d796876d10431afab72168bb7d660c83e711ee32ea9440513d47a8269bd460",
+          "size": 343048,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-99c7058f23-dewey-monument-victory-union-square-lod0.glb",
+          "hash": "99c7058f23c46301d26857bf74cf956e9e872d285d373b48d8f16168cac8fde2",
+          "size": 267156,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19002 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-eeb62d6057-dewey-monument-victory-union-square-lod1.glb",
+          "hash": "eeb62d6057d0eb68285bd31fd9125661c7d8d6f18f5da9f469522efdb604e938",
+          "size": 94300,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6650 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3.2
+          },
+          "unitsToMetres": 3.2,
+          "material": "copperoxide",
+          "source": "dewey_monument_victory_copperoxide.glb",
+          "reference": "statues_to_model/dewey-monument-victory/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19002,
+              "tex": 256,
+              "kB": 261
+            },
+            {
+              "lod": 1,
+              "triangles": 6650,
+              "tex": 256,
+              "kB": 92
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mechanics-monument",
+      "name": "Mechanics Monument",
+      "description": "Bronze group of five mechanics working a punch press, Market and Battery Streets (1901), honouring Peter Donahue.",
+      "artist": "Douglas Tilden",
+      "notes": "Untextured: bronze. The model carries the lower granite base; ~7.5 m overall.",
+      "subtype": "sculpture",
+      "length": 5.45,
+      "width": 4.73,
+      "height": 7.5,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "mechanics monument",
+        "market street",
+        "donahue"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e35bc652d6-mechanics-monument-market-street-donahue-source.glb",
+          "hash": "e35bc652d6494388244dd39c0bc584d73a827d6920dcdf2172ddc13b7b367b5f",
+          "size": 356204,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-0ab5d42e16-mechanics-monument-market-street-donahue-lod0.glb",
+          "hash": "0ab5d42e16f888c889d2d31fdc603bf033f9a5d0feb1db778d5e58d2abdef645",
+          "size": 276788,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19434 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-33a781973a-mechanics-monument-market-street-donahue-lod1.glb",
+          "hash": "33a781973a629f05e3788b153837fca7a0134943bd6ed6d1abe29f449aa1c208",
+          "size": 99344,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6797 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 7.5
+          },
+          "unitsToMetres": 7.5,
+          "material": "bronze",
+          "source": "mechanics_monument.glb",
+          "reference": "statues_to_model/mechanics-monument/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19434,
+              "tex": 256,
+              "kB": 270
+            },
+            {
+              "lod": 1,
+              "triangles": 6797,
+              "tex": 256,
+              "kB": 97
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gandhi",
+      "name": "Mahatma Gandhi, Ferry Building",
+      "description": "Bronze striding Gandhi with his staff, at the Ferry Building (1988).",
+      "artist": "Zlatko Paunov",
+      "notes": "Untextured: bronze. ~2.1 m figure on a low granite plinth (drawn by the renderer).",
+      "subtype": "sculpture",
+      "length": 0.89,
+      "width": 1.25,
+      "height": 2.1,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "gandhi",
+        "ferry building"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-20fa32fe37-gandhi-ferry-building-source.glb",
+          "hash": "20fa32fe37e0bb4475f5d4acafe2e7f07ab76e81280e7a1a90e474d620c5f5f7",
+          "size": 358260,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8e54575828-gandhi-ferry-building-lod0.glb",
+          "hash": "8e545758285505be6b11feedce2959056765e137759cfae2468f1b4289fef887",
+          "size": 278968,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19840 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-f8f0e715e0-gandhi-ferry-building-lod1.glb",
+          "hash": "f8f0e715e071e074b4d8f2ae7dae8051c7e56aab109bd1ba3cd7435f687ca18a",
+          "size": 98524,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6944 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.1
+          },
+          "unitsToMetres": 2.1,
+          "plinth": [
+            1.6,
+            1.6,
+            1.1
+          ],
+          "material": "bronze",
+          "source": "gandhi.glb",
+          "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19840,
+              "tex": 256,
+              "kB": 272
+            },
+            {
+              "lod": 1,
+              "triangles": 6944,
+              "tex": 256,
+              "kB": 96
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "willie-mays",
+      "name": "Willie Mays, Oracle Park",
+      "description": "Bronze Willie Mays at the swing, Willie Mays Plaza, Oracle Park (2000).",
+      "artist": "William Behrends",
+      "notes": "Untextured: bronze. The model has its own thin base; on a granite pedestal ~1.5 m (drawn by the renderer).",
+      "subtype": "sculpture",
+      "length": 2.16,
+      "width": 2,
+      "height": 2.9,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "willie mays",
+        "oracle park",
+        "giants"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4691c237bd-willie-mays-oracle-park-giants-source.glb",
+          "hash": "4691c237bdb93de6173eee8f74bc5852ffcfc8ccf55367bb63d8ed014ae74057",
+          "size": 356084,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-084907855d-willie-mays-oracle-park-giants-lod0.glb",
+          "hash": "084907855d1b01fffe6ed94145fd2d92ce2743c3bf792bc92833ddbfa7d2cdae",
+          "size": 276216,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19186 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-6251ccd199-willie-mays-oracle-park-giants-lod1.glb",
+          "hash": "6251ccd199551e0acec8684647636c6fb2602cf33f577172b8ee466f99bf166d",
+          "size": 101152,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6714 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.9
+          },
+          "unitsToMetres": 2.9,
+          "plinth": [
+            3.2,
+            3.2,
+            1.5
+          ],
+          "material": "bronze",
+          "source": "sf_willie_mays.glb",
+          "reference": "statues_to_model/willie-mays-statue/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19186,
+              "tex": 256,
+              "kB": 270
+            },
+            {
+              "lod": 1,
+              "triangles": 6714,
+              "tex": 256,
+              "kB": 99
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lincoln-city-hall",
+      "name": "Abraham Lincoln, City Hall",
+      "description": "Seated bronze Lincoln on the Polk Street side of City Hall (1928).",
+      "artist": "Haig Patigian",
+      "notes": "Untextured: shade as copperoxide (named in the file). Seated figure with chair and its base ~2.9 m, on a granite pedestal (drawn by the renderer).",
+      "subtype": "sculpture",
+      "length": 1.72,
+      "width": 1.93,
+      "height": 2.9,
+      "aiTool": "Tripo",
+      "shader": "copperoxide",
+      "assetKeywords": [
+        "lincoln",
+        "city hall",
+        "civic center"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-bff3fe9d6f-lincoln-city-hall-civic-center-source.glb",
+          "hash": "bff3fe9d6fa69a9040a29f9d56f0e60affdd69ffa491dd8816108e487e520308",
+          "size": 350672,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-441fc2b816-lincoln-city-hall-civic-center-lod0.glb",
+          "hash": "441fc2b81619a0c04777c704bf36e9f9ce624f0e0e4b99af69d98ccbc43ed226",
+          "size": 272508,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "19134 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-b69c69099d-lincoln-city-hall-civic-center-lod1.glb",
+          "hash": "b69c69099d3f5be31bcda378392f37fe68c5c40178f514d32fbeda7c3ebc8f53",
+          "size": 97948,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6695 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.9
+          },
+          "unitsToMetres": 2.9,
+          "plinth": [
+            3.2,
+            3.6,
+            1.8
+          ],
+          "material": "copperoxide",
+          "source": "sf_abraham_lincoln_copperoxide.glb",
+          "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 19134,
+              "tex": 256,
+              "kB": 266
+            },
+            {
+              "lod": 1,
+              "triangles": 6695,
+              "tex": 256,
+              "kB": 96
+            }
+          ]
+        }
+      }
     }
   ]
 }
