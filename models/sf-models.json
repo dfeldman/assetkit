@@ -425,16 +425,16 @@
       "name": "Abraham Lincoln, City Hall",
       "file": "sf_abraham_lincoln_copperoxide.glb",
       "kind": "statue",
-      "material": "copperoxide",
+      "material": "bronze",
       "front": "-x",
       "scale": {
         "axis": "y",
         "metres": 2.9
       },
       "plinth": [
-        3.2,
-        3.6,
-        1.8
+        1.95,
+        2.15,
+        2.0
       ],
       "lods": [
         {
@@ -455,7 +455,7 @@
         "civic center"
       ],
       "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
-      "notes": "Untextured: shade as copperoxide (named in the file). Seated figure with chair and its base ~2.9 m, on a granite pedestal (drawn by the renderer)."
+      "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
     }
   ]
 }

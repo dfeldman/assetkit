@@ -1064,13 +1064,13 @@
       "name": "Abraham Lincoln, City Hall",
       "description": "Seated bronze Lincoln on the Polk Street side of City Hall (1928).",
       "artist": "Haig Patigian",
-      "notes": "Untextured: shade as copperoxide (named in the file). Seated figure with chair and its base ~2.9 m, on a granite pedestal (drawn by the renderer).",
+      "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer).",
       "subtype": "sculpture",
       "length": 1.72,
       "width": 1.93,
       "height": 2.9,
       "aiTool": "Tripo",
-      "shader": "copperoxide",
+      "shader": "bronze",
       "assetKeywords": [
         "lincoln",
         "city hall",
@@ -1126,11 +1126,11 @@
           },
           "unitsToMetres": 2.9,
           "plinth": [
-            3.2,
-            3.6,
-            1.8
+            2.3,
+            2.6,
+            2.2
           ],
-          "material": "copperoxide",
+          "material": "bronze",
           "source": "sf_abraham_lincoln_copperoxide.glb",
           "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
           "lods": [
