@@ -21,5 +21,11 @@
     "assets:upload": "npm run import:nature && npm run import:sources && npm run import:statues && node ${ASSETMGR_DIR:-../assetmgr}/dist/cli.js upload",
     "postinstall": "node tools/link-siblings.mjs assetmgr=ASSETMGR_DIR:../assetmgr"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "meshoptimizer": "^1.3.0",
+    "sharp": "^0.35.4"
+  }
 }

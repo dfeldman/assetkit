@@ -1,0 +1,103 @@
+{
+  "format": "assetmgr-index/1",
+  "name": "assetkit-models-sf",
+  "description": "AI photogrammetry-style models of San Francisco landmarks (ships, fountains, bridges), with game-ready LODs",
+  "defaults": {
+    "project": "assetkit",
+    "projectName": "Asset Kit",
+    "repo": "https://github.com/dfeldman/assetkit",
+    "folder": "models/sf",
+    "license": "CC0-1.0",
+    "type": "3d",
+    "subtype": "scenery",
+    "isAi": true
+  },
+  "assets": [
+    {
+      "id": "balclutha",
+      "name": "Balclutha (1886 full-rigged ship)",
+      "description": "Steel-hulled three-masted full-rigged ship built 1886 by Charles Connell & Co., Glasgow; museum ship of the San Francisco Maritime National Historical Park at Hyde Street Pier.",
+      "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, so the waterline sits ~7 m above the model's lowest point; measured from the four-view render, 2026-10-18. Mast tops then stand ~49 m over the water (published ~44 m). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship).",
+      "subtype": "scenery",
+      "length": 92,
+      "width": 16.17,
+      "height": 60.81,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "balclutha",
+        "ship",
+        "hyde street pier",
+        "maritime"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4c977b9e8a-balclutha-ship-hyde-street-pier-maritime-source.glb",
+          "hash": "4c977b9e8ab202a93d39767fba874f3dabecc5a6b9667a04476a478a5d1b5d1c",
+          "size": 4352292,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-36a27b07ad-balclutha-ship-hyde-street-pier-maritime-lod0.glb",
+          "hash": "36a27b07ad7054dd08f42abad67ff7314a9816fdd56e69e57de786daf6102535",
+          "size": 715860,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18237 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-6bee28ed92-balclutha-ship-hyde-street-pier-maritime-lod1.glb",
+          "hash": "6bee28ed922492b1cb5cd3ad963db98d71403840d59201b2578ea18251dde10c",
+          "size": 372648,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "8072 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 92
+          },
+          "unitsToMetres": 92,
+          "draft": 7,
+          "material": "textured",
+          "source": "ship_balaclutha.glb",
+          "reference": "items_to_model/balclutha/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 18237,
+              "tex": 1024,
+              "kB": 699
+            },
+            {
+              "lod": 1,
+              "triangles": 8072,
+              "tex": 512,
+              "kB": 364
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

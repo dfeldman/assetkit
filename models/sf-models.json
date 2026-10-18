@@ -1,0 +1,34 @@
+{
+  "_about": "Photogrammetry-style (AI) models of San Francisco landmarks: their source files and what tools/modelpack/pack.ts needs to make game-ready LODs of them. Intrinsic facts only (real size, which axis is the front, waterline, material); where a project puts one is that project's business (cityengine: public/landmarks/san-francisco-statues.json).",
+  "_fields": {
+    "id": "asset id in the assetkit-models-sf index",
+    "file": "the source GLB, in $INCOMING_DIR (default: ../cityengine/incoming_assets)",
+    "kind": "ship | statue | fountain | bridge | object",
+    "material": "'textured' (the file carries its own texture), else a shader for an untextured model: bronze (the default), copperoxide, concrete, whitestone, silver… (a material named in the file name wins)",
+    "front": "the model's own axis its front faces, as the glTF loader leaves it: +z | -z | +x | -x",
+    "scale": "{ axis: x|y|z, metres }: the real size along that model axis; the whole model is scaled uniformly from it (a ship by its length, a statue by its height)",
+    "draft": "ships: metres from the model's lowest point up to the waterline, after scaling",
+    "plinth": "statues whose model has no base: the pedestal a renderer must draw, [width, depth, height] metres; absent when the model brings its own or stands on the ground",
+    "lods": "levels to make: ratio of triangles kept (1 = all), texture cap in px, and the simplifier's error limit (fraction of the model's size; default 0.02 — a far LOD of a rigged ship needs more, or the thin lines stop it)"
+  },
+  "models": [
+    {
+      "id": "balclutha",
+      "name": "Balclutha (1886 full-rigged ship)",
+      "file": "ship_balaclutha.glb",
+      "kind": "ship",
+      "material": "textured",
+      "front": "+z",
+      "scale": { "axis": "z", "metres": 92 },
+      "draft": 7,
+      "lods": [
+        { "ratio": 1, "tex": 1024 },
+        { "ratio": 0.4, "tex": 512, "error": 0.02 }
+      ],
+      "description": "Steel-hulled three-masted full-rigged ship built 1886 by Charles Connell & Co., Glasgow; museum ship of the San Francisco Maritime National Historical Park at Hyde Street Pier.",
+      "keywords": ["balclutha", "ship", "hyde street pier", "maritime"],
+      "reference": "items_to_model/balclutha/about.md",
+      "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, so the waterline sits ~7 m above the model's lowest point; measured from the four-view render, 2026-10-18. Mast tops then stand ~49 m over the water (published ~44 m). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship)."
+    }
+  ]
+}
