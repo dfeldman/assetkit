@@ -292,7 +292,7 @@
       "front": "-x",
       "scale": {
         "axis": "y",
-        "metres": 3.2
+        "metres": 4.6
       },
       "lods": [
         {
@@ -313,7 +313,7 @@
         "union square"
       ],
       "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "Untextured: shade as copperoxide (named in the file). ~2.9 m figure, 3.2 m with its globe; stands on the 26 m column (cityengine draws the column)."
+      "notes": "Untextured: shade as copperoxide (named in the file). The on-site marker says 'twelve foot high bronze of Victory' (HMdb; Wikipedia's 9 ft is likely the figure without the raised arm). Figure ~3.7 m plus the globe ~0.9 m: 4.6 m overall. On the 85 ft column (cityengine draws it)."
     },
     {
       "id": "mechanics-monument",
@@ -356,11 +356,11 @@
       "front": "-x",
       "scale": {
         "axis": "y",
-        "metres": 2.1
+        "metres": 2.4
       },
       "plinth": [
-        1.6,
-        1.6,
+        2.6,
+        1.5,
         1.1
       ],
       "lods": [
@@ -381,7 +381,7 @@
         "ferry building"
       ],
       "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
-      "notes": "Untextured: bronze. ~2.1 m figure on a low granite plinth (drawn by the renderer)."
+      "notes": "Untextured: bronze. 8 ft (2.4 m) striding figure on its rough bronze base (Wikipedia, 'Statue of Mahatma Gandhi (San Francisco)'), on a block with a plaque raised on two steps — a long low block, wider than deep, in the Commons photo (drawn by the renderer)."
     },
     {
       "id": "willie-mays",
