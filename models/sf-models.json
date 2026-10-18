@@ -292,7 +292,7 @@
       "front": "-x",
       "scale": {
         "axis": "y",
-        "metres": 4.6
+        "metres": 3.8
       },
       "lods": [
         {
@@ -313,7 +313,7 @@
         "union square"
       ],
       "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "Untextured: shade as copperoxide (named in the file). The on-site marker says 'twelve foot high bronze of Victory' (HMdb; Wikipedia's 9 ft is likely the figure without the raised arm). Figure ~3.7 m plus the globe ~0.9 m: 4.6 m overall. On the 85 ft column (cityengine draws it)."
+      "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it)."
     },
     {
       "id": "mechanics-monument",
