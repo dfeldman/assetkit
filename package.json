@@ -7,6 +7,8 @@
   "scripts": {
     "assets": "node ${ASSETMGR_DIR:-../assetmgr}/dist/cli.js restore",
     "import:statues": "node tools/import-statues.ts",
+    "models": "node tools/modelpack/pack.ts && node tools/modelpack/status.ts",
+    "models:status": "node tools/modelpack/status.ts",
     "trees": "blender -b -P tools/deciduousgen/gen.py --",
     "trees:textures": "python3 tools/deciduousgen/fetch.py && python3 tools/deciduousgen/pages.py",
     "conifers": "blender -b -P tools/conifergen/gen.py --",
