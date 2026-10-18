@@ -17,7 +17,7 @@
       "id": "balclutha",
       "name": "Balclutha (1886 full-rigged ship)",
       "description": "Steel-hulled three-masted full-rigged ship built 1886 by Charles Connell & Co., Glasgow; museum ship of the San Francisco Maritime National Historical Park at Hyde Street Pier.",
-      "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, so the waterline sits ~7 m above the model's lowest point; measured from the four-view render, 2026-10-18. Mast tops then stand ~49 m over the water (published ~44 m). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship).",
+      "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, and she floats light: in the 2012 photo (3-context.jpg) the upper part of the red shows, so the waterline is 4.5 m above the model's lowest point (2026-10-18). Her bow points toward the pier's shore end, by the Eureka (the same photo; about.md's 'north-west' is wrong). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship).",
       "subtype": "scenery",
       "length": 92,
       "width": 16.17,
@@ -78,7 +78,7 @@
             "metres": 92
           },
           "unitsToMetres": 92,
-          "draft": 7,
+          "draft": 4.5,
           "material": "textured",
           "source": "ship_balaclutha.glb",
           "reference": "items_to_model/balclutha/about.md",
