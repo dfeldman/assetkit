@@ -10,6 +10,12 @@ __pycache__/
 tools/cache/
 # reference photographs for statues still to be modelled (Wikimedia Commons and others, not ours to publish)
 /statues_to_model/
+# reference photographs for street items (clocks, lamps, signs, ships…) still to be modelled, same terms
+/items_to_model/
 # assetmgr: downloaded asset files and the per-checkout hash cache
 /assets/
 .assetmgr/
+
+# API tokens and keys: never committed
+.mapillary_token
+*.token
