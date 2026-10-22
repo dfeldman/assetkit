@@ -1,0 +1,35 @@
+{
+  "name": "golden_barrel",
+  "kind": "plant",
+  "about": "golden barrel cactus (Echinocactus grusonii): a squat green ball furred with yellow spines",
+  "form": "cactus",
+  "skin": "cactus",
+  "height": [
+    0.3,
+    0.5
+  ],
+  "radius": 0.62,
+  "radial": 12,
+  "arms": [
+    0,
+    0
+  ],
+  "tile": 0.4,
+  "tint": [
+    1.0,
+    1.0,
+    0.6
+  ],
+  "taper": [
+    0.9,
+    1.05,
+    1.08,
+    1.0,
+    0.85
+  ],
+  "tip": 0.6,
+  "budget": [
+    100,
+    300
+  ]
+}

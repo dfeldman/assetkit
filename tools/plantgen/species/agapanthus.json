@@ -1,0 +1,62 @@
+{
+  "name": "agapanthus",
+  "kind": "plant",
+  "about": "agapanthus (lily of the Nile): a fountain of strap leaves under blue globes on tall stalks, SF's median and garden plant",
+  "form": "flower",
+  "stems": [
+    4,
+    8
+  ],
+  "spread": 0.2,
+  "height": [
+    0.6,
+    0.95
+  ],
+  "stem_radius": 0.006,
+  "lean": 10,
+  "wander": 0.08,
+  "leaves_page": "grass_tall",
+  "rosette": {
+    "cards": [
+      3,
+      4
+    ],
+    "height": [
+      0.35,
+      0.5
+    ],
+    "width": 0.7,
+    "lean": [
+      15,
+      50
+    ],
+    "spread": 0.05,
+    "ao": 0.2,
+    "tint": [
+      0.7,
+      0.9,
+      0.62
+    ]
+  },
+  "heads_page": "painted_garden",
+  "head": {
+    "mode": "cross",
+    "size": [
+      0.16,
+      0.22
+    ],
+    "cells": [
+      2
+    ],
+    "aspect": 1.0,
+    "tint": [
+      1,
+      1,
+      1
+    ]
+  },
+  "budget": [
+    150,
+    400
+  ]
+}

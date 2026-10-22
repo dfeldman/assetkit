@@ -1,0 +1,52 @@
+{
+  "name": "bougainvillea",
+  "kind": "plant",
+  "about": "bougainvillea: a sprawling dark-leaved shrub smothered in magenta bracts (on walls and fences in the warm neighbourhoods)",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    26,
+    38
+  ],
+  "height": [
+    1.2,
+    2.2
+  ],
+  "width": [
+    1.0,
+    1.6
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_hydrangea",
+  "flowers": {
+    "count": [
+      50,
+      70
+    ],
+    "size": [
+      0.28,
+      0.38
+    ],
+    "cells": [
+      1
+    ],
+    "surface": true,
+    "tint": [
+      1.0,
+      0.45,
+      1.0
+    ]
+  },
+  "budget": [
+    120,
+    220
+  ]
+}

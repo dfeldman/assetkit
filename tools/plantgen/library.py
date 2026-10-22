@@ -63,6 +63,14 @@ TABLE = {
     'coyote_brush':  {'count': 10, 'scale': (0.8, 1.3)},
     'ceanothus':     {'count': 10, 'scale': (0.8, 1.25)},
     'echium':        {'count': 8, 'scale': (0.8, 1.2)},
+    # and the owner's iconic ones (2026-10-21: "bird of paradise", "cactuses"), with Francisco Park's buckwheat
+    'strelitzia':    {'count': 10, 'scale': (0.8, 1.25)},
+    'agapanthus':    {'count': 8, 'scale': (0.8, 1.2)},
+    'calla_lily':    {'count': 8, 'scale': (0.8, 1.2)},
+    'bougainvillea': {'count': 8, 'scale': (0.8, 1.2)},
+    'buckwheat':     {'count': 10, 'scale': (0.8, 1.3)},
+    'san_pedro':     {'count': 8, 'scale': (0.7, 1.3)},
+    'golden_barrel': {'count': 8, 'scale': (0.7, 1.3)},
 }
 
 

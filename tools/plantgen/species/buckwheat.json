@@ -1,0 +1,56 @@
+{
+  "name": "buckwheat",
+  "kind": "plant",
+  "about": "California buckwheat (Eriogonum fasciculatum): a grey-olive mound of fine leaves under cream flower heads going rust",
+  "form": "bush",
+  "page": "tree:fine",
+  "cards": [
+    26,
+    38
+  ],
+  "height": [
+    0.5,
+    0.95
+  ],
+  "width": [
+    0.7,
+    1.2
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.35,
+  "tint": [
+    0.78,
+    0.8,
+    0.62
+  ],
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_discs",
+  "flowers": {
+    "count": [
+      20,
+      32
+    ],
+    "size": [
+      0.09,
+      0.14
+    ],
+    "cells": [
+      1
+    ],
+    "tint": [
+      1.0,
+      0.92,
+      0.8
+    ]
+  },
+  "budget": [
+    80,
+    160
+  ]
+}

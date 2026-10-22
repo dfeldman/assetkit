@@ -1,0 +1,37 @@
+{
+  "name": "san_pedro",
+  "kind": "plant",
+  "about": "a columnar cactus (San Pedro, Echinopsis pachanoi): a clump of ribbed blue-green columns rising from the base",
+  "form": "cactus",
+  "skin": "cactus",
+  "height": [
+    1.3,
+    2.4
+  ],
+  "radius": 0.07,
+  "radial": 8,
+  "arms": [
+    3,
+    6
+  ],
+  "arm_at": [
+    0.02,
+    0.1
+  ],
+  "arm_length": [
+    0.55,
+    0.9
+  ],
+  "arm_radius": 0.9,
+  "arm_tropism": 5.0,
+  "tile": 0.45,
+  "tint": [
+    0.82,
+    0.95,
+    0.92
+  ],
+  "budget": [
+    200,
+    600
+  ]
+}

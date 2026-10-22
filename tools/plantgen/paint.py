@@ -460,6 +460,85 @@ def warm_pages() -> None:
         at.resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
 
 
+def strelitzia_leaf(seed: int) -> Image.Image:
+    """Bird of paradise's leaf: a long paddle, split here and there by the wind, on a stiff stalk; base at the bottom."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    d.line([(cx, S * 0.99), (cx, S * 0.6)], fill=(70, 100, 60, 255), width=10)
+    pts_l, pts_r = [], []
+    for i in range(21):
+        t = i / 20
+        y = S * 0.66 - t * S * 0.64
+        w = S * 0.2 * math.sin(math.pi * (0.04 + 0.92 * t)) ** 0.6
+        pts_l.append((cx - w, y)); pts_r.append((cx + w, y))
+    d.polygon(pts_l + pts_r[::-1], fill=(58, 104, 62, 255))
+    # one half lit, the midrib pale
+    d.polygon(pts_l + [(cx, S * 0.02), (cx, S * 0.66)], fill=(72, 120, 72, 255))
+    d.line([(cx, S * 0.66), (cx, S * 0.03)], fill=(160, 175, 110, 255), width=4)
+    for k in range(6):
+        # tears from the rim toward the midrib (cut to transparent)
+        y = S * rng.uniform(0.1, 0.58)
+        side = rng.choice((-1, 1))
+        d.line([(cx + side * S * 0.21, y - 12), (cx + side * 8, y + 4)], fill=(0, 0, 0, 0), width=3)
+    return im
+
+
+def strelitzia_flower(seed: int) -> Image.Image:
+    """Bird of paradise's flower from the side: a grey-green beak held level, orange sepals and a blue tongue rising from it."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.line([(S * 0.5, S * 0.99), (S * 0.5, S * 0.62)], fill=(80, 110, 70, 255), width=12)
+    # the spathe: a long boat-shaped beak from the stalk forward
+    d.polygon([(S * 0.46, S * 0.62), (S * 0.95, S * 0.52), (S * 0.5, S * 0.7)], fill=(95, 110, 80, 255))
+    d.polygon([(S * 0.5, S * 0.62), (S * 0.95, S * 0.52), (S * 0.62, S * 0.58)], fill=(150, 70, 90, 255))
+    for i in range(4):
+        a = -100 + i * 22 + rng.uniform(-5, 5)
+        petal(d, S * 0.58, S * 0.58, a, S * rng.uniform(0.32, 0.4), S * 0.05, (245, 140 + rng.randint(-15, 15), 20, 255))
+    petal(d, S * 0.6, S * 0.58, -55, S * 0.33, S * 0.035, (50, 70, 190, 255))
+    return im
+
+
+def agapanthus(seed: int) -> Image.Image:
+    """Agapanthus' head: a loose ball of blue trumpets on fine stalks, seen from the side."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(70):
+        a = rng.uniform(0, 6.283)
+        rr = S * 0.42 * rng.uniform(0.55, 1.0)
+        x, y = cx + rr * math.cos(a), cy + rr * math.sin(a) * 0.9
+        d.line([(cx, cy + S * 0.05), (x, y)], fill=(110, 130, 90, 255), width=2)
+        k = rng.uniform(0.8, 1.15)
+        petal(d, x, y, math.degrees(a), S * 0.07, S * 0.03, (min(255, int(95 * k)), min(255, int(120 * k)), min(255, int(215 * k)), 255))
+    return im
+
+
+def calla(seed: int) -> Image.Image:
+    """A calla lily's flower from the side: a white funnel flaring to a pointed lip, the yellow spadix inside; base at the bottom."""
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    d.line([(cx, S * 0.99), (cx, S * 0.7)], fill=(80, 120, 60, 255), width=12)
+    d.polygon([(cx - S * 0.06, S * 0.72), (cx - S * 0.32, S * 0.3), (cx - S * 0.1, S * 0.12), (cx + S * 0.2, S * 0.02),
+               (cx + S * 0.3, S * 0.25), (cx + S * 0.08, S * 0.72)], fill=(244, 244, 236, 255))
+    d.polygon([(cx - S * 0.04, S * 0.7), (cx - S * 0.2, S * 0.32), (cx + S * 0.05, S * 0.2), (cx + S * 0.06, S * 0.7)], fill=(222, 226, 210, 255))
+    d.line([(cx, S * 0.62), (cx + S * 0.02, S * 0.3)], fill=(240, 200, 50, 255), width=14)
+    return im
+
+
+def garden_page() -> None:
+    """painted_garden: 0 strelitzia leaf, 1 strelitzia flower, 2 agapanthus head, 3 calla lily."""
+    at = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
+    for i, cell in enumerate((strelitzia_leaf(82), strelitzia_flower(83), agapanthus(84), calla(85))):
+        at.alpha_composite(cell, ((i % 2) * S, (i // 2) * S))
+    at.save(CACHE / 'painted_garden_atlas.png', optimize=True)
+    at.resize((512, 512), Image.LANCZOS).save(CACHE / 'painted_garden_atlas_512.png', optimize=True)
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     atlas = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
@@ -506,6 +585,7 @@ def main() -> None:
     for name in ('painted_flowers', 'painted_tulips', 'painted_frond', 'painted_spikes', 'painted_discs', 'painted_pads', 'painted_heather', 'painted_hydrangea'):
         Image.open(CACHE / f'{name}_atlas.png').resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
     warm_pages()
+    garden_page()
     print('painted ->', CACHE)
 
 

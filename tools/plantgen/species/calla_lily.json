@@ -1,0 +1,57 @@
+{
+  "name": "calla_lily",
+  "kind": "plant",
+  "about": "calla lily (Zantedeschia aethiopica): big arrow leaves and white funnel flowers, wild in SF ravines and gardens",
+  "form": "flower",
+  "stems": [
+    3,
+    6
+  ],
+  "spread": 0.16,
+  "height": [
+    0.5,
+    0.8
+  ],
+  "stem_radius": 0.008,
+  "lean": 12,
+  "wander": 0.1,
+  "leaves_page": "broadleaf",
+  "rosette": {
+    "cards": [
+      3,
+      5
+    ],
+    "height": [
+      0.35,
+      0.55
+    ],
+    "width": 0.7,
+    "lean": [
+      15,
+      45
+    ],
+    "spread": 0.04,
+    "ao": 0.3
+  },
+  "heads_page": "painted_garden",
+  "head": {
+    "mode": "cross",
+    "size": [
+      0.3,
+      0.38
+    ],
+    "cells": [
+      3
+    ],
+    "aspect": 0.8,
+    "tint": [
+      1,
+      1,
+      1
+    ]
+  },
+  "budget": [
+    150,
+    300
+  ]
+}

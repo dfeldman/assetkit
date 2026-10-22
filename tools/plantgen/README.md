@@ -31,7 +31,7 @@ and drawn as three crossed cards each (`flowers.cross`) so a head reads as a bal
 twelve entries pick their colours per entry (`flowers.cells`, library.py's `cells` column).
 
 San Francisco's warm-climate planting (2026-10-21; Francisco Park, Lands End, the Presidio, Alcatraz): the library
-was built for two deciduous-forest trails and had nothing that grows only somewhere warm. Twelve species, appended to
+was built for two deciduous-forest trails and had nothing that grows only somewhere warm. Nineteen species, appended to
 the table so no earlier seed moved:
 
 | species | what | form |
@@ -45,7 +45,14 @@ the table so no earlier seed moved:
 | coyote_brush, ceanothus | coastal scrub mounds (`tree:fine`; `tree:dark` with blue puffs from the hydrangea page, tinted) | bush |
 | echium | pride of Madeira: a grey-green mound throwing up blue-violet cones (`painted_warm` 2, 3) | bush |
 
-The three pages are painted by `paint.py` (`warm_pages`). A tuft now takes the species' `cells` and `fold`.
+| strelitzia | bird of paradise: paddle leaves on stalks, crane flowers held level above them (`painted_garden` 0, 1) | flower |
+| agapanthus, calla_lily | blue globes over strap leaves; white funnels over arrow leaves (`painted_garden` 2, 3) | flower |
+| bougainvillea | a sprawling dark shrub smothered in magenta (hydrangea's rose page, tinted) | bush |
+| buckwheat | California buckwheat: a grey-olive mound under cream heads (the umbel disc) | bush |
+| san_pedro, golden_barrel | a clump of ribbed columns branching from the foot; a squat yellow-spined ball | cactus |
+
+The four pages are painted by `paint.py` (`warm_pages`, `garden_page`). A tuft now takes the species' `cells` and `fold`.
+Most of these stand at their own size in Cycle Dash (cityengine `src/render/plants.ts` `OWN_SIZE`), not stretched to a bush.
 
 ## Textures
 
