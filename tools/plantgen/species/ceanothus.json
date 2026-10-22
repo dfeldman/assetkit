@@ -28,20 +28,20 @@
   "heads_page": "painted_hydrangea",
   "flowers": {
     "count": [
-      26,
-      40
+      30,
+      44
     ],
     "size": [
-      0.16,
-      0.24
+      0.08,
+      0.12
     ],
     "cells": [
       3
     ],
     "surface": true,
     "tint": [
-      0.62,
-      0.68,
+      0.5,
+      0.58,
       1.0
     ]
   },

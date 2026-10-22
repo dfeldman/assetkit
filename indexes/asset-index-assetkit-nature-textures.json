@@ -3420,6 +3420,118 @@
           "file": "plants/textures/painted_hydrangea_atlas_90649345.png"
         }
       }
+    },
+    {
+      "id": "painted-coastal-atlas-9f25a640",
+      "name": "painted coastal atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted coastal atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0f9db42b80-painted-coastal-atlas.png",
+          "hash": "0f9db42b80677254b8130dc9248b72e91d57bf06c5f6741b39a9f75d00af140f",
+          "size": 53138,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_coastal_atlas_9f25a640.png"
+        }
+      }
+    },
+    {
+      "id": "painted-garden-atlas-33ca0d83",
+      "name": "painted garden atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted garden atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f8d3b41e0e-painted-garden-atlas.png",
+          "hash": "f8d3b41e0ebaf64653f9056203bb58ed7474f5cdb65a8e0e38969be516dd0f01",
+          "size": 27251,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_garden_atlas_33ca0d83.png"
+        }
+      }
+    },
+    {
+      "id": "painted-succulents-atlas-beb22c83",
+      "name": "painted succulents atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted succulents atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-2402fa8553-painted-succulents-atlas.png",
+          "hash": "2402fa8553d281217eb14c84021732b5a27e0d3edb71df2674e6ba351a4136aa",
+          "size": 127016,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_succulents_atlas_beb22c83.png"
+        }
+      }
+    },
+    {
+      "id": "painted-warm-atlas-237c63fd",
+      "name": "painted warm atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted warm atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-070b5b06e7-painted-warm-atlas.png",
+          "hash": "070b5b06e75d222242e40a8eaed89408bac5b88f22097825c966fa1de93cf7b7",
+          "size": 63780,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_warm_atlas_237c63fd.png"
+        }
+      }
     }
   ]
 }
