@@ -539,6 +539,147 @@ def garden_page() -> None:
     at.resize((512, 512), Image.LANCZOS).save(CACHE / 'painted_garden_atlas_512.png', optimize=True)
 
 
+# ---------------------------------------------------------------- shrub flowers and berries (2026-10-22)
+
+def fuchsia(seed: int) -> Image.Image:
+    """Fuchsia: three or four pendant flowers on arching threads, red sepals flared over a purple skirt, stamens hanging."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for k in range(4):
+        x = S * (0.2 + 0.2 * k) + rng.uniform(-15, 15)
+        y = S * rng.uniform(0.35, 0.55)
+        d.line([(x - 30, S * 0.05), (x, y - S * 0.12)], fill=(90, 70, 50, 255), width=3)
+        d.polygon([(x - 12, y - S * 0.12), (x + 12, y - S * 0.12), (x, y)], fill=(200, 25, 50, 255))
+        for side in (-1, 1):
+            petal(d, x, y - S * 0.04, 90 + side * 55, S * 0.12, S * 0.03, (215, 30, 60, 255))
+        d.ellipse((x - S * 0.06, y - S * 0.02, x + S * 0.06, y + S * 0.12), fill=(110, 40, 140, 255))
+        d.line([(x, y + S * 0.1), (x + rng.uniform(-6, 6), y + S * 0.22)], fill=(220, 60, 110, 255), width=3)
+    return im
+
+
+def lions_tail(seed: int) -> Image.Image:
+    """Lion's tail (Leonotis): a stem threaded with tiers of orange furry whorls; base at the bottom."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for stem in range(2):
+        cx = S * (0.38 + 0.24 * stem)
+        d.line([(cx, S * 0.99), (cx + rng.uniform(-10, 10), S * 0.04)], fill=(90, 100, 60, 255), width=5)
+        for k in range(4):
+            y = S * (0.15 + 0.2 * k) + rng.uniform(-10, 10)
+            for i in range(14):
+                petal(d, cx, y, rng.uniform(-200, 20), S * rng.uniform(0.07, 0.11), S * 0.02, (235, 110 + rng.randint(-20, 20), 25, 255))
+            d.ellipse((cx - 10, y - 8, cx + 10, y + 8), fill=(120, 90, 50, 255))
+    return im
+
+
+def berries(colour, seed: int) -> Image.Image:
+    """A cluster of berries (toyon's red) on short stalks, a couple of leaves behind; centred."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(3):
+        petal(d, cx, cy, rng.uniform(0, 360), S * 0.42, S * 0.11, (50, 85, 45, 255))
+    for i in range(36):
+        a = rng.uniform(0, 6.283)
+        rr = S * 0.3 * math.sqrt(rng.random())
+        x, y = cx + rr * math.cos(a), cy + rr * math.sin(a)
+        k = rng.uniform(0.75, 1.1)
+        r = S * rng.uniform(0.03, 0.045)
+        d.ellipse((x - r, y - r, x + r, y + r), fill=tuple(min(255, int(c * k)) for c in colour) + (255,))
+        d.ellipse((x - r * 0.4, y - r * 0.6, x, y - r * 0.2), fill=(255, 200, 190, 255))
+    return im
+
+
+def leucadendron(seed: int) -> Image.Image:
+    """Leucadendron's head from above: a star of butter-yellow bracts round a cone, the shrub's whole colour."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for ring, (n, L, col) in enumerate(((10, 0.47, (200, 170, 50)), (9, 0.38, (230, 200, 70)), (7, 0.26, (245, 220, 100)))):
+        for i in range(n):
+            petal(d, cx, cy, i * 360 / n + ring * 15 + rng.uniform(-6, 6), S * L, S * L * 0.42, col + (255,))
+    d.ellipse((cx - S * 0.08, cy - S * 0.08, cx + S * 0.08, cy + S * 0.08), fill=(160, 120, 50, 255))
+    return im
+
+
+def lantana(seed: int) -> Image.Image:
+    """Lantana's head from above: a posy of tiny florets, yellow at the heart going orange and pink at the rim."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(80):
+        a = rng.uniform(0, 6.283)
+        t = math.sqrt(rng.random())
+        x, y = cx + S * 0.42 * t * math.cos(a), cy + S * 0.42 * t * math.sin(a)
+        col = (250, 215, 50) if t < 0.45 else (245, 140, 40) if t < 0.75 else (235, 80, 130)
+        for j in range(4):
+            petal(d, x, y, j * 90 + rng.uniform(0, 30), S * 0.04, S * 0.03, col + (255,))
+    return im
+
+
+def rockrose(seed: int) -> Image.Image:
+    """Rockrose (Cistus): a crumpled five-petalled pink flower, a dark blotch at each petal's foot, a yellow boss."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(5):
+        a = i * 72 + rng.uniform(-6, 6)
+        petal(d, cx, cy, a, S * 0.46, S * 0.24, (235, 140, 180, 255))
+        petal(d, cx, cy, a, S * 0.16, S * 0.08, (150, 30, 70, 255))
+    d.ellipse((cx - S * 0.08, cy - S * 0.08, cx + S * 0.08, cy + S * 0.08), fill=(245, 205, 50, 255))
+    return im
+
+
+def monkeyflower(seed: int) -> Image.Image:
+    """Sticky monkeyflower from the front: a flared apricot-orange trumpet, its lips notched."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(5):
+        a = -90 + i * 72 + rng.uniform(-5, 5)
+        petal(d, cx, cy, a, S * 0.44, S * 0.2, (240, 150, 60, 255))
+        petal(d, cx + math.cos(math.radians(a)) * S * 0.36, cy + math.sin(math.radians(a)) * S * 0.36, a + 180, S * 0.06, S * 0.04, (0, 0, 0, 0))
+    d.ellipse((cx - S * 0.06, cy - S * 0.06, cx + S * 0.06, cy + S * 0.06), fill=(210, 110, 40, 255))
+    return im
+
+
+def oleander(seed: int) -> Image.Image:
+    """An oleander truss from above: a dozen pinwheel flowers, salmon-pink, crowded together."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(12):
+        a = rng.uniform(0, 6.283)
+        rr = S * 0.3 * math.sqrt(rng.random())
+        x, y = cx + rr * math.cos(a), cy + rr * math.sin(a)
+        rot = rng.uniform(0, 72)
+        k = rng.uniform(0.9, 1.08)
+        for j in range(5):
+            petal(d, x, y, rot + j * 72, S * 0.12, S * 0.06, (min(255, int(240 * k)), int(120 * k), int(150 * k), 255))
+    return im
+
+
+def shrub_pages() -> None:
+    """painted_shrubs: 0 fuchsia, 1 lion's tail, 2 toyon berries, 3 leucadendron.
+    painted_shrubs2: 0 lantana, 1 rockrose, 2 monkeyflower, 3 oleander."""
+    pages = {'painted_shrubs': [fuchsia(86), lions_tail(87), berries((200, 30, 30), 88), leucadendron(89)],
+             'painted_shrubs2': [lantana(90), rockrose(91), monkeyflower(92), oleander(93)]}
+    for name, cells in pages.items():
+        at = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
+        for i, cell in enumerate(cells):
+            at.alpha_composite(cell, ((i % 2) * S, (i // 2) * S))
+        at.save(CACHE / f'{name}_atlas.png', optimize=True)
+        at.resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     atlas = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
@@ -586,6 +727,7 @@ def main() -> None:
         Image.open(CACHE / f'{name}_atlas.png').resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
     warm_pages()
     garden_page()
+    shrub_pages()
     print('painted ->', CACHE)
 
 

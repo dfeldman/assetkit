@@ -1,0 +1,53 @@
+{
+  "name": "rockrose",
+  "kind": "plant",
+  "about": "rockrose (Cistus): a grey-green mound of crumpled pink flowers with dark blotches",
+  "form": "bush",
+  "page": "tree:fine",
+  "cards": [
+    22,
+    32
+  ],
+  "height": [
+    0.6,
+    1.0
+  ],
+  "width": [
+    0.8,
+    1.2
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tint": [
+    0.75,
+    0.82,
+    0.68
+  ],
+  "heads_page": "painted_shrubs2",
+  "flowers": {
+    "count": [
+      25,
+      39
+    ],
+    "size": [
+      0.128,
+      0.176
+    ],
+    "cells": [
+      1
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

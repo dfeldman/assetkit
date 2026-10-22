@@ -1,0 +1,48 @@
+{
+  "name": "toyon",
+  "kind": "plant",
+  "about": "toyon (Heteromeles arbutifolia), the California holly: a dark glossy shrub hung with red berry clusters",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    28,
+    40
+  ],
+  "height": [
+    1.2,
+    2.2
+  ],
+  "width": [
+    1.0,
+    1.6
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_shrubs",
+  "flowers": {
+    "count": [
+      14,
+      25
+    ],
+    "size": [
+      0.224,
+      0.32
+    ],
+    "cells": [
+      2
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

@@ -46,6 +46,9 @@ const LATIN: Record<string, string> = {
   ceanothus: 'Ceanothus', echium: 'Echium candicans',
   strelitzia: 'Strelitzia reginae', agapanthus: 'Agapanthus praecox', calla_lily: 'Zantedeschia aethiopica', bougainvillea: 'Bougainvillea',
   buckwheat: 'Eriogonum fasciculatum', san_pedro: 'Echinopsis pachanoi', golden_barrel: 'Echinocactus grusonii',
+  toyon: 'Heteromeles arbutifolia', rosemary: 'Salvia rosmarinus', mexican_sage: 'Salvia leucantha', fuchsia: 'Fuchsia', lions_tail: 'Leonotis leonurus',
+  oleander: 'Nerium oleander', lantana: 'Lantana camara', rockrose: 'Cistus', leucadendron: 'Leucadendron', monkeyflower: 'Diplacus aurantiacus',
+  westringia: 'Westringia fruticosa',
 };
 
 /** Texture families Trail Trainer's CREDITS.md traces to Poly Haven (CC0). The rest are painted by plantgen. */

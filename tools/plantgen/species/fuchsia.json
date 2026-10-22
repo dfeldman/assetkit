@@ -1,0 +1,48 @@
+{
+  "name": "fuchsia",
+  "kind": "plant",
+  "about": "fuchsia: a dark shrub dripping red-and-purple pendant flowers, everywhere in SF's fog gardens",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    24,
+    34
+  ],
+  "height": [
+    0.9,
+    1.6
+  ],
+  "width": [
+    0.8,
+    1.2
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_shrubs",
+  "flowers": {
+    "count": [
+      16,
+      28
+    ],
+    "size": [
+      0.256,
+      0.352
+    ],
+    "cells": [
+      0
+    ],
+    "cross": true,
+    "surface": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

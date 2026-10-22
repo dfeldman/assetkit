@@ -1,0 +1,58 @@
+{
+  "name": "rosemary",
+  "kind": "plant",
+  "about": "rosemary: a dark needled mound speckled pale blue, the SF garden and median shrub",
+  "form": "bush",
+  "page": "tree:fine",
+  "cards": [
+    24,
+    34
+  ],
+  "height": [
+    0.5,
+    1.0
+  ],
+  "width": [
+    0.6,
+    1.1
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tint": [
+    0.6,
+    0.75,
+    0.6
+  ],
+  "heads_page": "painted_hydrangea",
+  "flowers": {
+    "count": [
+      28,
+      42
+    ],
+    "size": [
+      0.05,
+      0.08
+    ],
+    "cells": [
+      3
+    ],
+    "tint": [
+      0.8,
+      0.85,
+      1.0
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

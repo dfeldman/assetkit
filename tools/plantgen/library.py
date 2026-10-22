@@ -71,6 +71,18 @@ TABLE = {
     'buckwheat':     {'count': 10, 'scale': (0.8, 1.3)},
     'san_pedro':     {'count': 8, 'scale': (0.7, 1.3)},
     'golden_barrel': {'count': 8, 'scale': (0.7, 1.3)},
+    # more shrubs (owner, 2026-10-22: "do more shrubs too"): coastal natives and the warm gardens' flowering shrubs
+    'toyon':         {'count': 8, 'scale': (0.8, 1.2)},
+    'rosemary':      {'count': 8, 'scale': (0.8, 1.25)},
+    'mexican_sage':  {'count': 8, 'scale': (0.8, 1.2)},
+    'fuchsia':       {'count': 8, 'scale': (0.8, 1.2)},
+    'lions_tail':    {'count': 8, 'scale': (0.8, 1.2)},
+    'oleander':      {'count': 8, 'scale': (0.8, 1.2)},
+    'lantana':       {'count': 8, 'scale': (0.8, 1.25)},
+    'rockrose':      {'count': 8, 'scale': (0.8, 1.25)},
+    'leucadendron':  {'count': 8, 'scale': (0.8, 1.2)},
+    'monkeyflower':  {'count': 8, 'scale': (0.8, 1.2)},
+    'westringia':    {'count': 8, 'scale': (0.8, 1.2)},
 }
 
 

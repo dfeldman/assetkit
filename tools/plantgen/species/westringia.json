@@ -1,0 +1,53 @@
+{
+  "name": "westringia",
+  "kind": "plant",
+  "about": "coast rosemary (Westringia fruticosa): a tidy grey-green mound speckled white, the clipped hedge of SF plantings",
+  "form": "bush",
+  "page": "tree:fine",
+  "cards": [
+    26,
+    36
+  ],
+  "height": [
+    0.8,
+    1.4
+  ],
+  "width": [
+    0.8,
+    1.2
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tint": [
+    0.72,
+    0.8,
+    0.72
+  ],
+  "heads_page": "painted_discs",
+  "flowers": {
+    "count": [
+      28,
+      42
+    ],
+    "size": [
+      0.08,
+      0.112
+    ],
+    "cells": [
+      1
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

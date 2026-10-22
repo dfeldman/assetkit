@@ -1,0 +1,48 @@
+{
+  "name": "lantana",
+  "kind": "plant",
+  "about": "lantana: a low sprawling mound covered in yellow-orange-pink posies",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    20,
+    30
+  ],
+  "height": [
+    0.4,
+    0.8
+  ],
+  "width": [
+    0.7,
+    1.2
+  ],
+  "card": 0.5,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_shrubs2",
+  "flowers": {
+    "count": [
+      36,
+      56
+    ],
+    "size": [
+      0.128,
+      0.192
+    ],
+    "cells": [
+      0
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "mexican_sage",
+  "kind": "plant",
+  "about": "Mexican bush sage (Salvia leucantha): a grey-green clump under arching velvet-purple spikes",
+  "form": "bush",
+  "page": "tree:light",
+  "cards": [
+    18,
+    26
+  ],
+  "height": [
+    0.8,
+    1.2
+  ],
+  "width": [
+    0.7,
+    1.1
+  ],
+  "card": 0.55,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tint": [
+    0.75,
+    0.85,
+    0.72
+  ],
+  "heads_page": "painted_spikes",
+  "flowers": {
+    "count": [
+      19,
+      30
+    ],
+    "size": [
+      0.352,
+      0.48
+    ],
+    "cells": [
+      0
+    ],
+    "surface": true,
+    "cross": true,
+    "tint": [
+      0.95,
+      0.6,
+      1.0
+    ]
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

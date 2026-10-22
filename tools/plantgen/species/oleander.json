@@ -1,0 +1,48 @@
+{
+  "name": "oleander",
+  "kind": "plant",
+  "about": "oleander: a big rounded evergreen of narrow dark leaves under salmon-pink trusses (freeway medians, warm gardens)",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    30,
+    42
+  ],
+  "height": [
+    1.8,
+    3.0
+  ],
+  "width": [
+    1.2,
+    1.8
+  ],
+  "card": 0.45,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_shrubs2",
+  "flowers": {
+    "count": [
+      33,
+      50
+    ],
+    "size": [
+      0.288,
+      0.416
+    ],
+    "cells": [
+      3
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

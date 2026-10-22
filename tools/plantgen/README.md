@@ -31,7 +31,7 @@ and drawn as three crossed cards each (`flowers.cross`) so a head reads as a bal
 twelve entries pick their colours per entry (`flowers.cells`, library.py's `cells` column).
 
 San Francisco's warm-climate planting (2026-10-21; Francisco Park, Lands End, the Presidio, Alcatraz): the library
-was built for two deciduous-forest trails and had nothing that grows only somewhere warm. Nineteen species, appended to
+was built for two deciduous-forest trails and had nothing that grows only somewhere warm. Thirty species, appended to
 the table so no earlier seed moved:
 
 | species | what | form |
@@ -51,7 +51,12 @@ the table so no earlier seed moved:
 | buckwheat | California buckwheat: a grey-olive mound under cream heads (the umbel disc) | bush |
 | san_pedro, golden_barrel | a clump of ribbed columns branching from the foot; a squat yellow-spined ball | cactus |
 
-The four pages are painted by `paint.py` (`warm_pages`, `garden_page`). A tuft now takes the species' `cells` and `fold`.
+| toyon, monkeyflower, rockrose, westringia | coastal natives and their garden kin: red berry clusters, apricot trumpets, blotched pink flowers, white-speckled grey mounds | bush |
+| fuchsia, oleander, lantana, lions_tail, mexican_sage, rosemary, leucadendron | the warm gardens' flowering shrubs (`painted_shrubs`, `painted_shrubs2`; Mexican sage on the lupine spike, purpled) | bush |
+
+A flowering shrub's heads stand on its dome as crossed cards (`flowers.cross`, `surface`), or seen from the side they vanish.
+
+The six pages are painted by `paint.py` (`warm_pages`, `garden_page`, `shrub_pages`). A tuft now takes the species' `cells` and `fold`.
 Most of these stand at their own size in Cycle Dash (cityengine `src/render/plants.ts` `OWN_SIZE`), not stretched to a bush.
 
 ## Textures

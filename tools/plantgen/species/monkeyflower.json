@@ -1,0 +1,53 @@
+{
+  "name": "monkeyflower",
+  "kind": "plant",
+  "about": "sticky monkeyflower (Diplacus aurantiacus): a dark sticky-leaved coastal shrub in apricot-orange trumpets",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    18,
+    26
+  ],
+  "height": [
+    0.6,
+    1.1
+  ],
+  "width": [
+    0.6,
+    1.0
+  ],
+  "card": 0.5,
+  "cross": 0.6,
+  "ao": 0.4,
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tint": [
+    0.8,
+    0.9,
+    0.7
+  ],
+  "heads_page": "painted_shrubs2",
+  "flowers": {
+    "count": [
+      22,
+      36
+    ],
+    "size": [
+      0.096,
+      0.144
+    ],
+    "cells": [
+      2
+    ],
+    "surface": true,
+    "cross": true
+  },
+  "budget": [
+    100,
+    220
+  ]
+}

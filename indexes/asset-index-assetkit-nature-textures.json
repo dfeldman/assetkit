@@ -3532,6 +3532,62 @@
           "file": "plants/textures/painted_warm_atlas_237c63fd.png"
         }
       }
+    },
+    {
+      "id": "painted-shrubs2-atlas-3e0077a0",
+      "name": "painted shrubs2 atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted shrubs2 atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a7b4ad4655-painted-shrubs2-atlas.png",
+          "hash": "a7b4ad4655fbb0b0feb0a1e71e8b23f8d95b1350217f850a871c7e9d19c687f1",
+          "size": 23571,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_shrubs2_atlas_3e0077a0.png"
+        }
+      }
+    },
+    {
+      "id": "painted-shrubs-atlas-ce906ffa",
+      "name": "painted shrubs atlas",
+      "notes": "Painted by assetkit tools/plantgen/paint.py",
+      "type": "2d",
+      "subtype": "texture",
+      "generator": {
+        "script": "assetkit/tools"
+      },
+      "assetKeywords": [
+        "painted shrubs atlas"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d2b42eda63-painted-shrubs-atlas.png",
+          "hash": "d2b42eda6377d2773ebef8d8addfd08fbe2802e609c965d1164fcd3d38e40aa3",
+          "size": 29063,
+          "fileFormat": "png",
+          "extension": "png",
+          "isProd": true
+        }
+      ],
+      "extra": {
+        "trailtrainer": {
+          "file": "plants/textures/painted_shrubs_atlas_ce906ffa.png"
+        }
+      }
     }
   ]
 }
