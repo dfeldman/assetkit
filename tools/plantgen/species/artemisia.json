@@ -1,0 +1,31 @@
+{
+  "name": "artemisia",
+  "kind": "plant",
+  "about": "silver-leaved shrub (California sagebrush, artemisia, dusty miller): a soft grey-white mound along the paths",
+  "form": "bush",
+  "page": "painted_coastal",
+  "cells": [
+    2
+  ],
+  "cards": [
+    18,
+    28
+  ],
+  "height": [
+    0.45,
+    0.85
+  ],
+  "width": [
+    0.45,
+    0.8
+  ],
+  "card": 0.65,
+  "aspect": 0.8,
+  "cross": 0.6,
+  "ao": 0.25,
+  "light_var": 0.08,
+  "budget": [
+    50,
+    90
+  ]
+}

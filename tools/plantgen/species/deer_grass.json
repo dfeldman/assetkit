@@ -1,0 +1,33 @@
+{
+  "name": "deer_grass",
+  "kind": "plant",
+  "about": "deer grass (Muhlenbergia rigens): a dense fountain of fine sage-green blades, the bunch grass of California gardens",
+  "form": "tuft",
+  "page": "grass_tall",
+  "cards": [
+    14,
+    20
+  ],
+  "height": [
+    0.7,
+    1.05
+  ],
+  "width": 0.9,
+  "lean": [
+    8,
+    48
+  ],
+  "spread": 0.1,
+  "cross": 0.3,
+  "ao": 0.25,
+  "tint": [
+    0.82,
+    0.88,
+    0.66
+  ],
+  "light_var": 0.1,
+  "budget": [
+    30,
+    60
+  ]
+}

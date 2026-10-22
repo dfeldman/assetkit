@@ -30,6 +30,23 @@ florets in a shaded ball; cells 0 pink, 1 rose, 2 blush, 3 blue), sat on the dom
 and drawn as three crossed cards each (`flowers.cross`) so a head reads as a ball from any side. The library's
 twelve entries pick their colours per entry (`flowers.cells`, library.py's `cells` column).
 
+San Francisco's warm-climate planting (2026-10-21; Francisco Park, Lands End, the Presidio, Alcatraz): the library
+was built for two deciduous-forest trails and had nothing that grows only somewhere warm. Twelve species, appended to
+the table so no earlier seed moved:
+
+| species | what | form |
+|---|---|---|
+| agave, aloe | rosettes of thick sword leaves (`painted_succulents` 0, 1), folded down the spine (`fold`); aloe with orange torch spikes | tuft, flower |
+| aeonium, echeveria | flat rosettes seen from above (`painted_succulents` 2, 3) on bare stems, or a low clump hugging the ground | flower |
+| ice_plant | a fleshy green-and-red mat (cards laid nearly flat) with magenta daisies (`painted_warm` 0, 1) | flower |
+| nz_flax | a fan of stiff bronze or green straps (`painted_coastal` 0, 1; per entry via `cells`) | tuft |
+| deer_grass | a fountain of fine sage-green blades (`grass_tall`, tinted) | tuft |
+| artemisia, lavender | silver felted sprigs; grey-green sprigs under purple spikes (`painted_coastal` 2, 3) | bush |
+| coyote_brush, ceanothus | coastal scrub mounds (`tree:fine`; `tree:dark` with blue puffs from the hydrangea page, tinted) | bush |
+| echium | pride of Madeira: a grey-green mound throwing up blue-violet cones (`painted_warm` 2, 3) | bush |
+
+The three pages are painted by `paint.py` (`warm_pages`). A tuft now takes the species' `cells` and `fold`.
+
 ## Textures
 
 Grass, fern, dandelion, daisy, wildflower and leaf cards are cut out of Poly Haven's CC0 plant models

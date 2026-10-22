@@ -1,0 +1,54 @@
+{
+  "name": "echium",
+  "kind": "plant",
+  "about": "pride of Madeira (Echium candicans): a grey-green mound throwing up fat blue-violet flower cones; naturalised on the SF bluffs",
+  "form": "bush",
+  "page": "tree:light",
+  "cards": [
+    20,
+    30
+  ],
+  "height": [
+    0.9,
+    1.4
+  ],
+  "width": [
+    0.8,
+    1.2
+  ],
+  "card": 0.5,
+  "cross": 0.5,
+  "ao": 0.35,
+  "tint": [
+    0.78,
+    0.86,
+    0.78
+  ],
+  "cells": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heads_page": "painted_warm",
+  "flowers": {
+    "count": [
+      8,
+      14
+    ],
+    "size": [
+      0.4,
+      0.55
+    ],
+    "cells": [
+      2,
+      3
+    ],
+    "cross": true,
+    "surface": true
+  },
+  "budget": [
+    80,
+    160
+  ]
+}

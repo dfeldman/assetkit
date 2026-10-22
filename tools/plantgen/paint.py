@@ -265,6 +265,201 @@ def mophead(colour, seed: int) -> Image.Image:
     return im
 
 
+# ---------------------------------------------------------------- the warm-climate pages (San Francisco, 2026-10-21)
+
+def blade(d: ImageDraw.ImageDraw, x0: float, y0: float, x1: float, y1: float, width: float, colour, edge=None, bend: float = 0.0) -> None:
+    """A tapering strap from (x0, y0) (its base, `width` wide) to a point at (x1, y1), bowed sideways by `bend`;
+    `edge` draws a margin stripe down both sides (an agave's pale rim, a flax's coloured edge)."""
+    pts_l, pts_r = [], []
+    for i in range(17):
+        t = i / 16
+        w = width / 2 * (1 - t) ** 0.8
+        x = x0 + (x1 - x0) * t + bend * math.sin(math.pi * t)
+        y = y0 + (y1 - y0) * t
+        dx, dy = (x1 - x0), (y1 - y0)
+        L = math.hypot(dx, dy) or 1
+        nx, ny = -dy / L, dx / L
+        pts_l.append((x + nx * w, y + ny * w))
+        pts_r.append((x - nx * w, y - ny * w))
+    d.polygon(pts_l + pts_r[::-1], fill=colour)
+    if edge:
+        for side in (pts_l, pts_r):
+            d.line(side, fill=edge, width=max(2, int(width * 0.08)))
+
+
+def agave_leaf(seed: int) -> Image.Image:
+    """An agave's leaf, base at the bottom: a thick blue-grey sword, its pale rim toothed, a dark spine at the tip.
+    Painted fat across the cell; the card's narrow aspect squeezes it to a blade."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    blade(d, cx, S * 0.99, cx + rng.uniform(-8, 8), S * 0.06, S * 0.92, (118, 148, 142, 255), edge=(196, 204, 170, 255))
+    # the groove down the middle, darker, and a lighter cheek beside it: the leaf is a channel, not a plank
+    blade(d, cx, S * 0.99, cx, S * 0.12, S * 0.22, (92, 122, 118, 255))
+    blade(d, cx - S * 0.18, S * 0.97, cx - S * 0.02, S * 0.2, S * 0.18, (140, 168, 160, 255))
+    for k in range(9):
+        y = S * (0.9 - k * 0.085)
+        w = S * 0.46 * (1 - (0.99 - y / S) / 0.93) ** 0.8
+        for side in (1, -1):
+            x = cx + side * w
+            d.polygon([(x, y), (x + side * 9, y - 10), (x, y - 16)], fill=(110, 70, 45, 255))
+    d.polygon([(cx - 6, S * 0.1), (cx + 6, S * 0.1), (cx, S * 0.0)], fill=(70, 45, 30, 255))
+    return im
+
+
+def aloe_leaf(seed: int) -> Image.Image:
+    """An aloe's leaf, base at the bottom: green-grey, flecked white, soft teeth along the rim, reddening at the tip."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    blade(d, cx, S * 0.99, cx + rng.uniform(-20, 20), S * 0.04, S * 0.9, (96, 132, 82, 255), edge=(150, 160, 110, 255))
+    blade(d, cx, S * 0.99, cx, S * 0.1, S * 0.3, (84, 118, 72, 255))
+    for i in range(70):
+        t = rng.uniform(0.05, 0.85)
+        w = S * 0.4 * (1 - t) ** 0.8
+        x, y = cx + rng.uniform(-w, w), S * 0.99 - t * S * 0.92
+        d.ellipse((x - 5, y - 3, x + 5, y + 3), fill=(205, 215, 190, 255))
+    for k in range(12):
+        y = S * (0.92 - k * 0.07)
+        w = S * 0.45 * (1 - (0.99 - y / S) / 0.95) ** 0.8
+        for side in (1, -1):
+            d.polygon([(cx + side * w, y), (cx + side * (w + 8), y - 7), (cx + side * w, y - 12)], fill=(200, 190, 140, 255))
+    blade(d, cx, S * 0.25, cx, S * 0.04, S * 0.16, (160, 90, 60, 255))
+    return im
+
+
+def rosette(colours, seed: int, tips=None) -> Image.Image:
+    """A succulent rosette seen from above (echeveria, aeonium): rings of fat pointed leaves, the outer ones
+    darker and longer, the heart pale; `tips` blushes each leaf's point."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    rings = 6
+    for r in range(rings):
+        t = r / (rings - 1)
+        n = int(16 - 9 * t)
+        length = S * (0.47 - 0.36 * t)
+        k = 0.78 + 0.4 * t
+        col = tuple(min(255, int(c * k)) for c in colours) + (255,)
+        for i in range(n):
+            a = i * 360 / n + r * 17 + rng.uniform(-5, 5)
+            petal(d, cx, cy, a, length, length * 0.42, col)
+            if tips and r < 3:
+                petal(d, cx + math.cos(math.radians(a)) * length * 0.84, cy + math.sin(math.radians(a)) * length * 0.84, a, length * 0.16, length * 0.07, tips + (255,))
+    return im.filter(ImageFilter.GaussianBlur(0.8))
+
+
+def strap_fan(colour, stripe, seed: int) -> Image.Image:
+    """New Zealand flax: three or four long stiff straps from one base, keeled, their edges striped."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    for i in range(4):
+        x1 = cx + (i - 1.5) * S * 0.2 + rng.uniform(-15, 15)
+        k = rng.uniform(0.85, 1.1)
+        col = tuple(min(255, int(c * k)) for c in colour) + (255,)
+        blade(d, cx + (i - 1.5) * 10, S * 0.99, x1, S * rng.uniform(0.0, 0.12), S * 0.13, col, edge=stripe + (255,), bend=rng.uniform(-25, 25))
+    return im
+
+
+def silver_sprig(seed: int, flowers=None) -> Image.Image:
+    """A silver-leaved sprig (artemisia, dusty miller): fine felted grey-white foliage on pale stems. With
+    `flowers`, lavender instead: grey-green needles below, a purple spike on each stem."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for stem in range(5 if flowers else 4):
+        x0 = S * rng.uniform(0.3, 0.7)
+        x1 = x0 + rng.uniform(-S * 0.25, S * 0.25)
+        top = S * rng.uniform(0.04, 0.2)
+        d.line([(x0, S * 0.98), (x1, top)], fill=(150, 160, 140, 255) if not flowers else (110, 125, 90, 255), width=4)
+        leafy_to = 0.55 if flowers else 1.0
+        for i in range(60 if not flowers else 30):
+            t = rng.uniform(0.05, leafy_to)
+            x, y = x0 + (x1 - x0) * t, S * 0.98 - (S * 0.98 - top) * t
+            a = rng.uniform(-160, -20)
+            if flowers:
+                col = (120 + rng.randint(-10, 10), 140 + rng.randint(-10, 10), 115, 255)
+                petal(d, x, y, a, S * rng.uniform(0.05, 0.08), S * 0.008, col)
+            else:
+                g = 190 + rng.randint(-20, 25)
+                petal(d, x, y, a, S * rng.uniform(0.06, 0.11), S * rng.uniform(0.012, 0.022), (g, g + 6, g - 8, 255))
+        if flowers:
+            for i in range(26):
+                t = rng.uniform(0.7, 1.0)
+                x, y = x0 + (x1 - x0) * t + rng.uniform(-6, 6), S * 0.98 - (S * 0.98 - top) * t
+                c = flowers
+                k = rng.uniform(0.8, 1.15)
+                d.ellipse((x - 7, y - 9, x + 7, y + 9), fill=(min(255, int(c[0] * k)), min(255, int(c[1] * k)), min(255, int(c[2] * k)), 255))
+    return im
+
+
+def ice_plant(seed: int) -> Image.Image:
+    """Ice plant (Carpobrotus) seen from above: a mat of fat three-sided finger leaves, green going red."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for i in range(140):
+        x, y = rng.uniform(S * 0.08, S * 0.92), rng.uniform(S * 0.08, S * 0.92)
+        if math.hypot(x - S / 2, y - S / 2) > S * 0.46:
+            continue
+        red = rng.random() < 0.25
+        col = (150, 90, 60, 255) if red else (80 + rng.randint(-10, 15), 130 + rng.randint(-15, 15), 60, 255)
+        petal(d, x, y, rng.uniform(0, 360), S * rng.uniform(0.09, 0.15), S * 0.022, col)
+    return im
+
+
+def ice_flower(seed: int) -> Image.Image:
+    """Ice plant's flower from above: a magenta daisy of many thin petals round a yellow eye."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = S / 2
+    for i in range(48):
+        petal(d, cx, cy, i * 7.5 + rng.uniform(-3, 3), S * rng.uniform(0.4, 0.46), S * 0.022, (225, 60 + rng.randint(-15, 15), 165, 255))
+    d.ellipse((cx - S * 0.09, cy - S * 0.09, cx + S * 0.09, cy + S * 0.09), fill=(240, 205, 60, 255))
+    return im
+
+
+def echium_spike(seed: int, colour=(80, 90, 200)) -> Image.Image:
+    """Pride of Madeira's flower spike: a fat blue-violet cone of florets, grey-green leaves at its foot."""
+    rng = random.Random(seed)
+    im = Image.new('RGBA', (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = S / 2
+    for i in range(220):
+        t = rng.random() ** 0.8
+        y = S * 0.82 - t * S * 0.78
+        spread = S * 0.2 * (1 - t) ** 0.7 + S * 0.02
+        x = cx + rng.uniform(-spread, spread)
+        k = rng.uniform(0.75, 1.2)
+        d.ellipse((x - 9, y - 7, x + 9, y + 7), fill=tuple(min(255, int(c * k)) for c in colour) + (255,))
+    for i in range(16):
+        petal(d, cx + rng.uniform(-20, 20), S * 0.98, rng.uniform(-170, -10), S * rng.uniform(0.12, 0.2), S * 0.025, (120, 140, 115, 255))
+    return im
+
+
+def warm_pages() -> None:
+    """painted_succulents: 0 agave leaf, 1 aloe leaf, 2 echeveria rosette (blue-grey), 3 aeonium rosette (green, red tips).
+    painted_coastal: 0 flax (bronze, pink rim), 1 flax (green, yellow rim), 2 silver sprig, 3 lavender.
+    painted_warm: 0 ice plant mat, 1 ice plant flower, 2 echium spike, 3 echium spike (violet)."""
+    pages = {
+        'painted_succulents': [agave_leaf(70), aloe_leaf(71), rosette((150, 175, 170), 72, tips=(190, 120, 130)), rosette((95, 150, 60), 73, tips=(150, 50, 40))],
+        'painted_coastal': [strap_fan((120, 62, 52), (190, 110, 110), 74), strap_fan((90, 120, 50), (205, 195, 90), 75), silver_sprig(76), silver_sprig(77, flowers=(130, 95, 190))],
+        'painted_warm': [ice_plant(78), ice_flower(79), echium_spike(80), echium_spike(81, (125, 105, 205))],
+    }
+    for name, cells in pages.items():
+        at = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
+        for i, cell in enumerate(cells):
+            at.alpha_composite(cell, ((i % 2) * S, (i // 2) * S))
+        at.save(CACHE / f'{name}_atlas.png', optimize=True)
+        at.resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     atlas = Image.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0))
@@ -310,6 +505,7 @@ def main() -> None:
     flat_arm(Image.new('RGB', (64, 64)))
     for name in ('painted_flowers', 'painted_tulips', 'painted_frond', 'painted_spikes', 'painted_discs', 'painted_pads', 'painted_heather', 'painted_hydrangea'):
         Image.open(CACHE / f'{name}_atlas.png').resize((512, 512), Image.LANCZOS).save(CACHE / f'{name}_atlas_512.png', optimize=True)
+    warm_pages()
     print('painted ->', CACHE)
 
 

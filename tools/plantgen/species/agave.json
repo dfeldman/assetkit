@@ -1,0 +1,32 @@
+{
+  "name": "agave",
+  "kind": "plant",
+  "about": "agave (Agave americana and kin): a waist-high rosette of thick blue-grey swords, pale-rimmed, spined at the tip; Francisco Park, Lands End",
+  "form": "tuft",
+  "page": "painted_succulents",
+  "cells": [
+    0
+  ],
+  "cards": [
+    16,
+    22
+  ],
+  "height": [
+    0.65,
+    1.0
+  ],
+  "width": 0.5,
+  "lean": [
+    18,
+    82
+  ],
+  "spread": 0.04,
+  "fold": 0.7,
+  "cross": 0.0,
+  "ao": 0.35,
+  "light_var": 0.08,
+  "budget": [
+    70,
+    110
+  ]
+}

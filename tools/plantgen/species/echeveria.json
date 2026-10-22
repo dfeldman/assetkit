@@ -1,0 +1,42 @@
+{
+  "name": "echeveria",
+  "kind": "plant",
+  "about": "echeveria (hens and chicks): a low clump of blue-grey rosettes, pink-edged, hugging the mulch",
+  "form": "flower",
+  "stems": [
+    7,
+    12
+  ],
+  "spread": 0.2,
+  "height": [
+    0.02,
+    0.05
+  ],
+  "stem_radius": 0.01,
+  "lean": 30,
+  "wander": 0.1,
+  "heads_page": "painted_succulents",
+  "head": {
+    "mode": "disc",
+    "size": [
+      0.16,
+      0.24
+    ],
+    "cells": [
+      2
+    ],
+    "tilt": [
+      15,
+      45
+    ],
+    "tint": [
+      1,
+      1,
+      1
+    ]
+  },
+  "budget": [
+    100,
+    250
+  ]
+}

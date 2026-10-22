@@ -1,0 +1,43 @@
+{
+  "name": "aeonium",
+  "kind": "plant",
+  "about": "tree aeonium (Aeonium arboreum): bare branching stems each ending in a flat green rosette rimmed red",
+  "form": "flower",
+  "stems": [
+    3,
+    7
+  ],
+  "spread": 0.14,
+  "height": [
+    0.22,
+    0.55
+  ],
+  "stem_radius": 0.014,
+  "lean": 38,
+  "wander": 0.35,
+  "tropism": 0.5,
+  "heads_page": "painted_succulents",
+  "head": {
+    "mode": "disc",
+    "size": [
+      0.18,
+      0.26
+    ],
+    "cells": [
+      3
+    ],
+    "tilt": [
+      15,
+      45
+    ],
+    "tint": [
+      1,
+      1,
+      1
+    ]
+  },
+  "budget": [
+    100,
+    260
+  ]
+}

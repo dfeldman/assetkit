@@ -1,0 +1,33 @@
+{
+  "name": "nz_flax",
+  "kind": "plant",
+  "about": "New Zealand flax (Phormium tenax): a fan of stiff straps, bronze with pink rims or green with yellow, head-high",
+  "form": "tuft",
+  "page": "painted_coastal",
+  "cells": [
+    0,
+    1
+  ],
+  "cards": [
+    9,
+    13
+  ],
+  "height": [
+    0.9,
+    1.5
+  ],
+  "width": 0.55,
+  "lean": [
+    4,
+    32
+  ],
+  "spread": 0.08,
+  "fold": 0.3,
+  "cross": 0.3,
+  "ao": 0.3,
+  "light_var": 0.1,
+  "budget": [
+    40,
+    80
+  ]
+}

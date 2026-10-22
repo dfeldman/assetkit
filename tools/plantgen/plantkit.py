@@ -54,7 +54,8 @@ def tuft(mesh: MeshData, spec: dict, rng: np.random.Generator, base: np.ndarray,
         p = base + out * rng.uniform(0, float(spec.get('spread', 0.1))) * scale
         normal = normalize(out * 0.6 + UP * 0.8)
         col = _colour(rng, tint, lv, float(spec.get('ao', 0.15)) * (1 - i / max(n, 1)))
-        mesh.add(*card(p, along, across, w, h, normal, _cell(int(rng.choice(cells))), col, 0.0, 0.0))
+        # `fold` creases the card down its spine (an agave's or a flax's leaf is a channel, not a plank)
+        mesh.add(*card(p, along, across, w, h, normal, _cell(int(rng.choice(cells))), col, float(spec.get('fold', 0.0)), 0.0))
         if rng.uniform() < float(spec.get('cross', 0.0)):
             across2 = normalize(np.cross(along, across))
             mesh.add(*card(p, along, across2, w, h, normalize(np.cross(along, across2) + UP * 0.5), _cell(int(rng.choice(cells))), col, 0.0, 0.0))
@@ -257,7 +258,7 @@ def build_plant(spec: dict, seed: int, scale: float = 1.0) -> tuple[dict, dict]:
         n_clumps = int(round(rng.uniform(*spec.get('clumps', [1, 1]))))
         for i in range(n_clumps):
             base = np.array([rng.uniform(-1, 1), rng.uniform(-1, 1), 0.0]) * float(spec.get('clump_spread', 0.3)) * scale if n_clumps > 1 else np.zeros(3)
-            tuft(m, spec, rng, base, scale)
+            tuft(m, spec, rng, base, scale, spec.get('cells'))
         parts['leaves'] = m
     elif form == 'bush':
         leaves, heads = MeshData(), MeshData()

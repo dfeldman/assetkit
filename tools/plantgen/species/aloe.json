@@ -1,0 +1,62 @@
+{
+  "name": "aloe",
+  "kind": "plant",
+  "about": "aloe (Aloe arborescens / maculata): clumped rosettes of spotted green leaves, orange torch spikes over them",
+  "form": "flower",
+  "stems": [
+    2,
+    4
+  ],
+  "spread": 0.18,
+  "height": [
+    0.45,
+    0.75
+  ],
+  "stem_radius": 0.008,
+  "lean": 10,
+  "wander": 0.08,
+  "leaves_page": "painted_succulents",
+  "rosette": {
+    "cards": [
+      11,
+      15
+    ],
+    "height": [
+      0.35,
+      0.5
+    ],
+    "width": 0.38,
+    "lean": [
+      15,
+      65
+    ],
+    "spread": 0.03,
+    "fold": 0.6,
+    "cells": [
+      1
+    ],
+    "ao": 0.3,
+    "light_var": 0.08
+  },
+  "heads_page": "painted_spikes",
+  "head": {
+    "mode": "cross",
+    "size": [
+      0.26,
+      0.36
+    ],
+    "cells": [
+      2
+    ],
+    "aspect": 0.45,
+    "tint": [
+      1.0,
+      0.5,
+      0.3
+    ]
+  },
+  "budget": [
+    100,
+    200
+  ]
+}
