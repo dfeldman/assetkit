@@ -1812,7 +1812,11 @@
     "moscone",
     "yerba buena"
    ],
-   "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front."
+   "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front. Squashed to 0.4 across its lean (x): the AI model leans 0.74 of its height sideways, which tipped its top out over 4th Street; the real branch rises nearly straight from the plaza with kinks (owner, 2026-10-25).",
+   "squash": {
+    "axis": "x",
+    "factor": 0.4
+   }
   },
   {
    "id": "ordonez-gun",

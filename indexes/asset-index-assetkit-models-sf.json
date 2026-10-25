@@ -4792,10 +4792,10 @@
       "name": "Node, Roxy Paine",
       "description": "102 ft stainless-steel branching tower at the Yerba Buena/Moscone Muni station (2023).",
       "artist": "Roxy Paine",
-      "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front.",
+      "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front. Squashed to 0.4 across its lean (x): the AI model leans 0.74 of its height sideways, which tipped its top out over 4th Street; the real branch rises nearly straight from the plaza with kinks (owner, 2026-10-25).",
       "subtype": "scenery",
       "length": 6.33,
-      "width": 23.06,
+      "width": 9.22,
       "height": 31,
       "aiTool": "Tripo",
       "shader": "plaster",
@@ -4829,12 +4829,40 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "14792 triangles, textures ≤ 256 px"
         },
         {
           "filename": "asset-3a27b7c09d-node-roxy-paine-moscone-yerba-buena-lod1.glb",
           "hash": "3a27b7c09d2c575864b763e164078c8764a516102530d24f680f960ee5c8f35f",
           "size": 57248,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "3944 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-5d58514b69-node-roxy-paine-moscone-yerba-buena-lod0.glb",
+          "hash": "5d58514b69321a22ab89f5506091d4265deae26ac837069635d8c2273df964ce",
+          "size": 209276,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14790 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-cad3c82560-node-roxy-paine-moscone-yerba-buena-lod1.glb",
+          "hash": "cad3c82560f2399f65d82d167843fdd4ab4927bd17c697730b04d3ff9b723bce",
+          "size": 57256,
           "fileFormat": "glb",
           "extension": "glb",
           "fileKeywords": [
@@ -4856,10 +4884,14 @@
           "unitsToMetres": 31,
           "material": "plaster",
           "source": "sf_node_sculpture_silver.glb",
+          "squash": {
+            "axis": "x",
+            "factor": 0.4
+          },
           "lods": [
             {
               "lod": 0,
-              "triangles": 14792,
+              "triangles": 14790,
               "tex": 256,
               "kB": 204
             },
