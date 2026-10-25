@@ -1312,6 +1312,73 @@
     "pershing square"
    ],
    "notes": "Textured. Barrel ~2.3 m (guess: NPS gives no length); the model has its concrete mounting block. Muzzle toward +z (bore seen from +z)."
+  },
+  {
+   "id": "stevenson-galleon",
+   "name": "Robert Louis Stevenson Memorial galleon, Portsmouth Square",
+   "file": "robert_louis_stevenson_memorial.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.1
+   },
+   "lods": [
+    {
+     "ratio": 0.41,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Bruce Porter and Willis Polk (1897)",
+   "description": "The bronze galleon with sails set on its carved wave base, the finial of the Robert Louis Stevenson Memorial in Portsmouth Square.",
+   "keywords": [
+    "stevenson",
+    "hispaniola",
+    "galleon",
+    "portsmouth square",
+    "memorial"
+   ],
+   "notes": "Textured. The model is only the ship and its carved base (the granite shaft, ~10 ft, is drawn by the procedural stevensonMemorial), so it is attached on top of that shaft. Ship long axis is z with the bowsprit at +z (front). 1.1 m overall height is a guess (no source gives it): the procedural stand-in's galleon is ~1 m long. A monument finial, not a boat: it floats on nothing."
+  },
+  {
+   "id": "roman-gladiator",
+   "name": "Roman Gladiator, Golden Gate Park",
+   "file": "roman_gladiator.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 4.2
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Georges Geefs (1881)",
+   "description": "Bronze gladiator with a raised short sword and flowing cloak, on a granite pedestal with a bronze plaque, beside the de Young Museum (the 1894 Midwinter Fair commemoration).",
+   "keywords": [
+    "roman gladiator",
+    "geefs",
+    "de young",
+    "golden gate park",
+    "midwinter fair"
+   ],
+   "reference": "statues_to_model/roman-gladiator/about.md",
+   "notes": "Textured; the model carries its own pedestal (about 40% of the height). about.md: ~2.5 m bronze figure on a stone pedestal; with the pedestal as drawn (photo 1-front.jpg: figure about 60% of the whole) that is ~4.2 m overall. Front +z: the sword-arm and outstretched arm point to +z and the cloak streams to -z; the plaque is on the +z face."
   }
  ]
 }

@@ -3457,6 +3457,179 @@
           ]
         }
       }
+    },
+    {
+      "id": "stevenson-galleon",
+      "name": "Robert Louis Stevenson Memorial galleon, Portsmouth Square",
+      "description": "The bronze galleon with sails set on its carved wave base, the finial of the Robert Louis Stevenson Memorial in Portsmouth Square.",
+      "artist": "Bruce Porter and Willis Polk (1897)",
+      "notes": "Textured. The model is only the ship and its carved base (the granite shaft, ~10 ft, is drawn by the procedural stevensonMemorial), so it is attached on top of that shaft. Ship long axis is z with the bowsprit at +z (front). 1.1 m overall height is a guess (no source gives it): the procedural stand-in's galleon is ~1 m long. A monument finial, not a boat: it floats on nothing.",
+      "subtype": "sculpture",
+      "length": 1.26,
+      "width": 0.72,
+      "height": 1.1,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "stevenson",
+        "hispaniola",
+        "galleon",
+        "portsmouth square",
+        "memorial"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0fd75c1501-stevenson-hispaniola-galleon-portsmouth-square-memorial-source.glb",
+          "hash": "0fd75c1501b93c5b680c6fc022f8c2f1f145a727b9229e6928026c7d8cd459fa",
+          "size": 4703008,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8b44f46129-stevenson-hispaniola-galleon-portsmouth-square-memorial-lod0.glb",
+          "hash": "8b44f46129f6b6cf1fb03ee6983fdace9e6ab645a147c5ab3ef2322cd1dee08c",
+          "size": 249288,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7915 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-1913c2aec1-stevenson-hispaniola-galleon-portsmouth-square-memorial-lod1.glb",
+          "hash": "1913c2aec18ae023915bbcfecdbbf87c5df14d401da4cfb810ecd3fc6f665c8e",
+          "size": 85124,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1995 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.1
+          },
+          "unitsToMetres": 1.258,
+          "material": "textured",
+          "source": "robert_louis_stevenson_memorial.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7915,
+              "tex": 512,
+              "kB": 243
+            },
+            {
+              "lod": 1,
+              "triangles": 1995,
+              "tex": 256,
+              "kB": 83
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "roman-gladiator",
+      "name": "Roman Gladiator, Golden Gate Park",
+      "description": "Bronze gladiator with a raised short sword and flowing cloak, on a granite pedestal with a bronze plaque, beside the de Young Museum (the 1894 Midwinter Fair commemoration).",
+      "artist": "Georges Geefs (1881)",
+      "notes": "Textured; the model carries its own pedestal (about 40% of the height). about.md: ~2.5 m bronze figure on a stone pedestal; with the pedestal as drawn (photo 1-front.jpg: figure about 60% of the whole) that is ~4.2 m overall. Front +z: the sword-arm and outstretched arm point to +z and the cloak streams to -z; the plaque is on the +z face.",
+      "subtype": "sculpture",
+      "length": 2.02,
+      "width": 1.6,
+      "height": 4.2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "roman gladiator",
+        "geefs",
+        "de young",
+        "golden gate park",
+        "midwinter fair"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1e781e0c56-roman-gladiator-geefs-de-young-golden-gate-park-midwinter-fair-source.glb",
+          "hash": "1e781e0c56018f9c55f67cdde0df0752c36abd8fb0425b2822ed4462d2d2aa76",
+          "size": 4336984,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f11204dca7-roman-gladiator-geefs-de-young-golden-gate-park-midwinter-fair-lod0.glb",
+          "hash": "f11204dca7f1f411e30d67347b7e9f0c0057e81cdbe890102916016ed0d2732c",
+          "size": 224912,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7931 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-3fde452c1a-roman-gladiator-geefs-de-young-golden-gate-park-midwinter-fair-lod1.glb",
+          "hash": "3fde452c1a6deeffc2f5648c8e00694f92fd6635afcb0acbefeda2cb37373233",
+          "size": 68064,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1887 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 4.2
+          },
+          "unitsToMetres": 4.2,
+          "material": "textured",
+          "source": "roman_gladiator.glb",
+          "reference": "statues_to_model/roman-gladiator/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7931,
+              "tex": 512,
+              "kB": 220
+            },
+            {
+              "lod": 1,
+              "triangles": 1887,
+              "tex": 256,
+              "kB": 66
+            }
+          ]
+        }
+      }
     }
   ]
 }
