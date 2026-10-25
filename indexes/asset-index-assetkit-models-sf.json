@@ -2414,6 +2414,439 @@
           ]
         }
       }
+    },
+    {
+      "id": "goddess-of-democracy-portsmouth",
+      "name": "Goddess of Democracy, Portsmouth Square",
+      "description": "Bronze woman holding a torch aloft in both hands, a 1994 replica of the Tiananmen Square 'Goddess of Democracy', in Portsmouth Square, Chinatown.",
+      "artist": "Thomas Marsh and Shanghai/Beijing Central Academy of Fine Arts students (replica of the 1989 Tiananmen statue)",
+      "notes": "Untextured: bronze. About 3 m including the model's own thin slab; the real figure stands on a pale granite block about 0.9 m high (Commons photo), drawn by the renderer. Front -x (torch at the left, hair swept right in the -x view, as in the Commons 3/4 photo).",
+      "subtype": "sculpture",
+      "length": 1.35,
+      "width": 1.22,
+      "height": 3,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "goddess of democracy",
+        "portsmouth square",
+        "tiananmen",
+        "chinatown"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c191791ff2-goddess-of-democracy-portsmouth-square-tiananmen-chinatown-source.glb",
+          "hash": "c191791ff28c7d0f5a3b559043954aa18179b6ac1a9bd5fa66a503b4709343f0",
+          "size": 355224,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-80a3d1a21e-goddess-of-democracy-portsmouth-square-tiananmen-chinatown-lod0.glb",
+          "hash": "80a3d1a21e1e254182a6c40b9a419563eba3db7199f9eeefce03395b4d395576",
+          "size": 116320,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7902 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-255beefd33-goddess-of-democracy-portsmouth-square-tiananmen-chinatown-lod1.glb",
+          "hash": "255beefd33f11aabf2ee602ce68f6f6e94e0234d74e6b33b6bb3c5e068b1253c",
+          "size": 31708,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1926 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3
+          },
+          "unitsToMetres": 3,
+          "plinth": [
+            1.3,
+            1.3,
+            0.9
+          ],
+          "material": "bronze",
+          "source": "goddess_of_democracy.glb",
+          "reference": "statues_to_model/goddess-of-democracy/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7902,
+              "tex": 256,
+              "kB": 114
+            },
+            {
+              "lod": 1,
+              "triangles": 1926,
+              "tex": 256,
+              "kB": 31
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "joseph-strauss",
+      "name": "Joseph Strauss, Golden Gate Bridge",
+      "description": "Bronze Joseph B. Strauss, chief engineer of the Golden Gate Bridge, in a three-piece suit with rolled plans, on the Strauss Legacy Circle at the bridge's south end.",
+      "artist": "Frederick W. Schweigardt (1941)",
+      "notes": "Untextured: bronze. ~2.5 m figure including the model's own small bronze slab; it stands on a low round grey disc (Legacy Circle, ~0.4 m) which is not drawn. Front -x (tie and plans show in the -x view).",
+      "subtype": "sculpture",
+      "length": 0.88,
+      "width": 0.77,
+      "height": 2.6,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "joseph strauss",
+        "golden gate bridge",
+        "legacy circle"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7484156c7d-joseph-strauss-golden-gate-bridge-legacy-circle-source.glb",
+          "hash": "7484156c7dc6bab6585cdc65c77669a6310dd6732ce855662bcd2a9a5963288b",
+          "size": 360204,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-32374eff41-joseph-strauss-golden-gate-bridge-legacy-circle-lod0.glb",
+          "hash": "32374eff41d3d0bcb77130d290a26486d21291eca81f71521aee165ba648ff38",
+          "size": 117056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8050 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-8d2d00f02e-joseph-strauss-golden-gate-bridge-legacy-circle-lod1.glb",
+          "hash": "8d2d00f02ee9b620af91f794352b8952d7b4d97abee15f12a7b8600ef03c8f98",
+          "size": 30848,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1960 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.6
+          },
+          "unitsToMetres": 2.6,
+          "material": "bronze",
+          "source": "joseph_strauss.glb",
+          "reference": "statues_to_model/joseph-strauss-statue/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8050,
+              "tex": 256,
+              "kB": 114
+            },
+            {
+              "lod": 1,
+              "triangles": 1960,
+              "tex": 256,
+              "kB": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lone-sailor-vista-point",
+      "name": "The Lone Sailor, Vista Point",
+      "description": "Bronze US Navy sailor in a peacoat with a sea bag on a bollard, on a red granite plinth: the Lone Sailor replica at Vista Point beside the Golden Gate Bridge.",
+      "artist": "Stanley Bleifeld (1987; this cast 1995)",
+      "notes": "Textured; the model carries its own red polished granite base (the figure ~2.1 m on a ~0.4 m base: 2.5 m overall). Front -x (face and sea bag toward the camera in the -x view, as in the Commons photos).",
+      "subtype": "sculpture",
+      "length": 2.16,
+      "width": 1.34,
+      "height": 2.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "lone sailor",
+        "vista point",
+        "golden gate bridge",
+        "navy memorial"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-750dde90e8-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-source.glb",
+          "hash": "750dde90e8f9a0557914a3c3d01001b53d4b34c966e7cd21caa54087bd4446c1",
+          "size": 17113564,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-e04c29454a-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod0.glb",
+          "hash": "e04c29454a9d0b17d186cc4d4a99732732c78ac024dd675dbd86f03985ea009f",
+          "size": 537180,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "14731 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-9bb473cbae-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod1.glb",
+          "hash": "9bb473cbaef5ed6726c853e7b72c5ae4c5605db7e4b2aaa1d97dafc53f08c0aa",
+          "size": 243572,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "5541 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-1b33521923-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod0.glb",
+          "hash": "1b33521923475a985a13d430012191a9553596523470139a670b6220bbc832d7",
+          "size": 419572,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "9207 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-72dadd0c73-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod1.glb",
+          "hash": "72dadd0c7307dd05baf06f322f2d21af2999d3aea17eb5d62e0fdf04a68ab266",
+          "size": 243180,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "5529 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-a3a07c2d60-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod0.glb",
+          "hash": "a3a07c2d6005a6d2ef3e1809fda5a2352420fad3e9e4af18ddd417add66dcfa2",
+          "size": 395696,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8287 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-0abf39d58d-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod1.glb",
+          "hash": "0abf39d58d0730e63c6e0131177ba5e6bbed0dcaa38c913a79800f4fb48fc2a3",
+          "size": 242868,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "5517 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.5
+          },
+          "unitsToMetres": 2.5,
+          "material": "textured",
+          "source": "lone_sailor.glb",
+          "reference": "statues_to_model/lone-sailor/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8287,
+              "tex": 512,
+              "kB": 386
+            },
+            {
+              "lod": 1,
+              "triangles": 5517,
+              "tex": 256,
+              "kB": 237
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lottas-fountain",
+      "name": "Lotta's Fountain",
+      "description": "The cast-iron fountain column at Market, Geary and Kearny Streets, given to the city by the actress Lotta Crabtree in 1875.",
+      "artist": "gift of Lotta Crabtree (1875)",
+      "notes": "Textured, bronze-coloured. About 24 ft (7.3 m) overall, the whole fountain column including its base (Wikipedia gives no height; the earlier procedural stand-in used 8 m with a 0.5 m offset). Four-sided, so the front is arbitrary (+z).",
+      "subtype": "scenery",
+      "length": 2.42,
+      "width": 2.36,
+      "height": 7.3,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "lotta's fountain",
+        "lotta crabtree",
+        "market street",
+        "kearny"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-eb5d949145-lotta-s-fountain-crabtree-market-street-kearny-source.glb",
+          "hash": "eb5d949145d852fed8a13ca4c92169e01af53417c78f7f8090f327dc23268e15",
+          "size": 18961748,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8a03e41bea-lotta-s-fountain-crabtree-market-street-kearny-lod0.glb",
+          "hash": "8a03e41bea52d063799f6ea076a65607eb64051a2dc5fcd9b14720b90a960395",
+          "size": 439900,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "13222 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-26a0e1f308-lotta-s-fountain-crabtree-market-street-kearny-lod1.glb",
+          "hash": "26a0e1f3087f77dad0ed38eccc13f7b3cd1b6a5c4680064f080fa7fad5e9f5db",
+          "size": 147784,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "3776 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-38f960031c-lotta-s-fountain-crabtree-market-street-kearny-lod0.glb",
+          "hash": "38f960031c3adeb4c790e474e8fc6696538ef2bc5b6f8648118bb17e41d3fabb",
+          "size": 390564,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "10390 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-d67f1932b7-lotta-s-fountain-crabtree-market-street-kearny-lod1.glb",
+          "hash": "d67f1932b797a26366d5d045f4524dcde449e03b95ceb7f85810103c9f5d477a",
+          "size": 128640,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2832 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "fountain",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.3
+          },
+          "unitsToMetres": 7.3,
+          "material": "textured",
+          "source": "lotta_fountain.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 10390,
+              "tex": 512,
+              "kB": 381
+            },
+            {
+              "lod": 1,
+              "triangles": 2832,
+              "tex": 256,
+              "kB": 126
+            }
+          ]
+        }
+      }
     }
   ]
 }
