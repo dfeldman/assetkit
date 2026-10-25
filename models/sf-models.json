@@ -2316,6 +2316,73 @@
     "gough"
    ],
    "notes": "Textured bronze. About 2 m overall including its block (brief estimate). The kneeling figure faces +z toward the globe."
+  },
+  {
+   "id": "tea-garden-buddha",
+   "name": "Great Buddha, Japanese Tea Garden",
+   "file": "japanese_garden_buddha.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.3
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.03
+    }
+   ],
+   "artist": "cast in Tajima, Japan (1790)",
+   "description": "Seated bronze Amida Buddha with its halo, on a lotus throne: the Tea Garden's Great Buddha, given by the Gump family in 1949.",
+   "keywords": [
+    "buddha",
+    "japanese tea garden",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/great-buddha-japanese-tea-garden/about.md",
+   "notes": "Untextured: bronze. About 3.3 m (10.8 ft) with its lotus throne; it sits on the procedural stepped stone plinth of teaGardenGrounds (1.5 m)."
+  },
+  {
+   "id": "tea-garden-drum-bridge",
+   "name": "Drum bridge, Japanese Tea Garden",
+   "file": "japanese_drum_bridge.glb",
+   "kind": "bridge",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 9.5
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.03,
+     "sloppy": true
+    }
+   ],
+   "description": "The steep half-moon wooden drum bridge (taiko-bashi) over the Tea Garden's pond.",
+   "keywords": [
+    "drum bridge",
+    "japanese tea garden",
+    "golden gate park"
+   ],
+   "notes": "Textured. Its long axis is the model's z: scaled to a 9.5 m span (the procedural arch's), so it rises about 4.6 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.3 across (x): the AI made it 6.9 m wide; the real bridge is about 2 m.",
+   "squash": {
+    "axis": "x",
+    "factor": 0.3
+   }
   }
  ]
 }

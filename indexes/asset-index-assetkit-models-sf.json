@@ -6246,6 +6246,207 @@
           ]
         }
       }
+    },
+    {
+      "id": "tea-garden-buddha",
+      "name": "Great Buddha, Japanese Tea Garden",
+      "description": "Seated bronze Amida Buddha with its halo, on a lotus throne: the Tea Garden's Great Buddha, given by the Gump family in 1949.",
+      "artist": "cast in Tajima, Japan (1790)",
+      "notes": "Untextured: bronze. About 3.3 m (10.8 ft) with its lotus throne; it sits on the procedural stepped stone plinth of teaGardenGrounds (1.5 m).",
+      "subtype": "sculpture",
+      "length": 2.09,
+      "width": 2.08,
+      "height": 3.3,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "buddha",
+        "japanese tea garden",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-cb6b05e774-buddha-japanese-tea-garden-golden-gate-park-source.glb",
+          "hash": "cb6b05e7742cf7fedbfafcd0cb55dfaac25bc2288def5733ef3a3e85c01b37b3",
+          "size": 358984,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-94a7654564-buddha-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "94a7654564357e3852d8f33a9238fec884221bb59a4c62d7f69a35230fda5176",
+          "size": 113580,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7884 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-fb4a18c4a9-buddha-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "fb4a18c4a93cd62d2dd3c175f8b3dcbff1488462ffbfce731aaf2f34c10b24fb",
+          "size": 30140,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1970 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3.3
+          },
+          "unitsToMetres": 3.3,
+          "material": "bronze",
+          "source": "japanese_garden_buddha.glb",
+          "reference": "statues_to_model/great-buddha-japanese-tea-garden/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7884,
+              "tex": 256,
+              "kB": 111
+            },
+            {
+              "lod": 1,
+              "triangles": 1970,
+              "tex": 256,
+              "kB": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-drum-bridge",
+      "name": "Drum bridge, Japanese Tea Garden",
+      "description": "The steep half-moon wooden drum bridge (taiko-bashi) over the Tea Garden's pond.",
+      "notes": "Textured. Its long axis is the model's z: scaled to a 9.5 m span (the procedural arch's), so it rises about 4.6 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.3 across (x): the AI made it 6.9 m wide; the real bridge is about 2 m.",
+      "subtype": "scenery",
+      "length": 9.5,
+      "width": 2.07,
+      "height": 4.57,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "drum bridge",
+        "japanese tea garden",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-27cef38fc8-drum-bridge-japanese-tea-garden-golden-gate-park-source.glb",
+          "hash": "27cef38fc8901a042981460c23c9213e757b6277e43ee08e67cde6e699ad77d0",
+          "size": 4208436,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-35b3079f76-drum-bridge-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "35b3079f766bf09844518cf8f682352fb39aad62e51e2ddc6fccd540d09456b0",
+          "size": 343316,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "7937 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-9d9fb0618e-drum-bridge-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "9d9fb0618e39e193157f74175ecfeef43298ef3d9dbc08d4b9d4a1ab2be989ee",
+          "size": 258616,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "6230 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-1acba9ae4d-drum-bridge-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "1acba9ae4dad7d5c4a2b9878d991ea99224f6892a7fb04714be2faaa52c4a188",
+          "size": 343252,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7937 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-c57fee57a2-drum-bridge-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "c57fee57a2fd4a261785d3729109d8123fa26c50b777c5d934e5b1665ba7e779",
+          "size": 50056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2254 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "bridge",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 9.5
+          },
+          "unitsToMetres": 9.5,
+          "material": "textured",
+          "source": "japanese_drum_bridge.glb",
+          "squash": {
+            "axis": "x",
+            "factor": 0.3
+          },
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7937,
+              "tex": 512,
+              "kB": 335
+            },
+            {
+              "lod": 1,
+              "triangles": 2254,
+              "tex": 256,
+              "kB": 49
+            }
+          ]
+        }
+      }
     }
   ]
 }
