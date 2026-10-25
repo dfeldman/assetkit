@@ -1973,6 +1973,447 @@
           ]
         }
       }
+    },
+    {
+      "id": "bufano-peace",
+      "name": "Bufano's Peace, Brotherhood Way",
+      "description": "Bufano's 38 ft Peace (1958): a hooded stainless-steel figure with gold leaf, granite and tile mosaic, a gift of the San Francisco Chronicle; first at the airport, since 1996 beside the dog park on Brotherhood Way.",
+      "artist": "Beniamino Bufano",
+      "notes": "Textured. About 38 ft (11.6 m) overall (SF Arts Commission / ARG Conservation). The model has its own round base. Front -x (the face and rose robe show in the -x view). Peace stands at 800 Brotherhood Way, inside San Francisco (SFO was its first home).",
+      "subtype": "sculpture",
+      "length": 4.15,
+      "width": 4.09,
+      "height": 11.6,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "bufano",
+        "peace",
+        "brotherhood way",
+        "stainless steel"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f35c9274a4-bufano-peace-brotherhood-way-stainless-steel-source.glb",
+          "hash": "f35c9274a419cb36cce1de7af46390947bd1b700bf1672cc639aa2cba03de431",
+          "size": 6192768,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-c4aabfd1aa-bufano-peace-brotherhood-way-stainless-steel-lod0.glb",
+          "hash": "c4aabfd1aaabed3a00447c5865494bcad8472564ff74e6210f185efbe74f6579",
+          "size": 368584,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11720 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-38bb15ae8a-bufano-peace-brotherhood-way-stainless-steel-lod1.glb",
+          "hash": "38bb15ae8a05540caefe17401ce571c901ffe97e2af412fa89b638216c5db3a9",
+          "size": 138328,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3515 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 11.6
+          },
+          "unitsToMetres": 11.6,
+          "material": "textured",
+          "source": "bufano_peace.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11720,
+              "tex": 512,
+              "kB": 360
+            },
+            {
+              "lod": 1,
+              "triangles": 3515,
+              "tex": 256,
+              "kB": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bufano-penguins",
+      "name": "Bufano's Penguins, Gateway Commons",
+      "description": "Bufano's simplified granite penguin with a small chick at its feet and a red-capped beak, on an octagonal base.",
+      "artist": "Beniamino Bufano",
+      "notes": "Textured (grey granite, red beak). About 1.8 m including its octagonal base (about.md says 1.5-2 m; the base is part of the model). Front +z (the chick and crossed feet show in the +z view).",
+      "subtype": "sculpture",
+      "length": 1.03,
+      "width": 1.03,
+      "height": 1.8,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "bufano",
+        "penguins",
+        "gateway",
+        "granite"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-46ada03000-bufano-penguins-gateway-granite-source.glb",
+          "hash": "46ada03000f8cc0f28e4a84cbf58efa129c251db60bd69b857c5268a4f33aaa4",
+          "size": 6097924,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6b96cd5d61-bufano-penguins-gateway-granite-lod0.glb",
+          "hash": "6b96cd5d61de1ac609841eb111b12849a412d952bc06f0d01726601f04afdc37",
+          "size": 256404,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7870 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-4121362ba9-bufano-penguins-gateway-granite-lod1.glb",
+          "hash": "4121362ba99943a5ead682f41681597df45ba1dc89e8da086371767ed63d06a2",
+          "size": 74692,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1874 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.8
+          },
+          "unitsToMetres": 1.8,
+          "material": "textured",
+          "source": "bufano_penguin.glb",
+          "reference": "statues_to_model/bufano-penguin/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7870,
+              "tex": 512,
+              "kB": 250
+            },
+            {
+              "lod": 1,
+              "triangles": 1874,
+              "tex": 256,
+              "kB": 73
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cervantes-monument",
+      "name": "Cervantes Monument, Golden Gate Park",
+      "description": "Jo Mora's Cervantes Monument (1916): a bronze bust on a granite boulder, Don Quixote and Sancho Panza kneeling at its foot.",
+      "artist": "Jo Mora",
+      "notes": "Textured. About 3.5 m overall (about.md: 3-3.5 m, bust and boulder). The boulder is its own base. Front -z: the bust's collar, the scroll and the kneeling figures face -z.",
+      "subtype": "sculpture",
+      "length": 3.5,
+      "width": 1.94,
+      "height": 3.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "cervantes",
+        "don quixote",
+        "jo mora",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-fc7d7aa2fc-cervantes-don-quixote-jo-mora-golden-gate-park-source.glb",
+          "hash": "fc7d7aa2fc0c5f012dd4de1518e0e1c530ce8377d2da20d19ca8bcc176b7f6c1",
+          "size": 22745104,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-0180152c57-cervantes-don-quixote-jo-mora-golden-gate-park-lod0.glb",
+          "hash": "0180152c57d852ce40e01858dbb95f1f9bb98dc18164b41d6436318637154b6b",
+          "size": 388632,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11993 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-3a6c5a31be-cervantes-don-quixote-jo-mora-golden-gate-park-lod1.glb",
+          "hash": "3a6c5a31be70584da01c24dfddf5e681ee1e23cbee44f12fbb3b4ee197b5351d",
+          "size": 121572,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2997 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-z",
+          "scale": {
+            "axis": "y",
+            "metres": 3.5
+          },
+          "unitsToMetres": 3.5,
+          "material": "textured",
+          "source": "cervantes.glb",
+          "reference": "statues_to_model/cervantes-monument-golden-gate-park/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11993,
+              "tex": 512,
+              "kB": 380
+            },
+            {
+              "lod": 1,
+              "triangles": 2997,
+              "tex": 256,
+              "kB": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pershing-golden-gate-park",
+      "name": "General Pershing, Golden Gate Park",
+      "description": "Haig Patigian's bronze General Pershing (1922), a German helmet at his feet, on a tall granite pedestal at the Music Concourse.",
+      "artist": "Haig Patigian",
+      "notes": "Untextured: bronze. The figure is about 2.6 m with its thin base; the granite pedestal (~3.2 m) is drawn by the renderer. Front -z (the face and the helmet's side show in the -z view).",
+      "subtype": "sculpture",
+      "length": 1.05,
+      "width": 0.95,
+      "height": 2.6,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "pershing",
+        "patigian",
+        "golden gate park",
+        "world war"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-70a55d3e45-pershing-patigian-golden-gate-park-world-war-source.glb",
+          "hash": "70a55d3e450f1417ccd3218883efcad5a021ba2280f3e583de70e852a1e43eaf",
+          "size": 340960,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-5d8d5ce6bf-pershing-patigian-golden-gate-park-world-war-lod0.glb",
+          "hash": "5d8d5ce6bf776d25373b03b1aab5a249d4453a3df60ef26ee4b98dbb674af824",
+          "size": 112324,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7916 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-fe359ff4f9-pershing-patigian-golden-gate-park-world-war-lod1.glb",
+          "hash": "fe359ff4f9cacacd4335442fb51609e53b9a97500ca24d195ddd38c149001a91",
+          "size": 27748,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1880 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-z",
+          "scale": {
+            "axis": "y",
+            "metres": 2.6
+          },
+          "unitsToMetres": 2.6,
+          "plinth": [
+            1.9,
+            1.9,
+            3.2
+          ],
+          "material": "bronze",
+          "source": "general_pershing.glb",
+          "reference": "statues_to_model/general-pershing-statue/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7916,
+              "tex": 256,
+              "kB": 110
+            },
+            {
+              "lod": 1,
+              "triangles": 1880,
+              "tex": 256,
+              "kB": 27
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chinatown-guardian-lion",
+      "name": "Chinatown guardian lion, Dragon Gate",
+      "description": "Seated Chinese guardian lion (shishi) in carved granite, one of the pair at the Dragon Gate, Grant Avenue at Bush.",
+      "artist": "traditional (a gift from Taiwan, 1970)",
+      "notes": "Untextured: granite drawn as concrete. One model, placed twice (a pair, mirrored in bearing). Front -x (the face shows in the -x view). 1.4 m including its own base, on a ~0.6 m pedestal.",
+      "subtype": "sculpture",
+      "length": 0.83,
+      "width": 1.17,
+      "height": 1.4,
+      "aiTool": "Tripo",
+      "shader": "plaster",
+      "assetKeywords": [
+        "guardian lion",
+        "foo dog",
+        "dragon gate",
+        "chinatown"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0b7bfd0899-guardian-lion-foo-dog-dragon-gate-chinatown-source.glb",
+          "hash": "0b7bfd0899b0d2285271d4c5f2bba8aabc6b675c144915b572099be825d4e288",
+          "size": 345360,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-943ca7456f-guardian-lion-foo-dog-dragon-gate-chinatown-lod0.glb",
+          "hash": "943ca7456f0b02c4356d3db36aaab72a4ad8c5dfa7b3b644962e64c070754df6",
+          "size": 114108,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7999 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-a60d596821-guardian-lion-foo-dog-dragon-gate-chinatown-lod1.glb",
+          "hash": "a60d5968218b8b4f237555b6f6713c1562d31c41bcb5ae9538f1d232d72c0a66",
+          "size": 28472,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1905 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.4
+          },
+          "unitsToMetres": 1.4,
+          "plinth": [
+            0.9,
+            0.7,
+            0.6
+          ],
+          "material": "plaster",
+          "source": "chinatown_guardian_lion_concrete.glb",
+          "reference": "statues_to_model/chinatown-guardian-lions/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7999,
+              "tex": 256,
+              "kB": 111
+            },
+            {
+              "lod": 1,
+              "triangles": 1905,
+              "tex": 256,
+              "kB": 28
+            }
+          ]
+        }
+      }
     }
   ]
 }

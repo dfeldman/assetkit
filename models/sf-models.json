@@ -769,6 +769,180 @@
    ],
    "reference": "statues_to_model/bufano-st-francis/about.md",
    "notes": "Untextured: the granite is drawn as concrete. 18 ft (5.5 m), 12-20 tons of granite (Kerouac.com, HMDB). The model has its own tapered base. Front -x (the hooded face shows in the -x view)."
+  },
+  {
+   "name": "Bufano's Peace, Brotherhood Way",
+   "file": "bufano_peace.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 11.6
+   },
+   "lods": [
+    {
+     "ratio": 0.6,
+     "tex": 512
+    },
+    {
+     "ratio": 0.18,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Beniamino Bufano",
+   "description": "Bufano's 38 ft Peace (1958): a hooded stainless-steel figure with gold leaf, granite and tile mosaic, a gift of the San Francisco Chronicle; first at the airport, since 1996 beside the dog park on Brotherhood Way.",
+   "keywords": [
+    "bufano",
+    "peace",
+    "brotherhood way",
+    "stainless steel"
+   ],
+   "notes": "Textured. About 38 ft (11.6 m) overall (SF Arts Commission / ARG Conservation). The model has its own round base. Front -x (the face and rose robe show in the -x view). Peace stands at 800 Brotherhood Way, inside San Francisco (SFO was its first home).",
+   "id": "bufano-peace"
+  },
+  {
+   "name": "Bufano's Penguins, Gateway Commons",
+   "file": "bufano_penguin.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.8
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Beniamino Bufano",
+   "description": "Bufano's simplified granite penguin with a small chick at its feet and a red-capped beak, on an octagonal base.",
+   "keywords": [
+    "bufano",
+    "penguins",
+    "gateway",
+    "granite"
+   ],
+   "reference": "statues_to_model/bufano-penguin/about.md",
+   "notes": "Textured (grey granite, red beak). About 1.8 m including its octagonal base (about.md says 1.5-2 m; the base is part of the model). Front +z (the chick and crossed feet show in the +z view).",
+   "id": "bufano-penguins"
+  },
+  {
+   "name": "Cervantes Monument, Golden Gate Park",
+   "file": "cervantes.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-z",
+   "scale": {
+    "axis": "y",
+    "metres": 3.5
+   },
+   "lods": [
+    {
+     "ratio": 0.6,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Jo Mora",
+   "description": "Jo Mora's Cervantes Monument (1916): a bronze bust on a granite boulder, Don Quixote and Sancho Panza kneeling at its foot.",
+   "keywords": [
+    "cervantes",
+    "don quixote",
+    "jo mora",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/cervantes-monument-golden-gate-park/about.md",
+   "notes": "Textured. About 3.5 m overall (about.md: 3-3.5 m, bust and boulder). The boulder is its own base. Front -z: the bust's collar, the scroll and the kneeling figures face -z.",
+   "id": "cervantes-monument"
+  },
+  {
+   "name": "General Pershing, Golden Gate Park",
+   "file": "general_pershing.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.6
+   },
+   "plinth": [
+    1.9,
+    1.9,
+    3.2
+   ],
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Haig Patigian",
+   "description": "Haig Patigian's bronze General Pershing (1922), a German helmet at his feet, on a tall granite pedestal at the Music Concourse.",
+   "keywords": [
+    "pershing",
+    "patigian",
+    "golden gate park",
+    "world war"
+   ],
+   "reference": "statues_to_model/general-pershing-statue/about.md",
+   "notes": "Untextured: bronze. The figure is about 2.6 m with its thin base; the granite pedestal (~3.2 m) is drawn by the renderer. Front -z (the face and the helmet's side show in the -z view).",
+   "id": "pershing-golden-gate-park"
+  },
+  {
+   "name": "Chinatown guardian lion, Dragon Gate",
+   "file": "chinatown_guardian_lion_concrete.glb",
+   "kind": "statue",
+   "material": "plaster",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.4
+   },
+   "plinth": [
+    0.9,
+    0.7,
+    0.6
+   ],
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "traditional (a gift from Taiwan, 1970)",
+   "description": "Seated Chinese guardian lion (shishi) in carved granite, one of the pair at the Dragon Gate, Grant Avenue at Bush.",
+   "keywords": [
+    "guardian lion",
+    "foo dog",
+    "dragon gate",
+    "chinatown"
+   ],
+   "reference": "statues_to_model/chinatown-guardian-lions/about.md",
+   "notes": "Untextured: granite drawn as concrete. One model, placed twice (a pair, mirrored in bearing). Front -x (the face shows in the -x view). 1.4 m including its own base, on a ~0.6 m pedestal.",
+   "id": "chinatown-guardian-lion"
   }
  ]
 }
