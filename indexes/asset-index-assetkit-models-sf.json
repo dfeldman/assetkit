@@ -2847,6 +2847,616 @@
           ]
         }
       }
+    },
+    {
+      "id": "miguel-hidalgo",
+      "name": "Miguel Hidalgo, Dolores Park",
+      "description": "Bronze standing Father Miguel Hidalgo in a long coat and boots, one arm out, at the upper corner of Dolores Park (1962).",
+      "artist": "Unknown (gift of the Mexican Colony, 1962)",
+      "notes": "Untextured: bronze. ~3 m figure on a small rock base (the model has it); stands on a tall black granite die (~2.6 m) on a low black platform (drawn by the renderer from the Commons photo). Face seen from -x.",
+      "subtype": "sculpture",
+      "length": 1.28,
+      "width": 1.02,
+      "height": 3,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "hidalgo",
+        "dolores park",
+        "mexico"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-37fa80a9dd-hidalgo-dolores-park-mexico-source.glb",
+          "hash": "37fa80a9dda30c520c7ab2850ecbd1ebffbebbacbca8243413efe9420ac2057c",
+          "size": 357396,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-2a6dfce19a-hidalgo-dolores-park-mexico-lod0.glb",
+          "hash": "2a6dfce19aee42b6d370c2571ff85b9027f5181fc6e49578b01f5661e3cb8b58",
+          "size": 112312,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7886 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-baa90fa8c1-hidalgo-dolores-park-mexico-lod1.glb",
+          "hash": "baa90fa8c198c273b7710dbbfa98df5ad44c60f1f1dc47945f090e11c5ee2e44",
+          "size": 29068,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1968 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3
+          },
+          "unitsToMetres": 3,
+          "plinth": [
+            1.6,
+            1.6,
+            2.6
+          ],
+          "material": "bronze",
+          "source": "migurl_hidalgo.glb",
+          "reference": "statues_to_model/miguel-hidalgo/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7886,
+              "tex": 256,
+              "kB": 110
+            },
+            {
+              "lod": 1,
+              "triangles": 1968,
+              "tex": 256,
+              "kB": 28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pioneer-mother",
+      "name": "Pioneer Mother, Golden Gate Park",
+      "description": "Bronze mother with two children, arm outstretched, on the stepped top of Grafly's 1915 monument (moved to Golden Gate Park in 1940).",
+      "artist": "Charles Grafly",
+      "notes": "Untextured: bronze. The model has the small stepped bronze top (~3 m figure, 3.3 m with it); the tall red-brown stone base with the ship relief (about 3.3 m of the ~7.9 m total) is the plinth. Face seen from -x.",
+      "subtype": "sculpture",
+      "length": 1.97,
+      "width": 1.52,
+      "height": 3.3,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "pioneer mother",
+        "grafly",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e4081646aa-pioneer-mother-grafly-golden-gate-park-source.glb",
+          "hash": "e4081646aa1791d802766b7559b964d2e18175beef48f9e35def7d80be84b7e0",
+          "size": 345284,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-fc7e869346-pioneer-mother-grafly-golden-gate-park-lod0.glb",
+          "hash": "fc7e869346d49d02899f51c3486d1d15510784ee09d33a7c92d9e1e409cd9281",
+          "size": 161828,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11454 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-01c78d7cdc-pioneer-mother-grafly-golden-gate-park-lod1.glb",
+          "hash": "01c78d7cdc9c05850572a503a988a2394fd6d7c0a494b654e87cb7c328e50781",
+          "size": 41416,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2860 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3.3
+          },
+          "unitsToMetres": 3.3,
+          "plinth": [
+            2.6,
+            1.9,
+            3.3
+          ],
+          "material": "bronze",
+          "source": "pioneer_mother_bronze.glb",
+          "reference": "statues_to_model/pioneer-mother/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11454,
+              "tex": 256,
+              "kB": 158
+            },
+            {
+              "lod": 1,
+              "triangles": 2860,
+              "tex": 256,
+              "kB": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "puddle-jumpers",
+      "name": "Puddle Jumpers, Transamerica Redwood Park",
+      "description": "Five bronze children running and leaping in a chain through a puddle, Transamerica Redwood Park.",
+      "artist": "Unconfirmed",
+      "notes": "Untextured: bronze. Chain of five, ~3.2 m long (children ~1.1 m, the leader leaping); no base. Leader (arm flung out) is at -z, so the group runs toward -z.",
+      "subtype": "sculpture",
+      "length": 3.2,
+      "width": 2.04,
+      "height": 1.87,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "puddle jumpers",
+        "redwood park",
+        "transamerica",
+        "children"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e4b2409328-puddle-jumpers-redwood-park-transamerica-children-source.glb",
+          "hash": "e4b24093281b15af7ab9b4273fe40d21bfc189207e5c7762452e40d98cfae300",
+          "size": 341684,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-9e15bd9d4c-puddle-jumpers-redwood-park-transamerica-children-lod0.glb",
+          "hash": "9e15bd9d4c828502a802ff61dda826d2730e7c6e18329ac89783487647bd3169",
+          "size": 160148,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11368 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-9d56028546-puddle-jumpers-redwood-park-transamerica-children-lod1.glb",
+          "hash": "9d56028546adc955beefd94a17abd58f54750901093e2f0cbd3d577afea58ca3",
+          "size": 40780,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2838 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-z",
+          "scale": {
+            "axis": "z",
+            "metres": 3.2
+          },
+          "unitsToMetres": 3.2,
+          "material": "bronze",
+          "source": "puddle_jumpers.glb",
+          "reference": "statues_to_model/puddle-jumpers/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11368,
+              "tex": 256,
+              "kB": 156
+            },
+            {
+              "lod": 1,
+              "triangles": 2838,
+              "tex": 256,
+              "kB": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lou-seal-plaza",
+      "name": "Seal balancing a ball, Seals Plaza",
+      "description": "Bronze seal balancing a ball on its nose, on a ring base, in Seals Plaza at Oracle Park's Marina Gate.",
+      "artist": "Alfredo Osorio (Seals Plaza sculpture, 1996)",
+      "notes": "Untextured: bronze. The file is named Lou Seal (the Giants mascot); the model is a seal balancing a ball on a split-ring base, which matches the Seals Plaza sculpture outside the ballpark, so it is placed there. Height ~2 m is a guess (no source gives it). Head toward -z.",
+      "subtype": "sculpture",
+      "length": 2.94,
+      "width": 1.7,
+      "height": 2,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "lou seal",
+        "seals plaza",
+        "oracle park",
+        "giants"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e5a44dd635-lou-seal-seals-plaza-oracle-park-giants-source.glb",
+          "hash": "e5a44dd63547ad762f25c1a2762638b1f36906faf3d990c58b2587d31796e192",
+          "size": 366896,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-b4e2d66e87-lou-seal-seals-plaza-oracle-park-giants-lod0.glb",
+          "hash": "b4e2d66e8795ccd52ccc93d1261f1aad907d488c4a4857c743030f7bd6053ef7",
+          "size": 120288,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7752 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-69075aeba3-lou-seal-seals-plaza-oracle-park-giants-lod1.glb",
+          "hash": "69075aeba336177c4e4cdf594b283622563a3f2459f8556d63c7189a313b10e9",
+          "size": 35632,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1936 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-z",
+          "scale": {
+            "axis": "y",
+            "metres": 2
+          },
+          "unitsToMetres": 2.947,
+          "material": "bronze",
+          "source": "oracle_park_lou_seal.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7752,
+              "tex": 256,
+              "kB": 117
+            },
+            {
+              "lod": 1,
+              "triangles": 1936,
+              "tex": 256,
+              "kB": 35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pier39-crab-topiary",
+      "name": "Crab topiary, Pier 39",
+      "description": "Dark crab with raised claws, its shell planted with flowers: the crab topiary at Pier 39.",
+      "artist": "Pier 39",
+      "notes": "Textured. Height ~2.5 m is a guess (no source found); front taken as -x (claws up toward the viewer).",
+      "subtype": "scenery",
+      "length": 2.15,
+      "width": 1.42,
+      "height": 2.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "crab",
+        "topiary",
+        "pier 39"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e0601bc347-crab-topiary-pier-39-source.glb",
+          "hash": "e0601bc347f5785707350ec7472812f4ff9a5aa75715e7670e1f003791deac05",
+          "size": 5994160,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6ec7f7fc5c-crab-topiary-pier-39-lod0.glb",
+          "hash": "6ec7f7fc5c8ac769a60034e066e41ff24f7c443a415f1330ab698d37a101d5f4",
+          "size": 287948,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7902 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-2131080063-crab-topiary-pier-39-lod1.glb",
+          "hash": "2131080063e0f69d8be1173028f278163b3a49e943fe22346a01504da05a8ca9",
+          "size": 99240,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1978 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.5
+          },
+          "unitsToMetres": 2.5,
+          "material": "textured",
+          "source": "pier_39_crab_topiary.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7902,
+              "tex": 512,
+              "kB": 281
+            },
+            {
+              "lod": 1,
+              "triangles": 1978,
+              "tex": 256,
+              "kB": 97
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "guardians-of-the-gate",
+      "name": "Guardians of the Gate sea lions, Pier 39",
+      "description": "Everdur bronze family of sea lions on a rock base, West Park beside Pier 39 (1992).",
+      "artist": "Miles Metzger",
+      "notes": "Untextured: bronze. The model carries its own rock base. Real size 4 ft 6 in x 8 ft x 5 ft (public-art list; which is height is not stated), so 1.4 m high. Front +x (guess: the two animals face that way).",
+      "subtype": "sculpture",
+      "length": 1.29,
+      "width": 1.2,
+      "height": 1.4,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "sea lions",
+        "guardians of the gate",
+        "pier 39",
+        "metzger"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-0b445da356-sea-lions-guardians-of-the-gate-pier-39-metzger-source.glb",
+          "hash": "0b445da356ccd01ac24334626ae0dea9b84843668e760a7f8fd49e593974847c",
+          "size": 362196,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6768ee90c7-sea-lions-guardians-of-the-gate-pier-39-metzger-lod0.glb",
+          "hash": "6768ee90c7cfcd73dcb7119a870c860ac6c278d39bdb7b4a66453da391c034ac",
+          "size": 115876,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7840 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-6aac4ece56-sea-lions-guardians-of-the-gate-pier-39-metzger-lod1.glb",
+          "hash": "6aac4ece56593004d373039a5418ba81d53c250cecd6f6519b86431abf5857a2",
+          "size": 32332,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1960 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.4
+          },
+          "unitsToMetres": 1.4,
+          "material": "bronze",
+          "source": "pier_39_sea_lion_bronze_statue.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7840,
+              "tex": 256,
+              "kB": 113
+            },
+            {
+              "lod": 1,
+              "triangles": 1960,
+              "tex": 256,
+              "kB": 32
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "presidio-spanish-cannon",
+      "name": "Spanish bronze cannon, Presidio",
+      "description": "Spanish bronze cannon on a concrete block, as on the Presidio's Main Post (Pershing Square and the Officers' Club).",
+      "artist": "Cast in Peru, 17th century",
+      "notes": "Textured. Barrel ~2.3 m (guess: NPS gives no length); the model has its concrete mounting block. Muzzle toward +z (bore seen from +z).",
+      "subtype": "scenery",
+      "length": 2.3,
+      "width": 0.84,
+      "height": 1.01,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "cannon",
+        "presidio",
+        "spanish",
+        "pershing square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-fda98375e2-cannon-presidio-spanish-pershing-square-source.glb",
+          "hash": "fda98375e2625974c44e604845c3c6d0476e2d36ded29e0c12027e586ccdb034",
+          "size": 6507716,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-21d4676c6a-cannon-presidio-spanish-pershing-square-lod0.glb",
+          "hash": "21d4676c6af7e366547badd8da50874ff9e80afd22bf08fc77bf7a9c51612c53",
+          "size": 244360,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7666 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-d006757aec-cannon-presidio-spanish-pershing-square-lod1.glb",
+          "hash": "d006757aece47d1db6ea0d3ae9a9aa5f13bc5c424f34cb5fd10450ce89552d5e",
+          "size": 74140,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1916 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 2.3
+          },
+          "unitsToMetres": 2.3,
+          "material": "textured",
+          "source": "presidio_spanish_cannon.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7666,
+              "tex": 512,
+              "kB": 239
+            },
+            {
+              "lod": 1,
+              "triangles": 1916,
+              "tex": 256,
+              "kB": 72
+            }
+          ]
+        }
+      }
     }
   ]
 }

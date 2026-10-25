@@ -1078,6 +1078,240 @@
     "kearny"
    ],
    "notes": "Textured, bronze-coloured. About 24 ft (7.3 m) overall, the whole fountain column including its base (Wikipedia gives no height; the earlier procedural stand-in used 8 m with a 0.5 m offset). Four-sided, so the front is arbitrary (+z)."
+  },
+  {
+   "id": "miguel-hidalgo",
+   "name": "Miguel Hidalgo, Dolores Park",
+   "file": "migurl_hidalgo.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.0
+   },
+   "plinth": [
+    1.6,
+    1.6,
+    2.6
+   ],
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Unknown (gift of the Mexican Colony, 1962)",
+   "description": "Bronze standing Father Miguel Hidalgo in a long coat and boots, one arm out, at the upper corner of Dolores Park (1962).",
+   "keywords": [
+    "hidalgo",
+    "dolores park",
+    "mexico"
+   ],
+   "reference": "statues_to_model/miguel-hidalgo/about.md",
+   "notes": "Untextured: bronze. ~3 m figure on a small rock base (the model has it); stands on a tall black granite die (~2.6 m) on a low black platform (drawn by the renderer from the Commons photo). Face seen from -x."
+  },
+  {
+   "id": "pioneer-mother",
+   "name": "Pioneer Mother, Golden Gate Park",
+   "file": "pioneer_mother_bronze.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.3
+   },
+   "plinth": [
+    2.6,
+    1.9,
+    3.3
+   ],
+   "lods": [
+    {
+     "ratio": 0.6,
+     "tex": 256
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Charles Grafly",
+   "description": "Bronze mother with two children, arm outstretched, on the stepped top of Grafly's 1915 monument (moved to Golden Gate Park in 1940).",
+   "keywords": [
+    "pioneer mother",
+    "grafly",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/pioneer-mother/about.md",
+   "notes": "Untextured: bronze. The model has the small stepped bronze top (~3 m figure, 3.3 m with it); the tall red-brown stone base with the ship relief (about 3.3 m of the ~7.9 m total) is the plinth. Face seen from -x."
+  },
+  {
+   "id": "puddle-jumpers",
+   "name": "Puddle Jumpers, Transamerica Redwood Park",
+   "file": "puddle_jumpers.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-z",
+   "scale": {
+    "axis": "z",
+    "metres": 3.2
+   },
+   "lods": [
+    {
+     "ratio": 0.6,
+     "tex": 256
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Unconfirmed",
+   "description": "Five bronze children running and leaping in a chain through a puddle, Transamerica Redwood Park.",
+   "keywords": [
+    "puddle jumpers",
+    "redwood park",
+    "transamerica",
+    "children"
+   ],
+   "reference": "statues_to_model/puddle-jumpers/about.md",
+   "notes": "Untextured: bronze. Chain of five, ~3.2 m long (children ~1.1 m, the leader leaping); no base. Leader (arm flung out) is at -z, so the group runs toward -z."
+  },
+  {
+   "id": "lou-seal-plaza",
+   "name": "Seal balancing a ball, Seals Plaza",
+   "file": "oracle_park_lou_seal.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.0
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Alfredo Osorio (Seals Plaza sculpture, 1996)",
+   "description": "Bronze seal balancing a ball on its nose, on a ring base, in Seals Plaza at Oracle Park's Marina Gate.",
+   "keywords": [
+    "lou seal",
+    "seals plaza",
+    "oracle park",
+    "giants"
+   ],
+   "notes": "Untextured: bronze. The file is named Lou Seal (the Giants mascot); the model is a seal balancing a ball on a split-ring base, which matches the Seals Plaza sculpture outside the ballpark, so it is placed there. Height ~2 m is a guess (no source gives it). Head toward -z."
+  },
+  {
+   "id": "pier39-crab-topiary",
+   "name": "Crab topiary, Pier 39",
+   "file": "pier_39_crab_topiary.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.5
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Pier 39",
+   "description": "Dark crab with raised claws, its shell planted with flowers: the crab topiary at Pier 39.",
+   "keywords": [
+    "crab",
+    "topiary",
+    "pier 39"
+   ],
+   "notes": "Textured. Height ~2.5 m is a guess (no source found); front taken as -x (claws up toward the viewer)."
+  },
+  {
+   "id": "guardians-of-the-gate",
+   "name": "Guardians of the Gate sea lions, Pier 39",
+   "file": "pier_39_sea_lion_bronze_statue.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "+x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.4
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Miles Metzger",
+   "description": "Everdur bronze family of sea lions on a rock base, West Park beside Pier 39 (1992).",
+   "keywords": [
+    "sea lions",
+    "guardians of the gate",
+    "pier 39",
+    "metzger"
+   ],
+   "notes": "Untextured: bronze. The model carries its own rock base. Real size 4 ft 6 in x 8 ft x 5 ft (public-art list; which is height is not stated), so 1.4 m high. Front +x (guess: the two animals face that way)."
+  },
+  {
+   "id": "presidio-spanish-cannon",
+   "name": "Spanish bronze cannon, Presidio",
+   "file": "presidio_spanish_cannon.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 2.3
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Cast in Peru, 17th century",
+   "description": "Spanish bronze cannon on a concrete block, as on the Presidio's Main Post (Pershing Square and the Officers' Club).",
+   "keywords": [
+    "cannon",
+    "presidio",
+    "spanish",
+    "pershing square"
+   ],
+   "notes": "Textured. Barrel ~2.3 m (guess: NPS gives no length); the model has its concrete mounting block. Muzzle toward +z (bore seen from +z)."
   }
  ]
 }
