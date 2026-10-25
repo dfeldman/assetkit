@@ -4617,6 +4617,514 @@
           ]
         }
       }
+    },
+    {
+      "id": "mckinley-memorial",
+      "name": "William McKinley Memorial, the Panhandle",
+      "description": "Victory with sword and palm on a granite pedestal, on round steps (1904), the Panhandle.",
+      "artist": "Robert Ingersoll Aitken",
+      "notes": "Textured. The model brings its round steps and pedestal; ~9 m overall (OSM statue 3.05 m; the procedural stand-in is ~11 m). Front -x (the in-place render showed her back at +x).",
+      "subtype": "sculpture",
+      "length": 10.61,
+      "width": 10.59,
+      "height": 9,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "mckinley",
+        "panhandle",
+        "victory",
+        "aitken"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dabc726ba6-mckinley-panhandle-victory-aitken-source.glb",
+          "hash": "dabc726ba649878b5ea6a2f3f5332df4e110d575f6bfb089ef1c94f923514a9e",
+          "size": 3462884,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-706c147b2b-mckinley-panhandle-victory-aitken-lod0.glb",
+          "hash": "706c147b2b434bdfd9010e0affbf68dd5eea696d0bba4c89c11dd8cd3dbbfe19",
+          "size": 364920,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14856 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-e8fab4adce-mckinley-panhandle-victory-aitken-lod1.glb",
+          "hash": "e8fab4adce5ab70899aee9c8aec4c28a02e5cf731f5e5967f51dedba5a950ebc",
+          "size": 132508,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3896 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 9
+          },
+          "unitsToMetres": 10.608,
+          "material": "textured",
+          "source": "sf_mckinley_monument.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14856,
+              "tex": 512,
+              "kB": 356
+            },
+            {
+              "lod": 1,
+              "triangles": 3896,
+              "tex": 256,
+              "kB": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "naga-sea-serpent",
+      "name": "Naga, the sea serpent",
+      "description": "Lighted aqua and silver sea serpent sculpture, 100 ft long (2025).",
+      "artist": "Cjay Roughgarden, Stephanie Shipman, Jacquelyn Scott",
+      "notes": "Textured. Scaled by its 100 ft (OSM description) length along z; head taken at +z.",
+      "subtype": "sculpture",
+      "length": 30.5,
+      "width": 10.13,
+      "height": 7.19,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "naga",
+        "sea serpent",
+        "sunset"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-9c68e6d3e0-naga-sea-serpent-sunset-source.glb",
+          "hash": "9c68e6d3e061b6d10eae3699df6366b1be34b510534a08dca37ab7871cec41bd",
+          "size": 4143128,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-08af24f422-naga-sea-serpent-sunset-lod0.glb",
+          "hash": "08af24f42216e1f79a57877afce6fe8038f62757c95a81e42b58b110d4a363b4",
+          "size": 347552,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14914 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-2b74bb6c0d-naga-sea-serpent-sunset-lod1.glb",
+          "hash": "2b74bb6c0d1e4fab1adc007f8191f24daa291cb88801858a0ba3fbd3d032fb87",
+          "size": 106700,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3976 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 30.5
+          },
+          "unitsToMetres": 30.5,
+          "material": "textured",
+          "source": "sf_naga_the_sea_serpent.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14914,
+              "tex": 512,
+              "kB": 339
+            },
+            {
+              "lod": 1,
+              "triangles": 3976,
+              "tex": 256,
+              "kB": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "roxy-paine-node",
+      "name": "Node, Roxy Paine",
+      "description": "102 ft stainless-steel branching tower at the Yerba Buena/Moscone Muni station (2023).",
+      "artist": "Roxy Paine",
+      "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front.",
+      "subtype": "scenery",
+      "length": 6.33,
+      "width": 23.06,
+      "height": 31,
+      "aiTool": "Tripo",
+      "shader": "plaster",
+      "assetKeywords": [
+        "node",
+        "roxy paine",
+        "moscone",
+        "yerba buena"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-71c3428abd-node-roxy-paine-moscone-yerba-buena-source.glb",
+          "hash": "71c3428abd4a83e5d9af2a4282a83447a7e52938b502b136c45caa4a2e7f4d22",
+          "size": 357684,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-e9cb57a587-node-roxy-paine-moscone-yerba-buena-lod0.glb",
+          "hash": "e9cb57a587a8a2a0a5ecdf58d1872bd107b74087e92e90de8b79f982e136f5b2",
+          "size": 209268,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14792 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-3a27b7c09d-node-roxy-paine-moscone-yerba-buena-lod1.glb",
+          "hash": "3a27b7c09d2c575864b763e164078c8764a516102530d24f680f960ee5c8f35f",
+          "size": 57248,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3944 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 31
+          },
+          "unitsToMetres": 31,
+          "material": "plaster",
+          "source": "sf_node_sculpture_silver.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14792,
+              "tex": 256,
+              "kB": 204
+            },
+            {
+              "lod": 1,
+              "triangles": 3944,
+              "tex": 256,
+              "kB": 56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ordonez-gun",
+      "name": "The Ordonez Gun, Presidio",
+      "description": "Battle-damaged Spanish gun from Subic Bay on its carriage, Pershing Square, Presidio.",
+      "artist": "",
+      "notes": "Textured. Overall length (muzzle to carriage wheel) ~3.2 m is an estimate; muzzle at -z.",
+      "subtype": "scenery",
+      "length": 3.2,
+      "width": 1.27,
+      "height": 1.82,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "ordonez",
+        "cannon",
+        "presidio"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f30b69195b-ordonez-cannon-presidio-source.glb",
+          "hash": "f30b69195bd7a0a3b63bf877281f59887bccdb965fb6301d1afbfe0be4bf083a",
+          "size": 4440752,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-e1578778b7-ordonez-cannon-presidio-lod0.glb",
+          "hash": "e1578778b74f5147f91dea121d991d89098c1a08070651e24786beaa93015c84",
+          "size": 255700,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7568 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-4fa81d11e6-ordonez-cannon-presidio-lod1.glb",
+          "hash": "4fa81d11e6c1da80e215f6b5bd08be0659013a5c5fc6a4d96bc0a1b0e934dc61",
+          "size": 105480,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2424 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "-z",
+          "scale": {
+            "axis": "z",
+            "metres": 3.2
+          },
+          "unitsToMetres": 3.2,
+          "material": "textured",
+          "source": "sf_ordonez_gun.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7568,
+              "tex": 512,
+              "kB": 250
+            },
+            {
+              "lod": 1,
+              "triangles": 2424,
+              "tex": 256,
+              "kB": 103
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pardo-van-ness-lighting",
+      "name": "Van Ness Lighting Sculpture, Jorge Pardo",
+      "description": "Thirteen poles topped by coloured spheres, tallest ~20 ft; two sets on Van Ness Avenue.",
+      "artist": "Jorge Pardo",
+      "notes": "Textured. Tallest pole 20 ft = 6.1 m (SF Arts Commission); a row ~8.4 m long along z.",
+      "subtype": "scenery",
+      "length": 8.34,
+      "width": 0.98,
+      "height": 6.1,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "pardo",
+        "van ness",
+        "lighting sculpture"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7fd362fbf6-pardo-van-ness-lighting-sculpture-source.glb",
+          "hash": "7fd362fbf6269bcebc9a0abdad6d44f212f61cbbc82f780fff7514548567e822",
+          "size": 10449164,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-b324bfb81d-pardo-van-ness-lighting-sculpture-lod0.glb",
+          "hash": "b324bfb81de47038a2eef575b473c3b16d8619ea4e6a8aca22a63f0f36458670",
+          "size": 387492,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14662 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-ce343a82c5-pardo-van-ness-lighting-sculpture-lod1.glb",
+          "hash": "ce343a82c5268698d4ae9f3326e6655c49561462772e11f30d7247c867c79355",
+          "size": 148316,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3948 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 6.1
+          },
+          "unitsToMetres": 8.336,
+          "material": "textured",
+          "source": "sf_pardo_van_ness.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14662,
+              "tex": 512,
+              "kB": 378
+            },
+            {
+              "lod": 1,
+              "triangles": 3948,
+              "tex": 256,
+              "kB": 145
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "philo-farnsworth",
+      "name": "Philo T. Farnsworth, Presidio",
+      "description": "Bronze Farnsworth, inventor of television, Letterman Digital Arts Center.",
+      "artist": "",
+      "notes": "Untextured: bronze. Life-size figure with its own low base, ~2.1 m. Front -x.",
+      "subtype": "sculpture",
+      "length": 1,
+      "width": 0.91,
+      "height": 2.1,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "farnsworth",
+        "television",
+        "presidio"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a57208c738-farnsworth-television-presidio-source.glb",
+          "hash": "a57208c738c7f57f3551636bedf30ce100946536fd6419179f33bb7d6284fc36",
+          "size": 357432,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8b3b75a965-farnsworth-television-presidio-lod0.glb",
+          "hash": "8b3b75a965273e9f197a7d2fe8b0aebbca29b4ed38943761bfbc62165bbda401",
+          "size": 122416,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7938 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-83e7b7f2fb-farnsworth-television-presidio-lod1.glb",
+          "hash": "83e7b7f2fb581537cab65735aed142d50472955f96da731dac1e99cb2d3cc096",
+          "size": 34576,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1886 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.1
+          },
+          "unitsToMetres": 2.1,
+          "material": "bronze",
+          "source": "sf_philo_t_farnsworth.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7938,
+              "tex": 256,
+              "kB": 120
+            },
+            {
+              "lod": 1,
+              "triangles": 1886,
+              "tex": 256,
+              "kB": 34
+            }
+          ]
+        }
+      }
     }
   ]
 }

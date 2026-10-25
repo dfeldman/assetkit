@@ -1718,6 +1718,194 @@
     "justin herman"
    ],
    "notes": "Textured scan with its round base disc. 22 ft (6.7 m) per Public Art Fund / Wikipedia. Front -x (the face and torso panels read from -x in the preview); Dubuffet's piece has no true front."
+  },
+  {
+   "id": "mckinley-memorial",
+   "name": "William McKinley Memorial, the Panhandle",
+   "file": "sf_mckinley_monument.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 9.0
+   },
+   "lods": [
+    {
+     "ratio": 0.8,
+     "tex": 512
+    },
+    {
+     "ratio": 0.21,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Robert Ingersoll Aitken",
+   "description": "Victory with sword and palm on a granite pedestal, on round steps (1904), the Panhandle.",
+   "keywords": [
+    "mckinley",
+    "panhandle",
+    "victory",
+    "aitken"
+   ],
+   "notes": "Textured. The model brings its round steps and pedestal; ~9 m overall (OSM statue 3.05 m; the procedural stand-in is ~11 m). Front -x (the in-place render showed her back at +x)."
+  },
+  {
+   "id": "naga-sea-serpent",
+   "name": "Naga, the sea serpent",
+   "file": "sf_naga_the_sea_serpent.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 30.5
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 512
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Cjay Roughgarden, Stephanie Shipman, Jacquelyn Scott",
+   "description": "Lighted aqua and silver sea serpent sculpture, 100 ft long (2025).",
+   "keywords": [
+    "naga",
+    "sea serpent",
+    "sunset"
+   ],
+   "notes": "Textured. Scaled by its 100 ft (OSM description) length along z; head taken at +z."
+  },
+  {
+   "id": "roxy-paine-node",
+   "name": "Node, Roxy Paine",
+   "file": "sf_node_sculpture_silver.glb",
+   "kind": "object",
+   "material": "plaster",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 31.0
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 256
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Roxy Paine",
+   "description": "102 ft stainless-steel branching tower at the Yerba Buena/Moscone Muni station (2023).",
+   "keywords": [
+    "node",
+    "roxy paine",
+    "moscone",
+    "yerba buena"
+   ],
+   "notes": "Untextured; stainless steel drawn in plaster (the greyest shader the packer knows). 102 ft (SF Chronicle). No front."
+  },
+  {
+   "id": "ordonez-gun",
+   "name": "The Ordonez Gun, Presidio",
+   "file": "sf_ordonez_gun.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "-z",
+   "scale": {
+    "axis": "z",
+    "metres": 3.2
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "",
+   "description": "Battle-damaged Spanish gun from Subic Bay on its carriage, Pershing Square, Presidio.",
+   "keywords": [
+    "ordonez",
+    "cannon",
+    "presidio"
+   ],
+   "notes": "Textured. Overall length (muzzle to carriage wheel) ~3.2 m is an estimate; muzzle at -z."
+  },
+  {
+   "id": "pardo-van-ness-lighting",
+   "name": "Van Ness Lighting Sculpture, Jorge Pardo",
+   "file": "sf_pardo_van_ness.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 6.1
+   },
+   "lods": [
+    {
+     "ratio": 0.78,
+     "tex": 512
+    },
+    {
+     "ratio": 0.21,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Jorge Pardo",
+   "description": "Thirteen poles topped by coloured spheres, tallest ~20 ft; two sets on Van Ness Avenue.",
+   "keywords": [
+    "pardo",
+    "van ness",
+    "lighting sculpture"
+   ],
+   "notes": "Textured. Tallest pole 20 ft = 6.1 m (SF Arts Commission); a row ~8.4 m long along z."
+  },
+  {
+   "id": "philo-farnsworth",
+   "name": "Philo T. Farnsworth, Presidio",
+   "file": "sf_philo_t_farnsworth.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.1
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "",
+   "description": "Bronze Farnsworth, inventor of television, Letterman Digital Arts Center.",
+   "keywords": [
+    "farnsworth",
+    "television",
+    "presidio"
+   ],
+   "notes": "Untextured: bronze. Life-size figure with its own low base, ~2.1 m. Front -x."
   }
  ]
 }
