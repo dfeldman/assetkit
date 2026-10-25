@@ -1910,6 +1910,178 @@
     "presidio"
    ],
    "notes": "Untextured: bronze. Life-size figure with its own low base, ~2.1 m. Front -x."
+  },
+  {
+   "id": "corpus-pier-14",
+   "name": "Corpus, Pier 14",
+   "file": "sf_pier_14_coorpus_bronze.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 4.9
+   },
+   "lods": [
+    {
+     "ratio": 0.43,
+     "tex": 256
+    },
+    {
+     "ratio": 0.11,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Michael Christian",
+   "description": "Corpus: a 16 ft steel creature on spindly rooted legs, Big Art Loop, Pier 14 on the Embarcadero (2025, from Burning Man).",
+   "keywords": [
+    "corpus",
+    "pier 14",
+    "big art loop",
+    "michael christian"
+   ],
+   "notes": "Untextured: bronze (the real piece is steel, the packer has no steel shader). 16 ft (4.9 m) per the Big Art Loop. Front (the end with the eye bumps) taken as +z by judgement; a temporary Big Art Loop loan (installed Oct 2025). No reference folder."
+  },
+  {
+   "id": "skygate",
+   "name": "Skygate, the Embarcadero",
+   "file": "sf_skygate_silver.glb",
+   "kind": "statue",
+   "material": "plaster",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 7.9
+   },
+   "lods": [
+    {
+     "ratio": 0.6,
+     "tex": 256
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Roger Barr",
+   "description": "Skygate (1985): a 26 ft silver steel gateway of twisting ribbons on the Embarcadero, dedicated to Eric Hoffer.",
+   "keywords": [
+    "skygate",
+    "roger barr",
+    "eric hoffer",
+    "embarcadero"
+   ],
+   "notes": "Untextured; the packer has no steel shader, so plaster (pale grey) stands in for the silver. 26 ft = 7.9 m (OSM description). Symmetric, so front +z. No reference folder."
+  },
+  {
+   "id": "sphinx-de-young",
+   "name": "Sphinx, de Young Museum",
+   "file": "sf_sphinxes_de_young_museum_whitestone.glb",
+   "kind": "statue",
+   "material": "plaster",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.6
+   },
+   "plinth": [
+    2.8,
+    1.5,
+    0.4
+   ],
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Arthur Putnam",
+   "description": "One of a pair of reclining concrete sphinxes (c. 1910) flanking the approach to the de Young Museum, Golden Gate Park.",
+   "keywords": [
+    "sphinx",
+    "de young",
+    "golden gate park",
+    "putnam"
+   ],
+   "reference": "statues_to_model/sphinxes-de-young-museum/about.md",
+   "notes": "Untextured: off-white concrete = plaster. The head faces -x. About 2 m tall including base: 1.6 m sphinx on a low 0.4 m plinth (the model has no base). Place twice (the museum's pair is mirrored)."
+  },
+  {
+   "id": "sun-yat-sen",
+   "name": "Sun Yat-sen, St Mary's Square",
+   "file": "sf_sun_yat_sen.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 4.5
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Beniamino Bufano",
+   "description": "Bufano's stainless-steel Sun Yat-sen (1937) on its pink granite base, St Mary's Square.",
+   "keywords": [
+    "sun yat-sen",
+    "bufano",
+    "st marys square",
+    "chinatown"
+   ],
+   "reference": "statues_to_model/sun-yat-sen-statue/about.md",
+   "notes": "Textured, with its own pink granite base, so no plinth. About 4-5 m with the pedestal: 4.5 m. Front (hands clasped, medallion) is -x."
+  },
+  {
+   "id": "thomas-starr-king",
+   "name": "Thomas Starr King, Golden Gate Park",
+   "file": "sf_thomas_starr_king.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.7
+   },
+   "plinth": [
+    2.2,
+    2.4,
+    2.4
+   ],
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Daniel Chester French",
+   "description": "Bronze Thomas Starr King (1892) in his frock coat holding back a cloak, on a red granite pedestal.",
+   "keywords": [
+    "thomas starr king",
+    "daniel chester french",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/thomas-starr-king/about.md",
+   "notes": "Untextured: bronze. About 2.5 m figure plus a thin slab base = 2.7 m, on a red granite pedestal about 2.4 m (the model has no pedestal). Front (face and papers) is -x."
   }
  ]
 }

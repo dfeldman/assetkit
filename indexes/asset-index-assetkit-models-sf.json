@@ -5157,6 +5157,447 @@
           ]
         }
       }
+    },
+    {
+      "id": "corpus-pier-14",
+      "name": "Corpus, Pier 14",
+      "description": "Corpus: a 16 ft steel creature on spindly rooted legs, Big Art Loop, Pier 14 on the Embarcadero (2025, from Burning Man).",
+      "artist": "Michael Christian",
+      "notes": "Untextured: bronze (the real piece is steel, the packer has no steel shader). 16 ft (4.9 m) per the Big Art Loop. Front (the end with the eye bumps) taken as +z by judgement; a temporary Big Art Loop loan (installed Oct 2025). No reference folder.",
+      "subtype": "sculpture",
+      "length": 5.1,
+      "width": 3.71,
+      "height": 4.9,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "corpus",
+        "pier 14",
+        "big art loop",
+        "michael christian"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-302b31f934-corpus-pier-14-big-art-loop-michael-christian-source.glb",
+          "hash": "302b31f9344e3b5c6177f9f54f439726dcf76c75e19bd7a40fa2114f6601819a",
+          "size": 337972,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8d4707f6dc-corpus-pier-14-big-art-loop-michael-christian-lod0.glb",
+          "hash": "8d4707f6dca89c671b622748d050028a21811f1d1cad4ad2a0fc58d1d4cdc4dc",
+          "size": 113652,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7997 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-6cd1334a9c-corpus-pier-14-big-art-loop-michael-christian-lod1.glb",
+          "hash": "6cd1334a9cf1fac0fc088eeb2a8ae2b92271c121d275b5253068817788555276",
+          "size": 30464,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2047 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 4.9
+          },
+          "unitsToMetres": 5.105,
+          "material": "bronze",
+          "source": "sf_pier_14_coorpus_bronze.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7997,
+              "tex": 256,
+              "kB": 111
+            },
+            {
+              "lod": 1,
+              "triangles": 2047,
+              "tex": 256,
+              "kB": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "skygate",
+      "name": "Skygate, the Embarcadero",
+      "description": "Skygate (1985): a 26 ft silver steel gateway of twisting ribbons on the Embarcadero, dedicated to Eric Hoffer.",
+      "artist": "Roger Barr",
+      "notes": "Untextured; the packer has no steel shader, so plaster (pale grey) stands in for the silver. 26 ft = 7.9 m (OSM description). Symmetric, so front +z. No reference folder.",
+      "subtype": "sculpture",
+      "length": 2.47,
+      "width": 7.57,
+      "height": 7.9,
+      "aiTool": "Tripo",
+      "shader": "plaster",
+      "assetKeywords": [
+        "skygate",
+        "roger barr",
+        "eric hoffer",
+        "embarcadero"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1ac1229123-skygate-roger-barr-eric-hoffer-embarcadero-source.glb",
+          "hash": "1ac122912372ce813028e8411f101167ede3b13c7fa7018c4221a8e6eeb9f64b",
+          "size": 365920,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-ba79d0b6d1-skygate-roger-barr-eric-hoffer-embarcadero-lod0.glb",
+          "hash": "ba79d0b6d11ef931950967cf5428e9b0f83cb1206eace40d391605cc7aa274a1",
+          "size": 172372,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11952 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-04c4329069-skygate-roger-barr-eric-hoffer-embarcadero-lod1.glb",
+          "hash": "04c43290692b7c5696931b7977e206ccced66c54d9902659c3a77faed757fddf",
+          "size": 46524,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2988 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.9
+          },
+          "unitsToMetres": 7.9,
+          "material": "plaster",
+          "source": "sf_skygate_silver.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11952,
+              "tex": 256,
+              "kB": 168
+            },
+            {
+              "lod": 1,
+              "triangles": 2988,
+              "tex": 256,
+              "kB": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sphinx-de-young",
+      "name": "Sphinx, de Young Museum",
+      "description": "One of a pair of reclining concrete sphinxes (c. 1910) flanking the approach to the de Young Museum, Golden Gate Park.",
+      "artist": "Arthur Putnam",
+      "notes": "Untextured: off-white concrete = plaster. The head faces -x. About 2 m tall including base: 1.6 m sphinx on a low 0.4 m plinth (the model has no base). Place twice (the museum's pair is mirrored).",
+      "subtype": "sculpture",
+      "length": 1.15,
+      "width": 2.03,
+      "height": 1.6,
+      "aiTool": "Tripo",
+      "shader": "plaster",
+      "assetKeywords": [
+        "sphinx",
+        "de young",
+        "golden gate park",
+        "putnam"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b96484f13e-sphinx-de-young-golden-gate-park-putnam-source.glb",
+          "hash": "b96484f13e823932545048a1edbd14f53324759be09dd82893b4760be52aae8e",
+          "size": 346912,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6b4b588691-sphinx-de-young-golden-gate-park-putnam-lod0.glb",
+          "hash": "6b4b5886911635cbb5fcd45bf2d73f974092c2060f5b28be689543877d9690fc",
+          "size": 108976,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7670 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-e72ce07c71-sphinx-de-young-golden-gate-park-putnam-lod1.glb",
+          "hash": "e72ce07c71e8a323ed88a16f83b159a94528d27c85013fb94adec6c56c9bb103",
+          "size": 28168,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1916 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.6
+          },
+          "unitsToMetres": 2.027,
+          "plinth": [
+            2.8,
+            1.5,
+            0.4
+          ],
+          "material": "plaster",
+          "source": "sf_sphinxes_de_young_museum_whitestone.glb",
+          "reference": "statues_to_model/sphinxes-de-young-museum/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7670,
+              "tex": 256,
+              "kB": 106
+            },
+            {
+              "lod": 1,
+              "triangles": 1916,
+              "tex": 256,
+              "kB": 28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun-yat-sen",
+      "name": "Sun Yat-sen, St Mary's Square",
+      "description": "Bufano's stainless-steel Sun Yat-sen (1937) on its pink granite base, St Mary's Square.",
+      "artist": "Beniamino Bufano",
+      "notes": "Textured, with its own pink granite base, so no plinth. About 4-5 m with the pedestal: 4.5 m. Front (hands clasped, medallion) is -x.",
+      "subtype": "sculpture",
+      "length": 2.32,
+      "width": 2.33,
+      "height": 4.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "sun yat-sen",
+        "bufano",
+        "st marys square",
+        "chinatown"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-fb0a0bdcb4-sun-yat-sen-bufano-st-marys-square-chinatown-source.glb",
+          "hash": "fb0a0bdcb4cb7c9122e77eb92c3fa8e6a1702099e77754b83835fbac396b7dc9",
+          "size": 13690680,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-5680be76c0-sun-yat-sen-bufano-st-marys-square-chinatown-lod0.glb",
+          "hash": "5680be76c0891508a62dc8bfe2efcc090bef75c59c596be1b192ae42fc47a358",
+          "size": 233880,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7655 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-e1383a28f3-sun-yat-sen-bufano-st-marys-square-chinatown-lod1.glb",
+          "hash": "e1383a28f346ca1505fd89cd80611fcdb483aa0ce09db90e6cd9eb230178bcd3",
+          "size": 78360,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1913 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 4.5
+          },
+          "unitsToMetres": 4.5,
+          "material": "textured",
+          "source": "sf_sun_yat_sen.glb",
+          "reference": "statues_to_model/sun-yat-sen-statue/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7655,
+              "tex": 512,
+              "kB": 228
+            },
+            {
+              "lod": 1,
+              "triangles": 1913,
+              "tex": 256,
+              "kB": 77
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thomas-starr-king",
+      "name": "Thomas Starr King, Golden Gate Park",
+      "description": "Bronze Thomas Starr King (1892) in his frock coat holding back a cloak, on a red granite pedestal.",
+      "artist": "Daniel Chester French",
+      "notes": "Untextured: bronze. About 2.5 m figure plus a thin slab base = 2.7 m, on a red granite pedestal about 2.4 m (the model has no pedestal). Front (face and papers) is -x.",
+      "subtype": "sculpture",
+      "length": 1.96,
+      "width": 1.62,
+      "height": 2.7,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "thomas starr king",
+        "daniel chester french",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-64e41a969d-thomas-starr-king-daniel-chester-french-golden-gate-park-source.glb",
+          "hash": "64e41a969d791ba114307f4a4fa8a3bd08f01bd6d4e1f32c424090fe7199672b",
+          "size": 366628,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-088a721f0f-thomas-starr-king-daniel-chester-french-golden-gate-park-lod0.glb",
+          "hash": "088a721f0f9975523c09ccc493ba4ba592f08858fa37b2fd62fd94b35e98c76b",
+          "size": 117168,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7973 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-53ef31a0f3-thomas-starr-king-daniel-chester-french-golden-gate-park-lod1.glb",
+          "hash": "53ef31a0f3a93c26792e31457892b0c029e0de11cd4c705e79bd8b5ce7394cd1",
+          "size": 32056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1990 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.7
+          },
+          "unitsToMetres": 2.7,
+          "plinth": [
+            2.2,
+            2.4,
+            2.4
+          ],
+          "material": "bronze",
+          "source": "sf_thomas_starr_king.glb",
+          "reference": "statues_to_model/thomas-starr-king/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7973,
+              "tex": 256,
+              "kB": 114
+            },
+            {
+              "lod": 1,
+              "triangles": 1990,
+              "tex": 256,
+              "kB": 31
+            }
+          ]
+        }
+      }
     }
   ]
 }
