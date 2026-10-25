@@ -21,7 +21,7 @@
  */
 import { NodeIO, type Document } from '@gltf-transform/core'
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions'
-import { dedup, prune, quantize, simplify, textureCompress, weld } from '@gltf-transform/functions'
+import { compactPrimitive, dedup, prune, quantize, simplify, textureCompress, weld } from '@gltf-transform/functions'
 import { MeshoptSimplifier } from 'meshoptimizer'
 import sharp from 'sharp'
 import { createHash } from 'node:crypto'
@@ -37,7 +37,9 @@ const INDEX_DIR = 'indexes'
 const FOLDER = 'models/sf'
 const SCRATCH = resolve(ROOT, '.assetmgr', 'modelpack')
 
-interface Lod { ratio: number; tex: number; error?: number }
+/** `sloppy`: meshopt's simplifySloppy, which ignores the topology — for a scan whose UV seams lock the ordinary
+ *  simplifier (the Sutro Heights lion stopped at 182 000 of 1.9 M triangles whatever the ratio, 2026-10-25) */
+interface Lod { ratio: number; tex: number; error?: number; sloppy?: boolean }
 interface Model {
   id: string; name: string; file: string; kind: string; material: string
   front: '+z' | '-z' | '+x' | '-x'; scale: { axis: 'x' | 'y' | 'z'; metres: number }
@@ -53,6 +55,20 @@ const spec = JSON.parse(await readFile(join(ROOT, 'models', 'sf-models.json'), '
 const want = process.argv.slice(2)
 const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({ sharp })
 await MeshoptSimplifier.ready
+
+/** `sloppy` LODs: each indexed primitive cut to `ratio` of its triangles by meshopt's simplifySloppy, then compacted */
+function sloppy(doc: Document, ratio: number, error: number): void {
+  for (const mesh of doc.getRoot().listMeshes()) for (const p of mesh.listPrimitives()) {
+    const idx = p.getIndices(), pos = p.getAttribute('POSITION')
+    if (!idx || !pos) continue
+    const indices = new Uint32Array(idx.getArray()!)
+    const positions = new Float32Array(pos.getArray()!)
+    const target = Math.max(3, Math.floor((indices.length * ratio) / 3) * 3)
+    const [out] = MeshoptSimplifier.simplifySloppy(indices, positions, 3, null, target, error)
+    idx.setArray(new Uint32Array(out))
+    compactPrimitive(p)
+  }
+}
 
 /** the model's bounds, as loaded (glTF units) */
 function bounds(doc: Document): { min: number[]; max: number[] } {
@@ -166,9 +182,10 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
     }
     if (m.crop) crop(doc, m.crop)
     if (m.squash) squash(doc, m.squash)
+    if (lod.sloppy) { await doc.transform(dedup(), weld()); sloppy(doc, lod.ratio, lod.error ?? 0.02) }
     await doc.transform(
       dedup(), weld(),
-      ...(lod.ratio < 1 ? [simplify({ simplifier: MeshoptSimplifier, ratio: lod.ratio, error: lod.error ?? 0.02 })] : []),
+      ...(lod.ratio < 1 && !lod.sloppy ? [simplify({ simplifier: MeshoptSimplifier, ratio: lod.ratio, error: lod.error ?? 0.02 })] : []),
       prune(),
       textureCompress({ encoder: sharp, targetFormat: 'webp', resize: [lod.tex, lod.tex], quality: 86 }),
     )

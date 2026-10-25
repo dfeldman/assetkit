@@ -648,7 +648,8 @@
     {
      "ratio": 0.08,
      "tex": 256,
-     "error": 0.1
+     "error": 0.1,
+     "sloppy": true
     }
    ],
    "artist": "Fred Parhad",
@@ -1033,7 +1034,8 @@
     {
      "ratio": 0.1,
      "tex": 256,
-     "error": 0.04
+     "error": 0.04,
+     "sloppy": true
     }
    ],
    "artist": "Stanley Bleifeld (1987; this cast 1995)",
@@ -1379,6 +1381,112 @@
    ],
    "reference": "statues_to_model/roman-gladiator/about.md",
    "notes": "Textured; the model carries its own pedestal (about 40% of the height). about.md: ~2.5 m bronze figure on a stone pedestal; with the pedestal as drawn (photo 1-front.jpg: figure about 60% of the whole) that is ~4.2 m overall. Front +z: the sword-arm and outstretched arm point to +z and the cloak streams to -z; the plaque is on the +z face."
+  },
+  {
+   "id": "sutro-heights-lion",
+   "name": "Sutro Heights gate lion",
+   "file": "sf_chinatown_stone_lion.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.5
+   },
+   "lods": [
+    {
+     "ratio": 0.0042,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.00105,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "artist": "unattributed (1880s Sutro estate; the present pair are replicas)",
+   "description": "Recumbent stone lion with a full mane and paws stretched forward, on a rough stone slab: one of the pair flanking the entrance to Sutro Heights Park.",
+   "keywords": [
+    "sutro heights",
+    "lion",
+    "point lobos",
+    "gate lions"
+   ],
+   "reference": "statues_to_model/sutro-heights-lions/about.md",
+   "notes": "The file is named sf_chinatown_stone_lion but it is a Western recumbent lion (mane, crossed paws, tail along the flank) matching the Sutro Heights reference photos, not a Chinese shishi: placed at Sutro Heights, not Chinatown. Textured (grey stone, 69 MB, 1.9 M triangles: simplified hard, 512/256 textures). ~1.5 m high incl. the model's own slab (about.md). Front guessed +x (head toward +x/+z in the previews); fixed by bearing in the placement. The ordinary simplifier stops at ~182 000 triangles here (UV seams lock the mesh), so both LODs use `sloppy` (meshopt simplifySloppy)."
+  },
+  {
+   "id": "de-young-perry-lion",
+   "name": "Perry's bronze lion, de Young",
+   "file": "sf_de_young_lion.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.4
+   },
+   "lods": [
+    {
+     "ratio": 0.41,
+     "tex": 512,
+     "error": 0.05
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 1,
+     "sloppy": true
+    }
+   ],
+   "artist": "Roland Hinton Perry (1898)",
+   "description": "Seated bronze lion on a rock, by the de Young Museum in Golden Gate Park.",
+   "keywords": [
+    "lion",
+    "perry",
+    "de young",
+    "golden gate park",
+    "music concourse"
+   ],
+   "notes": "Textured (dark green bronze). Seated lion on its own rock base; height 1.4 m is a guess (no source gives it). Front +x: the head and open mouth face +x in the +z and -z views. LOD1 over budget: the simplifier stops at ~8 200 triangles (375 kB) whatever the ratio or error (UV seams)."
+  },
+  {
+   "id": "exploratorium-buckyball",
+   "name": "Buckyball, Exploratorium Pier 15",
+   "file": "sf_exploratorium_sculpture.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 7.6
+   },
+   "lods": [
+    {
+     "ratio": 0.8,
+     "tex": 512,
+     "error": 0.05
+    },
+    {
+     "ratio": 0.22,
+     "tex": 256,
+     "error": 0.15,
+     "sloppy": true
+    }
+   ],
+   "artist": "Leo Villareal (2016)",
+   "description": "Leo Villareal's Buckyball: two nested geodesic spheres of LED nodes on a tripod standing in a railed ring, Pier 15 plaza.",
+   "keywords": [
+    "buckyball",
+    "villareal",
+    "exploratorium",
+    "pier 15",
+    "light art"
+   ],
+   "notes": "Textured. 25 ft (7.6 m) overall (Exploratorium, SF Travel). Rotationally symmetric, so the front is arbitrary (+z). 15 000/4 000-triangle budget as a monument; thin struts, so LOD1 error 0.04. LOD1 stops at ~6 500 triangles (237 kB), above the 4 000 target."
   }
  ]
 }

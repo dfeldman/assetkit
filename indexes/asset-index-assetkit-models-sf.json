@@ -1667,7 +1667,21 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "7866 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-9a21514eb1-ashurbanipal-civic-center-assyrian-parhad-lod1.glb",
+          "hash": "9a21514eb17f8a6652a79cc6323593a55e0952cd2f947f422ebf34a4da0bb325",
+          "size": 51300,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1451 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -1695,9 +1709,9 @@
             },
             {
               "lod": 1,
-              "triangles": 7866,
+              "triangles": 1451,
               "tex": 256,
-              "kB": 338
+              "kB": 50
             }
           ]
         }
@@ -2703,7 +2717,21 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "5517 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-63d20e874e-lone-sailor-vista-point-golden-gate-bridge-navy-memorial-lod1.glb",
+          "hash": "63d20e874e3d64f303ba572601272ac1b63e16a931f70d7f511411f3550c9d0d",
+          "size": 71940,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2788 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -2727,9 +2755,9 @@
             },
             {
               "lod": 1,
-              "triangles": 5517,
+              "triangles": 2788,
               "tex": 256,
-              "kB": 237
+              "kB": 70
             }
           ]
         }
@@ -3626,6 +3654,362 @@
               "triangles": 1887,
               "tex": 256,
               "kB": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sutro-heights-lion",
+      "name": "Sutro Heights gate lion",
+      "description": "Recumbent stone lion with a full mane and paws stretched forward, on a rough stone slab: one of the pair flanking the entrance to Sutro Heights Park.",
+      "artist": "unattributed (1880s Sutro estate; the present pair are replicas)",
+      "notes": "The file is named sf_chinatown_stone_lion but it is a Western recumbent lion (mane, crossed paws, tail along the flank) matching the Sutro Heights reference photos, not a Chinese shishi: placed at Sutro Heights, not Chinatown. Textured (grey stone, 69 MB, 1.9 M triangles: simplified hard, 512/256 textures). ~1.5 m high incl. the model's own slab (about.md). Front guessed +x (head toward +x/+z in the previews); fixed by bearing in the placement. The ordinary simplifier stops at ~182 000 triangles here (UV seams lock the mesh), so both LODs use `sloppy` (meshopt simplifySloppy).",
+      "subtype": "sculpture",
+      "length": 1.88,
+      "width": 2.17,
+      "height": 1.49,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "sutro heights",
+        "lion",
+        "point lobos",
+        "gate lions"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7bd31956f3-sutro-heights-lion-point-lobos-gate-lions-source.glb",
+          "hash": "7bd31956f34cd03dbf25224468bb774a496a6889760eea9580bee4025498ae59",
+          "size": 71110916,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6ea0e3adca-sutro-heights-lion-point-lobos-gate-lions-lod0.glb",
+          "hash": "6ea0e3adca96680036439a58c5e03434828a7c0e99cf50e130d1869559d5b9a4",
+          "size": 5343364,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "182112 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-bf701cdb8b-sutro-heights-lion-point-lobos-gate-lions-lod1.glb",
+          "hash": "bf701cdb8b3914a763443dcb5c5e142bbbff1ae9f85cb314716c56af9931d6a9",
+          "size": 5273276,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "182048 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-4d7745ead9-sutro-heights-lion-point-lobos-gate-lions-lod0.glb",
+          "hash": "4d7745ead96d5073933f2a262b4fd47d9a5d130dd2f2aa850ead9660cf2d1c1d",
+          "size": 221344,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7597 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-cd7dddef1f-sutro-heights-lion-point-lobos-gate-lions-lod1.glb",
+          "hash": "cd7dddef1f288b96bb8ee185b539aadb1936c16ad6164d183171be67febeaf42",
+          "size": 64280,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1885 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.5
+          },
+          "unitsToMetres": 2.206,
+          "material": "textured",
+          "source": "sf_chinatown_stone_lion.glb",
+          "reference": "statues_to_model/sutro-heights-lions/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7597,
+              "tex": 512,
+              "kB": 216
+            },
+            {
+              "lod": 1,
+              "triangles": 1885,
+              "tex": 256,
+              "kB": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "de-young-perry-lion",
+      "name": "Perry's bronze lion, de Young",
+      "description": "Seated bronze lion on a rock, by the de Young Museum in Golden Gate Park.",
+      "artist": "Roland Hinton Perry (1898)",
+      "notes": "Textured (dark green bronze). Seated lion on its own rock base; height 1.4 m is a guess (no source gives it). Front +x: the head and open mouth face +x in the +z and -z views. LOD1 over budget: the simplifier stops at ~8 200 triangles (375 kB) whatever the ratio or error (UV seams).",
+      "subtype": "sculpture",
+      "length": 0.9,
+      "width": 1.34,
+      "height": 1.4,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "lion",
+        "perry",
+        "de young",
+        "golden gate park",
+        "music concourse"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7006380a6c-lion-perry-de-young-golden-gate-park-music-concourse-source.glb",
+          "hash": "7006380a6cf897c7abd719a5687241a0ca12b4a56ebcfa568b32558e0f2bf9e3",
+          "size": 23459408,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-73ea222af9-lion-perry-de-young-golden-gate-park-music-concourse-lod0.glb",
+          "hash": "73ea222af95bb653b304a00e90044204c61db79ad4b224a481c1787df3c8cd7d",
+          "size": 499604,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "8271 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-c990dcc42e-lion-perry-de-young-golden-gate-park-music-concourse-lod1.glb",
+          "hash": "c990dcc42eb98aaa7fa72ef89a36cc660451004efbd69361d9bbdac629f34c3d",
+          "size": 385028,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "8263 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-7305f09e93-lion-perry-de-young-golden-gate-park-music-concourse-lod0.glb",
+          "hash": "7305f09e9377cd05f3e2462d96279012345af3561ce1bd2b8e29fbb8bb9e42e4",
+          "size": 498296,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8223 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-c2f144e140-lion-perry-de-young-golden-gate-park-music-concourse-lod1.glb",
+          "hash": "c2f144e14011fcf8664c709182616b7ed1442e6d7387ada303e719e374b1688b",
+          "size": 383832,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "8219 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-a8fa74e94d-lion-perry-de-young-golden-gate-park-music-concourse-lod1.glb",
+          "hash": "a8fa74e94dd063e1a809e02bf34efbb103a73096cb8c88c32bb4f74198330996",
+          "size": 77768,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1790 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.4
+          },
+          "unitsToMetres": 1.4,
+          "material": "textured",
+          "source": "sf_de_young_lion.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8223,
+              "tex": 512,
+              "kB": 487
+            },
+            {
+              "lod": 1,
+              "triangles": 1790,
+              "tex": 256,
+              "kB": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exploratorium-buckyball",
+      "name": "Buckyball, Exploratorium Pier 15",
+      "description": "Leo Villareal's Buckyball: two nested geodesic spheres of LED nodes on a tripod standing in a railed ring, Pier 15 plaza.",
+      "artist": "Leo Villareal (2016)",
+      "notes": "Textured. 25 ft (7.6 m) overall (Exploratorium, SF Travel). Rotationally symmetric, so the front is arbitrary (+z). 15 000/4 000-triangle budget as a monument; thin struts, so LOD1 error 0.04. LOD1 stops at ~6 500 triangles (237 kB), above the 4 000 target.",
+      "subtype": "scenery",
+      "length": 6.08,
+      "width": 5.98,
+      "height": 7.6,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "buckyball",
+        "villareal",
+        "exploratorium",
+        "pier 15",
+        "light art"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f073620591-buckyball-villareal-exploratorium-pier-15-light-art-source.glb",
+          "hash": "f073620591b75c38eaa0ce8ed52c7ea2ee265505e691c7076972e3b9795331c3",
+          "size": 4181820,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-4c5572fd81-buckyball-villareal-exploratorium-pier-15-light-art-lod0.glb",
+          "hash": "4c5572fd81a24ed94e4203ecab2d87de4f1d238ae9074dd46d42b3f1d8d16281",
+          "size": 446876,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14126 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-a86efb12e8-buckyball-villareal-exploratorium-pier-15-light-art-lod1.glb",
+          "hash": "a86efb12e80d14e8a2fe5413cfbbabaf7422e5b07f880b102dd85b4269b53f4e",
+          "size": 242876,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "6517 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-c4fea444b5-buckyball-villareal-exploratorium-pier-15-light-art-lod1.glb",
+          "hash": "c4fea444b5e63fc12117f3e7ed132ab11e1c7e24dda37fa65845a6060585acb3",
+          "size": 242876,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "6517 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-d20ddb10e8-buckyball-villareal-exploratorium-pier-15-light-art-lod1.glb",
+          "hash": "d20ddb10e8709fd5e91e5f80a9c08689035d00580abdd7823029205d357abe9a",
+          "size": 73564,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3448 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.6
+          },
+          "unitsToMetres": 7.6,
+          "material": "textured",
+          "source": "sf_exploratorium_sculpture.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14126,
+              "tex": 512,
+              "kB": 436
+            },
+            {
+              "lod": 1,
+              "triangles": 3448,
+              "tex": 256,
+              "kB": 72
             }
           ]
         }
