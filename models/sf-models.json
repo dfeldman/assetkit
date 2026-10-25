@@ -2082,6 +2082,240 @@
    ],
    "reference": "statues_to_model/thomas-starr-king/about.md",
    "notes": "Untextured: bronze. About 2.5 m figure plus a thin slab base = 2.7 m, on a red granite pedestal about 2.4 m (the model has no pedestal). Front (face and papers) is -x."
+  },
+  {
+   "id": "time-signature",
+   "name": "Time Signature, Foundry Square",
+   "file": "sf_time_signature.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 14.6
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 512
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Richard Deutsch",
+   "description": "Five stacked, curved stainless-steel vessels (2008), 48 ft tall, in front of 400 Howard Street, Foundry Square.",
+   "keywords": [
+    "time signature",
+    "foundry square",
+    "deutsch",
+    "howard street"
+   ],
+   "notes": "Textured (grey steel). 48 ft (14.6 m) per the artist's site. An abstract stack with no real front; +z chosen. Big-monument LOD budget."
+  },
+  {
+   "id": "venus-trinity",
+   "name": "Venus, Trinity Place",
+   "file": "sf_venus.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 28
+   },
+   "lods": [
+    {
+     "ratio": 0.68,
+     "tex": 512
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Lawrence Argent",
+   "description": "92 ft (28 m) stainless-steel Venus, a twisting modern take on the Venus de Milo, in the piazza of Trinity Place, 8th and Market (2016).",
+   "keywords": [
+    "venus",
+    "trinity place",
+    "argent",
+    "market street"
+   ],
+   "notes": "Textured dark steel. OSM height 28 m; press says 92 ft. Front taken as the side that shows the shoulders (-x), by judgement."
+  },
+  {
+   "id": "verdi-monument",
+   "name": "Verdi Monument, Music Concourse",
+   "file": "sf_verdi.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 5
+   },
+   "lods": [
+    {
+     "ratio": 0.85,
+     "tex": 512
+    },
+    {
+     "ratio": 0.22,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Orazio Grossoni",
+   "description": "Gilded bronze bust of Giuseppe Verdi on a granite pylon with a bronze allegorical group, on a stepped platform (1914), Golden Gate Park.",
+   "keywords": [
+    "verdi",
+    "music concourse",
+    "golden gate park",
+    "grossoni"
+   ],
+   "reference": "statues_to_model/verdi-monument-golden-gate-park/about.md",
+   "notes": "Textured. about.md: roughly 5 m total; the model includes its stepped granite platform, so no plinth. Front (bust and bronze group) is -x."
+  },
+  {
+   "id": "volunteer-firemen",
+   "name": "Volunteer Firemen Memorial, Washington Square",
+   "file": "sf_volunteer_firemen_copperoxide.glb",
+   "kind": "statue",
+   "material": "copperoxide",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.9
+   },
+   "plinth": [
+    2.4,
+    2.4,
+    1.5
+   ],
+   "lods": [
+    {
+     "ratio": 0.8,
+     "tex": 256
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Haig Patigian",
+   "description": "Bronze group of three volunteer firemen, one pointing aloft, one carrying a rescued woman (1933), on a round stone pedestal in Washington Square.",
+   "keywords": [
+    "firemen",
+    "volunteer fire department",
+    "washington square",
+    "patigian",
+    "coit"
+   ],
+   "reference": "statues_to_model/volunteer-firemen-memorial/about.md",
+   "notes": "Untextured: copperoxide (green-patinated bronze, per the Commons photo). About 3 m group on its low bronze base; the model has no stone pedestal, so a 1.5 m plinth. Front (the pointing fireman) is -x."
+  },
+  {
+   "id": "wave-heart",
+   "name": "Wave Heart, Ocean Beach",
+   "file": "sf_wave_heart.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.4
+   },
+   "lods": [
+    {
+     "ratio": 0.43,
+     "tex": 512
+    },
+    {
+     "ratio": 0.11,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Wesley Skinner",
+   "description": "Heart-shaped sculpture of two sweeping wave forms (2025), Ocean Beach.",
+   "keywords": [
+    "wave heart",
+    "ocean beach",
+    "skinner"
+   ],
+   "notes": "Textured (dark wood/bronze). No source for its size found: sized 1.4 m tall (about 2 m wide), like the 5 ft Hearts in SF pieces. Flat form: faces +x/-x identically; +x chosen."
+  },
+  {
+   "id": "yoda-fountain",
+   "name": "Yoda Fountain, Letterman Digital Arts Center",
+   "file": "sf_yoda_fountain.glb",
+   "kind": "fountain",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.5
+   },
+   "lods": [
+    {
+     "ratio": 0.44,
+     "tex": 512
+    },
+    {
+     "ratio": 0.06,
+     "tex": 256,
+     "error": 0.05
+    }
+   ],
+   "artist": "Lawrence Noble",
+   "description": "Bronze Yoda on a faceted stone pedestal, Letterman Digital Arts Center, Presidio (2005).",
+   "keywords": [
+    "yoda",
+    "fountain",
+    "letterman",
+    "lucasfilm",
+    "presidio"
+   ],
+   "reference": "statues_to_model/yoda-fountain/about.md",
+   "notes": "Textured. Overall 2.5 m, matching the procedural fountain (presidio.json). The model is the pedestal and Yoda; Yoda faces -x."
+  },
+  {
+   "id": "st-francis-hugging-globe",
+   "name": "St Francis Hugging the Globe, St Mary's Cathedral",
+   "file": "sf_cathedral_st_francis_hugging_globe.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.0
+   },
+   "lods": [
+    {
+     "ratio": 0.43,
+     "tex": 512
+    },
+    {
+     "ratio": 0.11,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Timothy Schmalz",
+   "description": "Bronze St Francis kneeling and embracing the world, on a relief-carved block (unveiled 2026), the plaza of St Mary's Cathedral.",
+   "keywords": [
+    "st francis",
+    "globe",
+    "schmalz",
+    "st mary's cathedral",
+    "gough"
+   ],
+   "notes": "Textured bronze. About 2 m overall including its block (brief estimate). The kneeling figure faces +z toward the globe."
   }
  ]
 }

@@ -5598,6 +5598,654 @@
           ]
         }
       }
+    },
+    {
+      "id": "time-signature",
+      "name": "Time Signature, Foundry Square",
+      "description": "Five stacked, curved stainless-steel vessels (2008), 48 ft tall, in front of 400 Howard Street, Foundry Square.",
+      "artist": "Richard Deutsch",
+      "notes": "Textured (grey steel). 48 ft (14.6 m) per the artist's site. An abstract stack with no real front; +z chosen. Big-monument LOD budget.",
+      "subtype": "scenery",
+      "length": 6.4,
+      "width": 7.06,
+      "height": 14.6,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "time signature",
+        "foundry square",
+        "deutsch",
+        "howard street"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-25eac48cbb-time-signature-foundry-square-deutsch-howard-street-source.glb",
+          "hash": "25eac48cbb91e9b73405e8fd909282ba53fb047bb57a69baa36ca8b8f04af25c",
+          "size": 2886556,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-2e1b2fcf39-time-signature-foundry-square-deutsch-howard-street-lod0.glb",
+          "hash": "2e1b2fcf39a9f53f5594cd5c0af5b98c59d874269f10c7cc97ce488814f8104b",
+          "size": 346180,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14772 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-bb47ff7826-time-signature-foundry-square-deutsch-howard-street-lod1.glb",
+          "hash": "bb47ff7826b9536149718ce0e6d8f48bf888f0ac534a1dd72a295d597a3fedf3",
+          "size": 122440,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3938 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 14.6
+          },
+          "unitsToMetres": 14.6,
+          "material": "textured",
+          "source": "sf_time_signature.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14772,
+              "tex": 512,
+              "kB": 338
+            },
+            {
+              "lod": 1,
+              "triangles": 3938,
+              "tex": 256,
+              "kB": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "venus-trinity",
+      "name": "Venus, Trinity Place",
+      "description": "92 ft (28 m) stainless-steel Venus, a twisting modern take on the Venus de Milo, in the piazza of Trinity Place, 8th and Market (2016).",
+      "artist": "Lawrence Argent",
+      "notes": "Textured dark steel. OSM height 28 m; press says 92 ft. Front taken as the side that shows the shoulders (-x), by judgement.",
+      "subtype": "sculpture",
+      "length": 11.2,
+      "width": 7.52,
+      "height": 28,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "venus",
+        "trinity place",
+        "argent",
+        "market street"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b5dc4af931-venus-trinity-place-argent-market-street-source.glb",
+          "hash": "b5dc4af931d49533978be3b7b3d105a991de0c7c36501a6f569d8a8ddd177a59",
+          "size": 16840080,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-c3444ea482-venus-trinity-place-argent-market-street-lod0.glb",
+          "hash": "c3444ea4826d1a2fcba4d34ebdabe5c196d0f26703b1ad8401a10880bd33657d",
+          "size": 441380,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "15076 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-5a447f7d88-venus-trinity-place-argent-market-street-lod1.glb",
+          "hash": "5a447f7d8865d1249bef5350b49b56d1a91302bfb54e1a381752253d808b304b",
+          "size": 135200,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3866 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-f843557023-venus-trinity-place-argent-market-street-lod0.glb",
+          "hash": "f84355702323cdb476da103953eb4ef409cd3d7e3a750de67e639c649f737993",
+          "size": 409972,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "13142 triangles, textures ≤ 512 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 28
+          },
+          "unitsToMetres": 28,
+          "material": "textured",
+          "source": "sf_venus.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 13142,
+              "tex": 512,
+              "kB": 400
+            },
+            {
+              "lod": 1,
+              "triangles": 3866,
+              "tex": 256,
+              "kB": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "verdi-monument",
+      "name": "Verdi Monument, Music Concourse",
+      "description": "Gilded bronze bust of Giuseppe Verdi on a granite pylon with a bronze allegorical group, on a stepped platform (1914), Golden Gate Park.",
+      "artist": "Orazio Grossoni",
+      "notes": "Textured. about.md: roughly 5 m total; the model includes its stepped granite platform, so no plinth. Front (bust and bronze group) is -x.",
+      "subtype": "sculpture",
+      "length": 3.99,
+      "width": 3.31,
+      "height": 5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "verdi",
+        "music concourse",
+        "golden gate park",
+        "grossoni"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1eb1674b6e-verdi-music-concourse-golden-gate-park-grossoni-source.glb",
+          "hash": "1eb1674b6e7dfde1a1a4891822e56396f0d238d83d291b89d774a1def2608764",
+          "size": 4225080,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-bef635ccb3-verdi-music-concourse-golden-gate-park-grossoni-lod0.glb",
+          "hash": "bef635ccb30355d41df8cd612ba27d103ed7208298ec223bf432a07d4457ccf2",
+          "size": 352380,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14846 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-558e91d9f9-verdi-music-concourse-golden-gate-park-grossoni-lod1.glb",
+          "hash": "558e91d9f9010ad4497e5ca7b2ebb16df1c06bdb1a91e7ffbeeb22bfd0ea2abb",
+          "size": 117816,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3842 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 5
+          },
+          "unitsToMetres": 5,
+          "material": "textured",
+          "source": "sf_verdi.glb",
+          "reference": "statues_to_model/verdi-monument-golden-gate-park/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14846,
+              "tex": 512,
+              "kB": 344
+            },
+            {
+              "lod": 1,
+              "triangles": 3842,
+              "tex": 256,
+              "kB": 115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "volunteer-firemen",
+      "name": "Volunteer Firemen Memorial, Washington Square",
+      "description": "Bronze group of three volunteer firemen, one pointing aloft, one carrying a rescued woman (1933), on a round stone pedestal in Washington Square.",
+      "artist": "Haig Patigian",
+      "notes": "Untextured: copperoxide (green-patinated bronze, per the Commons photo). About 3 m group on its low bronze base; the model has no stone pedestal, so a 1.5 m plinth. Front (the pointing fireman) is -x.",
+      "subtype": "sculpture",
+      "length": 2.02,
+      "width": 1.83,
+      "height": 2.9,
+      "aiTool": "Tripo",
+      "shader": "copperoxide",
+      "assetKeywords": [
+        "firemen",
+        "volunteer fire department",
+        "washington square",
+        "patigian",
+        "coit"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-52fee56f0a-firemen-volunteer-fire-department-washington-square-patigian-coit-source.glb",
+          "hash": "52fee56f0aa3532887c1a6b12f556064c04a4dc26a862b68afff8e5f4708a225",
+          "size": 342136,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-9d82613ba0-firemen-volunteer-fire-department-washington-square-patigian-coit-lod0.glb",
+          "hash": "9d82613ba0698ac96cd58504ad8a1100e0e98cb2d370a58ea3e78395377acf7e",
+          "size": 213400,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "15136 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-2d92b619da-firemen-volunteer-fire-department-washington-square-patigian-coit-lod1.glb",
+          "hash": "2d92b619da20211285d382e743769f6a58221af99734e81a11a9b56af80b979a",
+          "size": 54448,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3784 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.9
+          },
+          "unitsToMetres": 2.9,
+          "plinth": [
+            2.4,
+            2.4,
+            1.5
+          ],
+          "material": "copperoxide",
+          "source": "sf_volunteer_firemen_copperoxide.glb",
+          "reference": "statues_to_model/volunteer-firemen-memorial/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 15136,
+              "tex": 256,
+              "kB": 208
+            },
+            {
+              "lod": 1,
+              "triangles": 3784,
+              "tex": 256,
+              "kB": 53
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wave-heart",
+      "name": "Wave Heart, Ocean Beach",
+      "description": "Heart-shaped sculpture of two sweeping wave forms (2025), Ocean Beach.",
+      "artist": "Wesley Skinner",
+      "notes": "Textured (dark wood/bronze). No source for its size found: sized 1.4 m tall (about 2 m wide), like the 5 ft Hearts in SF pieces. Flat form: faces +x/-x identically; +x chosen.",
+      "subtype": "sculpture",
+      "length": 2.03,
+      "width": 0.43,
+      "height": 1.4,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "wave heart",
+        "ocean beach",
+        "skinner"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7db859a52e-wave-heart-ocean-beach-skinner-source.glb",
+          "hash": "7db859a52e956afaa831b127cc6d5a16a4d53bd41badc0d4c1f3941c4aaade38",
+          "size": 4420528,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-4fc0c7ad5a-wave-heart-ocean-beach-skinner-lod0.glb",
+          "hash": "4fc0c7ad5af6557c470e0f6e84e4472cb5d01a85cfb2ec46e950889dbf79419a",
+          "size": 222228,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7850 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-463be2faae-wave-heart-ocean-beach-skinner-lod1.glb",
+          "hash": "463be2faae35186db44670412799f20530ffc48c2b8e299685db465301970244",
+          "size": 70412,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2008 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.4
+          },
+          "unitsToMetres": 2.033,
+          "material": "textured",
+          "source": "sf_wave_heart.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7850,
+              "tex": 512,
+              "kB": 217
+            },
+            {
+              "lod": 1,
+              "triangles": 2008,
+              "tex": 256,
+              "kB": 69
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "yoda-fountain",
+      "name": "Yoda Fountain, Letterman Digital Arts Center",
+      "description": "Bronze Yoda on a faceted stone pedestal, Letterman Digital Arts Center, Presidio (2005).",
+      "artist": "Lawrence Noble",
+      "notes": "Textured. Overall 2.5 m, matching the procedural fountain (presidio.json). The model is the pedestal and Yoda; Yoda faces -x.",
+      "subtype": "scenery",
+      "length": 1.33,
+      "width": 1.32,
+      "height": 2.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "yoda",
+        "fountain",
+        "letterman",
+        "lucasfilm",
+        "presidio"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d84ef9fb38-yoda-fountain-letterman-lucasfilm-presidio-source.glb",
+          "hash": "d84ef9fb38e7627b63f19b8412ed3cefc6dfeced848255ed830094be6bf8132e",
+          "size": 10098188,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-2761d4d6c1-yoda-fountain-letterman-lucasfilm-presidio-lod0.glb",
+          "hash": "2761d4d6c1f4a9df69b2756d42f19a066ba147f7e947f1105d42f7977ab1d150",
+          "size": 286920,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7954 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-630809708f-yoda-fountain-letterman-lucasfilm-presidio-lod1.glb",
+          "hash": "630809708ffe1fa52becdd8eb1003a736e635cad8469e3d5324c096875886d37",
+          "size": 146308,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "3576 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-7daab0f914-yoda-fountain-letterman-lucasfilm-presidio-lod1.glb",
+          "hash": "7daab0f91482ac447172959b72226f749be76000150aaf27b7c5c551ae4b0486",
+          "size": 142192,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "8042 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-f3350bc2c6-yoda-fountain-letterman-lucasfilm-presidio-lod1.glb",
+          "hash": "f3350bc2c65c6cc799249ccea56013b585412dabd2306c5ed061c50d2e72d7ac",
+          "size": 146140,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3572 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "fountain",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.5
+          },
+          "unitsToMetres": 2.5,
+          "material": "textured",
+          "source": "sf_yoda_fountain.glb",
+          "reference": "statues_to_model/yoda-fountain/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7954,
+              "tex": 512,
+              "kB": 280
+            },
+            {
+              "lod": 1,
+              "triangles": 3572,
+              "tex": 256,
+              "kB": 143
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "st-francis-hugging-globe",
+      "name": "St Francis Hugging the Globe, St Mary's Cathedral",
+      "description": "Bronze St Francis kneeling and embracing the world, on a relief-carved block (unveiled 2026), the plaza of St Mary's Cathedral.",
+      "artist": "Timothy Schmalz",
+      "notes": "Textured bronze. About 2 m overall including its block (brief estimate). The kneeling figure faces +z toward the globe.",
+      "subtype": "sculpture",
+      "length": 1.74,
+      "width": 1.65,
+      "height": 2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "st francis",
+        "globe",
+        "schmalz",
+        "st mary's cathedral",
+        "gough"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-94f2c56fe2-st-francis-globe-schmalz-mary-s-cathedral-gough-source.glb",
+          "hash": "94f2c56fe23561e5205e48a307124a551f4e0fd997f42e3b1150407c7c029848",
+          "size": 5457756,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8e4563e0ed-st-francis-globe-schmalz-mary-s-cathedral-gough-lod0.glb",
+          "hash": "8e4563e0ed3a887a06924ae89837513db5b12bbd1551b203caabf66a530683a6",
+          "size": 242608,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8024 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-d8651868dd-st-francis-globe-schmalz-mary-s-cathedral-gough-lod1.glb",
+          "hash": "d8651868dd277c6f9dede8a5caa8c9c14be248614619ceccf77722de0431f3f1",
+          "size": 75300,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2054 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 2
+          },
+          "unitsToMetres": 2,
+          "material": "textured",
+          "source": "sf_cathedral_st_francis_hugging_globe.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8024,
+              "tex": 512,
+              "kB": 237
+            },
+            {
+              "lod": 1,
+              "triangles": 2054,
+              "tex": 256,
+              "kB": 74
+            }
+          ]
+        }
+      }
     }
   ]
 }
