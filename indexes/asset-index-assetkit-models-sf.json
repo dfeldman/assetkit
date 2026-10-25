@@ -4014,6 +4014,609 @@
           ]
         }
       }
+    },
+    {
+      "id": "francis-scott-key-monument",
+      "name": "Francis Scott Key Monument, Golden Gate Park",
+      "description": "The 1888 Francis Scott Key Monument: a travertine baldachin with the seated bronze Key under the canopy and Columbia with her flag staff above, at the east end of the Music Concourse.",
+      "artist": "William Wetmore Story",
+      "notes": "Textured scan; includes its own stepped base and the canopy, so no plinth. About 14-15 m overall (about.md estimate). Front is +z (the inscription tablet side, preview). Key himself was toppled in 2020; the model shows the intact monument.",
+      "subtype": "sculpture",
+      "length": 5.61,
+      "width": 5.86,
+      "height": 14.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "francis scott key",
+        "monument",
+        "music concourse",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-8c22fd8859-francis-scott-key-monument-music-concourse-golden-gate-park-source.glb",
+          "hash": "8c22fd8859d10a0f3c72f29157961f0ab94e46aaa9f6c03314f2a2a4c1b54652",
+          "size": 4859064,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-4ac9d5f4a6-francis-scott-key-monument-music-concourse-golden-gate-park-lod0.glb",
+          "hash": "4ac9d5f4a634b151a6274fa41bde35b6aa2b62232cb29e745b3a3f685171076b",
+          "size": 394252,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14870 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-d268657f7c-francis-scott-key-monument-music-concourse-golden-gate-park-lod1.glb",
+          "hash": "d268657f7c0de02c2f10e7f7e68a96c31a3ed9e56df5c2670a525724e2b6aeb3",
+          "size": 135244,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3844 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 14.5
+          },
+          "unitsToMetres": 14.5,
+          "material": "textured",
+          "source": "sf_francis_scott_key_monument.glb",
+          "reference": "statues_to_model/francis-scott-key-monument/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14870,
+              "tex": 512,
+              "kB": 385
+            },
+            {
+              "lod": 1,
+              "triangles": 3844,
+              "tex": 256,
+              "kB": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "georgia-okeeffe",
+      "name": "Portrait of Georgia O'Keeffe (Marisol)",
+      "description": "Marisol's 1982 bronze Portrait of Georgia O'Keeffe: a blocky bust-on-pedestal figure with her two chow dogs, in Sydney G. Walton Square.",
+      "artist": "Marisol Escobar",
+      "notes": "Textured scan. Height not found in sources: 1.8 m is a guess for the figure on its low pedestal (the model's irregular base slab is part of the scan). Front -x: the face and both dogs face the viewer from -x (preview).",
+      "subtype": "sculpture",
+      "length": 2.25,
+      "width": 2.24,
+      "height": 1.8,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "georgia o'keeffe",
+        "marisol",
+        "walton square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f800350648-georgia-o-keeffe-marisol-walton-square-source.glb",
+          "hash": "f800350648559117ed4cfb01301c89f84be13e13e83c1e2393b71918f3e9cd20",
+          "size": 4075760,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-3188563c53-georgia-o-keeffe-marisol-walton-square-lod0.glb",
+          "hash": "3188563c53e4d76aa6fa14177dfcc6f14d76818ab3c5e643a6092fc946ec6b6e",
+          "size": 244620,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7955 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-3610b97a90-georgia-o-keeffe-marisol-walton-square-lod1.glb",
+          "hash": "3610b97a90b8775fd9776abf57f84afce353421e6905ce6f2df4d6203ff8d7af",
+          "size": 80376,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2111 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.8
+          },
+          "unitsToMetres": 2.25,
+          "material": "textured",
+          "source": "sf_georgia_okeefe.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7955,
+              "tex": 512,
+              "kB": 239
+            },
+            {
+              "lod": 1,
+              "triangles": 2111,
+              "tex": 256,
+              "kB": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "goldsworthy-spire",
+      "name": "Spire (Andy Goldsworthy), Presidio",
+      "description": "2008 land-art spire of 37 Monterey cypress trunks lashed in a tapering bundle, about 30 m tall, in the Presidio.",
+      "artist": "Andy Goldsworthy",
+      "notes": "Textured (charred dark on one side, pale on the other). The file is named golden_gate_park_spire but is the Presidio Spire. OSM height 30.48 m; rotationally near-symmetric, front arbitrary. No plinth: rises from the ground.",
+      "subtype": "scenery",
+      "length": 4.04,
+      "width": 5.59,
+      "height": 30.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "spire",
+        "goldsworthy",
+        "presidio",
+        "cypress"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-7c349c8b8f-spire-goldsworthy-presidio-cypress-source.glb",
+          "hash": "7c349c8b8f728fb580c4cde98b4eb160c8e1904b52dee29e974373094ebdd4ae",
+          "size": 4553724,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-485e83c977-spire-goldsworthy-presidio-cypress-lod0.glb",
+          "hash": "485e83c9770c77450e9d2b5545ac14ac79a3bf6543a0195f2382c072c1485d0e",
+          "size": 387260,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14986 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-78c5357c30-spire-goldsworthy-presidio-cypress-lod1.glb",
+          "hash": "78c5357c300f0eb3dc66cd5bec0b60d95c3c2b09c421f1008f7c5b21c4cee245",
+          "size": 124720,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3840 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 30.5
+          },
+          "unitsToMetres": 30.5,
+          "material": "textured",
+          "source": "sf_golden_gate_park_spire.glb",
+          "reference": "statues_to_model/goldsworthy-spire/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14986,
+              "tex": 512,
+              "kB": 378
+            },
+            {
+              "lod": 1,
+              "triangles": 3840,
+              "tex": 256,
+              "kB": 122
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hills-bros-coffee-drinker",
+      "name": "Hills Bros. coffee drinker",
+      "description": "The robed Arab coffee drinker of the Hills Bros. trademark, raising his cup, as a figure on the roof of the Hills Bros. coffee works on the Embarcadero.",
+      "notes": "Textured scan. Height is a guess (3.5 m for a rooftop figure). Front -x: he faces the viewer from -x, cup to his mouth (preview). Own small base; no plinth.",
+      "subtype": "sculpture",
+      "length": 1.67,
+      "width": 1.32,
+      "height": 3.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "hills bros",
+        "coffee",
+        "embarcadero",
+        "trademark"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-2a0335657f-hills-bros-coffee-embarcadero-trademark-source.glb",
+          "hash": "2a0335657f711551bbdc2953ead48d50407674c5d97d31da86cd35afe5978ea6",
+          "size": 3791336,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6558e44d8c-hills-bros-coffee-embarcadero-trademark-lod0.glb",
+          "hash": "6558e44d8cc47d87a3b02c4317bfff84beb9e709ce159a3fb91ecf3c33a5cadf",
+          "size": 206224,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7828 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-a24c4e1ccd-hills-bros-coffee-embarcadero-trademark-lod1.glb",
+          "hash": "a24c4e1ccd8772695861805af98b0ba6a6f607ad02e01b54611363410c5ec57a",
+          "size": 64592,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1956 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3.5
+          },
+          "unitsToMetres": 3.5,
+          "material": "textured",
+          "source": "sf_hill_bros_coffee_drinker.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7828,
+              "tex": 512,
+              "kB": 201
+            },
+            {
+              "lod": 1,
+              "triangles": 1956,
+              "tex": 256,
+              "kB": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hope-peace-hands",
+      "name": "Hope / Peace hands (Giuseppe Palumbo), Pier 28",
+      "description": "Two sculpted hands, one crossing fingers for hope and one in a V for peace, each on its own dark block; Big Art Loop, Pier 28, the Embarcadero.",
+      "artist": "Giuseppe Palumbo",
+      "notes": "Textured scan with its two small bases. Size not published: 2.2 m is a guess. Front -x: the hands face the viewer from -x (preview); they stand side by side along z.",
+      "subtype": "sculpture",
+      "length": 3.05,
+      "width": 1.28,
+      "height": 2.2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "hope",
+        "peace",
+        "hands",
+        "pier 28",
+        "big art loop"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-577100e101-hope-peace-hands-pier-28-big-art-loop-source.glb",
+          "hash": "577100e1014f3bebad864273c18b9bc700b0796f20536a93c7bef1255b497029",
+          "size": 5396048,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-8b27af1477-hope-peace-hands-pier-28-big-art-loop-lod0.glb",
+          "hash": "8b27af1477485a8e656539b372a0fc50919513053b9893e73c5069030536603f",
+          "size": 224460,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8003 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-bce20ce16f-hope-peace-hands-pier-28-big-art-loop-lod1.glb",
+          "hash": "bce20ce16fde1a6cd1d750f5a074a46cba5ac6b86a4e1b560778f765e64500f4",
+          "size": 72532,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2000 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.2
+          },
+          "unitsToMetres": 3.055,
+          "material": "textured",
+          "source": "sf_hope_peace_hands.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8003,
+              "tex": 512,
+              "kB": 219
+            },
+            {
+              "lod": 1,
+              "triangles": 2000,
+              "tex": 256,
+              "kB": 71
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "junipero-serra",
+      "name": "Padre Junipero Serra, Golden Gate Park",
+      "description": "Douglas Tilden's 1907 bronze of Fra Junipero Serra, arm raised, holding a tall cross, on a granite pedestal on the Music Concourse.",
+      "artist": "Douglas Tilden",
+      "notes": "Untextured: bronze (green-black patina in life). Figure ~3.5-4 m on a granite pedestal ~1.5 x 1.5 x 4 m (about.md estimates; Wikipedia 9 m overall). Front -x (face, raised hand and cross seen from -x). Toppled in 2020; the model shows it standing.",
+      "subtype": "sculpture",
+      "length": 1.89,
+      "width": 1.36,
+      "height": 3.8,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "junipero serra",
+        "tilden",
+        "music concourse",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-159fdf01c5-junipero-serra-tilden-music-concourse-golden-gate-park-source.glb",
+          "hash": "159fdf01c5f04debd913d4277ded8a27e0e8f2982d68ecdd28f415fe6a1f9c73",
+          "size": 346224,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-477a0c127e-junipero-serra-tilden-music-concourse-golden-gate-park-lod0.glb",
+          "hash": "477a0c127eef67aeb4e1d56d5c0e600e7895d6e2171b75109cac222b0ab5d4f3",
+          "size": 115536,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7917 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-2e67fe3176-junipero-serra-tilden-music-concourse-golden-gate-park-lod1.glb",
+          "hash": "2e67fe31760399c96c78001b00a70c0114b42a3a8fd1d2fd24df29da8b98ff9b",
+          "size": 30016,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1875 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 3.8
+          },
+          "unitsToMetres": 3.8,
+          "plinth": [
+            1.6,
+            1.6,
+            4.2
+          ],
+          "material": "bronze",
+          "source": "sf_junipero_serra.glb",
+          "reference": "statues_to_model/junipero-serra-golden-gate-park/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7917,
+              "tex": 256,
+              "kB": 113
+            },
+            {
+              "lod": 1,
+              "triangles": 1875,
+              "tex": 256,
+              "kB": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "la-chiffonniere",
+      "name": "La Chiffonniere (Dubuffet), Embarcadero Plaza",
+      "description": "Dubuffet's 1978 painted-epoxy-and-stainless La Chiffonniere (the ragpicker), 6.7 m tall, in Embarcadero Plaza.",
+      "artist": "Jean Dubuffet",
+      "notes": "Textured scan with its round base disc. 22 ft (6.7 m) per Public Art Fund / Wikipedia. Front -x (the face and torso panels read from -x in the preview); Dubuffet's piece has no true front.",
+      "subtype": "sculpture",
+      "length": 3.79,
+      "width": 2.67,
+      "height": 6.7,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "la chiffonniere",
+        "dubuffet",
+        "embarcadero plaza",
+        "justin herman"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-1207ad06cc-la-chiffonniere-dubuffet-embarcadero-plaza-justin-herman-source.glb",
+          "hash": "1207ad06cc8969c87eda6027bcbb69b5655d85d44d6e25882217e024c7bb7f53",
+          "size": 3719208,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-6d5344f503-la-chiffonniere-dubuffet-embarcadero-plaza-justin-herman-lod0.glb",
+          "hash": "6d5344f5036e30b363fb80249edcf26e9bb5736b3efcc44e346aed1dcd9dfb8b",
+          "size": 378812,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "15021 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-688d6ce7f7-la-chiffonniere-dubuffet-embarcadero-plaza-justin-herman-lod1.glb",
+          "hash": "688d6ce7f74f38601e4a5e5295ead0d4ec05df2361cb78738eb456c5e45de730",
+          "size": 128768,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3851 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 6.7
+          },
+          "unitsToMetres": 6.7,
+          "material": "textured",
+          "source": "sf_la_chiffoniere.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 15021,
+              "tex": 512,
+              "kB": 370
+            },
+            {
+              "lod": 1,
+              "triangles": 3851,
+              "tex": 256,
+              "kB": 126
+            }
+          ]
+        }
+      }
     }
   ]
 }

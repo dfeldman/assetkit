@@ -1487,6 +1487,237 @@
     "light art"
    ],
    "notes": "Textured. 25 ft (7.6 m) overall (Exploratorium, SF Travel). Rotationally symmetric, so the front is arbitrary (+z). 15 000/4 000-triangle budget as a monument; thin struts, so LOD1 error 0.04. LOD1 stops at ~6 500 triangles (237 kB), above the 4 000 target."
+  },
+  {
+   "id": "francis-scott-key-monument",
+   "name": "Francis Scott Key Monument, Golden Gate Park",
+   "file": "sf_francis_scott_key_monument.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 14.5
+   },
+   "lods": [
+    {
+     "ratio": 0.85,
+     "tex": 512
+    },
+    {
+     "ratio": 0.22,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "William Wetmore Story",
+   "description": "The 1888 Francis Scott Key Monument: a travertine baldachin with the seated bronze Key under the canopy and Columbia with her flag staff above, at the east end of the Music Concourse.",
+   "keywords": [
+    "francis scott key",
+    "monument",
+    "music concourse",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/francis-scott-key-monument/about.md",
+   "notes": "Textured scan; includes its own stepped base and the canopy, so no plinth. About 14-15 m overall (about.md estimate). Front is +z (the inscription tablet side, preview). Key himself was toppled in 2020; the model shows the intact monument."
+  },
+  {
+   "id": "georgia-okeeffe",
+   "name": "Portrait of Georgia O'Keeffe (Marisol)",
+   "file": "sf_georgia_okeefe.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.8
+   },
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Marisol Escobar",
+   "description": "Marisol's 1982 bronze Portrait of Georgia O'Keeffe: a blocky bust-on-pedestal figure with her two chow dogs, in Sydney G. Walton Square.",
+   "keywords": [
+    "georgia o'keeffe",
+    "marisol",
+    "walton square"
+   ],
+   "notes": "Textured scan. Height not found in sources: 1.8 m is a guess for the figure on its low pedestal (the model's irregular base slab is part of the scan). Front -x: the face and both dogs face the viewer from -x (preview)."
+  },
+  {
+   "id": "goldsworthy-spire",
+   "name": "Spire (Andy Goldsworthy), Presidio",
+   "file": "sf_golden_gate_park_spire.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 30.5
+   },
+   "lods": [
+    {
+     "ratio": 0.78,
+     "tex": 512
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Andy Goldsworthy",
+   "description": "2008 land-art spire of 37 Monterey cypress trunks lashed in a tapering bundle, about 30 m tall, in the Presidio.",
+   "keywords": [
+    "spire",
+    "goldsworthy",
+    "presidio",
+    "cypress"
+   ],
+   "reference": "statues_to_model/goldsworthy-spire/about.md",
+   "notes": "Textured (charred dark on one side, pale on the other). The file is named golden_gate_park_spire but is the Presidio Spire. OSM height 30.48 m; rotationally near-symmetric, front arbitrary. No plinth: rises from the ground."
+  },
+  {
+   "id": "hills-bros-coffee-drinker",
+   "name": "Hills Bros. coffee drinker",
+   "file": "sf_hill_bros_coffee_drinker.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.5
+   },
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 512
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The robed Arab coffee drinker of the Hills Bros. trademark, raising his cup, as a figure on the roof of the Hills Bros. coffee works on the Embarcadero.",
+   "keywords": [
+    "hills bros",
+    "coffee",
+    "embarcadero",
+    "trademark"
+   ],
+   "notes": "Textured scan. Height is a guess (3.5 m for a rooftop figure). Front -x: he faces the viewer from -x, cup to his mouth (preview). Own small base; no plinth."
+  },
+  {
+   "id": "hope-peace-hands",
+   "name": "Hope / Peace hands (Giuseppe Palumbo), Pier 28",
+   "file": "sf_hope_peace_hands.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.2
+   },
+   "lods": [
+    {
+     "ratio": 0.44,
+     "tex": 512
+    },
+    {
+     "ratio": 0.11,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Giuseppe Palumbo",
+   "description": "Two sculpted hands, one crossing fingers for hope and one in a V for peace, each on its own dark block; Big Art Loop, Pier 28, the Embarcadero.",
+   "keywords": [
+    "hope",
+    "peace",
+    "hands",
+    "pier 28",
+    "big art loop"
+   ],
+   "notes": "Textured scan with its two small bases. Size not published: 2.2 m is a guess. Front -x: the hands face the viewer from -x (preview); they stand side by side along z."
+  },
+  {
+   "id": "junipero-serra",
+   "name": "Padre Junipero Serra, Golden Gate Park",
+   "file": "sf_junipero_serra.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.8
+   },
+   "plinth": [
+    1.6,
+    1.6,
+    4.2
+   ],
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Douglas Tilden",
+   "description": "Douglas Tilden's 1907 bronze of Fra Junipero Serra, arm raised, holding a tall cross, on a granite pedestal on the Music Concourse.",
+   "keywords": [
+    "junipero serra",
+    "tilden",
+    "music concourse",
+    "golden gate park"
+   ],
+   "reference": "statues_to_model/junipero-serra-golden-gate-park/about.md",
+   "notes": "Untextured: bronze (green-black patina in life). Figure ~3.5-4 m on a granite pedestal ~1.5 x 1.5 x 4 m (about.md estimates; Wikipedia 9 m overall). Front -x (face, raised hand and cross seen from -x). Toppled in 2020; the model shows it standing."
+  },
+  {
+   "id": "la-chiffonniere",
+   "name": "La Chiffonniere (Dubuffet), Embarcadero Plaza",
+   "file": "sf_la_chiffoniere.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 6.7
+   },
+   "lods": [
+    {
+     "ratio": 0.78,
+     "tex": 512
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Jean Dubuffet",
+   "description": "Dubuffet's 1978 painted-epoxy-and-stainless La Chiffonniere (the ragpicker), 6.7 m tall, in Embarcadero Plaza.",
+   "keywords": [
+    "la chiffonniere",
+    "dubuffet",
+    "embarcadero plaza",
+    "justin herman"
+   ],
+   "notes": "Textured scan with its round base disc. 22 ft (6.7 m) per Public Art Fund / Wikipedia. Front -x (the face and torso panels read from -x in the preview); Dubuffet's piece has no true front."
   }
  ]
 }
