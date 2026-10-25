@@ -1,525 +1,774 @@
 {
-  "_about": "Photogrammetry-style (AI) models of San Francisco landmarks: their source files and what tools/modelpack/pack.ts needs to make game-ready LODs of them. Intrinsic facts only (real size, which axis is the front, waterline, material); where a project puts one is that project's business (cityengine: public/landmarks/san-francisco-statues.json).",
-  "_fields": {
-    "id": "asset id in the assetkit-models-sf index",
-    "file": "the source GLB, in $INCOMING_DIR (default: ../cityengine/incoming_assets)",
-    "kind": "ship | statue | fountain | bridge | object",
-    "material": "'textured' (the file carries its own texture), else a shader for an untextured model: bronze (the default), copperoxide, concrete, whitestone, silver… (a material named in the file name wins)",
-    "front": "the model's own axis its front faces, as the glTF loader leaves it: +z | -z | +x | -x",
-    "scale": "{ axis: x|y|z, metres }: the real size along that model axis; the whole model is scaled uniformly from it (a ship by its length, a statue by its height)",
-    "draft": "ships: metres from the model's lowest point up to the waterline, after scaling",
-    "plinth": "statues whose model has no base: the pedestal a renderer must draw, [width, depth, height] metres; absent when the model brings its own or stands on the ground",
-    "lods": "levels to make: ratio of triangles kept (1 = all), texture cap in px, and the simplifier's error limit (fraction of the model's size; default 0.02 — a far LOD of a rigged ship needs more, or the thin lines stop it)",
-    "crop": "optional { axis, max }: triangles whose middle is further than max (model units) from the centre along axis are dropped — a stray rope sticking out",
-    "squash": "optional { axis, factor }: scale one axis only, for a model the AI stretched (the Pampanito came out twice as tall as she is)"
-  },
-  "models": [
+ "_about": "Photogrammetry-style (AI) models of San Francisco landmarks: their source files and what tools/modelpack/pack.ts needs to make game-ready LODs of them. Intrinsic facts only (real size, which axis is the front, waterline, material); where a project puts one is that project's business (cityengine: public/landmarks/san-francisco-statues.json).",
+ "_fields": {
+  "id": "asset id in the assetkit-models-sf index",
+  "file": "the source GLB, in $INCOMING_DIR (default: ../cityengine/incoming_assets)",
+  "kind": "ship | statue | fountain | bridge | object",
+  "material": "'textured' (the file carries its own texture), else a shader for an untextured model: bronze (the default), copperoxide, concrete, whitestone, silver… (a material named in the file name wins)",
+  "front": "the model's own axis its front faces, as the glTF loader leaves it: +z | -z | +x | -x",
+  "scale": "{ axis: x|y|z, metres }: the real size along that model axis; the whole model is scaled uniformly from it (a ship by its length, a statue by its height)",
+  "draft": "ships: metres from the model's lowest point up to the waterline, after scaling",
+  "plinth": "statues whose model has no base: the pedestal a renderer must draw, [width, depth, height] metres; absent when the model brings its own or stands on the ground",
+  "lods": "levels to make: ratio of triangles kept (1 = all), texture cap in px, and the simplifier's error limit (fraction of the model's size; default 0.02 — a far LOD of a rigged ship needs more, or the thin lines stop it)",
+  "crop": "optional { axis, max }: triangles whose middle is further than max (model units) from the centre along axis are dropped — a stray rope sticking out",
+  "squash": "optional { axis, factor }: scale one axis only, for a model the AI stretched (the Pampanito came out twice as tall as she is)"
+ },
+ "models": [
+  {
+   "id": "balclutha",
+   "name": "Balclutha (1886 full-rigged ship)",
+   "file": "ship_balaclutha.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 92
+   },
+   "draft": 4.5,
+   "lods": [
     {
-      "id": "balclutha",
-      "name": "Balclutha (1886 full-rigged ship)",
-      "file": "ship_balaclutha.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "+z",
-      "scale": {
-        "axis": "z",
-        "metres": 92
-      },
-      "draft": 4.5,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Steel-hulled three-masted full-rigged ship built 1886 by Charles Connell & Co., Glasgow; museum ship of the San Francisco Maritime National Historical Park at Hyde Street Pier.",
-      "keywords": [
-        "balclutha",
-        "ship",
-        "hyde street pier",
-        "maritime"
-      ],
-      "reference": "items_to_model/balclutha/about.md",
-      "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, and she floats light: in the 2012 photo (3-context.jpg) the upper part of the red shows, so the waterline is 4.5 m above the model's lowest point (2026-10-18). Her bow points toward the pier's shore end, by the Eureka (the same photo; about.md's 'north-west' is wrong). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship)."
+     "ratio": 1,
+     "tex": 1024
     },
     {
-      "id": "ca-thayer",
-      "name": "C.A. Thayer (1895 lumber schooner)",
-      "file": "ship_ca_thayer.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-x",
-      "scale": {
-        "axis": "x",
-        "metres": 67
-      },
-      "draft": 3.5,
-      "crop": {
-        "axis": "z",
-        "max": 0.13
-      },
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Three-masted wooden lumber schooner built 1895 by Hans Bendixsen, Fairhaven CA; museum ship at Hyde Street Pier.",
-      "keywords": [
-        "ca thayer",
-        "schooner",
-        "hyde street pier",
-        "maritime"
-      ],
-      "reference": "items_to_model/ca-thayer/about.md",
-      "notes": "Model x runs over 67 m overall (219 ft, bowsprit and boom). A stray rope stood ~0.24 units out to the side (owner, 2026-10-18: 'may interfere with nearby objects'): cropped at |z| > 0.13 (the hull's half-beam is 0.084, deck fittings reach 0.12). Draft ~3.5 m (depth of hold)."
-    },
-    {
-      "id": "alma",
-      "name": "Alma (1891 scow schooner)",
-      "file": "ship_alma.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-z",
-      "scale": {
-        "axis": "z",
-        "metres": 25
-      },
-      "draft": 3.5,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Flat-bottomed San Francisco Bay scow schooner built 1891 at Hunters Point; museum ship of the San Francisco Maritime NHP.",
-      "keywords": [
-        "alma",
-        "scow schooner",
-        "hyde street pier",
-        "maritime"
-      ],
-      "reference": "items_to_model/alma-scow-schooner/about.md",
-      "notes": "18 m on deck; the model's z runs from the bowsprit tip past the boom, ~25 m. Its lowest point is the lowered leeboard, ~2.4 m below the hull, so the waterline (1.1 m draft) is ~3.5 m above it. Sails set, as Tripo made her."
-    },
-    {
-      "id": "hercules",
-      "name": "Hercules (1907 steam tug)",
-      "file": "ship_hercules_tugboat.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-x",
-      "scale": {
-        "axis": "x",
-        "metres": 46
-      },
-      "draft": 4.5,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Ocean-going steam tug built 1907 by John H. Dialogue & Son, Camden NJ; museum ship at Hyde Street Pier.",
-      "keywords": [
-        "hercules",
-        "tugboat",
-        "hyde street pier",
-        "maritime"
-      ],
-      "reference": "items_to_model/hercules-tug/about.md",
-      "notes": "46 m (151 ft); draft 5.5 m aft, ~4.5 m mean."
-    },
-    {
-      "id": "jeremiah-obrien",
-      "name": "SS Jeremiah O'Brien (1943 Liberty ship)",
-      "file": "ship_ss_jeremiah_obrien.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-x",
-      "scale": {
-        "axis": "x",
-        "metres": 134.6
-      },
-      "draft": 6,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Liberty ship built 1943 at the New England Shipbuilding Corporation, South Portland, Maine; one of two operational Liberty ships, museum ship in San Francisco.",
-      "keywords": [
-        "jeremiah obrien",
-        "liberty ship",
-        "maritime"
-      ],
-      "reference": "items_to_model/ss-jeremiah-obrien/about.md",
-      "notes": "134.6 m (441 ft 6 in); laden draft 8.5 m, as a museum ship riding higher, ~6 m."
-    },
-    {
-      "id": "pampanito",
-      "name": "USS Pampanito (1943 submarine)",
-      "file": "ship_uss_pampanito_submarine.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-x",
-      "scale": {
-        "axis": "x",
-        "metres": 95
-      },
-      "draft": 4.5,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Balao-class fleet submarine launched 1943 at Portsmouth Navy Yard; museum ship at Pier 45, Fisherman's Wharf.",
-      "keywords": [
-        "pampanito",
-        "submarine",
-        "pier 45",
-        "maritime"
-      ],
-      "reference": "items_to_model/uss-pampanito/about.md",
-      "notes": "95 m (311 ft 6 in); surfaced draft ~4.6 m; the red bottom is below the waterline. Tripo made her 0.43 units tall to 1.0 long: 41 m at 95 m, against ~17-19 m keel to the top of the periscope shears; squashed in y by 0.47.",
-      "squash": {
-        "axis": "y",
-        "factor": 0.47
-      }
-    },
-    {
-      "id": "taj-mahal-houseboat",
-      "name": "Taj Mahal houseboat, Sausalito",
-      "file": "ship_taj_mahal_houseboat.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "-x",
-      "scale": {
-        "axis": "x",
-        "metres": 14
-      },
-      "draft": 1,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "A houseboat in the form of a miniature Taj Mahal, Sausalito.",
-      "keywords": [
-        "taj mahal",
-        "houseboat",
-        "sausalito"
-      ],
-      "notes": "An easter egg (owner, 2026-10-18). Size estimated (~14 m long on its float); its arched entrance is on -x."
-    },
-    {
-      "id": "eureka",
-      "name": "Eureka (1890 paddle-wheel ferry)",
-      "file": "ship_eureka_ferry_based_on_mini.glb",
-      "kind": "ship",
-      "material": "textured",
-      "front": "+x",
-      "scale": {
-        "axis": "x",
-        "metres": 91
-      },
-      "draft": 3,
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.4,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "description": "Side-wheel walking-beam passenger and car ferry built 1890 (as Ukiah, rebuilt 1922 as Eureka); museum ship at Hyde Street Pier.",
-      "keywords": [
-        "eureka",
-        "ferry",
-        "hyde street pier",
-        "maritime"
-      ],
-      "reference": "items_to_model/eureka-ferry/about.md",
-      "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18)."
-    },
-    {
-      "id": "dewey-victory",
-      "name": "Victory, Dewey Monument",
-      "file": "dewey_monument_victory_copperoxide.glb",
-      "kind": "statue",
-      "material": "copperoxide",
-      "front": "-x",
-      "scale": {
-        "axis": "y",
-        "metres": 3.8
-      },
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 256
-        },
-        {
-          "ratio": 0.35,
-          "tex": 256,
-          "error": 0.02
-        }
-      ],
-      "artist": "Robert Ingersoll Aitken",
-      "description": "Bronze Victory with trident and wreath on a globe atop the Dewey Monument's column, Union Square (1903).",
-      "keywords": [
-        "dewey monument",
-        "victory",
-        "union square"
-      ],
-      "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it). SUPERSEDED 2026-10-18 by dewey-monument (capital included); kept for reference."
-    },
-    {
-      "id": "mechanics-monument",
-      "name": "Mechanics Monument",
-      "file": "mechanics_monument.glb",
-      "kind": "statue",
-      "material": "bronze",
-      "front": "-x",
-      "scale": {
-        "axis": "y",
-        "metres": 7.5
-      },
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 256
-        },
-        {
-          "ratio": 0.35,
-          "tex": 256,
-          "error": 0.02
-        }
-      ],
-      "artist": "Douglas Tilden",
-      "description": "Bronze group of five mechanics working a punch press, Market and Battery Streets (1901), honouring Peter Donahue.",
-      "keywords": [
-        "mechanics monument",
-        "market street",
-        "donahue"
-      ],
-      "reference": "statues_to_model/mechanics-monument/about.md",
-      "notes": "Untextured: bronze. The model carries the lower granite base; ~7.5 m overall."
-    },
-    {
-      "id": "gandhi",
-      "name": "Mahatma Gandhi, Ferry Building",
-      "file": "gandhi.glb",
-      "kind": "statue",
-      "material": "bronze",
-      "front": "-x",
-      "scale": {
-        "axis": "y",
-        "metres": 2.4
-      },
-      "plinth": [
-        2.6,
-        1.5,
-        1.1
-      ],
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 256
-        },
-        {
-          "ratio": 0.35,
-          "tex": 256,
-          "error": 0.02
-        }
-      ],
-      "artist": "Zlatko Paunov",
-      "description": "Bronze striding Gandhi with his staff, at the Ferry Building (1988).",
-      "keywords": [
-        "gandhi",
-        "ferry building"
-      ],
-      "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
-      "notes": "Untextured: bronze. 8 ft (2.4 m) striding figure on its rough bronze base (Wikipedia, 'Statue of Mahatma Gandhi (San Francisco)'), on a block with a plaque raised on two steps — a long low block, wider than deep, in the Commons photo (drawn by the renderer)."
-    },
-    {
-      "id": "willie-mays",
-      "name": "Willie Mays, Oracle Park",
-      "file": "sf_willie_mays.glb",
-      "kind": "statue",
-      "material": "bronze",
-      "front": "-x",
-      "scale": {
-        "axis": "y",
-        "metres": 2.9
-      },
-      "plinth": [
-        3.2,
-        3.2,
-        1.5
-      ],
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 256
-        },
-        {
-          "ratio": 0.35,
-          "tex": 256,
-          "error": 0.02
-        }
-      ],
-      "artist": "William Behrends",
-      "description": "Bronze Willie Mays at the swing, Willie Mays Plaza, Oracle Park (2000).",
-      "keywords": [
-        "willie mays",
-        "oracle park",
-        "giants"
-      ],
-      "reference": "statues_to_model/willie-mays-statue/about.md",
-      "notes": "Untextured: bronze. The model has its own thin base; on a granite pedestal ~1.5 m (drawn by the renderer)."
-    },
-    {
-      "id": "lincoln-city-hall",
-      "name": "Abraham Lincoln, City Hall",
-      "file": "sf_abraham_lincoln_copperoxide.glb",
-      "kind": "statue",
-      "material": "bronze",
-      "front": "-x",
-      "scale": {
-        "axis": "y",
-        "metres": 2.9
-      },
-      "plinth": [
-        1.95,
-        2.15,
-        2.0
-      ],
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 256
-        },
-        {
-          "ratio": 0.35,
-          "tex": 256,
-          "error": 0.02
-        }
-      ],
-      "artist": "Haig Patigian",
-      "description": "Seated bronze Lincoln on the Polk Street side of City Hall (1928).",
-      "keywords": [
-        "lincoln",
-        "city hall",
-        "civic center"
-      ],
-      "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
-      "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
-    },
-    {
-      "id": "dewey-monument",
-      "name": "Dewey Monument top (capital and Victory)",
-      "file": "sf_dewey_monument_with_pedestal.glb",
-      "kind": "statue",
-      "material": "textured",
-      "front": "+z",
-      "scale": {
-        "axis": "y",
-        "metres": 7.2
-      },
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.35,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
-      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
-      "keywords": [
-        "dewey monument",
-        "victory",
-        "union square"
-      ],
-      "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "Textured (white stone capital, verdigris figure). Its foot is the capital's neck, 0.208 model units across = the shaft's 5 ft (1.5 m, Wikipedia) under the capital: 7.2 m tall. Sits on a plain cylinder (cityengine draws the shaft). Supersedes dewey-victory (figure only)."
-    },
-    {
-      "id": "dewey-monument-pbr",
-      "name": "Dewey Monument top (capital and Victory), PBR",
-      "file": "sf_dewey_monument_with_pedestal_pbr.glb",
-      "kind": "statue",
-      "material": "textured",
-      "front": "+z",
-      "scale": {
-        "axis": "y",
-        "metres": 7.2
-      },
-      "lods": [
-        {
-          "ratio": 1,
-          "tex": 1024
-        },
-        {
-          "ratio": 0.35,
-          "tex": 512,
-          "error": 0.02
-        }
-      ],
-      "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
-      "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
-      "keywords": [
-        "dewey monument",
-        "victory",
-        "union square"
-      ],
-      "reference": "statues_to_model/dewey-monument-victory/about.md",
-      "notes": "The same mesh as dewey-monument with Tripo's PBR textures (base colour + metallic-roughness). Packed to compare with the plain textured one (owner, 2026-10-18)."
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
     }
-  ]
+   ],
+   "description": "Steel-hulled three-masted full-rigged ship built 1886 by Charles Connell & Co., Glasgow; museum ship of the San Francisco Maritime National Historical Park at Hyde Street Pier.",
+   "keywords": [
+    "balclutha",
+    "ship",
+    "hyde street pier",
+    "maritime"
+   ],
+   "reference": "items_to_model/balclutha/about.md",
+   "notes": "Model length (z, 1.0 unit) runs from the bowsprit tip to the stern: 92 m overall (301 ft). The red bottom (antifouling) is about 8% of the length, and she floats light: in the 2012 photo (3-context.jpg) the upper part of the red shows, so the waterline is 4.5 m above the model's lowest point (2026-10-18). Her bow points toward the pier's shore end, by the Eureka (the same photo; about.md's 'north-west' is wrong). Two LODs only: the simplifier stops at ~8 k triangles whatever the error limit (the rigging is hundreds of separate textured strips with UV seams), and most of the memory is the texture; beyond lod1's range a game draws its own stand-in (cityengine: the procedural ship)."
+  },
+  {
+   "id": "ca-thayer",
+   "name": "C.A. Thayer (1895 lumber schooner)",
+   "file": "ship_ca_thayer.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "x",
+    "metres": 67
+   },
+   "draft": 3.5,
+   "crop": {
+    "axis": "z",
+    "max": 0.13
+   },
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Three-masted wooden lumber schooner built 1895 by Hans Bendixsen, Fairhaven CA; museum ship at Hyde Street Pier.",
+   "keywords": [
+    "ca thayer",
+    "schooner",
+    "hyde street pier",
+    "maritime"
+   ],
+   "reference": "items_to_model/ca-thayer/about.md",
+   "notes": "Model x runs over 67 m overall (219 ft, bowsprit and boom). A stray rope stood ~0.24 units out to the side (owner, 2026-10-18: 'may interfere with nearby objects'): cropped at |z| > 0.13 (the hull's half-beam is 0.084, deck fittings reach 0.12). Draft ~3.5 m (depth of hold)."
+  },
+  {
+   "id": "alma",
+   "name": "Alma (1891 scow schooner)",
+   "file": "ship_alma.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-z",
+   "scale": {
+    "axis": "z",
+    "metres": 25
+   },
+   "draft": 3.5,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Flat-bottomed San Francisco Bay scow schooner built 1891 at Hunters Point; museum ship of the San Francisco Maritime NHP.",
+   "keywords": [
+    "alma",
+    "scow schooner",
+    "hyde street pier",
+    "maritime"
+   ],
+   "reference": "items_to_model/alma-scow-schooner/about.md",
+   "notes": "18 m on deck; the model's z runs from the bowsprit tip past the boom, ~25 m. Its lowest point is the lowered leeboard, ~2.4 m below the hull, so the waterline (1.1 m draft) is ~3.5 m above it. Sails set, as Tripo made her."
+  },
+  {
+   "id": "hercules",
+   "name": "Hercules (1907 steam tug)",
+   "file": "ship_hercules_tugboat.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "x",
+    "metres": 46
+   },
+   "draft": 4.5,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Ocean-going steam tug built 1907 by John H. Dialogue & Son, Camden NJ; museum ship at Hyde Street Pier.",
+   "keywords": [
+    "hercules",
+    "tugboat",
+    "hyde street pier",
+    "maritime"
+   ],
+   "reference": "items_to_model/hercules-tug/about.md",
+   "notes": "46 m (151 ft); draft 5.5 m aft, ~4.5 m mean."
+  },
+  {
+   "id": "jeremiah-obrien",
+   "name": "SS Jeremiah O'Brien (1943 Liberty ship)",
+   "file": "ship_ss_jeremiah_obrien.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "x",
+    "metres": 134.6
+   },
+   "draft": 6,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Liberty ship built 1943 at the New England Shipbuilding Corporation, South Portland, Maine; one of two operational Liberty ships, museum ship in San Francisco.",
+   "keywords": [
+    "jeremiah obrien",
+    "liberty ship",
+    "maritime"
+   ],
+   "reference": "items_to_model/ss-jeremiah-obrien/about.md",
+   "notes": "134.6 m (441 ft 6 in); laden draft 8.5 m, as a museum ship riding higher, ~6 m."
+  },
+  {
+   "id": "pampanito",
+   "name": "USS Pampanito (1943 submarine)",
+   "file": "ship_uss_pampanito_submarine.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "x",
+    "metres": 95
+   },
+   "draft": 4.5,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Balao-class fleet submarine launched 1943 at Portsmouth Navy Yard; museum ship at Pier 45, Fisherman's Wharf.",
+   "keywords": [
+    "pampanito",
+    "submarine",
+    "pier 45",
+    "maritime"
+   ],
+   "reference": "items_to_model/uss-pampanito/about.md",
+   "notes": "95 m (311 ft 6 in); surfaced draft ~4.6 m; the red bottom is below the waterline. Tripo made her 0.43 units tall to 1.0 long: 41 m at 95 m, against ~17-19 m keel to the top of the periscope shears; squashed in y by 0.47.",
+   "squash": {
+    "axis": "y",
+    "factor": 0.47
+   }
+  },
+  {
+   "id": "taj-mahal-houseboat",
+   "name": "Taj Mahal houseboat, Sausalito",
+   "file": "ship_taj_mahal_houseboat.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "x",
+    "metres": 14
+   },
+   "draft": 1,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "A houseboat in the form of a miniature Taj Mahal, Sausalito.",
+   "keywords": [
+    "taj mahal",
+    "houseboat",
+    "sausalito"
+   ],
+   "notes": "An easter egg (owner, 2026-10-18). Size estimated (~14 m long on its float); its arched entrance is on -x."
+  },
+  {
+   "id": "eureka",
+   "name": "Eureka (1890 paddle-wheel ferry)",
+   "file": "ship_eureka_ferry_based_on_mini.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "x",
+    "metres": 91
+   },
+   "draft": 3,
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.4,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "description": "Side-wheel walking-beam passenger and car ferry built 1890 (as Ukiah, rebuilt 1922 as Eureka); museum ship at Hyde Street Pier.",
+   "keywords": [
+    "eureka",
+    "ferry",
+    "hyde street pier",
+    "maritime"
+   ],
+   "reference": "items_to_model/eureka-ferry/about.md",
+   "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18)."
+  },
+  {
+   "id": "dewey-victory",
+   "name": "Victory, Dewey Monument",
+   "file": "dewey_monument_victory_copperoxide.glb",
+   "kind": "statue",
+   "material": "copperoxide",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 3.8
+   },
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 256
+    },
+    {
+     "ratio": 0.35,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Robert Ingersoll Aitken",
+   "description": "Bronze Victory with trident and wreath on a globe atop the Dewey Monument's column, Union Square (1903).",
+   "keywords": [
+    "dewey monument",
+    "victory",
+    "union square"
+   ],
+   "reference": "statues_to_model/dewey-monument-victory/about.md",
+   "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it). SUPERSEDED 2026-10-18 by dewey-monument (capital included); kept for reference."
+  },
+  {
+   "id": "mechanics-monument",
+   "name": "Mechanics Monument",
+   "file": "mechanics_monument.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 7.5
+   },
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 256
+    },
+    {
+     "ratio": 0.35,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Douglas Tilden",
+   "description": "Bronze group of five mechanics working a punch press, Market and Battery Streets (1901), honouring Peter Donahue.",
+   "keywords": [
+    "mechanics monument",
+    "market street",
+    "donahue"
+   ],
+   "reference": "statues_to_model/mechanics-monument/about.md",
+   "notes": "Untextured: bronze. The model carries the lower granite base; ~7.5 m overall."
+  },
+  {
+   "id": "gandhi",
+   "name": "Mahatma Gandhi, Ferry Building",
+   "file": "gandhi.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.4
+   },
+   "plinth": [
+    2.6,
+    1.5,
+    1.1
+   ],
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 256
+    },
+    {
+     "ratio": 0.35,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Zlatko Paunov",
+   "description": "Bronze striding Gandhi with his staff, at the Ferry Building (1988).",
+   "keywords": [
+    "gandhi",
+    "ferry building"
+   ],
+   "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
+   "notes": "Untextured: bronze. 8 ft (2.4 m) striding figure on its rough bronze base (Wikipedia, 'Statue of Mahatma Gandhi (San Francisco)'), on a block with a plaque raised on two steps — a long low block, wider than deep, in the Commons photo (drawn by the renderer)."
+  },
+  {
+   "id": "willie-mays",
+   "name": "Willie Mays, Oracle Park",
+   "file": "sf_willie_mays.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.9
+   },
+   "plinth": [
+    3.2,
+    3.2,
+    1.5
+   ],
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 256
+    },
+    {
+     "ratio": 0.35,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "William Behrends",
+   "description": "Bronze Willie Mays at the swing, Willie Mays Plaza, Oracle Park (2000).",
+   "keywords": [
+    "willie mays",
+    "oracle park",
+    "giants"
+   ],
+   "reference": "statues_to_model/willie-mays-statue/about.md",
+   "notes": "Untextured: bronze. The model has its own thin base; on a granite pedestal ~1.5 m (drawn by the renderer)."
+  },
+  {
+   "id": "lincoln-city-hall",
+   "name": "Abraham Lincoln, City Hall",
+   "file": "sf_abraham_lincoln_copperoxide.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.9
+   },
+   "plinth": [
+    1.95,
+    2.15,
+    2.0
+   ],
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 256
+    },
+    {
+     "ratio": 0.35,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Haig Patigian",
+   "description": "Seated bronze Lincoln on the Polk Street side of City Hall (1928).",
+   "keywords": [
+    "lincoln",
+    "city hall",
+    "civic center"
+   ],
+   "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
+   "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
+  },
+  {
+   "id": "dewey-monument",
+   "name": "Dewey Monument top (capital and Victory)",
+   "file": "sf_dewey_monument_with_pedestal.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 7.2
+   },
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.35,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+   "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+   "keywords": [
+    "dewey monument",
+    "victory",
+    "union square"
+   ],
+   "reference": "statues_to_model/dewey-monument-victory/about.md",
+   "notes": "Textured (white stone capital, verdigris figure). Its foot is the capital's neck, 0.208 model units across = the shaft's 5 ft (1.5 m, Wikipedia) under the capital: 7.2 m tall. Sits on a plain cylinder (cityengine draws the shaft). Supersedes dewey-victory (figure only)."
+  },
+  {
+   "id": "dewey-monument-pbr",
+   "name": "Dewey Monument top (capital and Victory), PBR",
+   "file": "sf_dewey_monument_with_pedestal_pbr.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 7.2
+   },
+   "lods": [
+    {
+     "ratio": 1,
+     "tex": 1024
+    },
+    {
+     "ratio": 0.35,
+     "tex": 512,
+     "error": 0.02
+    }
+   ],
+   "artist": "Robert Ingersoll Aitken (figure), Newton J. Tharp (column)",
+   "description": "The top of the Dewey Monument, Union Square (1903): the Corinthian capital, the drum and globe, and the bronze Victory with trident and wreath.",
+   "keywords": [
+    "dewey monument",
+    "victory",
+    "union square"
+   ],
+   "reference": "statues_to_model/dewey-monument-victory/about.md",
+   "notes": "The same mesh as dewey-monument with Tripo's PBR textures (base colour + metallic-roughness). Packed to compare with the plain textured one (owner, 2026-10-18)."
+  },
+  {
+   "id": "admission-day-miner",
+   "name": "Admission Day Monument, the flag-waving miner",
+   "file": "admission_day.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-z",
+   "scale": {
+    "axis": "y",
+    "metres": 3.2
+   },
+   "plinth": [
+    2.0,
+    2.0,
+    0.9
+   ],
+   "lods": [
+    {
+     "ratio": 0.41,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Douglas Tilden",
+   "description": "Bronze young Native Son with a flag over his shoulder, at the foot of the Admission Day Monument column (1897).",
+   "keywords": [
+    "admission day",
+    "native sons",
+    "tilden",
+    "market street"
+   ],
+   "reference": "statues_to_model/admission-day-monument/about.md",
+   "notes": "Untextured: bronze. The model is the miner and his flag only (no base, no column). 3.2 m is a guess: a ~2.2 m figure plus the raised flag. Front -z: the stride and the head point toward -z in the +x view. The column and Genius figure are not in the model; the granite step it stands on is a 0.9 m plinth."
+  },
+  {
+   "id": "cider-press",
+   "name": "The Cider Press, Golden Gate Park",
+   "file": "apple_cider_press.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.5
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 256
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Thomas Shields Clarke",
+   "description": "Bronze group of a youth hauling on a cider press lever, a boy crouched at its foot (1892).",
+   "keywords": [
+    "cider press",
+    "golden gate park",
+    "music concourse"
+   ],
+   "reference": "statues_to_model/apple-cider-press/about.md",
+   "notes": "Untextured: bronze. 2.5 m (about.md). The model brings its own stone base. Front +z: the +z view shows the youth's chest and hands on the lever; -z shows his back. 15 000/4 000-triangle budget as a group."
+  },
+  {
+   "id": "asawa-mermaid-fountain",
+   "name": "Ruth Asawa's Andrea fountain figures, Ghirardelli Square",
+   "file": "asawa_mermaid_fountain.glb",
+   "kind": "fountain",
+   "material": "bronze",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.9
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 256
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Ruth Asawa",
+   "description": "Two bronze mermaids with turtles, frogs and lily pads, from the Andrea fountain (1968).",
+   "keywords": [
+    "asawa",
+    "andrea fountain",
+    "mermaid",
+    "ghirardelli square"
+   ],
+   "reference": "statues_to_model/asawa-mermaid-fountain/about.md",
+   "notes": "Untextured: bronze. The model is the figures only, no basin, 1.0 x 1.0 units wide. OSM's pool (way 939539789) is 5.2 m across, so 1 unit = 5 m and the height is 0.39 x 5 = 1.9 m (a seated mermaid then ~1.45 m, about.md says ~1.2). No obvious front; +z chosen."
+  },
+  {
+   "id": "ashurbanipal",
+   "name": "Ashurbanipal, Civic Center",
+   "file": "ashurbanipal.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.5
+   },
+   "plinth": [
+    1.4,
+    1.4,
+    2.0
+   ],
+   "lods": [
+    {
+     "ratio": 0.4,
+     "tex": 512
+    },
+    {
+     "ratio": 0.08,
+     "tex": 256,
+     "error": 0.1
+    }
+   ],
+   "artist": "Fred Parhad",
+   "description": "Bronze Assyrian king Ashurbanipal carrying a lion cub and a tablet, by the Main Library (1988).",
+   "keywords": [
+    "ashurbanipal",
+    "civic center",
+    "assyrian",
+    "parhad"
+   ],
+   "notes": "Textured (dark bronze, 5 MB jpeg: shrunk to 512/256). Wikipedia: 15 ft (4.6 m) overall; Parhad's site says 8 ft for the figure, so 2.5 m figure on a 2.0 m pedestal. Front -x: the face and tablet show in the -x view. LOD1 would not simplify below ~7.9k triangles at error 0.02 (UV seams), so its error limit is 0.1."
+  },
+  {
+   "id": "beethoven-bust",
+   "name": "Beethoven bust, Music Concourse",
+   "file": "beethoven.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 1.3
+   },
+   "plinth": [
+    1.2,
+    1.2,
+    2.2
+   ],
+   "lods": [
+    {
+     "ratio": 0.45,
+     "tex": 256
+    },
+    {
+     "ratio": 0.11,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Henry Baerer",
+   "description": "Bronze bust of Beethoven on a granite pedestal, Golden Gate Park (1915).",
+   "keywords": [
+    "beethoven",
+    "music concourse",
+    "golden gate park",
+    "baerer"
+   ],
+   "reference": "statues_to_model/beethoven-bust/about.md",
+   "notes": "Untextured: bronze. The model is the bust with a small socle (~1.3 m, about.md says ~1 m bust); the tall granite shaft with the muse is a 2.2 m plinth. Front -x (the face in the -x view)."
+  },
+  {
+   "id": "franklin-washington-square",
+   "name": "Benjamin Franklin, Washington Square",
+   "file": "benjamin_franklin_city_hall.glb",
+   "kind": "statue",
+   "material": "bronze",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 2.4
+   },
+   "plinth": [
+    1.8,
+    1.8,
+    3.4
+   ],
+   "lods": [
+    {
+     "ratio": 0.42,
+     "tex": 256
+    },
+    {
+     "ratio": 0.1,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "artist": "Henry D. Cogswell (donor)",
+   "description": "Bronze Franklin in 18th-century dress holding a paper, on a tall granite drinking-fountain pedestal (1879).",
+   "keywords": [
+    "franklin",
+    "washington square",
+    "cogswell",
+    "north beach"
+   ],
+   "reference": "statues_to_model/benjamin-franklin-statue/about.md",
+   "notes": "Untextured: bronze. The file is named city_hall but the about.md (Washington Square) is the one used; a standing coat-and-breeches Franklin with a paper in hand matches both. 2.4 m figure on a ~3.4 m granite pedestal. Front -x."
+  },
+  {
+   "id": "bufano-st-francis",
+   "name": "Bufano's St. Francis, Fisherman's Wharf",
+   "file": "bufano_assisi.glb",
+   "kind": "statue",
+   "material": "plaster",
+   "front": "-x",
+   "scale": {
+    "axis": "y",
+    "metres": 5.5
+   },
+   "lods": [
+    {
+     "ratio": 0.75,
+     "tex": 256
+    },
+    {
+     "ratio": 0.2,
+     "tex": 256,
+     "error": 0.04
+    }
+   ],
+   "artist": "Beniamino Bufano",
+   "description": "Monolithic hooded granite St. Francis with arms spread, at Taylor and Beach (Frank Cresci Plaza).",
+   "keywords": [
+    "bufano",
+    "st francis",
+    "fisherman's wharf",
+    "granite"
+   ],
+   "reference": "statues_to_model/bufano-st-francis/about.md",
+   "notes": "Untextured: the granite is drawn as concrete. 18 ft (5.5 m), 12-20 tons of granite (Kerouac.com, HMDB). The model has its own tapered base. Front -x (the hooded face shows in the -x view)."
+  }
+ ]
 }

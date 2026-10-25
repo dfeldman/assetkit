@@ -1319,6 +1319,660 @@
           ]
         }
       }
+    },
+    {
+      "id": "admission-day-miner",
+      "name": "Admission Day Monument, the flag-waving miner",
+      "description": "Bronze young Native Son with a flag over his shoulder, at the foot of the Admission Day Monument column (1897).",
+      "artist": "Douglas Tilden",
+      "notes": "Untextured: bronze. The model is the miner and his flag only (no base, no column). 3.2 m is a guess: a ~2.2 m figure plus the raised flag. Front -z: the stride and the head point toward -z in the +x view. The column and Genius figure are not in the model; the granite step it stands on is a 0.9 m plinth.",
+      "subtype": "sculpture",
+      "length": 1.6,
+      "width": 0.81,
+      "height": 3.2,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "admission day",
+        "native sons",
+        "tilden",
+        "market street"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-239baf8e7f-admission-day-native-sons-tilden-market-street-source.glb",
+          "hash": "239baf8e7f2d59248ef53c0f0f3272f5d675d5f604e2998d5a2102888d48bb53",
+          "size": 348108,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-30927d8c9d-admission-day-native-sons-tilden-market-street-lod0.glb",
+          "hash": "30927d8c9dfab3ccde9e490ec72a46fb0b1690b8f0d01dda5011ce6980490334",
+          "size": 111644,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7916 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-cc0cc6d5cd-admission-day-native-sons-tilden-market-street-lod1.glb",
+          "hash": "cc0cc6d5cd4af21e180ad74f6eaefbb2e5b91ae57e5539840b4260fc32ca71a1",
+          "size": 27928,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1930 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-z",
+          "scale": {
+            "axis": "y",
+            "metres": 3.2
+          },
+          "unitsToMetres": 3.2,
+          "plinth": [
+            2,
+            2,
+            0.9
+          ],
+          "material": "bronze",
+          "source": "admission_day.glb",
+          "reference": "statues_to_model/admission-day-monument/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7916,
+              "tex": 256,
+              "kB": 109
+            },
+            {
+              "lod": 1,
+              "triangles": 1930,
+              "tex": 256,
+              "kB": 27
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cider-press",
+      "name": "The Cider Press, Golden Gate Park",
+      "description": "Bronze group of a youth hauling on a cider press lever, a boy crouched at its foot (1892).",
+      "artist": "Thomas Shields Clarke",
+      "notes": "Untextured: bronze. 2.5 m (about.md). The model brings its own stone base. Front +z: the +z view shows the youth's chest and hands on the lever; -z shows his back. 15 000/4 000-triangle budget as a group.",
+      "subtype": "sculpture",
+      "length": 1.99,
+      "width": 1.46,
+      "height": 2.5,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "cider press",
+        "golden gate park",
+        "music concourse"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e59534b91c-cider-press-golden-gate-park-music-concourse-source.glb",
+          "hash": "e59534b91cd06d4cac8b932be61e9f9d612e1c791e4dd1a5e22cd2829a3572ab",
+          "size": 350588,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-1a6ce5984e-cider-press-golden-gate-park-music-concourse-lod0.glb",
+          "hash": "1a6ce5984e62f5a8c1046c1a02a4c914f5d38c807af68aeb406fa39bb3aa6431",
+          "size": 205000,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14526 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-71e5d6b585-cider-press-golden-gate-park-music-concourse-lod1.glb",
+          "hash": "71e5d6b585d4f3324347b8095349fe67d122283cfee7336e11d864bd79cc3e4d",
+          "size": 55684,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3874 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 2.5
+          },
+          "unitsToMetres": 2.5,
+          "material": "bronze",
+          "source": "apple_cider_press.glb",
+          "reference": "statues_to_model/apple-cider-press/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14526,
+              "tex": 256,
+              "kB": 200
+            },
+            {
+              "lod": 1,
+              "triangles": 3874,
+              "tex": 256,
+              "kB": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "asawa-mermaid-fountain",
+      "name": "Ruth Asawa's Andrea fountain figures, Ghirardelli Square",
+      "description": "Two bronze mermaids with turtles, frogs and lily pads, from the Andrea fountain (1968).",
+      "artist": "Ruth Asawa",
+      "notes": "Untextured: bronze. The model is the figures only, no basin, 1.0 x 1.0 units wide. OSM's pool (way 939539789) is 5.2 m across, so 1 unit = 5 m and the height is 0.39 x 5 = 1.9 m (a seated mermaid then ~1.45 m, about.md says ~1.2). No obvious front; +z chosen.",
+      "subtype": "scenery",
+      "length": 4.79,
+      "width": 4.82,
+      "height": 1.9,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "asawa",
+        "andrea fountain",
+        "mermaid",
+        "ghirardelli square"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-32cfbcd2f1-asawa-andrea-fountain-mermaid-ghirardelli-square-source.glb",
+          "hash": "32cfbcd2f1747d07398cb97c32f9cbcfd20abcee5ec6444631df4a9f6d1f99d3",
+          "size": 355576,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-694255a5d4-asawa-andrea-fountain-mermaid-ghirardelli-square-lod0.glb",
+          "hash": "694255a5d47df65488e3d40b4e5a6d92a5299b0090a02216391c2dedb9baf254",
+          "size": 208020,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14768 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-eb77de2c6c-asawa-andrea-fountain-mermaid-ghirardelli-square-lod1.glb",
+          "hash": "eb77de2c6cd6be940aec2f6151b45590ec222ccc125df1e0f5725a2251b42d83",
+          "size": 56644,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3920 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "fountain",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.9
+          },
+          "unitsToMetres": 4.817,
+          "material": "bronze",
+          "source": "asawa_mermaid_fountain.glb",
+          "reference": "statues_to_model/asawa-mermaid-fountain/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14768,
+              "tex": 256,
+              "kB": 203
+            },
+            {
+              "lod": 1,
+              "triangles": 3920,
+              "tex": 256,
+              "kB": 55
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ashurbanipal",
+      "name": "Ashurbanipal, Civic Center",
+      "description": "Bronze Assyrian king Ashurbanipal carrying a lion cub and a tablet, by the Main Library (1988).",
+      "artist": "Fred Parhad",
+      "notes": "Textured (dark bronze, 5 MB jpeg: shrunk to 512/256). Wikipedia: 15 ft (4.6 m) overall; Parhad's site says 8 ft for the figure, so 2.5 m figure on a 2.0 m pedestal. Front -x: the face and tablet show in the -x view. LOD1 would not simplify below ~7.9k triangles at error 0.02 (UV seams), so its error limit is 0.1.",
+      "subtype": "sculpture",
+      "length": 1.26,
+      "width": 1.15,
+      "height": 2.49,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "ashurbanipal",
+        "civic center",
+        "assyrian",
+        "parhad"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-99f38de62c-ashurbanipal-civic-center-assyrian-parhad-source.glb",
+          "hash": "99f38de62c673e36416a2cdb50efb14d4383b80149829a6f99639caa3caaa892",
+          "size": 6190468,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-204ac9dff3-ashurbanipal-civic-center-assyrian-parhad-lod0.glb",
+          "hash": "204ac9dff35d066374f01c0327e78c1e65026551b2702b191f036f38909c4038",
+          "size": 417764,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "8062 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-8f9c02aaa1-ashurbanipal-civic-center-assyrian-parhad-lod1.glb",
+          "hash": "8f9c02aaa11a28900702222825d6b8fd8e1c2171bed205117c3f8f5c98ea2c4c",
+          "size": 345820,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "7872 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-a6a7320bac-ashurbanipal-civic-center-assyrian-parhad-lod0.glb",
+          "hash": "a6a7320bacd8496c7e066b370a682c367baa9373801da3b9a65d58c99fec505f",
+          "size": 412540,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7868 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-f1db8012ee-ashurbanipal-civic-center-assyrian-parhad-lod1.glb",
+          "hash": "f1db8012eebb28f5c71cb834431e326fd98e626044a20ffcfbc6c07171a5ee93",
+          "size": 345644,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7866 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.5
+          },
+          "unitsToMetres": 2.5,
+          "plinth": [
+            1.4,
+            1.4,
+            2
+          ],
+          "material": "textured",
+          "source": "ashurbanipal.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 7868,
+              "tex": 512,
+              "kB": 403
+            },
+            {
+              "lod": 1,
+              "triangles": 7866,
+              "tex": 256,
+              "kB": 338
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beethoven-bust",
+      "name": "Beethoven bust, Music Concourse",
+      "description": "Bronze bust of Beethoven on a granite pedestal, Golden Gate Park (1915).",
+      "artist": "Henry Baerer",
+      "notes": "Untextured: bronze. The model is the bust with a small socle (~1.3 m, about.md says ~1 m bust); the tall granite shaft with the muse is a 2.2 m plinth. Front -x (the face in the -x view).",
+      "subtype": "sculpture",
+      "length": 1.06,
+      "width": 0.74,
+      "height": 1.3,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "beethoven",
+        "music concourse",
+        "golden gate park",
+        "baerer"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-75728353a9-beethoven-music-concourse-golden-gate-park-baerer-source.glb",
+          "hash": "75728353a9771859f7abf37d32ac07bb3dc8786df06d8f173b0af6e74ddaba7a",
+          "size": 331756,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-e17be00a96-beethoven-music-concourse-golden-gate-park-baerer-lod0.glb",
+          "hash": "e17be00a967a5ea0a6b8d849b9f62ccf8d4bdc319723692af0e94fc3c0142ec7",
+          "size": 117172,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8244 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-c43be3ebfe-beethoven-music-concourse-golden-gate-park-baerer-lod1.glb",
+          "hash": "c43be3ebfe7d996cb23c384bce7fc08e9ca1f3c070aa22b8ec2492a177d350bb",
+          "size": 29764,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2014 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 1.3
+          },
+          "unitsToMetres": 1.3,
+          "plinth": [
+            1.2,
+            1.2,
+            2.2
+          ],
+          "material": "bronze",
+          "source": "beethoven.glb",
+          "reference": "statues_to_model/beethoven-bust/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8244,
+              "tex": 256,
+              "kB": 114
+            },
+            {
+              "lod": 1,
+              "triangles": 2014,
+              "tex": 256,
+              "kB": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "franklin-washington-square",
+      "name": "Benjamin Franklin, Washington Square",
+      "description": "Bronze Franklin in 18th-century dress holding a paper, on a tall granite drinking-fountain pedestal (1879).",
+      "artist": "Henry D. Cogswell (donor)",
+      "notes": "Untextured: bronze. The file is named city_hall but the about.md (Washington Square) is the one used; a standing coat-and-breeches Franklin with a paper in hand matches both. 2.4 m figure on a ~3.4 m granite pedestal. Front -x.",
+      "subtype": "sculpture",
+      "length": 1.04,
+      "width": 0.71,
+      "height": 2.4,
+      "aiTool": "Tripo",
+      "shader": "bronze",
+      "assetKeywords": [
+        "franklin",
+        "washington square",
+        "cogswell",
+        "north beach"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f73ecf8fe9-franklin-washington-square-cogswell-north-beach-source.glb",
+          "hash": "f73ecf8fe946536973dd3defc16d0023cecb11bfb2fbe13b8e7a3952e33ec832",
+          "size": 349056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-827fd4258c-franklin-washington-square-cogswell-north-beach-lod0.glb",
+          "hash": "827fd4258cb99d74cb271e472873afab37c173e3979970e4d9c9301767cff9a7",
+          "size": 115100,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8100 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-a5ca44c9ec-franklin-washington-square-cogswell-north-beach-lod1.glb",
+          "hash": "a5ca44c9ec29107eafbe1e2ba9e0e5acbc0b4cec2b3afee8fc391eb0b0bb14b3",
+          "size": 28348,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "1928 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 2.4
+          },
+          "unitsToMetres": 2.4,
+          "plinth": [
+            1.8,
+            1.8,
+            3.4
+          ],
+          "material": "bronze",
+          "source": "benjamin_franklin_city_hall.glb",
+          "reference": "statues_to_model/benjamin-franklin-statue/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8100,
+              "tex": 256,
+              "kB": 112
+            },
+            {
+              "lod": 1,
+              "triangles": 1928,
+              "tex": 256,
+              "kB": 28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bufano-st-francis",
+      "name": "Bufano's St. Francis, Fisherman's Wharf",
+      "description": "Monolithic hooded granite St. Francis with arms spread, at Taylor and Beach (Frank Cresci Plaza).",
+      "artist": "Beniamino Bufano",
+      "notes": "Untextured: the granite is drawn as concrete. 18 ft (5.5 m), 12-20 tons of granite (Kerouac.com, HMDB). The model has its own tapered base. Front -x (the hooded face shows in the -x view).",
+      "subtype": "sculpture",
+      "length": 3.56,
+      "width": 1.41,
+      "height": 5.5,
+      "aiTool": "Tripo",
+      "shader": "plaster",
+      "assetKeywords": [
+        "bufano",
+        "st francis",
+        "fisherman's wharf",
+        "granite"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-8af4092899-bufano-st-francis-fisherman-s-wharf-granite-source.glb",
+          "hash": "8af409289906de492939228d496a3ad381fe22e06ce9c0e435d115a7d3ec17e9",
+          "size": 358100,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-80ae35aa26-bufano-st-francis-fisherman-s-wharf-granite-lod0.glb",
+          "hash": "80ae35aa266683d65afc3a9e3ca6f73dbe0732d963b00891d88498897d9c20b0",
+          "size": 209700,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "14632 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-bf38da5483-bufano-st-francis-fisherman-s-wharf-granite-lod1.glb",
+          "hash": "bf38da54830e9170b89f320975af5adc11cf2163f7984a321a06c1af0bfba5f8",
+          "size": 59056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3901 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "-x",
+          "scale": {
+            "axis": "y",
+            "metres": 5.5
+          },
+          "unitsToMetres": 5.5,
+          "material": "plaster",
+          "source": "bufano_assisi.glb",
+          "reference": "statues_to_model/bufano-st-francis/about.md",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 14632,
+              "tex": 256,
+              "kB": 205
+            },
+            {
+              "lod": 1,
+              "triangles": 3901,
+              "tex": 256,
+              "kB": 58
+            }
+          ]
+        }
+      }
     }
   ]
 }
