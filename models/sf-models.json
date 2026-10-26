@@ -2378,11 +2378,8 @@
     "japanese tea garden",
     "golden gate park"
    ],
-   "notes": "Textured. Its long axis is the model's z: scaled to an 8 m span (the brief: about 6 m tread to tread plus the stone landings), so it rises about 3.8 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.42 across (x), 2.45 m wide: the AI made it 6.9 m wide and the real bridge is under 2 m, but at 0.3 its posts, rails and treads were pressed to ribbons (owner, 2026-10-26: 'squished and distorted'); 0.42 is the compromise until it is remodelled narrow.",
-   "squash": {
-    "axis": "x",
-    "factor": 0.42
-   }
+   "notes": "Textured. The AI made the bridge on the diagonal, 29\u00b0 off its axes, so its box read 6.9 m wide and the first pack squashed x to 0.3 and sheared it (owner, 2026-10-26: 'skewed'). Now turned straight first (`yaw`), which makes it 0.30 wide for its length with no squash: 8 m span (the brief's 6 m of treads plus the landings), 2.4 m wide, 3.85 m rise; placed over the procedural pool of teaGardenGrounds.",
+   "yaw": 29.25
   }
  ]
 }

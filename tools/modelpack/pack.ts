@@ -48,6 +48,12 @@ interface Model {
   crop?: { axis: 'x' | 'y' | 'z'; max: number }
   /** scale the model along one axis only (a model the AI stretched): positions × factor, normals corrected */
   squash?: { axis: 'x' | 'y' | 'z'; factor: number }
+  /**
+   * turn the model about y by this many degrees FIRST, so its long axis lies on z (a model the AI made on the diagonal:
+   * the Tea Garden's drum bridge sat 29° off its axes, its box read 0.73 wide for a bridge 0.30 wide, and squashing x
+   * sheared it — owner, 2026-10-26: "skewed"). Measured, squashed and scaled after the turn.
+   */
+  yaw?: number
   description?: string; keywords?: string[]; reference?: string; notes?: string; artist?: string
 }
 
@@ -98,6 +104,20 @@ function crop(doc: Document, c: { axis: 'x' | 'y' | 'z'; max: number }): number 
     idx.setArray(a.length > 65535 * 3 || pos.length / 3 > 65535 ? new Uint32Array(keep) : new Uint16Array(keep))
   }
   return dropped
+}
+
+/** `yaw`: positions and normals turned about y by `deg` (a rotation keeps normals as they are) */
+function yaw(doc: Document, deg: number): void {
+  const c = Math.cos((deg * Math.PI) / 180), si = Math.sin((deg * Math.PI) / 180)
+  for (const mesh of doc.getRoot().listMeshes()) for (const p of mesh.listPrimitives()) {
+    for (const name of ['POSITION', 'NORMAL']) {
+      const at = p.getAttribute(name)
+      if (!at) continue
+      const a = at.getArray()!.slice()
+      for (let i = 0; i < a.length; i += 3) { const x = a[i], z = a[i + 2]; a[i] = x * c - z * si; a[i + 2] = x * si + z * c }
+      at.setArray(a)
+    }
+  }
 }
 
 /** `squash`: positions scaled along one axis; normals by the inverse, renormalised (a non-uniform scale's normal rule) */
@@ -156,6 +176,7 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
 
   // the model's own size, from the source: the scale that makes `scale.axis` measure `scale.metres`
   const srcDoc = await io.read(src)
+  if (m.yaw) yaw(srcDoc, m.yaw)
   const b = bounds(srcDoc)
   const k = { x: 0, y: 1, z: 2 }[m.scale.axis]
   const unit = m.scale.metres / Math.max(1e-6, b.max[k] - b.min[k])
@@ -180,6 +201,7 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
     for (const ext of doc.getRoot().listExtensionsUsed()) {
       if (ext.extensionName === 'FB_ngon_encoding' || ext.extensionName === 'KHR_materials_volume') ext.dispose()
     }
+    if (m.yaw) yaw(doc, m.yaw)
     if (m.crop) crop(doc, m.crop)
     if (m.squash) squash(doc, m.squash)
     if (lod.sloppy) { await doc.transform(dedup(), weld()); sloppy(doc, lod.ratio, lod.error ?? 0.02) }
@@ -220,7 +242,7 @@ for (const m of spec.models.filter((q) => want.length === 0 || want.includes(q.i
       model: {
         kind: m.kind, front: m.front, scale: m.scale, unitsToMetres: Math.round(unit * 1000) / 1000,
         ...(m.draft !== undefined ? { draft: m.draft } : {}), ...(m.plinth ? { plinth: m.plinth } : {}),
-        material: m.material, source: m.file, ...(m.crop ? { crop: m.crop } : {}), ...(m.squash ? { squash: m.squash } : {}), reference: m.reference, lods: lodInfo,
+        material: m.material, source: m.file, ...(m.crop ? { crop: m.crop } : {}), ...(m.squash ? { squash: m.squash } : {}), ...(m.yaw ? { yaw: m.yaw } : {}), reference: m.reference, lods: lodInfo,
       },
     },
   })

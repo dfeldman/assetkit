@@ -6337,11 +6337,11 @@
       "id": "tea-garden-drum-bridge",
       "name": "Drum bridge, Japanese Tea Garden",
       "description": "The steep half-moon wooden drum bridge (taiko-bashi) over the Tea Garden's pond.",
-      "notes": "Textured. Its long axis is the model's z: scaled to an 8 m span (the brief: about 6 m tread to tread plus the stone landings), so it rises about 3.8 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.42 across (x), 2.45 m wide: the AI made it 6.9 m wide and the real bridge is under 2 m, but at 0.3 its posts, rails and treads were pressed to ribbons (owner, 2026-10-26: 'squished and distorted'); 0.42 is the compromise until it is remodelled narrow.",
+      "notes": "Textured. The AI made the bridge on the diagonal, 29° off its axes, so its box read 6.9 m wide and the first pack squashed x to 0.3 and sheared it (owner, 2026-10-26: 'skewed'). Now turned straight first (`yaw`), which makes it 0.30 wide for its length with no squash: 8 m span (the brief's 6 m of treads plus the landings), 2.4 m wide, 3.85 m rise; placed over the procedural pool of teaGardenGrounds.",
       "subtype": "scenery",
       "length": 8,
-      "width": 2.44,
-      "height": 3.85,
+      "width": 2.39,
+      "height": 3.84,
       "aiTool": "Tripo",
       "assetKeywords": [
         "drum bridge",
@@ -6428,6 +6428,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "7937 triangles, textures ≤ 512 px"
         },
         {
@@ -6441,7 +6442,62 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2650 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-58ebd05d21-drum-bridge-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "58ebd05d2158a6ac25e0d18d001ca3fcf8e3151e33001f718ed09996ac2ae7b2",
+          "size": 343324,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "7937 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-cad394a31d-drum-bridge-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "cad394a31d469f6c5175795a34c22c3fe132c1079553a9fae1c64447fc9542f0",
+          "size": 78168,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "4318 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-4b96c2db53-drum-bridge-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "4b96c2db5326e7d55dc07758ee29ab60eb5c722021b773c267a2f5401683a17e",
+          "size": 343560,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7937 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-b04c3c1939-drum-bridge-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "b04c3c19396e4bfe97e7cc7baceb76fc376d6e2789bea10b44372d568e7b963c",
+          "size": 72572,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3792 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -6452,25 +6508,22 @@
             "axis": "z",
             "metres": 8
           },
-          "unitsToMetres": 8,
+          "unitsToMetres": 7.985,
           "material": "textured",
           "source": "japanese_drum_bridge.glb",
-          "squash": {
-            "axis": "x",
-            "factor": 0.42
-          },
+          "yaw": 29.25,
           "lods": [
             {
               "lod": 0,
               "triangles": 7937,
               "tex": 512,
-              "kB": 335
+              "kB": 336
             },
             {
               "lod": 1,
-              "triangles": 2650,
+              "triangles": 3792,
               "tex": 256,
-              "kB": 54
+              "kB": 71
             }
           ]
         }
