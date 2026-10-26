@@ -4,13 +4,13 @@
   "id": "asset id in the assetkit-models-sf index",
   "file": "the source GLB, in $INCOMING_DIR (default: ../cityengine/incoming_assets)",
   "kind": "ship | statue | fountain | bridge | object",
-  "material": "'textured' (the file carries its own texture), else a shader for an untextured model: bronze (the default), copperoxide, concrete, whitestone, silver… (a material named in the file name wins)",
+  "material": "'textured' (the file carries its own texture), else a shader for an untextured model: bronze (the default), copperoxide, concrete, whitestone, silver\u2026 (a material named in the file name wins)",
   "front": "the model's own axis its front faces, as the glTF loader leaves it: +z | -z | +x | -x",
   "scale": "{ axis: x|y|z, metres }: the real size along that model axis; the whole model is scaled uniformly from it (a ship by its length, a statue by its height)",
   "draft": "ships: metres from the model's lowest point up to the waterline, after scaling",
   "plinth": "statues whose model has no base: the pedestal a renderer must draw, [width, depth, height] metres; absent when the model brings its own or stands on the ground",
-  "lods": "levels to make: ratio of triangles kept (1 = all), texture cap in px, and the simplifier's error limit (fraction of the model's size; default 0.02 — a far LOD of a rigged ship needs more, or the thin lines stop it)",
-  "crop": "optional { axis, max }: triangles whose middle is further than max (model units) from the centre along axis are dropped — a stray rope sticking out",
+  "lods": "levels to make: ratio of triangles kept (1 = all), texture cap in px, and the simplifier's error limit (fraction of the model's size; default 0.02 \u2014 a far LOD of a rigged ship needs more, or the thin lines stop it)",
+  "crop": "optional { axis, max }: triangles whose middle is further than max (model units) from the centre along axis are dropped \u2014 a stray rope sticking out",
   "squash": "optional { axis, factor }: scale one axis only, for a model the AI stretched (the Pampanito came out twice as tall as she is)"
  },
  "models": [
@@ -313,7 +313,7 @@
     "union square"
    ],
    "reference": "statues_to_model/dewey-monument-victory/about.md",
-   "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m — a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it). SUPERSEDED 2026-10-18 by dewey-monument (capital included); kept for reference."
+   "notes": "Untextured: shade as copperoxide (named in the file). Scaled from the owner's photograph (2026-10-18): figure with globe ~2.45 x the shaft's diameter under the capital, which Wikipedia gives as 5 ft (1.5 m): ~3.8 m \u2014 a 9 ft figure (Wikipedia) plus the globe; the marker's 'twelve foot' would be the figure with her raised trident. On the 85 ft column (cityengine draws it). SUPERSEDED 2026-10-18 by dewey-monument (capital included); kept for reference."
   },
   {
    "id": "mechanics-monument",
@@ -381,7 +381,7 @@
     "ferry building"
    ],
    "reference": "statues_to_model/gandhi-statue-ferry-building/about.md",
-   "notes": "Untextured: bronze. 8 ft (2.4 m) striding figure on its rough bronze base (Wikipedia, 'Statue of Mahatma Gandhi (San Francisco)'), on a block with a plaque raised on two steps — a long low block, wider than deep, in the Commons photo (drawn by the renderer)."
+   "notes": "Untextured: bronze. 8 ft (2.4 m) striding figure on its rough bronze base (Wikipedia, 'Statue of Mahatma Gandhi (San Francisco)'), on a block with a plaque raised on two steps \u2014 a long low block, wider than deep, in the Commons photo (drawn by the renderer)."
   },
   {
    "id": "willie-mays",
@@ -455,7 +455,7 @@
     "civic center"
    ],
    "reference": "statues_to_model/lincoln-statue-city-hall/about.md",
-   "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' — the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
+   "notes": "Untextured: BRONZE (owner's photo, 2026-10-18: 'I was wrong it is actually bronze' \u2014 the file name says copperoxide). Seated figure with chair and its base ~2.9 m, on a pale granite die about as tall as the seated figure, a little wider than deep, on a base course (drawn by the renderer). The die just fits the statue's own base (owner): 1.95 x 2.15 m, 2.0 m tall."
   },
   {
    "id": "dewey-monument",
@@ -2358,7 +2358,7 @@
    "front": "+z",
    "scale": {
     "axis": "z",
-    "metres": 9.5
+    "metres": 8.0
    },
    "lods": [
     {
@@ -2378,10 +2378,10 @@
     "japanese tea garden",
     "golden gate park"
    ],
-   "notes": "Textured. Its long axis is the model's z: scaled to a 9.5 m span (the procedural arch's), so it rises about 4.6 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.3 across (x): the AI made it 6.9 m wide; the real bridge is about 2 m.",
+   "notes": "Textured. Its long axis is the model's z: scaled to an 8 m span (the brief: about 6 m tread to tread plus the stone landings), so it rises about 3.8 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.42 across (x), 2.45 m wide: the AI made it 6.9 m wide and the real bridge is under 2 m, but at 0.3 its posts, rails and treads were pressed to ribbons (owner, 2026-10-26: 'squished and distorted'); 0.42 is the compromise until it is remodelled narrow.",
    "squash": {
     "axis": "x",
-    "factor": 0.3
+    "factor": 0.42
    }
   }
  ]

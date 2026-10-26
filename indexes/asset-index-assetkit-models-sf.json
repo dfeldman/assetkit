@@ -6337,11 +6337,11 @@
       "id": "tea-garden-drum-bridge",
       "name": "Drum bridge, Japanese Tea Garden",
       "description": "The steep half-moon wooden drum bridge (taiko-bashi) over the Tea Garden's pond.",
-      "notes": "Textured. Its long axis is the model's z: scaled to a 9.5 m span (the procedural arch's), so it rises about 4.6 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.3 across (x): the AI made it 6.9 m wide; the real bridge is about 2 m.",
+      "notes": "Textured. Its long axis is the model's z: scaled to an 8 m span (the brief: about 6 m tread to tread plus the stone landings), so it rises about 3.8 m; placed over the procedural pool of teaGardenGrounds. Squashed to 0.42 across (x), 2.45 m wide: the AI made it 6.9 m wide and the real bridge is under 2 m, but at 0.3 its posts, rails and treads were pressed to ribbons (owner, 2026-10-26: 'squished and distorted'); 0.42 is the compromise until it is remodelled narrow.",
       "subtype": "scenery",
-      "length": 9.5,
-      "width": 2.07,
-      "height": 4.57,
+      "length": 8,
+      "width": 2.44,
+      "height": 3.85,
       "aiTool": "Tripo",
       "assetKeywords": [
         "drum bridge",
@@ -6400,6 +6400,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "7937 triangles, textures ≤ 512 px"
         },
         {
@@ -6413,7 +6414,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2254 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-bc5fb06648-drum-bridge-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "bc5fb06648fe78615380ba64053e5bfc5952a799bde285313d19b81e3b92238b",
+          "size": 343396,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "7937 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-bd896b79bb-drum-bridge-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "bd896b79bb1ea36d0b6ee6565823dd1391f8336ba305c29327822ac8600c0cf5",
+          "size": 55488,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2650 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -6422,14 +6450,14 @@
           "front": "+z",
           "scale": {
             "axis": "z",
-            "metres": 9.5
+            "metres": 8
           },
-          "unitsToMetres": 9.5,
+          "unitsToMetres": 8,
           "material": "textured",
           "source": "japanese_drum_bridge.glb",
           "squash": {
             "axis": "x",
-            "factor": 0.3
+            "factor": 0.42
           },
           "lods": [
             {
@@ -6440,9 +6468,9 @@
             },
             {
               "lod": 1,
-              "triangles": 2254,
+              "triangles": 2650,
               "tex": 256,
-              "kB": 49
+              "kB": 54
             }
           ]
         }
