@@ -67,6 +67,7 @@ The Japanese Tea Garden's planting (Cycle Dash, 2026-10-26; `library-teagarden.j
 | bamboo | one culm: a thin straight yellow-green cane (`trunk_tint`, `flare` 0) with sprays of fine leaves over its upper half (`frond_at`: where along the trunk the fronds leave it — a palm's all at the top) | palm |
 | azalea | a clipped evergreen azalea (tamamono): a low wide dome of dark leaves, in season covered in small pink, rose or blush discs from the hydrangea page (`flowers.cells` 0, 1, 2); four entries green, out of season (`flowers.count` 0) | bush |
 | japanese_iris | a clump of stiff strap leaves with violet blooms on thin stems: the white tulip cup, tinted (`head.tint`) | flower |
+| niwaki (bushgen) | a cloud-pruned Japanese black pine: a crooked trunk, near-level limbs each ending in a flat cloud of needle cards; `tools/bushgen/library-teagarden.json` | bush (treekit) |
 
 ## Textures
 

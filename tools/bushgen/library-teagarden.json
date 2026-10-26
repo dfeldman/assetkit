@@ -1,0 +1,86 @@
+{
+ "about": "the Japanese Tea Garden's cloud-pruned pines (2026-10-26), built into public/plants beside the library: npm run bushes -- --library --library-file tools/bushgen/library-teagarden.json",
+ "total": 10,
+ "trees": [
+  {
+   "species": "niwaki",
+   "seed": 13000,
+   "name": "niwaki_001",
+   "set": [
+    "height=[2.86,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13001,
+   "name": "niwaki_002",
+   "set": [
+    "height=[4.37,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13002,
+   "name": "niwaki_003",
+   "set": [
+    "height=[3.2,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13003,
+   "name": "niwaki_004",
+   "set": [
+    "height=[3.39,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13004,
+   "name": "niwaki_005",
+   "set": [
+    "height=[3.59,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13005,
+   "name": "niwaki_006",
+   "set": [
+    "height=[3.28,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13006,
+   "name": "niwaki_007",
+   "set": [
+    "height=[4.03,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13007,
+   "name": "niwaki_008",
+   "set": [
+    "height=[3.12,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13008,
+   "name": "niwaki_009",
+   "set": [
+    "height=[3.48,0.1]"
+   ]
+  },
+  {
+   "species": "niwaki",
+   "seed": 13009,
+   "name": "niwaki_010",
+   "set": [
+    "height=[3.91,0.1]"
+   ]
+  }
+ ]
+}

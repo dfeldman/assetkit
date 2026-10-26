@@ -1,0 +1,185 @@
+{
+  "name": "niwaki",
+  "kind": "plant",
+  "form": "bush",
+  "about": "a cloud-pruned Japanese black pine (niwaki): a leaning, crooked trunk, a few near-level limbs each ending in a flat dome of needles, a pad at the top (the Japanese Tea Garden's)",
+  "height": [
+    3.8,
+    0.6
+  ],
+  "bark": "knotted",
+  "bark_tile": 0.5,
+  "leaves_page": "pine",
+  "leaf_share": 0.55,
+  "trunk": {
+    "radius": [
+      0.04,
+      0.005
+    ],
+    "tip": 0.012,
+    "flare": 0.5,
+    "taper": [
+      1.0,
+      0.85,
+      0.7,
+      0.55,
+      0.35
+    ],
+    "tropism": 0.2,
+    "wander": 0.4,
+    "gnarl": 0.5,
+    "lean": [
+      3,
+      3
+    ],
+    "segment": 0.25,
+    "return": 0.5
+  },
+  "envelope": {
+    "base": 0.1,
+    "top": 1.15,
+    "width": 0.75,
+    "profile": [
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.85
+    ]
+  },
+  "levels": [
+    {
+      "name": "limbs",
+      "distribution": "absolute",
+      "count": [
+        6,
+        1
+      ],
+      "first": 0.28,
+      "last": 1.0,
+      "min": 5,
+      "angle": {
+        "curve": [
+          90,
+          84,
+          76,
+          40
+        ],
+        "var": 6
+      },
+      "roll": {
+        "mode": "spiral",
+        "var": 35
+      },
+      "length_abs": {
+        "curve": [
+          0.46,
+          0.4,
+          0.32,
+          0.14
+        ],
+        "var": 0.06
+      },
+      "radius": [
+        0.5,
+        0.08
+      ],
+      "tip": 0.01,
+      "taper": [
+        1.0,
+        0.8,
+        0.6,
+        0.4
+      ],
+      "tropism": {
+        "curve": [
+          -0.05,
+          0.05,
+          0.35
+        ],
+        "var": 0.1
+      },
+      "wander": 0.35,
+      "gnarl": 0.5,
+      "segment": 0.3,
+      "min_segments": 3,
+      "prune": false,
+      "jitter": 0.4
+    },
+    {
+      "name": "pad twigs",
+      "mesh": false,
+      "distribution": "absolute",
+      "count": [
+        30,
+        4
+      ],
+      "first": 0.45,
+      "last": 1.0,
+      "min": 22,
+      "angle": [
+        84,
+        12
+      ],
+      "roll": {
+        "mode": "spiral",
+        "var": 40
+      },
+      "length": {
+        "curve": [
+          0.34,
+          0.34
+        ],
+        "var": 0.08
+      },
+      "radius": [
+        0.3,
+        0.05
+      ],
+      "tip": 0.004,
+      "tropism": [
+        0.0,
+        0.08
+      ],
+      "wander": 0.2,
+      "segment": 0.2,
+      "prune": false,
+      "jitter": 0.8
+    }
+  ],
+  "leaves": {
+    "mode": "frond",
+    "levels": [
+      2
+    ],
+    "spacing": 0.06,
+    "overlap": 2.4,
+    "width": 1.0,
+    "first": 0.0,
+    "droop": 0.05,
+    "cross": 0.2,
+    "leader": 0.0,
+    "tilt": 6,
+    "size": [
+      1.1,
+      0.1
+    ],
+    "size_min": 0.2,
+    "ao": 0.35,
+    "hue_var": 0.04,
+    "light_var": 0.1,
+    "cells": 2,
+    "tint": [
+      0.8,
+      0.9,
+      0.78
+    ]
+  },
+  "budget": [
+    900,
+    3600
+  ],
+  "bark_from": "conifer",
+  "leaves_from": "conifer"
+}
