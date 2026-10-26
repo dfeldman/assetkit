@@ -189,7 +189,9 @@ def palm(trunk: MeshData, fronds: MeshData, spec: dict, rng: np.random.Generator
     d0 = rotate(d0, UP, rng.uniform(0, 2 * np.pi))
     sp = grow(np.zeros(3), d0, h, max(6, int(h / 0.7)), r, r * 0.65, Curve.of([1.0, 0.9, 0.85, 0.8, 0.85]), Curve.of(float(spec.get('tropism', 0.25))),
               float(spec.get('wander', 0.08)), 0.0, 0.0, stream(int(rng.integers(1 << 30)), 2))
-    trunk.add(*tube(sp, 8, float(spec.get('tile', 0.9)), _colour(rng, [1, 1, 1], 0.05), flare=0.6, flare_span=0.12))
+    # (`trunk_tint`: a bamboo culm is yellow-green, not the bark's own colour; `flare` 0 for a culm that leaves the ground straight)
+    trunk.add(*tube(sp, int(spec.get('radial', 8)), float(spec.get('tile', 0.9)), _colour(rng, spec.get('trunk_tint', [1, 1, 1]), 0.05),
+                    flare=float(spec.get('flare', 0.6)), flare_span=0.12))
     top, tg, nm, _ = sp.at(1.0)
     n = int(round(rng.uniform(*spec.get('fronds', [9, 15]))))
     flen = float(rng.uniform(*spec.get('frond_length', [0.28, 0.38]))) * h
@@ -198,6 +200,11 @@ def palm(trunk: MeshData, fronds: MeshData, spec: dict, rng: np.random.Generator
     for i in range(n + int(round(rng.uniform(*spec.get('dead', [2, 5]))))):
         dead = i >= n
         a = phase + i * 2.399 + rng.uniform(-0.3, 0.3)
+        # `frond_at`: where along the trunk the fronds leave it — a palm's all at the top (1, 1), a bamboo culm's leaf
+        # sprays over its upper half
+        lo_at, hi_at = spec.get('frond_at', [1.0, 1.0])
+        if hi_at > lo_at and not dead:
+            top, tg, nm, _ = sp.at(float(rng.uniform(lo_at, hi_at)))
         out = rotate(nm, tg, a)
         ang = np.deg2rad(rng.uniform(*spec.get('angle', [25, 95]))) if not dead else np.deg2rad(rng.uniform(140, 170))
         d = normalize(tg * np.cos(ang) + out * np.sin(ang))

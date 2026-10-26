@@ -1,0 +1,58 @@
+{
+  "name": "bamboo",
+  "kind": "plant",
+  "about": "a bamboo culm: a thin straight yellow-green cane with sprays of fine leaves over its upper half; planted in groves (the Japanese Tea Garden's hedges stand before bamboo)",
+  "form": "palm",
+  "skin": "stem",
+  "trunk_tint": [
+    1.0,
+    1.0,
+    0.55
+  ],
+  "fronds_page": "tree:fine",
+  "height": [
+    4.0,
+    7.0
+  ],
+  "radius": 0.016,
+  "radial": 6,
+  "flare": 0.0,
+  "lean": [
+    0,
+    5
+  ],
+  "tropism": 0.0,
+  "wander": 0.03,
+  "tile": 0.25,
+  "fronds": [
+    16,
+    24
+  ],
+  "frond_at": [
+    0.45,
+    1.0
+  ],
+  "frond_length": [
+    0.16,
+    0.26
+  ],
+  "frond_width": 0.9,
+  "angle": [
+    40,
+    110
+  ],
+  "droop": 1.6,
+  "dead": [
+    0,
+    0
+  ],
+  "tint": [
+    0.85,
+    1.0,
+    0.7
+  ],
+  "budget": [
+    80,
+    400
+  ]
+}

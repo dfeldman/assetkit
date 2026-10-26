@@ -1,0 +1,242 @@
+{
+ "about": "the Japanese Tea Garden species (2026-10-26): bamboo culms, clipped azaleas (8 in flower, 4 green) and Japanese irises, built into public/plants beside the library with `npm run plants -- --library --library-file tools/plantgen/library-teagarden.json`",
+ "total": 28,
+ "trees": [
+  {
+   "species": "bamboo",
+   "seed": 12000,
+   "name": "bamboo_001",
+   "set": [
+    "scale=0.82"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12001,
+   "name": "bamboo_002",
+   "set": [
+    "scale=1.0"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12002,
+   "name": "bamboo_003",
+   "set": [
+    "scale=0.85"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12003,
+   "name": "bamboo_004",
+   "set": [
+    "scale=0.97"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12004,
+   "name": "bamboo_005",
+   "set": [
+    "scale=1.08"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12005,
+   "name": "bamboo_006",
+   "set": [
+    "scale=1.02"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12006,
+   "name": "bamboo_007",
+   "set": [
+    "scale=0.92"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12007,
+   "name": "bamboo_008",
+   "set": [
+    "scale=1.03"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12008,
+   "name": "bamboo_009",
+   "set": [
+    "scale=0.92"
+   ]
+  },
+  {
+   "species": "bamboo",
+   "seed": 12009,
+   "name": "bamboo_010",
+   "set": [
+    "scale=1.22"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12010,
+   "name": "azalea_001",
+   "set": [
+    "scale=0.94",
+    "flowers.cells=[0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12011,
+   "name": "azalea_002",
+   "set": [
+    "scale=0.92",
+    "flowers.cells=[1]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12012,
+   "name": "azalea_003",
+   "set": [
+    "scale=1.04",
+    "flowers.cells=[2]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12013,
+   "name": "azalea_004",
+   "set": [
+    "scale=0.88",
+    "flowers.cells=[0, 1]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12014,
+   "name": "azalea_005",
+   "set": [
+    "scale=1.16",
+    "flowers.cells=[1, 2]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12015,
+   "name": "azalea_006",
+   "set": [
+    "scale=0.96",
+    "flowers.cells=[0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12016,
+   "name": "azalea_007",
+   "set": [
+    "scale=0.92",
+    "flowers.cells=[0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12017,
+   "name": "azalea_008",
+   "set": [
+    "scale=1.06",
+    "flowers.cells=[1]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12018,
+   "name": "azalea_009",
+   "set": [
+    "scale=1.05",
+    "flowers.count=[0,0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12019,
+   "name": "azalea_010",
+   "set": [
+    "scale=1.14",
+    "flowers.count=[0,0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12020,
+   "name": "azalea_011",
+   "set": [
+    "scale=1.16",
+    "flowers.count=[0,0]"
+   ]
+  },
+  {
+   "species": "azalea",
+   "seed": 12021,
+   "name": "azalea_012",
+   "set": [
+    "scale=0.93",
+    "flowers.count=[0,0]"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12022,
+   "name": "japanese_iris_001",
+   "set": [
+    "scale=1.13"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12023,
+   "name": "japanese_iris_002",
+   "set": [
+    "scale=0.93"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12024,
+   "name": "japanese_iris_003",
+   "set": [
+    "scale=1.04"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12025,
+   "name": "japanese_iris_004",
+   "set": [
+    "scale=1.04"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12026,
+   "name": "japanese_iris_005",
+   "set": [
+    "scale=0.8"
+   ]
+  },
+  {
+   "species": "japanese_iris",
+   "seed": 12027,
+   "name": "japanese_iris_006",
+   "set": [
+    "scale=1.02"
+   ]
+  }
+ ]
+}

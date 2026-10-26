@@ -1,0 +1,31 @@
+{
+  "name": "japanese_iris",
+  "kind": "plant",
+  "about": "Japanese iris (hanashobu): a clump of stiff strap leaves with violet blooms on thin stems, at a pond's edge (the path to the Tea Garden's drum bridge)",
+  "form": "flower",
+  "stems": [6, 12],
+  "spread": 0.35,
+  "height": [0.7, 1.0],
+  "stem_radius": 0.006,
+  "lean": 6,
+  "wander": 0.08,
+  "leaves_page": "grass_tall",
+  "rosette": {
+    "cards": [4, 7],
+    "height": [0.6, 0.95],
+    "width": 0.35,
+    "lean": [4, 18],
+    "spread": 0.1,
+    "ao": 0.15,
+    "tint": [0.72, 0.9, 0.58]
+  },
+  "heads_page": "painted_tulips",
+  "head": {
+    "mode": "cross",
+    "size": [0.1, 0.13],
+    "cells": [3],
+    "aspect": 0.85,
+    "tint": [0.52, 0.42, 0.95]
+  },
+  "budget": [40, 300]
+}

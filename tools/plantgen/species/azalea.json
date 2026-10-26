@@ -1,0 +1,43 @@
+{
+  "name": "azalea",
+  "kind": "plant",
+  "about": "a clipped evergreen azalea (tamamono): a low dome of small dark leaves, in season covered in small pink, rose or blush blooms; heads by variant (flowers.cells: 0 pink, 1 rose, 2 blush), or none out of season (flowers.count 0)",
+  "form": "bush",
+  "page": "tree:dark",
+  "cards": [
+    36,
+    50
+  ],
+  "height": [
+    0.5,
+    0.72
+  ],
+  "width": [
+    0.85,
+    1.15
+  ],
+  "card": 0.38,
+  "cross": 0.8,
+  "ao": 0.4,
+  "heads_page": "painted_hydrangea",
+  "flowers": {
+    "count": [
+      110,
+      150
+    ],
+    "size": [
+      0.045,
+      0.065
+    ],
+    "cells": [
+      0,
+      1
+    ],
+    "cross": false,
+    "surface": true
+  },
+  "budget": [
+    60,
+    400
+  ]
+}
