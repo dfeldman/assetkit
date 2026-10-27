@@ -6561,11 +6561,11 @@
       "id": "tea-garden-pagoda",
       "name": "Pagoda, Japanese Tea Garden",
       "description": "The five-tiered vermilion pagoda (1915 Panama-Pacific Exposition), moved into the garden after the fair.",
-      "notes": "16 m tall, 6 m across its lowest tier (the manifest had 18; at 12 m it was 4.6 m across and read small — owner, 2026-10-26). OSM's 8.9 m footprint is the podium. Front set by eye in the game.",
+      "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short — owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game.",
       "subtype": "scenery",
-      "length": 6.37,
-      "width": 6.01,
-      "height": 15.99,
+      "length": 7.97,
+      "width": 7.52,
+      "height": 19.98,
       "aiTool": "Tripo",
       "assetKeywords": [
         "pagoda",
@@ -6618,9 +6618,9 @@
           "front": "+z",
           "scale": {
             "axis": "y",
-            "metres": 16
+            "metres": 20
           },
-          "unitsToMetres": 16.331,
+          "unitsToMetres": 20.414,
           "material": "textured",
           "source": "sf_japanese_garden_pagoda.glb",
           "lods": [

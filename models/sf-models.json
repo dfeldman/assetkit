@@ -2390,7 +2390,7 @@
    "front": "+z",
    "scale": {
     "axis": "y",
-    "metres": 16
+    "metres": 20
    },
    "lods": [
     {
@@ -2409,7 +2409,7 @@
     "japanese tea garden",
     "golden gate park"
    ],
-   "notes": "16 m tall, 6 m across its lowest tier (the manifest had 18; at 12 m it was 4.6 m across and read small \u2014 owner, 2026-10-26). OSM's 8.9 m footprint is the podium. Front set by eye in the game."
+   "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short \u2014 owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game."
   },
   {
    "id": "tea-garden-temple-gate",
