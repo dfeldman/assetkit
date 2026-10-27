@@ -6561,11 +6561,11 @@
       "id": "tea-garden-pagoda",
       "name": "Pagoda, Japanese Tea Garden",
       "description": "The five-tiered vermilion pagoda (1915 Panama-Pacific Exposition), moved into the garden after the fair.",
-      "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short — owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game.",
+      "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short — owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling.",
       "subtype": "scenery",
       "length": 7.97,
       "width": 7.52,
-      "height": 19.98,
+      "height": 20,
       "aiTool": "Tripo",
       "assetKeywords": [
         "pagoda",
@@ -6596,6 +6596,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "8950 triangles, textures ≤ 512 px"
         },
         {
@@ -6609,7 +6610,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "6623 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-18313af788-pagoda-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "18313af7884f4e0747eb5e93b7755918857df4dfadb187d8a43857108a5ce444",
+          "size": 797200,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "17960 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-ae0f7cb28a-pagoda-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "ae0f7cb28a7362c0fb740f07599f70a84f36793e238afe99bea108cce329690f",
+          "size": 357968,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6625 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6626,15 +6654,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 8950,
-              "tex": 512,
-              "kB": 404
+              "triangles": 17960,
+              "tex": 1024,
+              "kB": 779
             },
             {
               "lod": 1,
-              "triangles": 6623,
-              "tex": 256,
-              "kB": 267
+              "triangles": 6625,
+              "tex": 512,
+              "kB": 350
             }
           ]
         }
@@ -6644,7 +6672,7 @@
       "id": "tea-garden-temple-gate",
       "name": "Temple Gate, Japanese Tea Garden",
       "description": "The orange-painted Temple Gate from the 1915 exposition, grey-green tiled hip roof with gold ridge ornaments, at the top of the hill over the dwarf-tree collection.",
-      "notes": "6 m, the manifest height. Front provisional.",
+      "notes": "6 m, the manifest height. Front provisional. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling.",
       "subtype": "scenery",
       "length": 3.75,
       "width": 4.7,
@@ -6678,6 +6706,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "9155 triangles, textures ≤ 512 px"
         },
         {
@@ -6691,7 +6720,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "4712 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-270844e4f0-temple-gate-japanese-tea-garden-lod0.glb",
+          "hash": "270844e4f0f7901220bd1b66d891df563c4acee1a52890d92e7e7a266178aaf1",
+          "size": 762312,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18311 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-60f20153b7-temple-gate-japanese-tea-garden-lod1.glb",
+          "hash": "60f20153b73f34f5e72f417711c325461872dde56a421900815388fcefa47ac9",
+          "size": 321116,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6400 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6708,15 +6764,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 9155,
-              "tex": 512,
-              "kB": 371
+              "triangles": 18311,
+              "tex": 1024,
+              "kB": 744
             },
             {
               "lod": 1,
-              "triangles": 4712,
-              "tex": 256,
-              "kB": 198
+              "triangles": 6400,
+              "tex": 512,
+              "kB": 314
             }
           ]
         }
@@ -6726,9 +6782,9 @@
       "id": "tea-garden-main-gate",
       "name": "Main Gate, Japanese Tea Garden",
       "description": "The two-storey timber Main Gate on the Music Concourse side (OSM calls it the South Gate), natural hinoki under two stacked roofs.",
-      "notes": "7.5 m estimated. Front provisional.",
+      "notes": "7.5 m estimated. Front provisional. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling.",
       "subtype": "scenery",
-      "length": 6.23,
+      "length": 6.24,
       "width": 6.7,
       "height": 7.5,
       "aiTool": "Tripo",
@@ -6761,6 +6817,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "9404 triangles, textures ≤ 512 px"
         },
         {
@@ -6774,7 +6831,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "4874 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-ac809fcd6e-main-gate-south-japanese-tea-garden-lod0.glb",
+          "hash": "ac809fcd6eb875397e95dace41a1603a5af681908aff5ffce9bdc5167395d37b",
+          "size": 931332,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18811 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-91409b1566-main-gate-south-japanese-tea-garden-lod1.glb",
+          "hash": "91409b15669a5ebda72993dbb2f79200bad66e7bb5518447d02702a73eece06f",
+          "size": 390740,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6578 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6791,15 +6875,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 9404,
-              "tex": 512,
-              "kB": 442
+              "triangles": 18811,
+              "tex": 1024,
+              "kB": 910
             },
             {
               "lod": 1,
-              "triangles": 4874,
-              "tex": 256,
-              "kB": 232
+              "triangles": 6578,
+              "tex": 512,
+              "kB": 382
             }
           ]
         }
@@ -6809,7 +6893,7 @@
       "id": "tea-garden-hagiwara-gate",
       "name": "Hagiwara Gate, Japanese Tea Garden",
       "description": "The ornately carved Hagiwara Gate onto the brick terrace over the Sunken Garden, where the Hagiwara house stood.",
-      "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden.",
+      "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling.",
       "subtype": "scenery",
       "length": 5.15,
       "width": 4.28,
@@ -6843,6 +6927,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "8925 triangles, textures ≤ 512 px"
         },
         {
@@ -6856,7 +6941,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "3722 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-4cf1b13464-hagiwara-gate-japanese-tea-garden-lod0.glb",
+          "hash": "4cf1b134648301ed424c8adfb7b6d2623f7482acd288e476285b87ebde687a95",
+          "size": 679960,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "17853 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-77ee50340e-hagiwara-gate-japanese-tea-garden-lod1.glb",
+          "hash": "77ee50340e69be7fea43be267292d17b9badf3c297f4641e39cd04096a0381cb",
+          "size": 280324,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6248 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6873,15 +6985,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 8925,
-              "tex": 512,
-              "kB": 328
+              "triangles": 17853,
+              "tex": 1024,
+              "kB": 664
             },
             {
               "lod": 1,
-              "triangles": 3722,
-              "tex": 256,
-              "kB": 155
+              "triangles": 6248,
+              "tex": 512,
+              "kB": 274
             }
           ]
         }
@@ -6891,9 +7003,9 @@
       "id": "tea-garden-tea-house",
       "name": "Tea House, Japanese Tea Garden",
       "description": "The open timber tea house on its deck under a big low grey roof, beside its pond and waterfall.",
-      "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
+      "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k. LOD0 with the ordinary simplifier (it may lock on seams near 170k, which is accepted for the one tea house), 1024 px textures; sloppy only for the distance LOD (2026-10-26).",
       "subtype": "scenery",
-      "length": 9.5,
+      "length": 9.49,
       "width": 7.44,
       "height": 5.62,
       "aiTool": "Tripo",
@@ -6953,6 +7065,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "102004 triangles, textures ≤ 1024 px"
         },
         {
@@ -6966,7 +7079,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "24646 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-0e99b7f00a-tea-house-japanese-garden-lod0.glb",
+          "hash": "0e99b7f00aa4cfadcbb1a5cecff80ca0c3cc01eef47aae3b2c16470625ed61e4",
+          "size": 5592084,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "171683 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-f16d8856f8-tea-house-japanese-garden-lod1.glb",
+          "hash": "f16d8856f8ffd50fd2658f5c32e4a9acc2c2b76742c644255c3865e027e475dc",
+          "size": 590652,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "36163 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6983,15 +7123,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 102004,
+              "triangles": 171683,
               "tex": 1024,
-              "kB": 1670
+              "kB": 5461
             },
             {
               "lod": 1,
-              "triangles": 24646,
+              "triangles": 36163,
               "tex": 512,
-              "kB": 411
+              "kB": 577
             }
           ]
         }

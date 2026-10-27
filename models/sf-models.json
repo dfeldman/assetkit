@@ -2394,12 +2394,12 @@
    },
    "lods": [
     {
-     "ratio": 0.5,
-     "tex": 512
+     "ratio": 1.0,
+     "tex": 1024
     },
     {
-     "ratio": 0.15,
-     "tex": 256,
+     "ratio": 0.35,
+     "tex": 512,
      "error": 0.02
     }
    ],
@@ -2409,7 +2409,7 @@
     "japanese tea garden",
     "golden gate park"
    ],
-   "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short \u2014 owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game."
+   "notes": "20 m tall, 7.5 m across its lowest tier (16 m still read short \u2014 owner, 2026-10-26; the manifest's procedural one was 18). OSM's 8.9 m footprint is the podium. Front set by eye in the game. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling."
   },
   {
    "id": "tea-garden-temple-gate",
@@ -2424,12 +2424,12 @@
    },
    "lods": [
     {
-     "ratio": 0.5,
-     "tex": 512
+     "ratio": 1.0,
+     "tex": 1024
     },
     {
-     "ratio": 0.15,
-     "tex": 256,
+     "ratio": 0.35,
+     "tex": 512,
      "error": 0.02
     }
    ],
@@ -2438,7 +2438,7 @@
     "temple gate",
     "japanese tea garden"
    ],
-   "notes": "6 m, the manifest height. Front provisional."
+   "notes": "6 m, the manifest height. Front provisional. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling."
   },
   {
    "id": "tea-garden-main-gate",
@@ -2453,12 +2453,12 @@
    },
    "lods": [
     {
-     "ratio": 0.5,
-     "tex": 512
+     "ratio": 1.0,
+     "tex": 1024
     },
     {
-     "ratio": 0.15,
-     "tex": 256,
+     "ratio": 0.35,
+     "tex": 512,
      "error": 0.02
     }
    ],
@@ -2468,7 +2468,7 @@
     "south gate",
     "japanese tea garden"
    ],
-   "notes": "7.5 m estimated. Front provisional."
+   "notes": "7.5 m estimated. Front provisional. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling."
   },
   {
    "id": "tea-garden-hagiwara-gate",
@@ -2483,12 +2483,12 @@
    },
    "lods": [
     {
-     "ratio": 0.5,
-     "tex": 512
+     "ratio": 1.0,
+     "tex": 1024
     },
     {
-     "ratio": 0.15,
-     "tex": 256,
+     "ratio": 0.35,
+     "tex": 512,
      "error": 0.02
     }
    ],
@@ -2497,7 +2497,7 @@
     "hagiwara gate",
     "japanese tea garden"
    ],
-   "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden."
+   "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden. Packed at the source's full 18k triangles with 1024 px textures (2026-10-26): the owner found the halved pack poor, and the source is the ceiling."
   },
   {
    "id": "tea-garden-tea-house",
@@ -2512,13 +2512,12 @@
    },
    "lods": [
     {
-     "ratio": 0.03,
+     "ratio": 0.08,
      "tex": 1024,
-     "error": 0.01,
-     "sloppy": true
+     "error": 0.005
     },
     {
-     "ratio": 0.008,
+     "ratio": 0.02,
      "tex": 512,
      "error": 0.02,
      "sloppy": true
@@ -2529,7 +2528,7 @@
     "tea house",
     "japanese tea garden"
    ],
-   "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
+   "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k. LOD0 with the ordinary simplifier (it may lock on seams near 170k, which is accepted for the one tea house), 1024 px textures; sloppy only for the distance LOD (2026-10-26)."
   },
   {
    "id": "tea-garden-stone-lantern",
