@@ -624,10 +624,10 @@
       "id": "eureka",
       "name": "Eureka (1890 paddle-wheel ferry)",
       "description": "Side-wheel walking-beam passenger and car ferry built 1890 (as Ukiah, rebuilt 1922 as Eureka); museum ship at Hyde Street Pier.",
-      "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18).",
+      "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18). Source replaced 2026-10-26 with the owner's new export (sf_eureka_ferry_based_on_miniature.glb). The new export is long along z (the old was x).",
       "subtype": "scenery",
-      "length": 22.7,
-      "width": 91,
+      "length": 91,
+      "width": 22.7,
       "height": 21.62,
       "aiTool": "Tripo",
       "assetKeywords": [
@@ -660,6 +660,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "18786 triangles, textures ≤ 1024 px"
         },
         {
@@ -673,21 +674,48 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "7490 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-e870bbebe0-eureka-ferry-hyde-street-pier-maritime-lod0.glb",
+          "hash": "e870bbebe05c6a5b0abfe14d2aa039853504e631b3ad03550fef638a74608cbe",
+          "size": 658220,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "18786 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-8875a8864b-eureka-ferry-hyde-street-pier-maritime-lod1.glb",
+          "hash": "8875a8864bd3967b020539b01d26761d7bf1d73886e4c20cb46a10c917aecdc0",
+          "size": 305540,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7486 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
         "model": {
           "kind": "ship",
-          "front": "+x",
+          "front": "+z",
           "scale": {
-            "axis": "x",
+            "axis": "z",
             "metres": 91
           },
           "unitsToMetres": 91,
           "draft": 3,
           "material": "textured",
-          "source": "ship_eureka_ferry_based_on_mini.glb",
+          "source": "sf_eureka_ferry_based_on_miniature.glb",
           "reference": "items_to_model/eureka-ferry/about.md",
           "lods": [
             {
@@ -698,7 +726,7 @@
             },
             {
               "lod": 1,
-              "triangles": 7490,
+              "triangles": 7486,
               "tex": 512,
               "kB": 298
             }
@@ -6524,6 +6552,1494 @@
               "triangles": 3792,
               "tex": 256,
               "kB": 71
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-pagoda",
+      "name": "Pagoda, Japanese Tea Garden",
+      "description": "The five-tiered vermilion pagoda (1915 Panama-Pacific Exposition), moved into the garden after the fair.",
+      "notes": "12 m tall: at 10 m the model was 3.8 m across, and the base reads about 4.5 m in photographs; OSM's 8.9 m footprint is the podium. Front provisional: set by eye in the game.",
+      "subtype": "scenery",
+      "length": 4.78,
+      "width": 4.51,
+      "height": 11.99,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "pagoda",
+        "japanese tea garden",
+        "golden gate park"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-9d7359e255-pagoda-japanese-tea-garden-golden-gate-park-source.glb",
+          "hash": "9d7359e2557834cbb5ceff9f3ac9d0bbac94ff448d2ac0fc561f686b25e5c3e2",
+          "size": 9255320,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f996dfbae2-pagoda-japanese-tea-garden-golden-gate-park-lod0.glb",
+          "hash": "f996dfbae2ff170566fe58acf5298bed30c54fef5f9742038384bd2c02d6ed67",
+          "size": 413896,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8950 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-f18188c8ca-pagoda-japanese-tea-garden-golden-gate-park-lod1.glb",
+          "hash": "f18188c8caa6835d54445d25295f3f4e24437d2ec44fcc46f6d1343af710a486",
+          "size": 273032,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "6623 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 12
+          },
+          "unitsToMetres": 12.248,
+          "material": "textured",
+          "source": "sf_japanese_garden_pagoda.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8950,
+              "tex": 512,
+              "kB": 404
+            },
+            {
+              "lod": 1,
+              "triangles": 6623,
+              "tex": 256,
+              "kB": 267
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-temple-gate",
+      "name": "Temple Gate, Japanese Tea Garden",
+      "description": "The orange-painted Temple Gate from the 1915 exposition, grey-green tiled hip roof with gold ridge ornaments, at the top of the hill over the dwarf-tree collection.",
+      "notes": "6 m, the manifest height. Front provisional.",
+      "subtype": "scenery",
+      "length": 3.75,
+      "width": 4.7,
+      "height": 6,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "temple gate",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c7d22a1a62-temple-gate-japanese-tea-garden-source.glb",
+          "hash": "c7d22a1a6221e2c4f5e4dd81092b675f7d1248d59ee4676c9471fd8c013650dc",
+          "size": 10206176,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-a8a26916e5-temple-gate-japanese-tea-garden-lod0.glb",
+          "hash": "a8a26916e556bfeea8e9187d9c2d159991dada6d610b6e85834215b7ef9b3a0e",
+          "size": 379956,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9155 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-002839bb6d-temple-gate-japanese-tea-garden-lod1.glb",
+          "hash": "002839bb6da4c49b93679d8746ee7187c7b551999936a6094df15a361ca27207",
+          "size": 203020,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "4712 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 6
+          },
+          "unitsToMetres": 6.141,
+          "material": "textured",
+          "source": "sf_japanese_garden_temple_gate.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9155,
+              "tex": 512,
+              "kB": 371
+            },
+            {
+              "lod": 1,
+              "triangles": 4712,
+              "tex": 256,
+              "kB": 198
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-main-gate",
+      "name": "Main Gate, Japanese Tea Garden",
+      "description": "The two-storey timber Main Gate on the Music Concourse side (OSM calls it the South Gate), natural hinoki under two stacked roofs.",
+      "notes": "7.5 m estimated. Front provisional.",
+      "subtype": "scenery",
+      "length": 6.23,
+      "width": 6.7,
+      "height": 7.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "main gate",
+        "south gate",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-89dc25a59a-main-gate-south-japanese-tea-garden-source.glb",
+          "hash": "89dc25a59ada6667bbbd91da8decf4eadc2fd05fd9bce4075a291c8829361e4f",
+          "size": 12907484,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-5824f2d6d4-main-gate-south-japanese-tea-garden-lod0.glb",
+          "hash": "5824f2d6d43318e9f08abea64e391f3d10c989475f2a85a3aa6cb0f97c06389a",
+          "size": 452896,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9404 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-0f8ee5f14a-main-gate-south-japanese-tea-garden-lod1.glb",
+          "hash": "0f8ee5f14a115f4565446f67288ca85c8ed7c63e72c6203d83b978038111d2f5",
+          "size": 237728,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "4874 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 7.5
+          },
+          "unitsToMetres": 7.641,
+          "material": "textured",
+          "source": "sf_japanese_garden_main_gate.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9404,
+              "tex": 512,
+              "kB": 442
+            },
+            {
+              "lod": 1,
+              "triangles": 4874,
+              "tex": 256,
+              "kB": 232
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-hagiwara-gate",
+      "name": "Hagiwara Gate, Japanese Tea Garden",
+      "description": "The ornately carved Hagiwara Gate onto the brick terrace over the Sunken Garden, where the Hagiwara house stood.",
+      "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden.",
+      "subtype": "scenery",
+      "length": 5.15,
+      "width": 4.28,
+      "height": 4.5,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "hagiwara gate",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-b4670c31f4-hagiwara-gate-japanese-tea-garden-source.glb",
+          "hash": "b4670c31f4729cfba35f0225f8d2735202345394197c754bd5a6bed0d87f3e54",
+          "size": 7252900,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-04dfe9e82d-hagiwara-gate-japanese-tea-garden-lod0.glb",
+          "hash": "04dfe9e82db3259885730fe6a45219bfe5b4ca7ea0e008eb7e3890da28d826eb",
+          "size": 335632,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8925 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-18c4a17e3d-hagiwara-gate-japanese-tea-garden-lod1.glb",
+          "hash": "18c4a17e3d40c832533c706c603e8ac4331b6ccd11f8cdaca6bd15e9a56c931d",
+          "size": 158736,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3722 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 4.5
+          },
+          "unitsToMetres": 5.235,
+          "material": "textured",
+          "source": "sf_japanese_garden_hanigawa_gate.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8925,
+              "tex": 512,
+              "kB": 328
+            },
+            {
+              "lod": 1,
+              "triangles": 3722,
+              "tex": 256,
+              "kB": 155
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-tea-house",
+      "name": "Tea House, Japanese Tea Garden",
+      "description": "The open timber tea house on its deck under a big low grey roof, beside its pond and waterfall.",
+      "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional.",
+      "subtype": "scenery",
+      "length": 9.42,
+      "width": 7.42,
+      "height": 5.61,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "tea house",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-3bbc25f44c-tea-house-japanese-garden-source.glb",
+          "hash": "3bbc25f44c744045b4c407d530e1fccfcf3621adddc50a16b2cc7cc6121ee4be",
+          "size": 59143164,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-3db89d1533-tea-house-japanese-garden-lod0.glb",
+          "hash": "3db89d1533d8261f0557f0b27b21d5efa661d881dba34eefb387dabdaebe0d0e",
+          "size": 207516,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "10875 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-eb146bc0a0-tea-house-japanese-garden-lod1.glb",
+          "hash": "eb146bc0a02fe910c85474885f6a64b6fd0bd8d813f2cffde0e10d6e0dca4f38",
+          "size": 53988,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2400 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 9.5
+          },
+          "unitsToMetres": 9.685,
+          "material": "textured",
+          "source": "sf_japanese_garden_tea_house.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 10875,
+              "tex": 512,
+              "kB": 203
+            },
+            {
+              "lod": 1,
+              "triangles": 2400,
+              "tex": 256,
+              "kB": 53
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-stone-lantern",
+      "name": "Stone lantern, Japanese Tea Garden",
+      "description": "A kasuga-type granite lantern, the common one through the garden.",
+      "notes": "2.2 m estimated. One model placed many times.",
+      "subtype": "scenery",
+      "length": 0.84,
+      "width": 0.8,
+      "height": 2.2,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "stone lantern",
+        "toro",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-3a938542c4-stone-lantern-toro-japanese-tea-garden-source.glb",
+          "hash": "3a938542c4ca138d1607a1a0ae3286d2773c0adbe8bc2d10d33615b9972f9ac3",
+          "size": 70566184,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-54fdc880bf-stone-lantern-toro-japanese-tea-garden-lod0.glb",
+          "hash": "54fdc880bf9c53e43a86aae0be660c787446d71b46c1bd734b13b0e8c1797734",
+          "size": 263772,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11072 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-27ee288687-stone-lantern-toro-japanese-tea-garden-lod1.glb",
+          "hash": "27ee28868714bb978af5ec5c9182abcd40d06886719f576d1373829743c959d5",
+          "size": 70116,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2673 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 2.2
+          },
+          "unitsToMetres": 2.248,
+          "material": "textured",
+          "source": "sf_japanese_garden_stone_lantern.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11072,
+              "tex": 512,
+              "kB": 258
+            },
+            {
+              "lod": 1,
+              "triangles": 2673,
+              "tex": 256,
+              "kB": 68
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-small-stone-lantern",
+      "name": "Small stone lantern, Japanese Tea Garden",
+      "description": "A low, broad stone lantern (yukimi type) by the water.",
+      "notes": "1.3 m estimated.",
+      "subtype": "scenery",
+      "length": 1.36,
+      "width": 1.19,
+      "height": 1.3,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "stone lantern",
+        "yukimi",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f9c77ba1b2-stone-lantern-yukimi-japanese-tea-garden-source.glb",
+          "hash": "f9c77ba1b294d76dc9bde2a32dbcabad7465b78065c34fd6ee30a8b580e8fe9a",
+          "size": 59571696,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-c2a17a34ea-stone-lantern-yukimi-japanese-tea-garden-lod0.glb",
+          "hash": "c2a17a34eaf870a8db920c0538df8246e3062ce3981ffff2314457570fb4d74f",
+          "size": 210056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "10822 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-a851e13bf5-stone-lantern-yukimi-japanese-tea-garden-lod1.glb",
+          "hash": "a851e13bf5aed84f6d27f4384dd08a97279855da93abe40cf3fe5a817b81682b",
+          "size": 59972,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2739 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.3
+          },
+          "unitsToMetres": 1.386,
+          "material": "textured",
+          "source": "sf_japanese_garden_small_stone_lantern.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 10822,
+              "tex": 512,
+              "kB": 205
+            },
+            {
+              "lod": 1,
+              "triangles": 2739,
+              "tex": 256,
+              "kB": 59
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-lantern-of-peace",
+      "name": "Lantern of Peace, Japanese Tea Garden",
+      "description": "The 9,000 lb bronze Lantern of Peace (1953) on its granite base, before the pagoda.",
+      "notes": "3 m with base, estimated.",
+      "subtype": "scenery",
+      "length": 1.38,
+      "width": 1.4,
+      "height": 3,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "lantern of peace",
+        "bronze lantern",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-e4506a989f-lantern-of-peace-bronze-japanese-tea-garden-source.glb",
+          "hash": "e4506a989fbfdd9179de06e45a1c730c14d7403cc183a0f0a600f9e6dc5cb9cc",
+          "size": 4010640,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-4296ce2462-lantern-of-peace-bronze-japanese-tea-garden-lod0.glb",
+          "hash": "4296ce2462e977536d2cd72e8a021c500773d4aee7138a73295c010be830850d",
+          "size": 276564,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9411 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-e1057a3ac3-lantern-of-peace-bronze-japanese-tea-garden-lod1.glb",
+          "hash": "e1057a3ac3879c7af2115f354201f0682d192beff6c0c13b77404b92ee0ff753",
+          "size": 101020,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2824 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 3
+          },
+          "unitsToMetres": 3,
+          "material": "textured",
+          "source": "sf_japanese_garden_bronze_lantern.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9411,
+              "tex": 512,
+              "kB": 270
+            },
+            {
+              "lod": 1,
+              "triangles": 2824,
+              "tex": 256,
+              "kB": 99
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-stone-pagoda",
+      "name": "Stone pagoda, Japanese Tea Garden",
+      "description": "The stone pagoda (\"treasure house\") by the Buddha, where the azaleas bloom.",
+      "notes": "2.8 m estimated.",
+      "subtype": "scenery",
+      "length": 0.74,
+      "width": 0.67,
+      "height": 2.8,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "stone pagoda",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-5ad956071c-stone-pagoda-japanese-tea-garden-source.glb",
+          "hash": "5ad956071cb65f988d39dbf8ab68508b0d53624e9b64a5ef8d985d723fc34e73",
+          "size": 68459076,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f4e2d49379-stone-pagoda-japanese-tea-garden-lod0.glb",
+          "hash": "f4e2d49379eb39dc04ce293dd31dcead4e60696e12ad66674ef3259ebcb34e3d",
+          "size": 220980,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11376 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-f575b91918-stone-pagoda-japanese-tea-garden-lod1.glb",
+          "hash": "f575b919187ed98804b031196c1fb425c6cbbcafcd580c7039245db7ffda769d",
+          "size": 55960,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2737 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 2.8
+          },
+          "unitsToMetres": 2.861,
+          "material": "textured",
+          "source": "sf_japanese_garden_stone_pagoda.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11376,
+              "tex": 512,
+              "kB": 216
+            },
+            {
+              "lod": 1,
+              "triangles": 2737,
+              "tex": 256,
+              "kB": 55
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-tsukubai",
+      "name": "Tsukubai, Japanese Tea Garden",
+      "description": "The boat-shaped stone water basin east of the gift shop, a carved turtle inside.",
+      "notes": "1.8 m long, estimated.",
+      "subtype": "scenery",
+      "length": 0.94,
+      "width": 1.8,
+      "height": 0.71,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "tsukubai",
+        "water basin",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-78e5316484-tsukubai-water-basin-japanese-tea-garden-source.glb",
+          "hash": "78e5316484ad163a976ca551377e6d3ffbc9f948358b235ddbca16007eb24b16",
+          "size": 72944044,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-096eb72bb9-tsukubai-water-basin-japanese-tea-garden-lod0.glb",
+          "hash": "096eb72bb983a7d2e18fca18ce7f34795081b2ad3b277bba99fab6f53027c1ec",
+          "size": 261120,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11230 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-857bd396ce-tsukubai-water-basin-japanese-tea-garden-lod1.glb",
+          "hash": "857bd396cee1bc7d377aa7a25da89d32633ef54c5835b4b1e7017f3523e58761",
+          "size": 64740,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2527 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "object",
+          "front": "+z",
+          "scale": {
+            "axis": "x",
+            "metres": 1.8
+          },
+          "unitsToMetres": 1.838,
+          "material": "textured",
+          "source": "sf_japanese_garden_tsukubai.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11230,
+              "tex": 512,
+              "kB": 255
+            },
+            {
+              "lod": 1,
+              "triangles": 2527,
+              "tex": 256,
+              "kB": 63
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea-garden-cranes",
+      "name": "Bronze cranes, Japanese Tea Garden",
+      "description": "The two bronze cranes at the Main Pond's south-west end.",
+      "notes": "1.7 m estimated.",
+      "subtype": "sculpture",
+      "length": 0.72,
+      "width": 1.54,
+      "height": 1.7,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "bronze cranes",
+        "herons",
+        "japanese tea garden"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-f15cd44e2b-bronze-cranes-herons-japanese-tea-garden-source.glb",
+          "hash": "f15cd44e2bf2c682f975cc324980dc6ed97144236ed40e6e4c89a46661af4326",
+          "size": 60460948,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-0b66356f48-bronze-cranes-herons-japanese-tea-garden-lod0.glb",
+          "hash": "0b66356f48fbd49d2c54e00b1dcc4019ec75961a87347dacfa50f3b67c9e51af",
+          "size": 267560,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "11260 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-16acdd2b23-bronze-cranes-herons-japanese-tea-garden-lod1.glb",
+          "hash": "16acdd2b2369daa716cb4191c356adc212d485ee17f06409afa799790a6e231e",
+          "size": 67252,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2624 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.7
+          },
+          "unitsToMetres": 1.734,
+          "material": "textured",
+          "source": "sf_japanese_garden_herons_sculpture.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 11260,
+              "tex": 512,
+              "kB": 261
+            },
+            {
+              "lod": 1,
+              "triangles": 2624,
+              "tex": 256,
+              "kB": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "japantown-peace-pagoda",
+      "name": "Peace Pagoda, Japantown",
+      "description": "The five-tiered concrete Peace Pagoda (1968, Yoshiro Taniguchi) in Japantown's Peace Plaza, a gift from Osaka.",
+      "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json).",
+      "subtype": "scenery",
+      "length": 14.49,
+      "width": 14.47,
+      "height": 29.77,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "peace pagoda",
+        "japantown"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-984c7f1e82-peace-pagoda-japantown-source.glb",
+          "hash": "984c7f1e8273e05e6b61d86f6751541807c575dd2fcc8f6258861682077c6659",
+          "size": 59914412,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f333f533df-peace-pagoda-japantown-lod0.glb",
+          "hash": "f333f533df037c1a08ef8f92f3ca7090ef59054545b809a341726bed8643ebf6",
+          "size": 185144,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9907 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-cae1deb36d-peace-pagoda-japantown-lod1.glb",
+          "hash": "cae1deb36d1672d36630278a4b060b49852542b73144f47ebfe06c7786a6f8af",
+          "size": 53056,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2616 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "building",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 30
+          },
+          "unitsToMetres": 30.526,
+          "material": "textured",
+          "source": "sf_japantown_peace_pagoda.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9907,
+              "tex": 512,
+              "kB": 181
+            },
+            {
+              "lod": 1,
+              "triangles": 2616,
+              "tex": 256,
+              "kB": 52
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carnival-luminosa",
+      "name": "Carnival Luminosa (cruise ship)",
+      "description": "A cruise ship that calls at Pier 27.",
+      "notes": "294 m. For later placement.",
+      "subtype": "scenery",
+      "length": 294,
+      "width": 44.59,
+      "height": 58.7,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "cruise ship",
+        "carnival luminosa"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-a2229671bb-cruise-ship-carnival-luminosa-source.glb",
+          "hash": "a2229671bb5a52ab2471be3316c02c6a3e0a9c42d0328b07f99a7b3204684445",
+          "size": 4952824,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-9e865cb5c6-cruise-ship-carnival-luminosa-lod0.glb",
+          "hash": "9e865cb5c6890bc28de1baaad455b0569aa845cc69c6c077267ab76eb358cd69",
+          "size": 316696,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9069 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-423b4cd1bc-cruise-ship-carnival-luminosa-lod1.glb",
+          "hash": "423b4cd1bcfd8a992c4068bd565ebb864342e357dd8f9f7dfb539587b3d9b9a2",
+          "size": 117292,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2718 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 294
+          },
+          "unitsToMetres": 294,
+          "draft": 8,
+          "material": "textured",
+          "source": "ship_carnival_luminosa.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9069,
+              "tex": 512,
+              "kB": 309
+            },
+            {
+              "lod": 1,
+              "triangles": 2718,
+              "tex": 256,
+              "kB": 115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "queen-mary-2",
+      "name": "Queen Mary 2 (ocean liner)",
+      "description": "The Cunard liner, a Pier 27 caller.",
+      "notes": "345 m. For later placement.",
+      "subtype": "scenery",
+      "length": 146.65,
+      "width": 345,
+      "height": 95.4,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "queen mary 2",
+        "ocean liner"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-d902e9661c-queen-mary-2-ocean-liner-source.glb",
+          "hash": "d902e9661c74d81b2713b7c88ddfe7ebd1640356d71df4096f2019f02ab3ca71",
+          "size": 3757324,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-e4a66ae2cd-queen-mary-2-ocean-liner-lod0.glb",
+          "hash": "e4a66ae2cd920657ef347cd0f1a57c06b70c91b5334cd9e3d4f3ce5bf9a38363",
+          "size": 277016,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9524 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-73d0b15fd7-queen-mary-2-ocean-liner-lod1.glb",
+          "hash": "73d0b15fd7fb6006f7fc9fbc72b42a3e37cb77ec56198460fa97608b28c10659",
+          "size": 103348,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2864 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+x",
+          "scale": {
+            "axis": "x",
+            "metres": 345
+          },
+          "unitsToMetres": 345,
+          "draft": 10,
+          "material": "textured",
+          "source": "ship_queen_mary_2.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9524,
+              "tex": 512,
+              "kB": 271
+            },
+            {
+              "lod": 1,
+              "triangles": 2864,
+              "tex": 256,
+              "kB": 101
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blue-and-gold-ferry",
+      "name": "Blue & Gold Fleet ferry",
+      "description": "A Blue & Gold Fleet catamaran ferry (Pier 41, Sausalito, Tiburon).",
+      "notes": "42 m is a guess at the class; set when placed.",
+      "subtype": "scenery",
+      "length": 42,
+      "width": 13.34,
+      "height": 16.56,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "ferry",
+        "blue and gold"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-64d885be29-ferry-blue-and-gold-source.glb",
+          "hash": "64d885be29ad2a938615ddcdaf19423de94de71107fd8780fc7f61dc07d89958",
+          "size": 4203116,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-f1d0b938ae-ferry-blue-and-gold-lod0.glb",
+          "hash": "f1d0b938aeb01739d1bb1ea24a4f9703cfaca0896ee48ff21a860a5f301b8675",
+          "size": 314936,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9211 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-7bb2ebb278-ferry-blue-and-gold-lod1.glb",
+          "hash": "7bb2ebb27815808cd17ede6b5ed3e137327539aeb78bf9909d33b398f5b3e59b",
+          "size": 133468,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "3182 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+z",
+          "scale": {
+            "axis": "z",
+            "metres": 42
+          },
+          "unitsToMetres": 42,
+          "draft": 2.5,
+          "material": "textured",
+          "source": "ship_sf_blue_ferry.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9211,
+              "tex": 512,
+              "kB": 308
+            },
+            {
+              "lod": 1,
+              "triangles": 3182,
+              "tex": 256,
+              "kB": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "golden-gate-ferry",
+      "name": "Golden Gate Ferry",
+      "description": "A Golden Gate Ferry (the Ferry Building to Sausalito and Larkspur).",
+      "notes": "50 m is a guess at the class; set when placed.",
+      "subtype": "scenery",
+      "length": 18.94,
+      "width": 50,
+      "height": 21.34,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "ferry",
+        "golden gate ferry"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-dae75145fa-ferry-golden-gate-source.glb",
+          "hash": "dae75145fa06e721a93b11ef22571df2248e1792157414841f82fce9ec101852",
+          "size": 3940880,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-bdddbc977c-ferry-golden-gate-lod0.glb",
+          "hash": "bdddbc977c0a031e5776c2866f06f4242b2bfe42d80ccdb86faaad9d59a9de5b",
+          "size": 317476,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "8857 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-ccec434de6-ferry-golden-gate-lod1.glb",
+          "hash": "ccec434de6e100b81a8709f9d1be1501b0f400b570844fa4f5745d5b1c03c298",
+          "size": 169508,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "4336 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "ship",
+          "front": "+x",
+          "scale": {
+            "axis": "x",
+            "metres": 50
+          },
+          "unitsToMetres": 50,
+          "draft": 2.5,
+          "material": "textured",
+          "source": "ship_sf_gold_ferry.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 8857,
+              "tex": 512,
+              "kB": 310
+            },
+            {
+              "lod": 1,
+              "triangles": 4336,
+              "tex": 256,
+              "kB": 166
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "corridor-pin-blue",
+      "name": "Corridor Pin, Blue (Oldenburg and van Bruggen)",
+      "description": "The giant blue safety pin (1999) in the de Young's sculpture garden.",
+      "notes": "6.4 m (21 ft). Not yet placed.",
+      "subtype": "sculpture",
+      "length": 6.4,
+      "width": 0.42,
+      "height": 6.4,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "safety pin",
+        "oldenburg",
+        "de young"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-4a495a40ca-safety-pin-oldenburg-de-young-source.glb",
+          "hash": "4a495a40cad48f62d82c0aa7253b07ea2bdf235512af0f7543926a41e5ecde9e",
+          "size": 2127488,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-89c77d6163-safety-pin-oldenburg-de-young-lod0.glb",
+          "hash": "89c77d61636ff703570228416114b70a4d7938081261ac29a9b54495b1d0ff85",
+          "size": 274932,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9378 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-815902eecc-safety-pin-oldenburg-de-young-lod1.glb",
+          "hash": "815902eecc3f41bc8c83ec29c931b2292a119b33dc48366d781a9ee7537697fb",
+          "size": 108608,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2812 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 6.4
+          },
+          "unitsToMetres": 6.402,
+          "material": "textured",
+          "source": "oldenburg_giant_safety_pin.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9378,
+              "tex": 512,
+              "kB": 268
+            },
+            {
+              "lod": 1,
+              "triangles": 2812,
+              "tex": 256,
+              "kB": 106
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lalanne-ape",
+      "name": "Lalanne ape",
+      "description": "A Lalanne bronze ape.",
+      "notes": "1.9 m guessed; where it stands is not known yet. Not placed.",
+      "subtype": "sculpture",
+      "length": 1.44,
+      "width": 1.23,
+      "height": 1.9,
+      "aiTool": "Tripo",
+      "assetKeywords": [
+        "lalanne",
+        "ape"
+      ],
+      "assetFiles": [
+        {
+          "filename": "asset-c762d1ed9b-lalanne-ape-source.glb",
+          "hash": "c762d1ed9b0770d06c2225bd1c7527f45d4ca26bb0625fa9cf3f6d7677722dcf",
+          "size": 352844,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "source"
+          ],
+          "isSource": true,
+          "fileNote": "Tripo original, as exported"
+        },
+        {
+          "filename": "asset-43d5af0dba-lalanne-ape-lod0.glb",
+          "hash": "43d5af0dba4dd7494b50519ae12d2c3576744d533ae0f37e2a4f3ba228bce947",
+          "size": 138972,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "9623 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-a27a3e0d82-lalanne-ape-lod1.glb",
+          "hash": "a27a3e0d822ae6766f09719f4aa173eeefe703d4caab50e94c8cebe0f8ffc3ac",
+          "size": 44256,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "2885 triangles, textures ≤ 256 px"
+        }
+      ],
+      "extra": {
+        "model": {
+          "kind": "statue",
+          "front": "+z",
+          "scale": {
+            "axis": "y",
+            "metres": 1.9
+          },
+          "unitsToMetres": 1.9,
+          "material": "textured",
+          "source": "sf_lelanne_ape.glb",
+          "lods": [
+            {
+              "lod": 0,
+              "triangles": 9623,
+              "tex": 512,
+              "kB": 136
+            },
+            {
+              "lod": 1,
+              "triangles": 2885,
+              "tex": 256,
+              "kB": 43
             }
           ]
         }

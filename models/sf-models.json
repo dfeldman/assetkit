@@ -253,12 +253,12 @@
   {
    "id": "eureka",
    "name": "Eureka (1890 paddle-wheel ferry)",
-   "file": "ship_eureka_ferry_based_on_mini.glb",
+   "file": "sf_eureka_ferry_based_on_miniature.glb",
    "kind": "ship",
    "material": "textured",
-   "front": "+x",
+   "front": "+z",
    "scale": {
-    "axis": "x",
+    "axis": "z",
     "metres": 91
    },
    "draft": 3,
@@ -281,7 +281,7 @@
     "maritime"
    ],
    "reference": "items_to_model/eureka-ferry/about.md",
-   "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18)."
+   "notes": "91 m overall (299 ft 6 in), 24 m over the guards; double-ended, so either end is its front. Model 'based on mini' (owner, 2026-10-18). Source replaced 2026-10-26 with the owner's new export (sf_eureka_ferry_based_on_miniature.glb). The new export is long along z (the old was x)."
   },
   {
    "id": "dewey-victory",
@@ -2380,6 +2380,561 @@
    ],
    "notes": "Textured. The AI made the bridge on the diagonal, 29\u00b0 off its axes, so its box read 6.9 m wide and the first pack squashed x to 0.3 and sheared it (owner, 2026-10-26: 'skewed'). Now turned straight first (`yaw`), which makes it 0.30 wide for its length with no squash: 8 m span (the brief's 6 m of treads plus the landings), 2.4 m wide, 3.85 m rise; placed over the procedural pool of teaGardenGrounds.",
    "yaw": 29.25
+  },
+  {
+   "id": "tea-garden-pagoda",
+   "name": "Pagoda, Japanese Tea Garden",
+   "file": "sf_japanese_garden_pagoda.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 12
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The five-tiered vermilion pagoda (1915 Panama-Pacific Exposition), moved into the garden after the fair.",
+   "keywords": [
+    "pagoda",
+    "japanese tea garden",
+    "golden gate park"
+   ],
+   "notes": "12 m tall: at 10 m the model was 3.8 m across, and the base reads about 4.5 m in photographs; OSM's 8.9 m footprint is the podium. Front provisional: set by eye in the game."
+  },
+  {
+   "id": "tea-garden-temple-gate",
+   "name": "Temple Gate, Japanese Tea Garden",
+   "file": "sf_japanese_garden_temple_gate.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 6
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The orange-painted Temple Gate from the 1915 exposition, grey-green tiled hip roof with gold ridge ornaments, at the top of the hill over the dwarf-tree collection.",
+   "keywords": [
+    "temple gate",
+    "japanese tea garden"
+   ],
+   "notes": "6 m, the manifest height. Front provisional."
+  },
+  {
+   "id": "tea-garden-main-gate",
+   "name": "Main Gate, Japanese Tea Garden",
+   "file": "sf_japanese_garden_main_gate.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 7.5
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The two-storey timber Main Gate on the Music Concourse side (OSM calls it the South Gate), natural hinoki under two stacked roofs.",
+   "keywords": [
+    "main gate",
+    "south gate",
+    "japanese tea garden"
+   ],
+   "notes": "7.5 m estimated. Front provisional."
+  },
+  {
+   "id": "tea-garden-hagiwara-gate",
+   "name": "Hagiwara Gate, Japanese Tea Garden",
+   "file": "sf_japanese_garden_hanigawa_gate.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 4.5
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The ornately carved Hagiwara Gate onto the brick terrace over the Sunken Garden, where the Hagiwara house stood.",
+   "keywords": [
+    "hagiwara gate",
+    "japanese tea garden"
+   ],
+   "notes": "4.5 m estimated; not in OSM, placed on the path between the gift shop and the Sunken Garden."
+  },
+  {
+   "id": "tea-garden-tea-house",
+   "name": "Tea House, Japanese Tea Garden",
+   "file": "sf_japanese_garden_tea_house.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 9.5
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "The open timber tea house on its deck under a big low grey roof, beside its pond and waterfall.",
+   "keywords": [
+    "tea house",
+    "japanese tea garden"
+   ],
+   "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional."
+  },
+  {
+   "id": "tea-garden-stone-lantern",
+   "name": "Stone lantern, Japanese Tea Garden",
+   "file": "sf_japanese_garden_stone_lantern.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.2
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "A kasuga-type granite lantern, the common one through the garden.",
+   "keywords": [
+    "stone lantern",
+    "toro",
+    "japanese tea garden"
+   ],
+   "notes": "2.2 m estimated. One model placed many times."
+  },
+  {
+   "id": "tea-garden-small-stone-lantern",
+   "name": "Small stone lantern, Japanese Tea Garden",
+   "file": "sf_japanese_garden_small_stone_lantern.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.3
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "A low, broad stone lantern (yukimi type) by the water.",
+   "keywords": [
+    "stone lantern",
+    "yukimi",
+    "japanese tea garden"
+   ],
+   "notes": "1.3 m estimated."
+  },
+  {
+   "id": "tea-garden-lantern-of-peace",
+   "name": "Lantern of Peace, Japanese Tea Garden",
+   "file": "sf_japanese_garden_bronze_lantern.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 3.0
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The 9,000 lb bronze Lantern of Peace (1953) on its granite base, before the pagoda.",
+   "keywords": [
+    "lantern of peace",
+    "bronze lantern",
+    "japanese tea garden"
+   ],
+   "notes": "3 m with base, estimated."
+  },
+  {
+   "id": "tea-garden-stone-pagoda",
+   "name": "Stone pagoda, Japanese Tea Garden",
+   "file": "sf_japanese_garden_stone_pagoda.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 2.8
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "The stone pagoda (\"treasure house\") by the Buddha, where the azaleas bloom.",
+   "keywords": [
+    "stone pagoda",
+    "japanese tea garden"
+   ],
+   "notes": "2.8 m estimated."
+  },
+  {
+   "id": "tea-garden-tsukubai",
+   "name": "Tsukubai, Japanese Tea Garden",
+   "file": "sf_japanese_garden_tsukubai.glb",
+   "kind": "object",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "x",
+    "metres": 1.8
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "The boat-shaped stone water basin east of the gift shop, a carved turtle inside.",
+   "keywords": [
+    "tsukubai",
+    "water basin",
+    "japanese tea garden"
+   ],
+   "notes": "1.8 m long, estimated."
+  },
+  {
+   "id": "tea-garden-cranes",
+   "name": "Bronze cranes, Japanese Tea Garden",
+   "file": "sf_japanese_garden_herons_sculpture.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.7
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "The two bronze cranes at the Main Pond's south-west end.",
+   "keywords": [
+    "bronze cranes",
+    "herons",
+    "japanese tea garden"
+   ],
+   "notes": "1.7 m estimated."
+  },
+  {
+   "id": "japantown-peace-pagoda",
+   "name": "Peace Pagoda, Japantown",
+   "file": "sf_japantown_peace_pagoda.glb",
+   "kind": "building",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 30
+   },
+   "lods": [
+    {
+     "ratio": 0.006,
+     "tex": 512,
+     "error": 0.05,
+     "sloppy": true
+    },
+    {
+     "ratio": 0.0015,
+     "tex": 256,
+     "error": 0.1,
+     "sloppy": true
+    }
+   ],
+   "description": "The five-tiered concrete Peace Pagoda (1968, Yoshiro Taniguchi) in Japantown's Peace Plaza, a gift from Osaka.",
+   "keywords": [
+    "peace pagoda",
+    "japantown"
+   ],
+   "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json)."
+  },
+  {
+   "id": "carnival-luminosa",
+   "name": "Carnival Luminosa (cruise ship)",
+   "file": "ship_carnival_luminosa.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 294
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "A cruise ship that calls at Pier 27.",
+   "keywords": [
+    "cruise ship",
+    "carnival luminosa"
+   ],
+   "notes": "294 m. For later placement.",
+   "draft": 8
+  },
+  {
+   "id": "queen-mary-2",
+   "name": "Queen Mary 2 (ocean liner)",
+   "file": "ship_queen_mary_2.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "x",
+    "metres": 345
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The Cunard liner, a Pier 27 caller.",
+   "keywords": [
+    "queen mary 2",
+    "ocean liner"
+   ],
+   "notes": "345 m long; the AI made it 95 m tall and 147 m wide (real: 72 m, 41 m) \u2014 squash y and z before placing. For later.",
+   "draft": 10
+  },
+  {
+   "id": "blue-and-gold-ferry",
+   "name": "Blue & Gold Fleet ferry",
+   "file": "ship_sf_blue_ferry.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "z",
+    "metres": 42
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "A Blue & Gold Fleet catamaran ferry (Pier 41, Sausalito, Tiburon).",
+   "keywords": [
+    "ferry",
+    "blue and gold"
+   ],
+   "notes": "42 m is a guess at the class; set when placed.",
+   "draft": 2.5
+  },
+  {
+   "id": "golden-gate-ferry",
+   "name": "Golden Gate Ferry",
+   "file": "ship_sf_gold_ferry.glb",
+   "kind": "ship",
+   "material": "textured",
+   "front": "+x",
+   "scale": {
+    "axis": "x",
+    "metres": 50
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "A Golden Gate Ferry (the Ferry Building to Sausalito and Larkspur).",
+   "keywords": [
+    "ferry",
+    "golden gate ferry"
+   ],
+   "notes": "50 m is a guess at the class; set when placed.",
+   "draft": 2.5
+  },
+  {
+   "id": "corridor-pin-blue",
+   "name": "Corridor Pin, Blue (Oldenburg and van Bruggen)",
+   "file": "oldenburg_giant_safety_pin.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 6.4
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "The giant blue safety pin (1999) in the de Young's sculpture garden.",
+   "keywords": [
+    "safety pin",
+    "oldenburg",
+    "de young"
+   ],
+   "notes": "6.4 m (21 ft). Not yet placed."
+  },
+  {
+   "id": "lalanne-ape",
+   "name": "Lalanne ape",
+   "file": "sf_lelanne_ape.glb",
+   "kind": "statue",
+   "material": "textured",
+   "front": "+z",
+   "scale": {
+    "axis": "y",
+    "metres": 1.9
+   },
+   "lods": [
+    {
+     "ratio": 0.5,
+     "tex": 512
+    },
+    {
+     "ratio": 0.15,
+     "tex": 256,
+     "error": 0.02
+    }
+   ],
+   "description": "A Lalanne bronze ape.",
+   "keywords": [
+    "lalanne",
+    "ape"
+   ],
+   "notes": "1.9 m guessed; where it stands is not known yet. Not placed."
   }
  ]
 }
