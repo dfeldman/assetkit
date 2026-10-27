@@ -2390,7 +2390,7 @@
    "front": "+z",
    "scale": {
     "axis": "y",
-    "metres": 12
+    "metres": 16
    },
    "lods": [
     {
@@ -2409,7 +2409,7 @@
     "japanese tea garden",
     "golden gate park"
    ],
-   "notes": "12 m tall: at 10 m the model was 3.8 m across, and the base reads about 4.5 m in photographs; OSM's 8.9 m footprint is the podium. Front provisional: set by eye in the game."
+   "notes": "16 m tall, 6 m across its lowest tier (the manifest had 18; at 12 m it was 4.6 m across and read small \u2014 owner, 2026-10-26). OSM's 8.9 m footprint is the podium. Front set by eye in the game."
   },
   {
    "id": "tea-garden-temple-gate",
@@ -2512,15 +2512,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
-     "tex": 512,
-     "error": 0.05,
+     "ratio": 0.03,
+     "tex": 1024,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
-     "tex": 256,
-     "error": 0.1,
+     "ratio": 0.008,
+     "tex": 512,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2529,7 +2529,7 @@
     "tea house",
     "japanese tea garden"
    ],
-   "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional."
+   "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "tea-garden-stone-lantern",
@@ -2544,15 +2544,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
+     "ratio": 0.02,
      "tex": 512,
-     "error": 0.05,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
+     "ratio": 0.005,
      "tex": 256,
-     "error": 0.1,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2562,7 +2562,7 @@
     "toro",
     "japanese tea garden"
    ],
-   "notes": "2.2 m estimated. One model placed many times."
+   "notes": "2.2 m estimated. One model placed many times. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "tea-garden-small-stone-lantern",
@@ -2577,15 +2577,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
+     "ratio": 0.02,
      "tex": 512,
-     "error": 0.05,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
+     "ratio": 0.005,
      "tex": 256,
-     "error": 0.1,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2595,7 +2595,7 @@
     "yukimi",
     "japanese tea garden"
    ],
-   "notes": "1.3 m estimated."
+   "notes": "1.3 m estimated. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "tea-garden-lantern-of-peace",
@@ -2640,15 +2640,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
+     "ratio": 0.02,
      "tex": 512,
-     "error": 0.05,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
+     "ratio": 0.005,
      "tex": 256,
-     "error": 0.1,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2657,7 +2657,7 @@
     "stone pagoda",
     "japanese tea garden"
    ],
-   "notes": "2.8 m estimated."
+   "notes": "2.8 m estimated. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "tea-garden-tsukubai",
@@ -2672,15 +2672,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
+     "ratio": 0.015,
      "tex": 512,
-     "error": 0.05,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
+     "ratio": 0.004,
      "tex": 256,
-     "error": 0.1,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2690,7 +2690,7 @@
     "water basin",
     "japanese tea garden"
    ],
-   "notes": "1.8 m long, estimated."
+   "notes": "1.8 m long, estimated. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "tea-garden-cranes",
@@ -2705,15 +2705,15 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
+     "ratio": 0.02,
      "tex": 512,
-     "error": 0.05,
+     "error": 0.01,
      "sloppy": true
     },
     {
-     "ratio": 0.0015,
+     "ratio": 0.005,
      "tex": 256,
-     "error": 0.1,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2723,7 +2723,7 @@
     "herons",
     "japanese tea garden"
    ],
-   "notes": "1.7 m estimated."
+   "notes": "1.7 m estimated. Sloppy at 1.5\u20133% (2026-10-26): 0.6% was \"too aggressive\" (owner) \u2014 the scan is 1.9 M triangles, so that is still 30\u201360 k."
   },
   {
    "id": "japantown-peace-pagoda",
@@ -2738,15 +2738,14 @@
    },
    "lods": [
     {
-     "ratio": 0.006,
-     "tex": 512,
-     "error": 0.05,
-     "sloppy": true
+     "ratio": 0.03,
+     "tex": 1024,
+     "error": 0.005
     },
     {
-     "ratio": 0.0015,
-     "tex": 256,
-     "error": 0.1,
+     "ratio": 0.01,
+     "tex": 512,
+     "error": 0.02,
      "sloppy": true
     }
    ],
@@ -2755,7 +2754,7 @@
     "peace pagoda",
     "japantown"
    ],
-   "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json)."
+   "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json). LOD0 is the ORDINARY simplifier, which locks at 170,000 triangles on the scan's UV seams (as the Sutro lion did) \u2014 the sloppy one at 0.6% and at 3% both turned its thin concrete tiers into blobs (owner, 2026-10-26: \"something went very wrong in simplification\"); LOD1 sloppy at 1% for the distance."
   },
   {
    "id": "carnival-luminosa",

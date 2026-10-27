@@ -6561,11 +6561,11 @@
       "id": "tea-garden-pagoda",
       "name": "Pagoda, Japanese Tea Garden",
       "description": "The five-tiered vermilion pagoda (1915 Panama-Pacific Exposition), moved into the garden after the fair.",
-      "notes": "12 m tall: at 10 m the model was 3.8 m across, and the base reads about 4.5 m in photographs; OSM's 8.9 m footprint is the podium. Front provisional: set by eye in the game.",
+      "notes": "16 m tall, 6 m across its lowest tier (the manifest had 18; at 12 m it was 4.6 m across and read small — owner, 2026-10-26). OSM's 8.9 m footprint is the podium. Front set by eye in the game.",
       "subtype": "scenery",
-      "length": 4.78,
-      "width": 4.51,
-      "height": 11.99,
+      "length": 6.37,
+      "width": 6.01,
+      "height": 15.99,
       "aiTool": "Tripo",
       "assetKeywords": [
         "pagoda",
@@ -6618,9 +6618,9 @@
           "front": "+z",
           "scale": {
             "axis": "y",
-            "metres": 12
+            "metres": 16
           },
-          "unitsToMetres": 12.248,
+          "unitsToMetres": 16.331,
           "material": "textured",
           "source": "sf_japanese_garden_pagoda.glb",
           "lods": [
@@ -6891,11 +6891,11 @@
       "id": "tea-garden-tea-house",
       "name": "Tea House, Japanese Tea Garden",
       "description": "The open timber tea house on its deck under a big low grey roof, beside its pond and waterfall.",
-      "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional.",
+      "notes": "Scaled to its OSM footprint (8.2 m long) plus eaves. Front provisional. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "scenery",
-      "length": 9.42,
-      "width": 7.42,
-      "height": 5.61,
+      "length": 9.5,
+      "width": 7.44,
+      "height": 5.62,
       "aiTool": "Tripo",
       "assetKeywords": [
         "tea house",
@@ -6925,6 +6925,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "10875 triangles, textures ≤ 512 px"
         },
         {
@@ -6938,7 +6939,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2400 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-0f215ae0c8-tea-house-japanese-garden-lod0.glb",
+          "hash": "0f215ae0c818cb8fe4a84641f2ab477ad4f8d78910326f3c0fa57f0e4897bc15",
+          "size": 1710112,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "102004 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-8e602b8f4a-tea-house-japanese-garden-lod1.glb",
+          "hash": "8e602b8f4a0ac13220a4ec42a72411fced39faad7be00c19ae0fe400548afc56",
+          "size": 420624,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "24646 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -6955,15 +6983,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 10875,
-              "tex": 512,
-              "kB": 203
+              "triangles": 102004,
+              "tex": 1024,
+              "kB": 1670
             },
             {
               "lod": 1,
-              "triangles": 2400,
-              "tex": 256,
-              "kB": 53
+              "triangles": 24646,
+              "tex": 512,
+              "kB": 411
             }
           ]
         }
@@ -6973,9 +7001,9 @@
       "id": "tea-garden-stone-lantern",
       "name": "Stone lantern, Japanese Tea Garden",
       "description": "A kasuga-type granite lantern, the common one through the garden.",
-      "notes": "2.2 m estimated. One model placed many times.",
+      "notes": "2.2 m estimated. One model placed many times. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "scenery",
-      "length": 0.84,
+      "length": 0.85,
       "width": 0.8,
       "height": 2.2,
       "aiTool": "Tripo",
@@ -7008,6 +7036,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "11072 triangles, textures ≤ 512 px"
         },
         {
@@ -7021,7 +7050,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2673 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-c61f27f925-stone-lantern-toro-japanese-tea-garden-lod0.glb",
+          "hash": "c61f27f925b015b87152335150754b74b390b57e227fca1d998ebf255e896f10",
+          "size": 689004,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "38130 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-73dc0dbe9d-stone-lantern-toro-japanese-tea-garden-lod1.glb",
+          "hash": "73dc0dbe9ddc5e2989f5e5e1094e9aa4817da1fa95a0ba8f75c253eedae781f9",
+          "size": 177636,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "9500 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -7038,15 +7094,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 11072,
+              "triangles": 38130,
               "tex": 512,
-              "kB": 258
+              "kB": 673
             },
             {
               "lod": 1,
-              "triangles": 2673,
+              "triangles": 9500,
               "tex": 256,
-              "kB": 68
+              "kB": 173
             }
           ]
         }
@@ -7056,7 +7112,7 @@
       "id": "tea-garden-small-stone-lantern",
       "name": "Small stone lantern, Japanese Tea Garden",
       "description": "A low, broad stone lantern (yukimi type) by the water.",
-      "notes": "1.3 m estimated.",
+      "notes": "1.3 m estimated. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "scenery",
       "length": 1.36,
       "width": 1.19,
@@ -7091,6 +7147,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "10822 triangles, textures ≤ 512 px"
         },
         {
@@ -7104,7 +7161,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2739 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-083042d355-stone-lantern-yukimi-japanese-tea-garden-lod0.glb",
+          "hash": "083042d355a16a50710ead455d483e62159f1d29f3e62f5b9e33d4cf2d7f4f88",
+          "size": 1301444,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "80679 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-76b3a9a35e-stone-lantern-yukimi-japanese-tea-garden-lod1.glb",
+          "hash": "76b3a9a35e6712839e1ad55cd5a26ec4a33cb981c01a4b935c79ac6781b99e6e",
+          "size": 332600,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "20344 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -7121,15 +7205,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 10822,
+              "triangles": 80679,
               "tex": 512,
-              "kB": 205
+              "kB": 1271
             },
             {
               "lod": 1,
-              "triangles": 2739,
+              "triangles": 20344,
               "tex": 256,
-              "kB": 59
+              "kB": 325
             }
           ]
         }
@@ -7222,7 +7306,7 @@
       "id": "tea-garden-stone-pagoda",
       "name": "Stone pagoda, Japanese Tea Garden",
       "description": "The stone pagoda (\"treasure house\") by the Buddha, where the azaleas bloom.",
-      "notes": "2.8 m estimated.",
+      "notes": "2.8 m estimated. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "scenery",
       "length": 0.74,
       "width": 0.67,
@@ -7256,6 +7340,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "11376 triangles, textures ≤ 512 px"
         },
         {
@@ -7269,7 +7354,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2737 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-345dedb632-stone-pagoda-japanese-tea-garden-lod0.glb",
+          "hash": "345dedb6320ff1438e9cd581f5f7c08fc79f2126ab18159d508df78eb366ca41",
+          "size": 646604,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "38162 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-6a96c0e78d-stone-pagoda-japanese-tea-garden-lod1.glb",
+          "hash": "6a96c0e78d7b50f1207c98ac32aad38b5cf3e80cc00a51e8436dbbb21c06502e",
+          "size": 162060,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "9466 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -7286,15 +7398,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 11376,
+              "triangles": 38162,
               "tex": 512,
-              "kB": 216
+              "kB": 631
             },
             {
               "lod": 1,
-              "triangles": 2737,
+              "triangles": 9466,
               "tex": 256,
-              "kB": 55
+              "kB": 158
             }
           ]
         }
@@ -7304,7 +7416,7 @@
       "id": "tea-garden-tsukubai",
       "name": "Tsukubai, Japanese Tea Garden",
       "description": "The boat-shaped stone water basin east of the gift shop, a carved turtle inside.",
-      "notes": "1.8 m long, estimated.",
+      "notes": "1.8 m long, estimated. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "scenery",
       "length": 0.94,
       "width": 1.8,
@@ -7339,6 +7451,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "11230 triangles, textures ≤ 512 px"
         },
         {
@@ -7352,7 +7465,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2527 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-df24672242-tsukubai-water-basin-japanese-tea-garden-lod0.glb",
+          "hash": "df24672242630fdb9a035ff238d342a045e4a35fcb4536bab0f4462e698f2584",
+          "size": 576116,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "31253 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-4e9e4dc9c4-tsukubai-water-basin-japanese-tea-garden-lod1.glb",
+          "hash": "4e9e4dc9c4e0573681f131c233f0ea9c4f19063e8d458d4b698bbdf0b7618645",
+          "size": 146436,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "7761 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -7369,15 +7509,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 11230,
+              "triangles": 31253,
               "tex": 512,
-              "kB": 255
+              "kB": 563
             },
             {
               "lod": 1,
-              "triangles": 2527,
+              "triangles": 7761,
               "tex": 256,
-              "kB": 63
+              "kB": 143
             }
           ]
         }
@@ -7387,7 +7527,7 @@
       "id": "tea-garden-cranes",
       "name": "Bronze cranes, Japanese Tea Garden",
       "description": "The two bronze cranes at the Main Pond's south-west end.",
-      "notes": "1.7 m estimated.",
+      "notes": "1.7 m estimated. Sloppy at 1.5–3% (2026-10-26): 0.6% was \"too aggressive\" (owner) — the scan is 1.9 M triangles, so that is still 30–60 k.",
       "subtype": "sculpture",
       "length": 0.72,
       "width": 1.54,
@@ -7422,6 +7562,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "11260 triangles, textures ≤ 512 px"
         },
         {
@@ -7435,7 +7576,34 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2624 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-f893f29aa7-bronze-cranes-herons-japanese-tea-garden-lod0.glb",
+          "hash": "f893f29aa7cc4a714324106200050a0a5995dcc7a641725cf00ca3373c121eb2",
+          "size": 677500,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "37567 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-036b31cd4a-bronze-cranes-herons-japanese-tea-garden-lod1.glb",
+          "hash": "036b31cd4a196ed640faadfe8f1ba979c44d5b503b46bc907bca63ef8fcc234b",
+          "size": 171756,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "9392 triangles, textures ≤ 256 px"
         }
       ],
       "extra": {
@@ -7452,15 +7620,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 11260,
+              "triangles": 37567,
               "tex": 512,
-              "kB": 261
+              "kB": 662
             },
             {
               "lod": 1,
-              "triangles": 2624,
+              "triangles": 9392,
               "tex": 256,
-              "kB": 66
+              "kB": 168
             }
           ]
         }
@@ -7470,11 +7638,11 @@
       "id": "japantown-peace-pagoda",
       "name": "Peace Pagoda, Japantown",
       "description": "The five-tiered concrete Peace Pagoda (1968, Yoshiro Taniguchi) in Japantown's Peace Plaza, a gift from Osaka.",
-      "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json).",
+      "notes": "About 100 ft (30 m). Replaces the procedural one (scratch-1.json). LOD0 is the ORDINARY simplifier, which locks at 170,000 triangles on the scan's UV seams (as the Sutro lion did) — the sloppy one at 0.6% and at 3% both turned its thin concrete tiers into blobs (owner, 2026-10-26: \"something went very wrong in simplification\"); LOD1 sloppy at 1% for the distance.",
       "subtype": "scenery",
-      "length": 14.49,
-      "width": 14.47,
-      "height": 29.77,
+      "length": 14.59,
+      "width": 14.61,
+      "height": 29.97,
       "aiTool": "Tripo",
       "assetKeywords": [
         "peace pagoda",
@@ -7504,6 +7672,7 @@
           ],
           "lod": 0,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "9907 triangles, textures ≤ 512 px"
         },
         {
@@ -7517,7 +7686,76 @@
           ],
           "lod": 1,
           "isProd": true,
+          "isDeleted": true,
           "fileNote": "2616 triangles, textures ≤ 256 px"
+        },
+        {
+          "filename": "asset-b66f6b4028-peace-pagoda-japantown-lod0.glb",
+          "hash": "b66f6b4028f27f30a2441b187f39fb224014c11f6f99b566b8fa38a5775372c3",
+          "size": 5602264,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "fileNote": "170602 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-95617d2770-peace-pagoda-japantown-lod1.glb",
+          "hash": "95617d277047d92f42a6fd81ca4200b9239dd953bea29bbd4efbc3f0f4f50b18",
+          "size": 5525696,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "170364 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-d9dc5b9f9e-peace-pagoda-japantown-lod0.glb",
+          "hash": "d9dc5b9f9e0d70c4756993b434662284fb6ae1a8d20aab071e323c88a3888dae",
+          "size": 954556,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod0"
+          ],
+          "lod": 0,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "55950 triangles, textures ≤ 1024 px"
+        },
+        {
+          "filename": "asset-aece17ba64-peace-pagoda-japantown-lod1.glb",
+          "hash": "aece17ba64b23c7741868e4e706e1b674e61d87bfa287ec3ca3e01c651c24cff",
+          "size": 241888,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "isDeleted": true,
+          "fileNote": "13516 triangles, textures ≤ 512 px"
+        },
+        {
+          "filename": "asset-1d7cfe147a-peace-pagoda-japantown-lod1.glb",
+          "hash": "1d7cfe147a74b19e94ec09013e8afc5c12ff2d6a3843f6980551c6a0bbaf9ee7",
+          "size": 312080,
+          "fileFormat": "glb",
+          "extension": "glb",
+          "fileKeywords": [
+            "lod1"
+          ],
+          "lod": 1,
+          "isProd": true,
+          "fileNote": "18392 triangles, textures ≤ 512 px"
         }
       ],
       "extra": {
@@ -7534,15 +7772,15 @@
           "lods": [
             {
               "lod": 0,
-              "triangles": 9907,
-              "tex": 512,
-              "kB": 181
+              "triangles": 170602,
+              "tex": 1024,
+              "kB": 5471
             },
             {
               "lod": 1,
-              "triangles": 2616,
-              "tex": 256,
-              "kB": 52
+              "triangles": 18392,
+              "tex": 512,
+              "kB": 305
             }
           ]
         }
