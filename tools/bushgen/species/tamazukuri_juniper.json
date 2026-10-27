@@ -1,0 +1,185 @@
+{
+  "name": "tamazukuri_juniper",
+  "kind": "plant",
+  "form": "bush",
+  "about": "the Tea Garden's great cloud-clipped juniper (tamazukuri): a thick twisted trunk carrying dense dark-green domed masses, most of a tree's worth, on a lawn",
+  "height": [
+    4.2,
+    0.3
+  ],
+  "bark": "cedar",
+  "bark_tile": 0.5,
+  "leaves_page": "fir",
+  "leaf_share": 0.55,
+  "trunk": {
+    "radius": [
+      0.07,
+      0.006
+    ],
+    "tip": 0.012,
+    "flare": 0.5,
+    "taper": [
+      1.0,
+      0.85,
+      0.7,
+      0.55,
+      0.35
+    ],
+    "tropism": 0.3,
+    "wander": 0.5,
+    "gnarl": 0.7,
+    "lean": [
+      6,
+      4
+    ],
+    "segment": 0.25,
+    "return": 0.3
+  },
+  "envelope": {
+    "base": 0.1,
+    "top": 1.15,
+    "width": 0.6,
+    "profile": [
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      0.95,
+      0.85
+    ]
+  },
+  "levels": [
+    {
+      "name": "limbs",
+      "distribution": "absolute",
+      "count": [
+        9,
+        1.5
+      ],
+      "first": 0.22,
+      "last": 0.98,
+      "min": 7,
+      "angle": {
+        "curve": [
+          70,
+          60,
+          45,
+          25
+        ],
+        "var": 10
+      },
+      "roll": {
+        "mode": "spiral",
+        "var": 35
+      },
+      "length_abs": {
+        "curve": [
+          0.5,
+          0.5,
+          0.4,
+          0.2
+        ],
+        "var": 0.06
+      },
+      "radius": [
+        0.5,
+        0.08
+      ],
+      "tip": 0.01,
+      "taper": [
+        1.0,
+        0.8,
+        0.6,
+        0.4
+      ],
+      "tropism": {
+        "curve": [
+          0.3,
+          0.3,
+          0.4
+        ],
+        "var": 0.1
+      },
+      "wander": 0.35,
+      "gnarl": 0.5,
+      "segment": 0.3,
+      "min_segments": 3,
+      "prune": false,
+      "jitter": 0.4
+    },
+    {
+      "name": "pad twigs",
+      "mesh": false,
+      "distribution": "absolute",
+      "count": [
+        30,
+        4
+      ],
+      "first": 0.3,
+      "last": 1.0,
+      "min": 24,
+      "angle": [
+        60,
+        25
+      ],
+      "roll": {
+        "mode": "spiral",
+        "var": 40
+      },
+      "length": {
+        "curve": [
+          0.32,
+          0.3
+        ],
+        "var": 0.08
+      },
+      "radius": [
+        0.3,
+        0.05
+      ],
+      "tip": 0.004,
+      "tropism": [
+        0.5,
+        0.3
+      ],
+      "wander": 0.4,
+      "segment": 0.2,
+      "prune": false,
+      "jitter": 0.8
+    }
+  ],
+  "leaves": {
+    "mode": "frond",
+    "levels": [
+      2
+    ],
+    "spacing": 0.06,
+    "overlap": 2.6,
+    "width": 1.0,
+    "first": 0.0,
+    "droop": -0.05,
+    "cross": 0.7,
+    "leader": 0.0,
+    "tilt": 30,
+    "size": [
+      1.2,
+      0.1
+    ],
+    "size_min": 0.2,
+    "ao": 0.45,
+    "hue_var": 0.04,
+    "light_var": 0.1,
+    "cells": 2,
+    "tint": [
+      0.72,
+      0.84,
+      0.66
+    ]
+  },
+  "budget": [
+    1800,
+    6000
+  ],
+  "bark_from": "conifer",
+  "leaves_from": "conifer"
+}

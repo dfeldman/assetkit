@@ -1,6 +1,6 @@
 {
  "about": "the Japanese Tea Garden species (2026-10-26): bamboo culms, clipped azaleas (8 in flower, 4 green) and Japanese irises, built into public/plants beside the library with `npm run plants -- --library --library-file tools/plantgen/library-teagarden.json`",
- "total": 28,
+ "total": 42,
  "trees": [
   {
    "species": "bamboo",
@@ -236,6 +236,118 @@
    "name": "japanese_iris_006",
    "set": [
     "scale=1.02"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12100,
+   "name": "mondo_grass_001",
+   "set": [
+    "scale=1.22"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12101,
+   "name": "mondo_grass_002",
+   "set": [
+    "scale=1.1"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12102,
+   "name": "mondo_grass_003",
+   "set": [
+    "scale=1.1"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12103,
+   "name": "mondo_grass_004",
+   "set": [
+    "scale=0.83"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12104,
+   "name": "mondo_grass_005",
+   "set": [
+    "scale=0.84"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12105,
+   "name": "mondo_grass_006",
+   "set": [
+    "scale=1.04"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12106,
+   "name": "mondo_grass_007",
+   "set": [
+    "scale=1.05"
+   ]
+  },
+  {
+   "species": "mondo_grass",
+   "seed": 12107,
+   "name": "mondo_grass_008",
+   "set": [
+    "scale=0.89"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12108,
+   "name": "karikomi_001",
+   "set": [
+    "scale=1.08"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12109,
+   "name": "karikomi_002",
+   "set": [
+    "scale=1.13"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12110,
+   "name": "karikomi_003",
+   "set": [
+    "scale=0.94"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12111,
+   "name": "karikomi_004",
+   "set": [
+    "scale=0.85"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12112,
+   "name": "karikomi_005",
+   "set": [
+    "scale=0.91"
+   ]
+  },
+  {
+   "species": "karikomi",
+   "seed": 12113,
+   "name": "karikomi_006",
+   "set": [
+    "scale=0.97"
    ]
   }
  ]

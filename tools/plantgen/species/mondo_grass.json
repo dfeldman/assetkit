@@ -1,0 +1,37 @@
+{
+  "name": "mondo_grass",
+  "kind": "plant",
+  "about": "mondo grass / liriope: a low dark tuft of fine arching blades, the Tea Garden's edging along its banks and paths",
+  "form": "tuft",
+  "page": "grass_tuft",
+  "cards": [
+    10,
+    14
+  ],
+  "height": [
+    0.28,
+    0.4
+  ],
+  "width": 0.55,
+  "lean": [
+    35,
+    65
+  ],
+  "spread": 0.08,
+  "cross": 0.5,
+  "clumps": [
+    1,
+    2
+  ],
+  "clump_spread": 0.3,
+  "tint": [
+    0.45,
+    0.6,
+    0.36
+  ],
+  "ao": 0.3,
+  "budget": [
+    20,
+    140
+  ]
+}

@@ -68,6 +68,9 @@ The Japanese Tea Garden's planting (Cycle Dash, 2026-10-26; `library-teagarden.j
 | azalea | a clipped evergreen azalea (tamamono): a low wide dome of dark leaves, in season covered in small pink, rose or blush discs from the hydrangea page (`flowers.cells` 0, 1, 2); four entries green, out of season (`flowers.count` 0) | bush |
 | japanese_iris | a clump of stiff strap leaves with violet blooms on thin stems: the white tulip cup, tinted (`head.tint`) | flower |
 | niwaki (bushgen) | a cloud-pruned Japanese black pine: a crooked trunk, near-level limbs each ending in a flat cloud of needle cards; `tools/bushgen/library-teagarden.json` | bush (treekit) |
+| black_pine_grand, tamazukuri_juniper, red_japanese_maple, weeping_cherry (bushgen) | the Tea Garden's individual trees from its photographs (cityengine docs/TEA-GARDEN-PLANTS.md): the great pine leaning over the Main Pond (treekit `trunk.lean_dir` aims the lean), the cloud-clipped juniper, crimson maples (`dark_copper` tinted), the weeping tree at the drum pond | bush (treekit) |
+| karikomi | a cluster of clipped balls of different sizes packed together: the new `cluster` form (several `bush()` domes at offsets) | cluster |
+| mondo_grass | low dark tufts of fine arching blades, the garden's edging | tuft |
 
 ## Textures
 

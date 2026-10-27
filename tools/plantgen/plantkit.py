@@ -63,7 +63,7 @@ def tuft(mesh: MeshData, spec: dict, rng: np.random.Generator, base: np.ndarray,
 
 # ---------------------------------------------------------------- bushes
 
-def bush(leaves: MeshData, heads: MeshData, spec: dict, rng: np.random.Generator, scale: float) -> None:
+def bush(leaves: MeshData, heads: MeshData, spec: dict, rng: np.random.Generator, scale: float, base: np.ndarray | None = None) -> None:
     """Cards over a dome: `cards`, `height`, `width` (dome radius), each card standing on a point in the
     volume, leaning outward, its normal out of the dome; `flowers` scatters head cards on the surface."""
     n = int(round(rng.uniform(*spec.get('cards', [14, 24]))))
@@ -82,7 +82,7 @@ def bush(leaves: MeshData, heads: MeshData, spec: dict, rng: np.random.Generator
         zs = h * (1 - (rr / w) ** 2) ** 0.5
         ch = ch0 * rng.uniform(0.8, 1.2)
         cw = ch * float(spec.get('aspect', 1.0))
-        p = out * rr * 0.85 + UP * max(0.0, zs - ch * rng.uniform(0.6, 1.0))
+        p = out * rr * 0.85 + UP * max(0.0, zs - ch * rng.uniform(0.6, 1.0)) + (base if base is not None else 0.0)
         lean = np.deg2rad(rng.uniform(5, 25) + 40 * (rr / w) ** 2)
         along = normalize(UP * np.cos(lean) + out * np.sin(lean))
         across = normalize(np.cross(along, out + rng.normal(0, 0.25, 3)))
@@ -107,6 +107,8 @@ def bush(leaves: MeshData, heads: MeshData, spec: dict, rng: np.random.Generator
                 z = p[2]
             if not fl.get('surface'):
                 p = out * rr + UP * z
+            if base is not None:
+                p = p + base
             fs = float(rng.uniform(*fl.get('size', [0.06, 0.1]))) * scale
             normal = normalize(out * 0.5 + UP * 0.9)
             along = normalize(np.cross(normal, any_perpendicular(normal)))
@@ -270,6 +272,25 @@ def build_plant(spec: dict, seed: int, scale: float = 1.0) -> tuple[dict, dict]:
     elif form == 'bush':
         leaves, heads = MeshData(), MeshData()
         bush(leaves, heads, spec, rng, scale)
+        parts.update(leaves=leaves, heads=heads)
+    elif form == 'cluster':
+        # karikomi: `domes` clipped balls packed round a centre within `radius`, each a bush of its own size (the
+        # Japanese Tea Garden's massed shrubs, 2026-10-27); the balls touch and overlap a little, as clipped ones do
+        leaves, heads = MeshData(), MeshData()
+        n = int(round(rng.uniform(*spec.get('domes', [5, 9]))))
+        R = float(spec.get('radius', 1.5)) * scale
+        placed: list[tuple[np.ndarray, float]] = []
+        for i in range(n):
+            k = 1.0 if i == 0 else float(rng.uniform(0.55, 1.0))
+            for tries in range(40):
+                a = rng.uniform(0, 2 * np.pi); r = 0.0 if i == 0 else R * np.sqrt(rng.uniform(0.15, 1.0))
+                c = np.array([np.cos(a) * r, np.sin(a) * r, 0.0])
+                w = float(np.mean(spec.get('width', [0.5, 0.8]))) * scale * k
+                if all(np.linalg.norm(c - q) > (w + qw) * 0.72 for q, qw in placed):
+                    break
+            placed.append((c, w))
+            dome = dict(spec, height=[v * k for v in spec.get('height', [0.5, 0.9])], width=[v * k for v in spec.get('width', [0.5, 0.8])])
+            bush(leaves, heads, dome, rng, scale, base=c)
         parts.update(leaves=leaves, heads=heads)
     elif form == 'flower':
         stems, leaves, heads = MeshData(), MeshData(), MeshData()

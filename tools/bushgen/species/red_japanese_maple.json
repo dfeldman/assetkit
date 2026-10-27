@@ -1,0 +1,191 @@
+{
+  "name": "red_japanese_maple",
+  "kind": "plant",
+  "form": "bush",
+  "about": "a red-leaved Japanese maple (Acer palmatum atropurpureum) as the Tea Garden grows them: a few stems from the ground, a wide low crown of red-purple leaves",
+  "height": [
+    4.5,
+    0.5
+  ],
+  "bark": "brown",
+  "bark_tile": 0.55,
+  "leaves_page": "dark_copper",
+  "leaf_share": 0.6,
+  "trunk": {
+    "radius": [
+      0.035,
+      0.004
+    ],
+    "tip": 0.006,
+    "flare": 0.4,
+    "taper": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "tropism": 0.6,
+    "wander": 0.25,
+    "gnarl": 0.3,
+    "lean": [
+      0,
+      5
+    ],
+    "segment": 0.35,
+    "splits": {
+      "count": [
+        3,
+        1.0
+      ],
+      "at": [
+        0.22,
+        0.05
+      ],
+      "angle": [
+        28,
+        8
+      ],
+      "length": [
+        1.0,
+        0.2
+      ],
+      "extend": false
+    }
+  },
+  "envelope": {
+    "base": 0.0,
+    "top": 1.05,
+    "width": 0.52,
+    "profile": [
+      0.4,
+      0.8,
+      1.0,
+      1.0,
+      0.9,
+      0.5
+    ]
+  },
+  "levels": [
+    {
+      "name": "stems",
+      "distribution": "proportional",
+      "density": 2.2,
+      "first": 0.15,
+      "last": 0.97,
+      "min": 3,
+      "angle": {
+        "curve": [
+          55,
+          50,
+          40,
+          30
+        ],
+        "var": 12
+      },
+      "roll": {
+        "mode": "spiral",
+        "var": 30
+      },
+      "length": {
+        "curve": [
+          0.45,
+          0.6,
+          0.5,
+          0.3
+        ],
+        "var": 0.1
+      },
+      "radius": [
+        0.55,
+        0.1
+      ],
+      "tip": 0.004,
+      "taper": [
+        1.0,
+        0.75,
+        0.5,
+        0.2
+      ],
+      "tropism": {
+        "curve": [
+          0.5,
+          0.3,
+          0.1
+        ],
+        "var": 0.2
+      },
+      "wander": 0.5,
+      "gnarl": 0.4,
+      "segment": 0.3,
+      "knockout": 0.08,
+      "min_keep": 0.3,
+      "slack": 1.08
+    },
+    {
+      "name": "twigs",
+      "mesh": false,
+      "distribution": "proportional",
+      "density": 4.5,
+      "first": 0.1,
+      "last": 1.0,
+      "min": 3,
+      "angle": [
+        48,
+        16
+      ],
+      "roll": {
+        "mode": "alternate",
+        "var": 35
+      },
+      "length": {
+        "curve": [
+          0.45,
+          0.6,
+          0.45
+        ],
+        "var": 0.15
+      },
+      "radius": [
+        0.45,
+        0.1
+      ],
+      "tip": 0.003,
+      "tropism": [
+        0.3,
+        0.25
+      ],
+      "wander": 0.7,
+      "segment": 0.2,
+      "min_keep": 0.3,
+      "slack": 1.15
+    }
+  ],
+  "leaves": {
+    "size": [
+      0.12,
+      0.025
+    ],
+    "size_min": 0.14,
+    "spacing": 0.11,
+    "tip": 2,
+    "first": 0.2,
+    "bough_first": 0.25,
+    "outward": 0.45,
+    "up": 0.3,
+    "ao": 0.3,
+    "hue_var": 0.03,
+    "light_var": 0.1,
+    "scatter": 0.9,
+    "cells": 2,
+    "tint": [
+      1.0,
+      0.5,
+      0.58
+    ]
+  },
+  "budget": [
+    900,
+    3500
+  ]
+}

@@ -245,7 +245,7 @@ def _grow_trunk(spec: dict, height: float, seed: int) -> list[Node]:
     splits = ts.get('splits')
     lean = np.deg2rad(float(Param.of(ts.get('lean', [0, 4])).at(0.5, rng)))
     d0 = rotate(UP, np.array([1.0, 0.0, 0.0]), lean)
-    d0 = rotate(d0, UP, float(rng.uniform(0, 2 * np.pi)))
+    d0 = rotate(d0, UP, np.deg2rad(float(ts['lean_dir'])) if ts.get('lean_dir') is not None else float(rng.uniform(0, 2 * np.pi)))
     nodes: list[Node] = []
     split_at = None
     n_leaders = 0

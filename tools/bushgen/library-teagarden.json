@@ -1,6 +1,6 @@
 {
- "about": "the Japanese Tea Garden's cloud-pruned pines (2026-10-26), built into public/plants beside the library: npm run bushes -- --library --library-file tools/bushgen/library-teagarden.json",
- "total": 10,
+ "about": "the Japanese Tea Garden's cloud-pruned pines and its individual trees (2026-10-26/27): niwaki, the great black pine over the Main Pond, the cloud-clipped juniper, red Japanese maples, the weeping tree at the drum pond \u2014 npm run bushes -- --library --library-file tools/bushgen/library-teagarden.json",
+ "total": 22,
  "trees": [
   {
    "species": "niwaki",
@@ -80,6 +80,102 @@
    "name": "niwaki_010",
    "set": [
     "height=[3.91,0.1]"
+   ]
+  },
+  {
+   "species": "black_pine_grand",
+   "seed": 13100,
+   "name": "black_pine_grand_001",
+   "set": [
+    "height=[6.63,0.1]"
+   ]
+  },
+  {
+   "species": "black_pine_grand",
+   "seed": 13101,
+   "name": "black_pine_grand_002",
+   "set": [
+    "height=[6.13,0.1]"
+   ]
+  },
+  {
+   "species": "black_pine_grand",
+   "seed": 13102,
+   "name": "black_pine_grand_003",
+   "set": [
+    "height=[6.82,0.1]"
+   ]
+  },
+  {
+   "species": "tamazukuri_juniper",
+   "seed": 13103,
+   "name": "tamazukuri_juniper_001",
+   "set": [
+    "height=[4.11,0.1]"
+   ]
+  },
+  {
+   "species": "tamazukuri_juniper",
+   "seed": 13104,
+   "name": "tamazukuri_juniper_002",
+   "set": [
+    "height=[4.5,0.1]"
+   ]
+  },
+  {
+   "species": "tamazukuri_juniper",
+   "seed": 13105,
+   "name": "tamazukuri_juniper_003",
+   "set": [
+    "height=[4.55,0.1]"
+   ]
+  },
+  {
+   "species": "red_japanese_maple",
+   "seed": 13106,
+   "name": "red_japanese_maple_001",
+   "set": [
+    "height=[4.65,0.1]"
+   ]
+  },
+  {
+   "species": "red_japanese_maple",
+   "seed": 13107,
+   "name": "red_japanese_maple_002",
+   "set": [
+    "height=[4.77,0.1]"
+   ]
+  },
+  {
+   "species": "red_japanese_maple",
+   "seed": 13108,
+   "name": "red_japanese_maple_003",
+   "set": [
+    "height=[4.09,0.1]"
+   ]
+  },
+  {
+   "species": "red_japanese_maple",
+   "seed": 13109,
+   "name": "red_japanese_maple_004",
+   "set": [
+    "height=[4.53,0.1]"
+   ]
+  },
+  {
+   "species": "weeping_cherry",
+   "seed": 13110,
+   "name": "weeping_cherry_001",
+   "set": [
+    "height=[3.41,0.1]"
+   ]
+  },
+  {
+   "species": "weeping_cherry",
+   "seed": 13111,
+   "name": "weeping_cherry_002",
+   "set": [
+    "height=[3.51,0.1]"
    ]
   }
  ]
